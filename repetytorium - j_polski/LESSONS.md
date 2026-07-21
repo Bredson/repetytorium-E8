@@ -312,3 +312,30 @@ Format wpisu:
   Stan Zosi przywrócony z backupu (plik z evaluate_script filePath jest podwójnie
   zakodowany — odpakowywać JSON.parse w pętli aż do obiektu, u nas depth=2).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 11: gramatyka-4 + notatka-1)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony ósmy raz —
+  gramatyka-4 (B, leksyka i frazeologia) i notatka-1 (F, trzecia krótka forma)
+  weszły przez 2 pliki JSON + 4 linie w `rejestr.js`. Build 62 modułów.
+  Moduł B ma 4 ćwiczenia (największe wąskie gardło wg wyników 2026),
+  F ma 5 form (3 krótkie + rozprawka + opowiadanie).
+- Obserwacja (metodyka): gramatyka-4 pokrywa leksykę bez dublowania gram-1/2/3 —
+  frazeologizmy (znaczenie przenośne + zakaz przerabiania), źródła biblijne
+  vs mitologiczne (przez HISTORIĘ bohatera), synonimy/antonimy/homonimy
+  (synonimy = unikanie powtórzeń w wypracowaniu), archaizmy ("mocium panie" —
+  funkcja!) / kolokwializmy (błąd stylistyczny w wypracowaniu) / zapożyczenia,
+  treść vs zakres (hiperonim/hiponim), słownictwo wartościujące (most do
+  perswazji z czytanie-2). Notatka-1 wiąże formę z lekturą (wyjście na "Zemstę").
+- Obserwacja (QA, mechanika quizu — doprecyzowanie): SINGLE nie auto-sprawdza —
+  po kliknięciu opcji trzeba kliknąć "Sprawdź", potem "Dalej" (nie "Następne"!).
+  PF NIE używa `button.opcja` — pary Prawda/Fałsz to zwykłe `button.btn`;
+  selektor: filtr po textContent ∈ {Prawda, Fałsz}, indeks `w*2+(val?0:1)`.
+  Multi używa `button.opcja`. Ostatni przycisk: "Zakończ quiz".
+  Pisanie: textarea → "Gotowe — porównuję ze wzorcem" → 6 checkboxów →
+  "Zapisz samoocenę" → 🏆.
+- Obserwacja (QA): tym razem write NIE zepsuł cudzysłowów (0 napraw w obu
+  plikach) — ale asercja json.loads po write zostaje w procedurze.
+  Sloty B i F znikają z "Na dziś" po ukończeniu ("Wszystko na dziś zrobione").
+  Mobile 390x844: dashboard i teoria scrollW = innerW = 390. Stan Zosi
+  przywrócony z backupu (fetch przez public/backup-tmp.json, plik usunięty).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

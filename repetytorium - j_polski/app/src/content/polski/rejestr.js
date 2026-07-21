@@ -13,6 +13,7 @@ import kamienieNaSzaniec from "./lektury/kamienie-na-szaniec.json";
 import gramatyka1 from "./cwiczenia/gramatyka-1.json";
 import gramatyka2 from "./cwiczenia/gramatyka-2.json";
 import gramatyka3 from "./cwiczenia/gramatyka-3.json";
+import gramatyka4 from "./cwiczenia/gramatyka-4.json";
 import ortografia1 from "./cwiczenia/ortografia-1.json";
 import ortografia2 from "./cwiczenia/ortografia-2.json";
 import ortografia3 from "./cwiczenia/ortografia-3.json";
@@ -26,6 +27,7 @@ import zaproszenie1 from "./pisanie/zaproszenie-1.json";
 import rozprawka1 from "./pisanie/rozprawka-1.json";
 import opowiadanie1 from "./pisanie/opowiadanie-1.json";
 import ogloszenie1 from "./pisanie/ogloszenie-1.json";
+import notatka1 from "./pisanie/notatka-1.json";
 
 export const LEKTURY = {
   "dziady-2": dziady2,
@@ -39,6 +41,7 @@ export const CWICZENIA = {
   "gramatyka-1": gramatyka1,
   "gramatyka-2": gramatyka2,
   "gramatyka-3": gramatyka3,
+  "gramatyka-4": gramatyka4,
   "ortografia-1": ortografia1,
   "ortografia-2": ortografia2,
   "ortografia-3": ortografia3,
@@ -54,6 +57,7 @@ export const PISANIE = {
   "rozprawka-1": rozprawka1,
   "opowiadanie-1": opowiadanie1,
   "ogloszenie-1": ogloszenie1,
+  "notatka-1": notatka1,
 };
 
 /** Materiał powtórki (obiekt z .quiz/.fiszki) po ref rekordu powtórki. */

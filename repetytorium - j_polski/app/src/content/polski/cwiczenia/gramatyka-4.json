@@ -1,0 +1,233 @@
+{
+  "id": "gramatyka-4",
+  "modul": "B",
+  "tytul": "Leksyka i frazeologia — skarbnica słów",
+  "teoria": [
+    {
+      "id": "frazeologizmy",
+      "tytul": "Frazeologizmy — słowa, których nie czytamy dosłownie",
+      "tresc": "Frazeologizm (związek frazeologiczny) to UTARTE połączenie wyrazów, które ma znaczenie PRZENOŚNE — inne niż suma znaczeń poszczególnych słów. Gdy mówimy, że ktoś „ma węża w kieszeni”, nie chodzi o prawdziwego węża, tylko o skąpstwo! To pułapka numer jeden: frazeologizmów NIE wolno rozumieć dosłownie. Na egzaminie zadania z frazeologizmów pojawiają się bardzo często — każą wyjaśnić znaczenie, dopasować frazeologizm do sytuacji albo znaleźć go w tekście. Druga pułapka: frazeologizmów nie wolno „przerabiać” — mówimy „piąte koło u wozu”, a nie „szóste koło u roweru”. Zmiana choćby jednego słowa to błąd frazeologiczny.",
+      "punkty": [
+        "Frazeologizm = utarte połączenie wyrazów o znaczeniu PRZENOŚNYM (nie dosłownym!)",
+        "„Pięta achillesowa” = słaby punkt; „kula u nogi” = ciężar, coś, co ogranicza swobodę",
+        "„Piąte koło u wozu” = ktoś zbędny; „ręka w rękę” = zgodnie, wspólnie",
+        "Frazeologizmu nie wolno przerabiać ani rozumieć dosłownie — to dwa najczęstsze błędy",
+        "Na egzaminie: wyjaśnij znaczenie frazeologizmu z tekstu LUB dobierz frazeologizm do sytuacji"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "frazeologizmy-zrodla",
+      "tytul": "Skąd się wzięły? Biblia i mitologia",
+      "tresc": "Wiele frazeologizmów ma swoje źródło w Biblii albo w mitologii greckiej — i egzamin lubi pytać właśnie o pochodzenie. Z MITOLOGII: „syzyfowa praca” (Syzyf wtaczał głaz, który wciąż się staczał — ciężka praca bez efektu), „pięta achillesowa” (jedyne słabe miejsce Achillesa), „koń trojański” (podstępny „prezent”, ukryte zagrożenie), „nić Ariadny” (sposób wyjścia z trudnej, zagmatwanej sytuacji), „stajnia Augiasza” (ogromny bałagan). Z BIBLII: „wdowi grosz” (skromny dar ofiarowany z serca, od ubogiej osoby), „zakazany owoc” (coś pociągającego, bo niedozwolonego), „salomonowy wyrok” (mądre, sprawiedliwe rozstrzygnięcie), „hiobowa wieść” (wiadomość o nieszczęściu, tragiczna), „umywać ręce” (uchylać się od odpowiedzialności — jak Piłat).",
+      "punkty": [
+        "MITOLOGIA: syzyfowa praca, pięta achillesowa, koń trojański, nić Ariadny, stajnia Augiasza",
+        "BIBLIA: wdowi grosz, zakazany owoc, salomonowy wyrok, hiobowa wieść, umywać ręce",
+        "„Syzyfowa praca” = ciężka praca BEZ efektu (nie: każda ciężka praca!)",
+        "„Hiobowa wieść” = wiadomość TRAGICZNA (Hiob stracił wszystko)",
+        "Sposób na zapamiętanie: przypomnij sobie HISTORIĘ bohatera — znaczenie wynika z jego losów"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "synonimy-antonimy-homonimy",
+      "tytul": "Synonimy, antonimy, homonimy",
+      "tresc": "Trzy pojęcia, które łatwo pomylić, a które egzamin sprawdza regularnie. SYNONIMY to wyrazy o znaczeniu PODOBNYM (bliskoznaczne): dom — budynek, piękny — śliczny, iść — kroczyć. ANTONIMY to wyrazy o znaczeniu PRZECIWNYM: dzień — noc, mądry — głupi, kupować — sprzedawać. HOMONIMY to wyrazy, które BRZMIĄ i wyglądają tak samo, ale znaczą coś zupełnie innego: zamek (budowla / w drzwiach / w kurtce), pokój (pomieszczenie / brak wojny), piła (narzędzie / forma czasownika „pić”). Praktyczna korzyść z synonimów: w wypracowaniu pomagają UNIKAĆ POWTÓRZEŃ — zamiast pisać trzy razy „bohater”, napisz „postać”, „protagonista”. Egzaminator obniża punkty za ubogie słownictwo!",
+      "punkty": [
+        "SYNONIMY = znaczenie podobne (dom — budynek); ANTONIMY = znaczenie przeciwne (dzień — noc)",
+        "HOMONIMY = to samo brzmienie, RÓŻNE znaczenia (zamek, pokój, piła)",
+        "Synonimy w wypracowaniu = sposób na unikanie powtórzeń (bohater → postać → protagonista)",
+        "Pułapka: synonimy są PODOBNE, nie identyczne — „domek” to nie to samo co „gmach”",
+        "Na egzaminie: „zastąp wyraz synonimem”, „wskaż antonim”, „wyjaśnij dwa znaczenia wyrazu”"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "archaizmy-kolokwializmy-zapozyczenia",
+      "tytul": "Archaizmy, kolokwializmy, zapożyczenia",
+      "tresc": "Słowa mają swój „rejestr” — nie każde pasuje do każdej sytuacji. ARCHAIZMY to wyrazy przestarzałe, które wyszły z użycia: „mocium panie” (ulubione powiedzonko Cześnika w „Zemście”!), „waćpan”, „niewiasta”, „kajet”. W lekturach archaizmy oddają realia dawnych czasów — to ich FUNKCJA. KOLOKWIALIZMY to wyrazy potoczne, codzienne: „fajny”, „spoko”, „nara”. Uwaga — w wypracowaniu egzaminacyjnym kolokwializmy to BŁĄD stylistyczny! Piszemy stylem starannym. ZAPOŻYCZENIA to wyrazy przejęte z języków obcych: „weekend”, „komputer” (angielski), „szlafrok” (niemiecki), „żaluzja” (francuski). Zapożyczenia nie są błędem, ale gdy istnieje polski odpowiednik, warto go użyć.",
+      "punkty": [
+        "ARCHAIZM = wyraz przestarzały („mocium panie” Cześnika w „Zemście” — funkcja: realia dawnej szlachty)",
+        "KOLOKWIALIZM = wyraz potoczny („fajny”, „spoko”) — w wypracowaniu to BŁĄD stylistyczny!",
+        "ZAPOŻYCZENIE = wyraz z języka obcego („weekend”, „szlafrok”, „żaluzja”)",
+        "Egzamin pyta o FUNKCJĘ: po co autor użył archaizmu? (np. oddanie realiów epoki, humor)",
+        "W wypracowaniu: styl staranny — zero „spoko”, „fajnie”, „mega”"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "tresc-zakres",
+      "tytul": "Treść i zakres wyrazu",
+      "tresc": "Wyrazy można ułożyć od najbardziej ogólnych do najbardziej szczegółowych: zwierzę → pies → jamnik. Im wyraz OGÓLNIEJSZY, tym SZERSZY ma zakres (obejmuje więcej obiektów: zwierząt jest więcej niż psów), ale UBOŻSZĄ treść (mniej cech wspólnych: o „zwierzęciu” wiemy tylko tyle, że żyje). Im wyraz bardziej SZCZEGÓŁOWY, tym WĘŻSZY zakres (jamników jest mniej niż psów), ale BOGATSZA treść (jamnik: pies, krótkie łapy, wydłużony tułów...). Zasada do zapamiętania: zakres i treść działają ODWROTNIE — gdy jedno rośnie, drugie maleje. Wyraz o szerszym zakresie to HIPERONIM (nadrzędny), o węższym — HIPONIM (podrzędny). Na egzaminie: „uporządkuj wyrazy od najogólniejszego” albo „podaj wyraz nadrzędny”.",
+      "punkty": [
+        "Szeregi ogólność → szczegół: zwierzę → pies → jamnik; roślina → drzewo → dąb",
+        "SZERSZY zakres = więcej obiektów, ale UBOŻSZA treść (mniej cech): „zwierzę”",
+        "WĘŻSZY zakres = mniej obiektów, ale BOGATSZA treść (więcej cech): „jamnik”",
+        "Zakres i treść działają ODWROTNIE: jedno rośnie — drugie maleje",
+        "Wyraz nadrzędny (szerszy) = hiperonim; podrzędny (węższy) = hiponim"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "slownictwo-wartosciujace",
+      "tytul": "Słownictwo wartościujące i neutralne",
+      "tresc": "Słowa nie tylko nazywają — potrafią też OCENIAĆ. Słownictwo NEUTRALNE po prostu informuje: „pisać”, „dom”, „mówić”. Słownictwo WARTOŚCIUJĄCE zdradza ocenę mówiącego: pozytywną („domek” — czule, „kroczyć” — dostojnie) albo negatywną („bazgrać” — niedbale pisać, „rudera” — zaniedbany dom, „gadać” — lekceważąco). Nacechowanie często tworzą przyrostki: -ek, -uś (zdrobnienia — czułość) albo -sko, -isko (zgrubienia — niechęć lub... rubaszna sympatia, np. „psisko”). Dlaczego to ważne? Bo egzamin pyta: „jakie nastawienie nadawcy zdradza wyraz X?” — a w tekstach perswazyjnych (reklama, przemówienie) słownictwo wartościujące to główne narzędzie wpływu. Umiesz je rozpoznać = nie dasz się zmanipulować.",
+      "punkty": [
+        "Słownictwo NEUTRALNE informuje (pisać, dom); WARTOŚCIUJĄCE ocenia (bazgrać, rudera)",
+        "Nacechowanie dodatnie: zdrobnienia (domek, kotek); ujemne: zgrubienia (domisko) i wyrazy pogardliwe",
+        "„Bazgrać” = pisać niedbale (ocena negatywna); „kroczyć” = iść dostojnie (podniośle)",
+        "W reklamie i przemówieniu słownictwo wartościujące = narzędzie perswazji",
+        "Na egzaminie: „jakie nastawienie nadawcy wyraża ten wyraz?” — szukaj nacechowania"
+      ],
+      "czasMin": 4
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b4-q-01",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Frazeologizm „pięta achillesowa” oznacza:",
+      "opcje": ["czyjąś mocną stronę", "szybki bieg", "ranę stopy", "czyjś słaby punkt"],
+      "poprawna": 3,
+      "wyjasnienie": "Achilles był niezwyciężony — z wyjątkiem pięty, jedynego słabego miejsca. Dlatego „pięta achillesowa” to czyjś SŁABY PUNKT. Pamiętaj: frazeologizmy rozumiemy przenośnie, nie dosłownie — nie chodzi o żadną prawdziwą stopę!",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-02",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Synonimy to wyrazy:",
+      "opcje": ["o znaczeniu przeciwnym", "o znaczeniu podobnym", "brzmiące tak samo, ale znaczące co innego", "przestarzałe, które wyszły z użycia"],
+      "poprawna": 1,
+      "wyjasnienie": "Synonimy (wyrazy bliskoznaczne) mają znaczenie PODOBNE: dom — budynek, piękny — śliczny. Znaczenie przeciwne mają antonimy, to samo brzmienie przy różnych znaczeniach — homonimy, a wyrazy przestarzałe to archaizmy.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-03",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Frazeologizmy rozumiemy przenośnie, a nie dosłownie.",
+        "Antonimy to wyrazy o znaczeniu podobnym.",
+        "„Mocium panie” z „Zemsty” Fredry to przykład archaizmu."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "1. PRAWDA — „mieć węża w kieszeni” to skąpstwo, nie prawdziwy wąż. 2. FAŁSZ — antonimy mają znaczenie PRZECIWNE (dzień — noc); podobne znaczenie mają synonimy. 3. PRAWDA — „mocium panie” to przestarzały zwrot grzecznościowy, ulubione powiedzonko Cześnika.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-04",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Frazeologizm „syzyfowa praca” pochodzi z mitologii i oznacza:",
+      "opcje": ["pracę zespołową", "pracę dobrze opłaconą", "ciężką pracę, która nie przynosi efektu", "każdą pracę fizyczną"],
+      "poprawna": 2,
+      "wyjasnienie": "Syzyf za karę wtaczał na górę głaz, który tuż przed szczytem zawsze się staczał. „Syzyfowa praca” to więc ciężka praca BEZ EFEKTU — nie każda ciężka praca! Znaczenie frazeologizmu wynika z historii bohatera.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Homonimy to wyrazy takie jak „zamek” czy „pokój”, czyli wyrazy:",
+      "opcje": ["o tym samym brzmieniu i różnych znaczeniach", "o znaczeniu przeciwnym", "zapożyczone z języków obcych", "o znaczeniu bardzo podobnym"],
+      "poprawna": 0,
+      "wyjasnienie": "Homonimy brzmią i wyglądają TAK SAMO, ale znaczą coś zupełnie innego: zamek to budowla, mechanizm w drzwiach albo suwak w kurtce; pokój to pomieszczenie albo brak wojny. Egzamin lubi prosić o ułożenie dwóch zdań z różnymi znaczeniami takiego wyrazu.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-06",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz WSZYSTKIE frazeologizmy pochodzące z BIBLII:",
+      "opcje": ["wdowi grosz", "pięta achillesowa", "zakazany owoc", "nić Ariadny", "salomonowy wyrok"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Z Biblii pochodzą: „wdowi grosz” (skromny dar z serca), „zakazany owoc” (z raju) i „salomonowy wyrok” (mądre rozstrzygnięcie króla Salomona). „Pięta achillesowa” i „nić Ariadny” pochodzą z MITOLOGII greckiej.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-07",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Który wyraz ma NAJSZERSZY zakres (jest najbardziej ogólny)?",
+      "opcje": ["jamnik", "zwierzę", "pies", "pies myśliwski"],
+      "poprawna": 1,
+      "wyjasnienie": "Szereg od ogółu do szczegółu: zwierzę → pies → pies myśliwski → jamnik. „Zwierzę” obejmuje najwięcej obiektów, więc ma NAJSZERSZY zakres — ale najuboższą treść (najmniej cech). Zakres i treść działają odwrotnie.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-08",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Kolokwializmy takie jak „spoko” czy „fajny” są odpowiednie w wypracowaniu egzaminacyjnym.",
+        "Zapożyczenie to wyraz przejęty z języka obcego, np. „weekend”.",
+        "Synonimy pomagają unikać powtórzeń w wypracowaniu."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "1. FAŁSZ — kolokwializmy w wypracowaniu to błąd stylistyczny; egzamin wymaga stylu starannego. 2. PRAWDA — „weekend” przejęliśmy z angielskiego, „szlafrok” z niemieckiego. 3. PRAWDA — zamiast trzy razy „bohater” napisz „postać”, „protagonista” — egzaminator docenia bogate słownictwo.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-09",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "„Ta wiadomość okazała się dla rodziny hiobową wieścią”. Frazeologizm „hiobowa wieść” oznacza wiadomość:",
+      "opcje": ["radosną i długo wyczekiwaną", "zaskakującą, ale pomyślną", "tragiczną, o nieszczęściu", "nieprawdziwą, plotkę"],
+      "poprawna": 2,
+      "wyjasnienie": "Biblijny Hiob stracił majątek, dzieci i zdrowie — kolejni posłańcy przynosili mu coraz gorsze wiadomości. „Hiobowa wieść” to więc wiadomość TRAGICZNA. Znów pomaga znajomość historii bohatera.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Który wyraz jest nacechowany NEGATYWNIE (wartościuje ujemnie)?",
+      "opcje": ["bazgrać", "pisać", "notować", "zapisywać"],
+      "poprawna": 0,
+      "wyjasnienie": "„Bazgrać” znaczy pisać niedbale, brzydko — zdradza negatywną ocenę mówiącego. „Pisać”, „notować” i „zapisywać” są neutralne: informują, ale nie oceniają. Egzamin pyta o takie nacechowanie zwłaszcza przy tekstach perswazyjnych.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-11",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Frazeologizm „nić Ariadny” oznacza:",
+      "opcje": ["zerwaną przyjaźń", "coś bardzo delikatnego", "pracę wymagającą cierpliwości", "sposób wyjścia z trudnej, zagmatwanej sytuacji"],
+      "poprawna": 3,
+      "wyjasnienie": "Ariadna dała Tezeuszowi kłębek nici, dzięki któremu wyszedł z labiryntu po pokonaniu Minotaura. „Nić Ariadny” to sposób WYJŚCIA z trudnej, zagmatwanej sytuacji — pomoc, która prowadzi do celu.",
+      "punkty": 1
+    },
+    {
+      "id": "b4-q-12",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz WSZYSTKIE zdania prawdziwe:",
+      "opcje": [
+        "Frazeologizm „kula u nogi” oznacza kogoś lub coś, co ogranicza swobodę.",
+        "Archaizmy w „Zemście” Fredry pełnią funkcję: oddają realia życia dawnej szlachty.",
+        "Frazeologizm „koń trojański” oznacza szczery, hojny prezent od przyjaciela.",
+        "Wyraz „zwierzę” ma szerszy zakres, ale uboższą treść niż wyraz „jamnik”.",
+        "Słownictwo wartościujące jest zawsze neutralne i nie wyraża ocen."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "„Kula u nogi” = ciężar ograniczający swobodę (P). Archaizmy u Fredry oddają świat dawnej szlachty — to ich funkcja (P). „Koń trojański” to podstępny „prezent”, UKRYTE ZAGROŻENIE — nie szczery dar (F). Szerszy zakres = uboższa treść, więc zdanie o „zwierzęciu” jest prawdziwe (P). Słownictwo wartościujące z definicji OCENIA — nie jest neutralne (F).",
+      "punkty": 1
+    }
+  ]
+}

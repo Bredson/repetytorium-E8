@@ -1,0 +1,31 @@
+{
+  "id": "notatka-1",
+  "modul": "F",
+  "forma": "notatka",
+  "tytul": "Notatka — krótka forma użytkowa",
+  "pigulka": "NOTATKA to najkrótszy i najbardziej „konkretny” tekst użytkowy: jej jedynym zadaniem jest ZWIĘZŁE przekazanie najważniejszych informacji. Nie ma tu miejsca na ozdobniki, opinie ani emocje — liczy się selekcja: co odbiorca MUSI wiedzieć? Na egzaminie notatka jest zwykle warta 3 punkty, a egzaminator sprawdza trzy rzeczy: czy są WSZYSTKIE wymagane informacje z polecenia, czy tekst jest spójny i zwięzły oraz czy jest poprawny językowo. Największa pułapka: rozpisanie się. Notatka to 3-4 zdania — jeśli piszesz dłużej, prawdopodobnie przemycasz zbędne ozdobniki. Druga pułapka: pominięcie jednej informacji z polecenia (np. terminu albo miejsca) — dlatego przed oddaniem odhacz punkt po punkcie wszystko, o co prosiło polecenie. W notatce wolno używać równoważników zdań (np. „Wyjazd — 8.00 sprzed szkoły.”) — to naturalny styl tej formy.",
+  "planFormy": [
+    "Tytuł lub pierwsze zdanie: CZEGO dotyczy notatka",
+    "Tylko najważniejsze informacje: CO, KIEDY, GDZIE (selekcja!)",
+    "Dodatkowe konkrety z polecenia: koszt, termin zgłoszeń, co zabrać",
+    "Zero ozdobników, opinii i emocji — notatka informuje, nie ocenia",
+    "Dopuszczalne równoważniki zdań („Zbiórka — 8.00, boisko szkolne.”)",
+    "Zwięzłość: 3-4 zdania, wszystko z polecenia odhaczone"
+  ],
+  "zadanie": {
+    "id": "f5-open-01",
+    "modul": "F",
+    "typ": "open-short",
+    "tresc": "Twoja klasa wybiera się do teatru na przedstawienie „Zemsty” Aleksandra Fredry. Napisz NOTATKĘ informacyjną dla kolegów i koleżanek z klasy. Podaj wszystkie niezbędne informacje: co i gdzie się odbywa, kiedy (data i godzina zbiórki), ile kosztuje bilet oraz do kiedy i u kogo trzeba się zapisać. Wystarczą 3-4 zdania.",
+    "wzorzec": "Wyjście klasowe do teatru\n\nW piątek 24 kwietnia nasza klasa idzie do Teatru Miejskiego na przedstawienie „Zemsty” Aleksandra Fredry. Zbiórka o godzinie 9.00 przed szkołą, powrót około 13.00. Bilet kosztuje 25 zł. Zapisy u przewodniczącej klasy do środy 22 kwietnia.",
+    "kryteriaSamooceny": [
+      "Czy moja notatka ma tytuł lub pierwsze zdanie mówiące, CZEGO dotyczy (wyjście do teatru na „Zemstę”)?",
+      "Czy podałem/podałam, GDZIE odbywa się przedstawienie i KIEDY jest zbiórka (data i godzina)?",
+      "Czy jest informacja o CENIE biletu?",
+      "Czy napisałem/napisałam, DO KIEDY i U KOGO trzeba się zapisać?",
+      "Czy notatka jest zwięzła (3-4 zdania), bez ozdobników, opinii i emocji?",
+      "Czy tekst jest poprawny ortograficznie i interpunkcyjnie (tytuł „Zemsty” w cudzysłowie)?"
+    ],
+    "punkty": 3
+  }
+}
