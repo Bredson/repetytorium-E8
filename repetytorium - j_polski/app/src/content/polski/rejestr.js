@@ -21,9 +21,11 @@ import ortografia3 from "./cwiczenia/ortografia-3.json";
 import literackie1 from "./cwiczenia/literackie-1.json";
 import literackie2 from "./cwiczenia/literackie-2.json";
 import literackie3 from "./cwiczenia/literackie-3.json";
+import literackie4 from "./cwiczenia/literackie-4.json";
 import czytanie1 from "./cwiczenia/czytanie-1.json";
 import czytanie2 from "./cwiczenia/czytanie-2.json";
 import czytanie3 from "./cwiczenia/czytanie-3.json";
+import czytanie4 from "./cwiczenia/czytanie-4.json";
 import zaproszenie1 from "./pisanie/zaproszenie-1.json";
 import rozprawka1 from "./pisanie/rozprawka-1.json";
 import opowiadanie1 from "./pisanie/opowiadanie-1.json";
@@ -51,9 +53,11 @@ export const CWICZENIA = {
   "literackie-1": literackie1,
   "literackie-2": literackie2,
   "literackie-3": literackie3,
+  "literackie-4": literackie4,
   "czytanie-1": czytanie1,
   "czytanie-2": czytanie2,
   "czytanie-3": czytanie3,
+  "czytanie-4": czytanie4,
 };
 export const PISANIE = {
   "zaproszenie-1": zaproszenie1,

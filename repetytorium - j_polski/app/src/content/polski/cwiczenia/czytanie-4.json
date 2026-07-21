@@ -1,0 +1,268 @@
+{
+  "id": "czytanie-4",
+  "modul": "E",
+  "tytul": "Streszczenie i zadania z lukami",
+  "teoria": [
+    {
+      "id": "co-to-streszczenie",
+      "tytul": "Czym jest dobre streszczenie",
+      "tresc": "STRESZCZENIE to krótkie oddanie najważniejszych informacji tekstu WŁASNYMI SŁOWAMI. Trzy żelazne zasady: 1) ZWIĘZŁOŚĆ — streszczenie jest wielokrotnie krótsze od oryginału i zwykle ma narzucony limit (np. 40-60 wyrazów); 2) WIERNOŚĆ — oddajesz myśli AUTORA, nie dodajesz własnych ocen, opinii ani informacji spoza tekstu; 3) WŁASNE SŁOWA — nie przepisujesz zdań z oryginału. Dlaczego to takie ważne? Bo streszczenie sprawdza, czy naprawdę ROZUMIESZ tekst — przepisać potrafi każdy, ująć sens po swojemu potrafi tylko ten, kto zrozumiał.",
+      "punkty": [
+        "Streszczenie = najważniejsze informacje własnymi słowami",
+        "Zwięzłość: wielokrotnie krótsze od oryginału, często z limitem wyrazów",
+        "Wierność: zero własnych opinii i informacji spoza tekstu",
+        "Własne słowa dowodzą zrozumienia — przepisać potrafi każdy"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "temat-i-glowna-mysl",
+      "tytul": "Temat tekstu a główna myśl — to nie to samo!",
+      "tresc": "TEMAT to odpowiedź na pytanie: O CZYM jest tekst? — jedno wyrażenie, np. „praca pszczół w ulu”. GŁÓWNA MYŚL to odpowiedź na pytanie: CO AUTOR o tym twierdzi? — całe zdanie, np. „pszczoły są doskonale zorganizowane i każda ma swoje zadanie”. Uczniowie często mylą te pojęcia i tracą punkty. Ćwicz na każdym tekście: najpierw nazwij temat (o czym?), potem sformułuj główną myśl (co autor chce mi powiedzieć?). Dopiero mając obie odpowiedzi, możesz streszczać — bo streszczenie to główna myśl plus najważniejsze kroki rozumowania autora.",
+      "punkty": [
+        "Temat = O CZYM jest tekst (wyrażenie: „praca pszczół w ulu”)",
+        "Główna myśl = CO AUTOR TWIERDZI (zdanie: „pszczoły są zorganizowane”)",
+        "Kolejność pracy: najpierw temat, potem główna myśl, na końcu streszczenie",
+        "Streszczenie = główna myśl + kluczowe kroki rozumowania autora"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "selekcja",
+      "tytul": "Selekcja: co zostawić, co wyciąć",
+      "tresc": "Najtrudniejsza część streszczania to decyzja, co POMINĄĆ. Wycinamy: przykłady i anegdoty (ilustrują myśl, ale nią nie są), powtórzenia, ozdobniki stylistyczne, szczegółowe liczby i daty (chyba że są sednem tekstu), dygresje. Zostawiamy: główną tezę, kluczowe argumenty, wniosek końcowy. Sprawdzian poprawnej selekcji: gdyby ktoś przeczytał TYLKO Twoje streszczenie, czy wiedziałby, co autor twierdzi i dlaczego? Jeśli tak — selekcja jest dobra. Jeśli zapamiętałby tylko ciekawostkę o pszczole z akapitu trzeciego — wyciąłeś nie to, co trzeba.",
+      "punkty": [
+        "Wycinamy: przykłady, anegdoty, powtórzenia, ozdobniki, dygresje",
+        "Zostawiamy: tezę, kluczowe argumenty, wniosek końcowy",
+        "Liczby i daty pomijamy, gdy nie są sednem tekstu",
+        "Test: czy ze streszczenia widać, CO autor twierdzi i DLACZEGO?"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "parafraza",
+      "tytul": "Parafraza — ta sama myśl, inne słowa",
+      "tresc": "PARAFRAZA to wyrażenie tej samej myśli innymi słowami — podstawowe narzędzie streszczania. Jak parafrazować? 1) Zamieniaj słowa na SYNONIMY („niezwykle istotny” → „bardzo ważny”); 2) Upraszczaj składnię (dwa krótkie zdania zamiast jednego piętrowego); 3) Uogólniaj („róże, tulipany i bratki” → „kwiaty”). W streszczeniu piszemy w 3. OSOBIE z perspektywy sprawozdawcy: „Autor twierdzi, że…”, „W tekście opisano…”. Pomagają SŁOWA KLUCZE — wyrazy, które powtarzają się w tekście lub nazywają jego temat: znajdź je, a znajdziesz szkielet streszczenia.",
+      "punkty": [
+        "Parafraza = ta sama myśl innymi słowami (synonimy, prostsza składnia)",
+        "Uogólniaj szczegóły: „róże, tulipany i bratki” → „kwiaty”",
+        "Streszczenie piszemy w 3. osobie: „Autor twierdzi, że…”",
+        "Słowa klucze (powtarzające się wyrazy) to szkielet streszczenia"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "zadanie-z-lukami",
+      "tytul": "Zadanie z lukami — typ wprost z arkusza",
+      "tresc": "Na egzaminie streszczenie często ma formę TEKSTU Z LUKAMI: dostajesz gotowe streszczenie z 2-3 pustymi miejscami i uzupełniasz je tak, aby było zgodne z tekstem. Strategia: 1) przeczytaj CAŁE streszczenie z lukami, zanim zaczniesz uzupełniać — zrozum jego logikę; 2) wróć do odpowiedniego fragmentu tekstu źródłowego; 3) dobierz słowo, które pasuje PODWÓJNIE: do SENSU tekstu I do GRAMATYKI zdania (właściwa forma: osoba, liczba, przypadek!). Najczęstszy błąd: wpisanie słowa poprawnego merytorycznie, ale w złej formie gramatycznej — „czytanie książek rozwijać wyobraźnię” zamiast „rozwija”. Zawsze przeczytaj uzupełnione zdanie na głos w myślach.",
+      "punkty": [
+        "Najpierw przeczytaj całe streszczenie z lukami — zrozum logikę",
+        "Wróć do fragmentu tekstu źródłowego, którego dotyczy luka",
+        "Słowo musi pasować do SENSU I do GRAMATYKI zdania",
+        "Po uzupełnieniu przeczytaj całe zdanie — sprawdź, czy „brzmi”"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "streszczenie-na-egzaminie",
+      "tytul": "Procedura egzaminacyjna krok po kroku",
+      "tresc": "Kompletna procedura streszczania na egzaminie: 1) Przeczytaj tekst i przy każdym akapicie zapisz JEDNO zdanie — co się w nim dzieje (to plan tekstu); 2) Nazwij temat i główną myśl; 3) Z planu wybierz tylko elementy konieczne dla głównej myśli; 4) Napisz streszczenie w 3. osobie, własnymi słowami, pilnując limitu; 5) Sprawdź: czy jest teza autora? czy nie ma Twoich opinii? czy nie przepisałeś zdań z tekstu? Pułapki punktowane w arkuszu: przekroczenie limitu wyrazów, wtrącenie własnej oceny („moim zdaniem słusznie…”), pominięcie głównej myśli na rzecz ciekawostek. Streszczenie logiczne to zadanie, w którym najłatwiej odzyskać punkty — wystarczy trzymać się procedury.",
+      "punkty": [
+        "Plan tekstu: jedno zdanie na akapit — to szkielet streszczenia",
+        "Wybieraj tylko to, co konieczne dla głównej myśli",
+        "Pisz w 3. osobie, własnymi słowami, w limicie wyrazów",
+        "Kontrola: teza autora jest, moich opinii nie ma, zdań nie przepisałem"
+      ],
+      "czasMin": 5
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e4-q-01",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Dobre streszczenie:",
+      "opcje": [
+        "zawiera opinię osoby streszczającej",
+        "przytacza najciekawsze cytaty z tekstu",
+        "oddaje najważniejsze informacje własnymi słowami",
+        "jest dłuższe od tekstu, bo wszystko wyjaśnia"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Streszczenie to najważniejsze informacje ujęte własnymi słowami — krótko, wiernie i bez własnych ocen.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-02",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Streszczenie powinno zachować:",
+      "opcje": [
+        "kolejność i logikę głównych myśli tekstu",
+        "wszystkie szczegóły i przykłady",
+        "styl artystyczny oryginału",
+        "dialogi bohaterów w dosłownym brzmieniu"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Streszczenie oddaje tok rozumowania autora — główne myśli w ich kolejności. Szczegóły, ozdobniki i dialogi pomijamy.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-03",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "W streszczeniu nie umieszczamy własnych ocen ani opinii.",
+        "Streszczenie powinno zawierać jak najwięcej cytatów z tekstu.",
+        "Przed streszczaniem warto najpierw ustalić temat tekstu, a potem jego główną myśl."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Streszczenie jest wierne autorowi — bez naszych opinii (prawda). Cytaty to przepisywanie, a nie własne słowa (fałsz). Temat → główna myśl → streszczenie to właściwa kolejność (prawda).",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-04",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W zadaniu z lukami słowo, które wpisujesz, musi:",
+      "opcje": [
+        "być dosłownym cytatem z tekstu źródłowego",
+        "być zawsze rzeczownikiem",
+        "być jak najdłuższe i najbardziej naukowe",
+        "pasować do sensu tekstu I do gramatyki zdania"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Słowo musi zgadzać się podwójnie: merytorycznie z tekstem i gramatycznie ze zdaniem (osoba, liczba, przypadek). Poprawna treść w złej formie to stracony punkt.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-05",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "TEMAT tekstu to:",
+      "opcje": [
+        "ostatnie zdanie tekstu",
+        "to, O CZYM tekst mówi — ujęte w jednym wyrażeniu",
+        "opinia autora o świecie",
+        "wszystkie wątki wymienione po przecinku"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Temat = o czym jest tekst (np. „praca pszczół w ulu”). Nie mylić z główną myślą, czyli tym, co autor o temacie twierdzi.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-06",
+      "modul": "E",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystko, co POMIJAMY w streszczeniu:",
+      "opcje": [
+        "przykłady i anegdoty ilustrujące myśl",
+        "główną tezę autora",
+        "powtórzenia i ozdobniki stylistyczne",
+        "wniosek końcowy tekstu",
+        "szczegółowe liczby, gdy nie są sednem tekstu"
+      ],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Wycinamy ilustracje myśli (przykłady, anegdoty), ozdobniki i drugorzędne liczby. Teza i wniosek to serce tekstu — muszą zostać.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-07",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Parafraza to:",
+      "opcje": [
+        "dosłowne przytoczenie fragmentu tekstu",
+        "tłumaczenie tekstu na język obcy",
+        "wyrażenie tej samej myśli innymi słowami",
+        "skrócenie tekstu dokładnie o połowę"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Parafraza zachowuje sens, zmienia słowa: synonimy, prostsza składnia, uogólnienia. To podstawowe narzędzie streszczania.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-08",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Temat tekstu i jego główna myśl to dokładnie to samo.",
+        "Słowa klucze (powtarzające się wyrazy) pomagają znaleźć najważniejsze informacje.",
+        "Streszczenie na egzaminie ma zwykle narzucony limit liczby wyrazów."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "Temat = o czym, główna myśl = co autor twierdzi — to dwie różne rzeczy (fałsz). Słowa klucze to szkielet tekstu (prawda). Limit wyrazów jest punktowany (prawda).",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-09",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Tekst ma temat „praca pszczół w ulu”. Która odpowiedź jest jego GŁÓWNĄ MYŚLĄ?",
+      "opcje": [
+        "Pszczoły są doskonale zorganizowane i każda ma w ulu swoje zadanie.",
+        "Pszczoły produkują miód.",
+        "W ulu mieszka królowa.",
+        "Pszczoły żyją stosunkowo krótko."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Główna myśl to twierdzenie autora o temacie — tu: teza o doskonałej organizacji. Pozostałe odpowiedzi to pojedyncze informacje szczegółowe.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-10",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Uzupełnij lukę: „Autor przekonuje, że czytanie książek ___ wyobraźnię.” Które słowo pasuje do sensu I gramatyki?",
+      "opcje": ["rozwijać", "rozwija", "rozwijanie", "rozwijały"],
+      "poprawna": 1,
+      "wyjasnienie": "Podmiot „czytanie” wymaga formy 3. osoby liczby pojedynczej: „rozwija”. Bezokolicznik i inne formy psują gramatykę zdania — to najczęstszy błąd w zadaniach z lukami.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-11",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego w streszczeniu NIE przepisujemy zdań z tekstu?",
+      "opcje": [
+        "bo przepisywanie trwa za długo",
+        "bo zdania oryginału są zawsze zbyt trudne",
+        "bo streszczenie musi mieć inny temat niż tekst",
+        "bo streszczenie sprawdza ROZUMIENIE tekstu — a dowodzą go własne słowa"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Przepisać potrafi każdy — ująć sens po swojemu potrafi tylko ten, kto zrozumiał. Dlatego parafraza, a nie cytat, jest istotą streszczenia.",
+      "punkty": 1
+    },
+    {
+      "id": "e4-q-12",
+      "modul": "E",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz wszystkie zdania PRAWDZIWE:",
+      "opcje": [
+        "Przed streszczaniem warto zapisać jedno zdanie na każdy akapit tekstu.",
+        "Streszczenie piszemy w 3. osobie, np. „Autor twierdzi, że…”.",
+        "Dobre streszczenie oddaje także styl i humor oryginału.",
+        "Zadanie z lukami sprawdza rozumienie tekstu, a nie pamięć szczegółów.",
+        "Streszczenie może pominąć główną tezę, jeśli brakuje miejsca w limicie."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Plan „zdanie na akapit” to szkielet streszczenia — prawda. Trzecia osoba to perspektywa sprawozdawcy — prawda. Luka wymaga zrozumienia logiki tekstu — prawda. Styl pomijamy, a teza jest nienaruszalna.",
+      "punkty": 1
+    }
+  ]
+}

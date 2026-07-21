@@ -1,0 +1,258 @@
+{
+  "id": "literackie-4",
+  "modul": "D",
+  "tytul": "Poezja — jak czytać i interpretować wiersz",
+  "teoria": [
+    {
+      "id": "podmiot-liryczny",
+      "tytul": "Kto mówi w wierszu? Podmiot liryczny",
+      "tresc": "Osoba mówiąca w wierszu to PODMIOT LIRYCZNY — i to NIE jest autor! Tak jak narrator w prozie, podmiot liryczny to głos stworzony przez poetę: poeta-mężczyzna może mówić głosem dziewczyny, dorosły — głosem dziecka. W LIRYCE BEZPOŚREDNIEJ podmiot mówi wprost o sobie i swoich uczuciach („tęsknię”, „boję się”) — rozpoznasz ją po formach 1. osoby („ja”, „moje”). W LIRYCE POŚREDNIEJ podmiot ukrywa się za opisem krajobrazu lub opowieścią — o jego emocjach wnioskujesz z tego, CO i JAK opisuje. Wiersz może mieć też ADRESATA — tego, do kogo podmiot się zwraca (rozpoznasz po apostrofie i formach „ty”, „wy”).",
+      "punkty": [
+        "Podmiot liryczny ≠ autor (tak jak narrator ≠ autor w prozie)",
+        "Liryka bezpośrednia: podmiot mówi wprost o sobie („ja”, „tęsknię”)",
+        "Liryka pośrednia: emocje ukryte w opisie lub opowieści",
+        "Adresat liryczny = ten, do kogo wiersz się zwraca („ty”, „wy”)"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "budowa-wiersza",
+      "tytul": "Budowa wiersza: wers, strofa, przerzutnia",
+      "tresc": "WERS to pojedyncza linijka wiersza. STROFA (zwrotka) to grupa wersów oddzielona graficznie odstępem. Wiersz podzielony na strofy nazywamy STROFICZNYM, a pisany ciągiem, bez podziału — STYCHICZNYM. Wraca w nim czasem REFREN — powtarzający się wers lub strofa. Ciekawym zabiegiem jest PRZERZUTNIA: zdanie nie mieści się w wersie i jego ciąg dalszy „przeskakuje” do następnego. To nie błąd! Przerzutnia celowo łamie rytm — zawiesza głos, buduje napięcie i każe zatrzymać się na przeniesionym słowie. Na egzaminie pytają właśnie o jej FUNKCJĘ.",
+      "punkty": [
+        "Wers = linijka; strofa (zwrotka) = grupa wersów",
+        "Wiersz stroficzny (podział na zwrotki) vs stychiczny (ciągły)",
+        "Przerzutnia = ciąg dalszy zdania przeniesiony do następnego wersu",
+        "Funkcja przerzutni: zawieszenie głosu, napięcie, wyróżnienie słowa"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "rym-rytm",
+      "tytul": "Rym i rytm — muzyka wiersza",
+      "tresc": "RYM to podobieństwo brzmienia końcówek wersów. Układy rymów: PARZYSTE (aabb — sąsiednie wersy), KRZYŻOWE (abab — na przemian), OKALAJĄCE (abba — pierwszy z ostatnim). RYTM to regularność wiersza — np. ta sama liczba sylab w wersie. I teraz ważne rozróżnienie, które myli wielu uczniów: WIERSZ BIAŁY to wiersz BEZ RYMÓW (nie: smutny!), a WIERSZ WOLNY to wiersz bez stałego rytmu — wersy mają różną długość, a o podziale decyduje sens i emocja, nie liczenie sylab. FUNKCJA rytmu: może naśladować marsz, kołysanie, bicie serca — zawsze pytaj, CO rytm robi dla sensu wiersza.",
+      "punkty": [
+        "Układy rymów: parzyste aabb, krzyżowe abab, okalające abba",
+        "Wiersz BIAŁY = bez rymów (nazwa nie ma nic wspólnego z nastrojem!)",
+        "Wiersz WOLNY = bez stałego rytmu, wersy różnej długości",
+        "Funkcja rytmu: naśladuje ruch (marsz, kołysanie) i buduje nastrój"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "srodki-w-liryce",
+      "tytul": "Środki typowe dla liryki — zawsze z funkcją!",
+      "tresc": "Pełny katalog środków stylistycznych znasz z ćwiczenia o środkach — tu skupiamy się na tych, które w poezji pracują najciężej. APOSTROFA: bezpośredni zwrot do osoby lub rzeczy („Litwo, ojczyzno moja!”) — nadaje wierszowi uroczysty ton i wskazuje adresata. ANAFORA: powtórzenie tego samego wyrazu na początku kolejnych wersów — rytmizuje i podkreśla natarczywość myśli. OKSYMORON: zestawienie sprzecznych pojęć („gorący lód”, „żywy trup”) — pokazuje złożoność uczucia, które nie mieści się w zwykłych słowach. PERSONIFIKACJA: nadanie cech ludzkich np. przyrodzie — buduje więź podmiotu ze światem. Na egzaminie NIGDY nie wystarczy nazwać środka — zawsze pisz, PO CO poeta go użył w TYM wierszu.",
+      "punkty": [
+        "Apostrofa = zwrot do adresata; uroczysty ton („Litwo, ojczyzno moja!”)",
+        "Anafora = powtórzenie na początku wersów; rytmizuje, podkreśla",
+        "Oksymoron = sprzeczne pojęcia („gorący lód”); złożoność uczucia",
+        "Nazwanie środka to za mało — punkt jest za jego FUNKCJĘ w wierszu"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "interpretacja",
+      "tytul": "Interpretacja — co wiersz naprawdę mówi",
+      "tresc": "Interpretacja to odpowiedź na pytanie: O CZYM ten wiersz jest NAPRAWDĘ — i to nie jest streszczenie! Procedura: 1) SYTUACJA LIRYCZNA — kto mówi, do kogo, w jakich okolicznościach (pożegnanie? wspomnienie? modlitwa?); 2) NASTRÓJ — jaki klimat budują słowa (tęsknota, radość, niepokój) i które środki za to odpowiadają; 3) MOTYW — jaki uniwersalny temat podejmuje wiersz (przemijanie, miłość, natura, ojczyzna); 4) KONTEKST — z czym możesz wiersz połączyć: z lekturą obowiązkową, historią, własnym doświadczeniem. Wiersz o przemijaniu możesz zestawić np. z „Małym Księciem” (pożegnanie z różą) — takie połączenie to najwyższy poziom odpowiedzi egzaminacyjnej.",
+      "punkty": [
+        "Sytuacja liryczna: kto mówi, do kogo, w jakich okolicznościach",
+        "Nastrój + środki, które go budują (dowód z tekstu!)",
+        "Motyw = uniwersalny temat (przemijanie, miłość, natura)",
+        "Kontekst: połącz wiersz z lekturą, historią lub doświadczeniem"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "poezja-na-egzaminie",
+      "tytul": "Poezja na egzaminie — strategia i pułapki",
+      "tresc": "Na egzaminie wiersz pojawia się w części z tekstem literackim i ZAWSZE towarzyszą mu zadania o FUNKCJĘ. Pułapka nr 1: STRESZCZANIE — odpowiedź „wiersz opowiada o łące” nie dostanie punktu; pisz, co podmiot PRZEŻYWA i jak tekst to pokazuje. Pułapka nr 2: nazywanie środków bez funkcji — „w wierszu jest metafora” to zero punktów; „metafora X pokazuje Y” — punkt. Pułapka nr 3: mylenie głosów — w zadaniach pisz „podmiot liryczny”, nie „autor”. Strategia czytania: przeczytaj wiersz DWA razy (raz na rozumienie, raz na emocje), podkreśl powtórzenia i zwroty do adresata, ustal sytuację liryczną, dopiero potem czytaj polecenia. Pamiętaj: w zadaniu z wierszem prawie zawsze kryje się pytanie o wartości — co jest dla podmiotu ważne i dlaczego.",
+      "punkty": [
+        "Nie streszczaj — pisz, co podmiot przeżywa i jak tekst to pokazuje",
+        "Środek bez funkcji = 0 pkt; środek + „po co” = punkt",
+        "W odpowiedziach: „podmiot liryczny”, nigdy „autor”",
+        "Czytaj wiersz dwa razy; szukaj powtórzeń, adresata i wartości"
+      ],
+      "czasMin": 5
+    }
+  ],
+  "quiz": [
+    {
+      "id": "d4-q-01",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Osoba mówiąca w wierszu to:",
+      "opcje": ["autor", "podmiot liryczny", "narrator", "bohater"],
+      "poprawna": 1,
+      "wyjasnienie": "W liryce mówi podmiot liryczny — głos stworzony przez poetę, tak jak w prozie opowiada narrator. Autor to realny człowiek, który napisał tekst.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-02",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Pojedyncza linijka wiersza to:",
+      "opcje": ["strofa", "rym", "refren", "wers"],
+      "poprawna": 3,
+      "wyjasnienie": "Linijka to wers. Strofa (zwrotka) to grupa wersów, a refren to powtarzający się fragment.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-03",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Podmiot liryczny nie zawsze jest tożsamy z autorem wiersza.",
+        "Każdy wiersz musi mieć rymy.",
+        "Strofa to grupa wersów oddzielona graficznie odstępem."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Podmiot to kreacja poety — prawda. Wiersz biały nie ma rymów, a mimo to jest wierszem — zdanie 2. fałszywe. Strofa to zwrotka oddzielona odstępem — prawda.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-04",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Liryka BEZPOŚREDNIA to taka, w której podmiot liryczny:",
+      "opcje": [
+        "mówi wprost o sobie i swoich uczuciach w 1. osobie",
+        "ukrywa się za opisem krajobrazu",
+        "oddaje głos bohaterom w dialogu",
+        "zawsze zwraca się do adresata"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Lirykę bezpośrednią rozpoznasz po formach 1. osoby: „ja”, „tęsknię”, „moje serce”. W liryce pośredniej emocje trzeba wyczytać z opisu.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-05",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Przerzutnia to:",
+      "opcje": [
+        "powtórzenie wyrazu na początku kolejnych wersów",
+        "zestawienie sprzecznych pojęć",
+        "przeniesienie ciągu dalszego zdania do następnego wersu",
+        "rym wewnątrz jednego wersu"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Przerzutnia „przerzuca” część zdania do kolejnego wersu. Jej funkcja: zawiesza głos, buduje napięcie i wyróżnia przeniesione słowo.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-06",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie cechy wiersza WOLNEGO:",
+      "opcje": [
+        "wersy mają różną długość",
+        "regularne rymy parzyste w całym utworze",
+        "brak stałego rytmu i stałej liczby sylab",
+        "obowiązkowy podział na czterowersowe strofy",
+        "o podziale na wersy decyduje sens i emocja"
+      ],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Wiersz wolny rezygnuje z regularności: różna długość wersów, brak stałego rytmu, podział podyktowany sensem. Regularne rymy i sztywne strofy to cechy wiersza tradycyjnego.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-07",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Rymy KRZYŻOWE układają się w schemat:",
+      "opcje": ["aabb", "abab", "abba", "aaaa"],
+      "poprawna": 1,
+      "wyjasnienie": "Krzyżowe rymują się na przemian: abab (1. wers z 3., 2. z 4.). Parzyste to aabb, okalające — abba.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-08",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Wiersz biały to wiersz o smutnym, żałobnym nastroju.",
+        "Apostrofa to bezpośredni, często uroczysty zwrot do osoby lub rzeczy.",
+        "Anafora to powtórzenie tego samego wyrazu na początku kolejnych wersów."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "Wiersz biały = BEZ RYMÓW — nazwa nie mówi nic o nastroju (fałsz). Apostrofa („Litwo, ojczyzno moja!”) — prawda. Anafora rytmizuje i podkreśla myśl — prawda.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-09",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaką FUNKCJĘ pełni oksymoron typu „gorący lód”, „żywy trup”?",
+      "opcje": [
+        "ozdabia tekst, żeby był dłuższy i bogatszy",
+        "wskazuje na błąd językowy popełniony celowo",
+        "zestawia sprzeczności, by wyrazić złożone uczucie, które nie mieści się w zwykłych słowach",
+        "ułatwia dobranie rymu w wersie"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Oksymoron łączy sprzeczne pojęcia, bo niektóre stany (miłość i cierpienie naraz) są wewnętrznie sprzeczne. To pytanie o FUNKCJĘ — samo nazwanie środka nie daje punktu.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-10",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Czego NIE należy robić, odpowiadając na pytania o wiersz na egzaminie?",
+      "opcje": [
+        "streszczać wiersza zamiast wyjaśniać jego sens",
+        "określać sytuacji lirycznej",
+        "nazywać nastroju i wskazywać, co go buduje",
+        "łączyć wiersza z lekturą obowiązkową przez wspólny motyw"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Streszczenie („wiersz opowiada o łące”) nie jest interpretacją i nie dostaje punktów. Pisz, co podmiot przeżywa i jak tekst to pokazuje.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-11",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Podmiot liryczny mówi: „zieleń łąk woła mnie do domu”. Personifikacja pełni tu funkcję:",
+      "opcje": [
+        "odróżnia wiersz od tekstu prozatorskiego",
+        "informuje o wieku podmiotu lirycznego",
+        "tworzy rym z kolejnym wersem",
+        "pokazuje silną więź podmiotu z naturą — przyroda staje się bliską osobą"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Łąka „woła” jak ktoś bliski — uczłowieczenie przyrody pokazuje, że dla podmiotu natura to nie tło, lecz dom i relacja. Tak wygląda odpowiedź o funkcji środka.",
+      "punkty": 1
+    },
+    {
+      "id": "d4-q-12",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz wszystkie zdania PRAWDZIWE:",
+      "opcje": [
+        "W liryce pośredniej podmiot ukrywa swoje emocje za opisem lub opowieścią.",
+        "Rytm wiersza może naśladować np. marsz albo kołysanie — to jego funkcja.",
+        "Interpretacja wiersza polega na streszczeniu go własnymi słowami.",
+        "Wspólny motyw (np. przemijania) pozwala połączyć wiersz z lekturą obowiązkową.",
+        "Autor wiersza i podmiot liryczny to zawsze ta sama osoba."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Liryka pośrednia ukrywa emocje w opisie — prawda. Rytm pełni funkcję znaczeniową — prawda. Motyw to most do kontekstu — prawda. Interpretacja to NIE streszczenie, a podmiot to NIE autor.",
+      "punkty": 1
+    }
+  ]
+}

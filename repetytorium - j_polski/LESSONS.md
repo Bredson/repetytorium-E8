@@ -363,3 +363,27 @@ Format wpisu:
   się po przekroczeniu progu, 8 checkboxów → "Zapisz samoocenę" → 🏆 20/20.
   Cudzysłowy: 0 napraw w obu plikach (drugi raz z rzędu).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 13: literackie-4 + czytanie-4)
+- Obserwacja: wzorzec "sam JSON" potwierdzony dziesiąty raz — literackie-4
+  (D, poezja: podmiot liryczny ≠ autor, liryka bezpośrednia/pośrednia,
+  wers/strofa/przerzutnia, rymy aabb/abab/abba, wiersz biały vs wolny,
+  środki w liryce z FUNKCJĄ, interpretacja 4-krokowa, pułapki egzaminacyjne)
+  i czytanie-4 (E, streszczenie: 3 zasady, temat vs główna myśl, selekcja,
+  parafraza, zadanie z lukami sens+gramatyka, procedura "zdanie na akapit")
+  weszły przez 2 JSON-y + 4 linie w rejestr.js. Build 66 modułów.
+  Moduł D ma 4 ćwiczenia, E ma 4 — oba komplety wg planu merytorycznego.
+- Obserwacja (metodyka): literackie-4 domyka lukę względem literackie-1
+  (środki ogólne) — poezja dostaje własne środki (apostrofa, anafora,
+  oksymoron) i pułapkę "nie streszczaj wiersza". Czytanie-4 wprowadza typ
+  zadania wprost z arkusza (luka musi pasować do sensu I gramatyki —
+  najczęstszy błąd: dobra treść, zła forma, q10 ćwiczy dokładnie to).
+  Kontekst interpretacyjny spina się z kanonem (przemijanie ↔ Mały Książę).
+- Obserwacja (QA): procedura z it. 12 (re-query przed KAŻDYM klikiem PF/multi
+  + sleep 250 ms) zadziałała bez ani jednej poprawki — oba quizy 12/12 → 🎉
+  za pierwszym podejściem. Sloty D i E znikają z "Na dziś" po ukończeniu.
+  Mobile 390x844: dashboard + obie teorie scrollW = innerW = 390 (wymagało
+  chwilowego cofnięcia przerobienia + re-login — jak w it. 12). Backup
+  depth=1, cudzysłowy: 0 napraw (trzeci raz z rzędu). Stan Zosi przywrócony
+  (fetch przez public/backup-tmp.json, plik usunięty, "Na dziś" bazowe).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).
