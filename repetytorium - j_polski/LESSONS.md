@@ -185,3 +185,28 @@ Format wpisu:
   Skrypty `evaluate_script` czytające DOM zaraz po `click()` widzą stary render —
   React renderuje asynchronicznie; każdy odczyt po kliku opakować w `setTimeout`/await.
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 6: Mały Książę + Kamienie na szaniec)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony trzeci raz z rzędu —
+  2 lektury weszły przez 2 pliki JSON + 2 wpisy w `rejestr.js`. Build 52 moduły
+  bez błędów. Kanon lektur obowiązkowych VII-VIII ukończony: 6/6 (Dziady II, Balladyna,
+  Zemsta, Opowieść wigilijna, Mały Książę, Kamienie na szaniec).
+- Obserwacja (metodyka): nowy duet argumentacyjny przyjaźń: Mały Książę (oswajanie
+  Lisa) ↔ Kamienie na szaniec (akcja pod Arsenałem) — zapisany symetrycznie w sekcjach
+  "wypracowanie" obu lektur. Trzeci duet: Bankier ↔ Scrooge (pieniądze nie dają
+  szczęścia) spina Małego Księcia z Opowieścią wigilijną. W literaturze faktu błędy
+  kardynalne są najgroźniejsze — zapisane wprost jako zdania-pułapki: „Rudy zginął pod
+  Arsenałem" (NIE — odbity, zmarł 4 dni później z ran po torturach), „Zośka poległ pod
+  Arsenałem" (NIE — pod Sieczychami VIII 1943), „pilot podróżował z Księciem po
+  planetach" (NIE — poznał go na Saharze).
+- Obserwacja (QA): desktop: Mały Książę quiz 12/12 + fiszki 18/18 → 🎉; Kamienie na
+  szaniec quiz 12/12 + fiszki 18/18 → 🎉; dashboard po ukończeniu Małego Księcia
+  natychmiast podstawił Kamienie w slot A. Mobile 390x844: dashboard, lektura i quiz
+  bez poziomego overflow. Stan Zosi przywrócony z backupu (2 powtórki + Balladyna).
+- Obserwacja (QA, technika): przycisk fiszki to dokładnie "Umiem!" (z wykrzyknikiem) —
+  matcher `trim() === "Umiem"` zawodzi; w skryptach QA używać `startsWith("Umiem")`.
+  Cały przepływ lektury (otwarcie z "Na dziś" + quiz 12 pytań + 18 fiszek) da się
+  przejść dwoma skryptami `evaluate_script` z planem kroków i waitami 200-400 ms.
+  Cofnięcie "przerobienia" lektury (delete z `p.lektury` + filtr powtórek) to najprostszy
+  sposób na ponowne pokazanie jej w "Na dziś" do testu mobile.
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

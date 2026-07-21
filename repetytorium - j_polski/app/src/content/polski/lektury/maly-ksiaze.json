@@ -1,0 +1,407 @@
+{
+  "id": "maly-ksiaze",
+  "tytul": "Mały Książę",
+  "autor": "Antoine de Saint-Exupéry",
+  "gatunek": {
+    "nazwa": "baśń filozoficzna (powiastka filozoficzna)",
+    "cechy": [
+      "Uniwersalne prawdy o życiu ukryte pod prostą, baśniową historią",
+      "Bohaterowie i miejsca są alegoriami — planety to portrety ludzkich wad",
+      "Symbolika: róża, lis, wąż, baobaby i studnia znaczą więcej, niż widać dosłownie",
+      "Prosty język i forma opowieści dla dzieci, ale treść skierowana też do dorosłych",
+      "Narracja pierwszoosobowa — historię opowiada pilot, uczestnik zdarzeń",
+      "Ponadczasowość — brak konkretnej daty i realiów historycznych, historia mogłaby zdarzyć się zawsze"
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Fabuła krok po kroku",
+      "tresc": "Narratorem jest pilot, który jako dziecko narysował węża boa trawiącego słonia (rysunek nr 1), ale dorośli widzieli w nim tylko kapelusz — dlatego porzucił rysowanie. Po latach jego samolot ulega awarii na Saharze. Ma zapas wody na kilka dni, gdy nagle zjawia się tajemniczy chłopiec i prosi: „Narysuj mi baranka”. To Mały Książę z maleńkiej planety B-612. Stopniowo pilot poznaje jego historię: na planecie Książę wyrywał baobaby, oglądał zachody słońca i opiekował się kapryśną Różą. Zwątpił jednak w jej miłość i wyruszył w podróż. Odwiedził sześć planet zamieszkanych przez dziwnych dorosłych: Króla, Próżnego, Pijaka, Bankiera, Latarnika i Geografa. Siódmą planetą była Ziemia. Tu spotkał Węża mówiącego zagadkami, zobaczył ogród pełen róż (rozpacz: jego Róża nie jest jedyna!) i oswoił Lisa, który zdradził mu sekret: „Dobrze widzi się tylko sercem”. Pilot i Książę odnajdują na pustyni studnię. W rocznicę przybycia na Ziemię Książę pozwala ukąsić się wężowi — jego ciało znika, a on (jak wierzy pilot) wraca do swojej Róży. Pilot naprawia silnik i prosi czytelników: jeśli spotkacie Małego Księcia, dajcie znać.",
+      "punkty": [
+        "Rysunek nr 1: wąż boa trawiący słonia — dorośli widzą tylko kapelusz (ocenianie po pozorach)",
+        "Awaria samolotu na Saharze → spotkanie pilota z Małym Księciem („Narysuj mi baranka”)",
+        "Planeta B-612: baobaby do wyrywania, zachody słońca, kapryśna Róża — powód odlotu",
+        "Podróż po 6 planetach: Król, Próżny, Pijak, Bankier, Latarnik, Geograf — wady dorosłych",
+        "Ziemia: Wąż → ogród róż (rozpacz) → oswojenie Lisa i jego sekret → studnia na pustyni",
+        "Finał: ukąszenie węża w rocznicę przybycia — ciało znika, symboliczny powrót do Róży"
+      ],
+      "czasMin": 8
+    },
+    {
+      "id": "swiat",
+      "tytul": "Świat przedstawiony i narracja",
+      "tresc": "Akcja właściwa toczy się na pustyni Sahara i trwa osiem dni — tyle, ile pilot naprawia silnik. Ale w opowieściach Małego Księcia poznajemy też jego planetę B-612 (tak małą, że wystarczy przesunąć krzesło, by znów oglądać zachód słońca) oraz sześć planet-asteroid, z których każda należy do jednego dorosłego. Czas jest baśniowo nieokreślony — nie wiemy, w którym roku się to dzieje. Narracja jest pierwszoosobowa: opowiada pilot, który sam przeżył te zdarzenia i wspomina je z czułością sześć lat później. To ważne — pilot nie wie wszystkiego, o podróży Księcia dowiaduje się stopniowo z jego opowieści. Książkę uzupełniają ilustracje autora, które są częścią utworu (np. rysunek baranka w skrzynce czy węża boa). Ciekawostka egzaminacyjna: planetę B-612 odkrył turecki astronom, ale nikt mu nie uwierzył, bo miał turecki strój — gdy założył europejski garnitur, wszyscy przyjęli jego odkrycie. To złośliwy przykład oceniania po pozorach.",
+      "punkty": [
+        "Miejsca: Sahara (8 dni akcji), planeta B-612, sześć planet-asteroid dorosłych, Ziemia",
+        "Czas baśniowo nieokreślony — brak dat i realiów historycznych (uniwersalność)",
+        "Narrator pierwszoosobowy: pilot, uczestnik zdarzeń, wspomina je po sześciu latach",
+        "O podróży Księcia wiemy tylko z jego opowieści — narrator nie jest wszechwiedzący",
+        "Ilustracje autora są częścią utworu (baranek w skrzynce, wąż boa, baobaby)",
+        "Turecki astronom i B-612 — dorośli uwierzyli dopiero w europejskim garniturze (pozory!)"
+      ],
+      "czasMin": 6
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka: o czym to naprawdę jest",
+      "tresc": "„Mały Książę” to opowieść o tym, co w życiu najważniejsze — a czego nie widać oczami. Pierwszy wielki temat to PRZYJAŹŃ: Lis uczy Księcia, że oswoić znaczy stworzyć więzy, a na przyjaźń potrzeba czasu, cierpliwości i rytuałów („będziesz dla mnie jedyny na świecie”). Drugi temat to MIŁOŚĆ I ODPOWIEDZIALNOŚĆ: Książę rozumie w końcu, że jego Róża jest jedyna, bo to jej poświęcił czas — „stajesz się odpowiedzialny na zawsze za to, co oswoiłeś”. Trzeci temat to KRYTYKA DOROSŁYCH: mieszkańcy planet pokazują, jak dorośli marnują życie na władzę (Król), poklask (Próżny), ucieczkę od wstydu (Pijak), gromadzenie (Bankier) i wiedzę bez doświadczenia (Geograf) — jedynie Latarnik zajmuje się czymś innym niż sobą. Czwarty temat to DWA SPOSOBY WIDZENIA ŚWIATA: dzieci widzą sercem i wyobraźnią (słoń w wężu boa), dorośli — cyframi i pozorami. Wreszcie SAMOTNOŚĆ i jej pokonywanie: Książę, pilot, Lis i Róża są samotni, dopóki nie stworzą więzi.",
+      "punkty": [
+        "Przyjaźń = oswajanie: tworzenie więzów wymaga czasu, cierpliwości i rytuałów (Lis)",
+        "Miłość to odpowiedzialność — Róża jest jedyna, bo Książę poświęcił jej czas",
+        "Krytyka dorosłych: władza, próżność, nałóg, chciwość, teoria bez życia (planety)",
+        "„Dobrze widzi się tylko sercem. Najważniejsze jest niewidoczne dla oczu” — sekret Lisa",
+        "Dziecięce widzenie świata (wyobraźnia, serce) kontra dorosłe (cyfry, pozory)",
+        "Samotność pokonuje się przez więzi — bez oswojenia każdy jest „jedną z tysiąca róż”"
+      ],
+      "czasMin": 8
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Gatunek i symbole — klucz do interpretacji",
+      "tresc": "„Mały Książę” to baśń filozoficzna (powiastka filozoficzna): pod prostą, baśniową fabułą kryją się uniwersalne prawdy o życiu. Kluczem do lektury są SYMBOLE. Róża to miłość — piękna, ale kapryśna i wymagająca troski; jej cztery kolce to pozorna siła kogoś, kto boi się okazać słabość. Lis to przyjaźń i mądrość — nauczyciel, który oddaje najcenniejszy sekret. Wąż symbolizuje śmierć i tajemnicę przejścia — „odsyła ludzi tam, skąd przybyli”. Baobaby to zło i złe nawyki: małe łatwo wyrwać, zaniedbane — rozsadzą całą planetę („Dzieci, uwaga na baobaby!”). Studnia odnaleziona na pustyni to ukryta nadzieja i sens: „pustynię upiększa to, że gdzieś w sobie kryje studnię”. Zachody słońca to smutek i tęsknota (Książę obejrzał ich kiedyś czterdzieści trzy jednego dnia). Każda planeta to alegoria jednej dorosłej wady. Na egzaminie nie streszczaj symboli dosłownie — zawsze pisz, CO oznaczają.",
+      "punkty": [
+        "Baśń filozoficzna = baśniowa fabuła + ukryte uniwersalne prawdy o życiu",
+        "Róża = miłość wymagająca troski; kolce = maska kogoś, kto boi się okazać słabość",
+        "Lis = przyjaźń i mądrość; Wąż = śmierć i tajemnica przejścia",
+        "Baobaby = zło i złe nawyki — trzeba je wyrywać, póki są małe",
+        "Studnia = ukryta nadzieja i sens; zachody słońca = smutek i tęsknota",
+        "Planety = alegorie wad dorosłych: władza, próżność, nałóg, chciwość, teoria bez praktyki"
+      ],
+      "czasMin": 7
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Jak użyć „Małego Księcia” w wypracowaniu",
+      "tresc": "To jedna z najbardziej uniwersalnych lektur — pasuje do tematów o przyjaźni, miłości, dorastaniu, wartościach i ocenianiu po pozorach. Do tezy „przyjaźń wymaga czasu i troski” masz gotowy dowód: scenę oswajania Lisa (rytuały, cierpliwość, „jedyny na świecie”) — a jako drugi argument świetnie zagra przyjaźń Alka, Rudego i Zośki z „Kamieni na szaniec”. Do tezy „nie oceniaj po pozorach” masz aż trzy sceny: rysunek nr 1 (kapelusz czy wąż boa?), tureckiego astronoma i sekret Lisa. Do tematu „czy pieniądze dają szczęście” — Bankier liczący gwiazdy to idealny duet ze Scrooge’em z „Opowieści wigilijnej”. UWAGA na błędy kardynalne: pilot NIE podróżował z Księciem po planetach — poznał go dopiero na Ziemi, na Saharze! To Książę opuścił SWOJĄ planetę (z powodu Róży), a jego odejście w finale jest symboliczne — ciało znika, pilot wierzy w powrót do Róży. Nie pisz też, że Lis „zjadł” lub „zdradził” Księcia — Lis jest symbolem wiernej przyjaźni. Zawsze cytuj sekret Lisa dokładnie: „Dobrze widzi się tylko sercem. Najważniejsze jest niewidoczne dla oczu”.",
+      "punkty": [
+        "Teza „przyjaźń wymaga czasu”: oswajanie Lisa + duet z „Kamieniami na szaniec” (Alek, Rudy, Zośka)",
+        "Teza „nie oceniaj po pozorach”: rysunek nr 1, turecki astronom, sekret Lisa",
+        "Teza „pieniądze nie dają szczęścia”: Bankier + duet ze Scrooge’em z „Opowieści wigilijnej”",
+        "BŁĄD KARDYNALNY: pilot NIE podróżował po planetach — poznał Księcia dopiero na Saharze",
+        "Odejście Księcia jest symboliczne (powrót do Róży) — nie pisz o „zabójstwie” ani nie myl węża z lisem",
+        "Cytat obowiązkowy: „Dobrze widzi się tylko sercem. Najważniejsze jest niewidoczne dla oczu”"
+      ],
+      "czasMin": 7
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Mały Książę",
+      "kim": "Chłopiec z planety B-612, tytułowy bohater; opuścił planetę, bo zwątpił w miłość Róży",
+      "cechy": ["wrażliwy", "ciekawy świata", "wierny i odpowiedzialny", "szczery, zadaje pytania do skutku"],
+      "scenyDowody": [
+        "Codziennie pielęgnuje planetę i wyrywa baobaby — obowiązkowość",
+        "Ogląda 43 zachody słońca jednego dnia — wrażliwość i smutek",
+        "Po lekcji Lisa rozumie, że Róża jest jedyna — wraca do niej mimo ceny",
+        "Prosi pilota o kaganiec dla baranka — do końca troszczy się o Różę"
+      ],
+      "przestroga": "Nie pisz, że Książę „uciekł z domu z nudów” — odleciał, bo zwątpił w miłość Róży, i przez całą podróż dojrzewa do powrotu."
+    },
+    {
+      "imie": "Pilot (narrator)",
+      "kim": "Lotnik, który po awarii samolotu na Saharze spotyka Małego Księcia; opowiada całą historię",
+      "cechy": ["ma w sobie dziecięcą wyobraźnię", "cierpliwy przyjaciel", "samotny wśród dorosłych"],
+      "scenyDowody": [
+        "Jako dziecko narysował węża boa trawiącego słonia — dorośli widzieli kapelusz",
+        "Rysuje baranka w skrzynce — myśli jak dziecko, więc Książę go akceptuje",
+        "Szuka studni z Księciem, choć kończy mu się woda — zaufanie i przyjaźń",
+        "Po sześciu latach wciąż patrzy w gwiazdy i prosi czytelników o wieści o Księciu"
+      ],
+      "przestroga": "Pilot poznał Księcia DOPIERO na Ziemi — nie był świadkiem podróży po planetach, zna ją tylko z opowieści."
+    },
+    {
+      "imie": "Róża",
+      "kim": "Kwiat z planety B-612, wielka miłość Małego Księcia",
+      "cechy": ["piękna i próżna", "kapryśna", "kochająca, ale nieumiejąca tego okazać", "dumna"],
+      "scenyDowody": [
+        "Wymaga parawanu, klosza i podlewania — kapryśność wystawia miłość Księcia na próbę",
+        "Chwali się czterema kolcami, które nie obroniłyby jej przed niczym — pozorna siła",
+        "Przy pożegnaniu przyznaje, że kocha Księcia, i rezygnuje z klosza — duma opada za późno",
+        "To o niej myśli Książę, gdy Lis tłumaczy mu oswajanie — „moja róża jest jedyna”"
+      ],
+      "przestroga": "Róża nie jest „zła” — jest symbolem miłości trudnej i wymagającej troski. Nie pisz, że „wygoniła” Księcia."
+    },
+    {
+      "imie": "Lis",
+      "kim": "Zwierzę spotkane na Ziemi; prosi Księcia o oswojenie i uczy go, czym jest przyjaźń",
+      "cechy": ["mądry", "cierpliwy", "wierny", "samotny, dopóki nie zostanie oswojony"],
+      "scenyDowody": [
+        "Tłumaczy: „oswoić znaczy stworzyć więzy” — definicja przyjaźni",
+        "Każe przychodzić codziennie o tej samej porze — rytuały budują więź",
+        "Płacze przy pożegnaniu, ale mówi, że zyskał kolor zboża — przyjaźń zostawia ślad",
+        "Oddaje sekret: „Dobrze widzi się tylko sercem. Najważniejsze jest niewidoczne dla oczu”"
+      ],
+      "przestroga": "Lis to symbol przyjaźni i mądrości — nikogo nie oszukuje ani nie zjada. Nie myl go z wężem!"
+    },
+    {
+      "imie": "Wąż",
+      "kim": "Pierwsza istota spotkana przez Księcia na Ziemi; mówi zagadkami, symbol śmierci",
+      "cechy": ["tajemniczy", "potężny mimo pozornej słabości", "mówi zagadkami"],
+      "scenyDowody": [
+        "Twierdzi, że jest potężniejszy niż palec króla — „odsyła ludzi tam, skąd przybyli”",
+        "Obiecuje Księciu „pomoc” w powrocie na planetę, gdy ten zatęskni",
+        "W rocznicę przybycia kąsa Księcia przy murze — żółty błysk przy kostce",
+        "Po ukąszeniu ciało Księcia znika — odejście pozostaje tajemnicą"
+      ],
+      "przestroga": "Wąż nie jest „złym mordercą” z kryminału — to symbol śmierci i tajemniczego przejścia. Książę sam wybiera powrót."
+    },
+    {
+      "imie": "Mieszkańcy planet (Król, Próżny, Pijak, Bankier, Latarnik, Geograf)",
+      "kim": "Sześciu dorosłych, każdy sam na swojej planecie — alegorie ludzkich wad",
+      "cechy": ["zapatrzeni w siebie", "samotni", "niewolnicy jednej idei"],
+      "scenyDowody": [
+        "Król rozkazuje wszystkiemu, nawet słońcu — ale tylko wtedy, gdy „warunki sprzyjają” (pusta władza)",
+        "Próżny słyszy wyłącznie pochwały; Pijak pije, by zapomnieć, że wstydzi się picia (błędne koło)",
+        "Bankier liczy i „posiada” gwiazdy, choć nic z tego nie ma — chciwość bez sensu",
+        "Latarnik jako jedyny zajmuje się czymś poza sobą; Geograf zna świat tylko z cudzych opisów"
+      ],
+      "przestroga": "Zapamiętaj kolejność i wady — na egzaminie łatwo pomylić Bankiera (liczy gwiazdy) z Geografem (spisuje góry i rzeki, sam nie podróżuje)."
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "Przyjaźń i oswajanie",
+      "przyklad": "Lis prosi o oswojenie: codzienne spotkania o tej samej porze tworzą więzy — Książę staje się dla niego jedyny na świecie",
+      "wWypracowaniu": "Do tez „przyjaźń wymaga czasu i troski”; duet z przyjaźnią Alka, Rudego i Zośki z „Kamieni na szaniec”"
+    },
+    {
+      "motyw": "Miłość i odpowiedzialność",
+      "przyklad": "Książę rozumie, że Róża jest jedyna, bo to jej poświęcił czas — „stajesz się odpowiedzialny na zawsze za to, co oswoiłeś”",
+      "wWypracowaniu": "Do tez „kochać to troszczyć się” i „za bliskich jesteśmy odpowiedzialni”"
+    },
+    {
+      "motyw": "Ocenianie po pozorach",
+      "przyklad": "Rysunek nr 1 (dorośli widzą kapelusz, nie węża boa ze słoniem) i turecki astronom, któremu uwierzono dopiero w garniturze",
+      "wWypracowaniu": "Do tez „pozory mylą” — razem z sekretem Lisa o widzeniu sercem"
+    },
+    {
+      "motyw": "Krytyka dorosłych i pogoni za majątkiem",
+      "przyklad": "Bankier liczy gwiazdy i zapisuje je w banku — „posiada”, ale nic z tego nie ma; ludzie w pociągach pędzą, nie wiedząc dokąd",
+      "wWypracowaniu": "Do tez „pieniądze nie dają szczęścia” — duet ze Scrooge’em z „Opowieści wigilijnej”"
+    },
+    {
+      "motyw": "Podróż jako dojrzewanie",
+      "przyklad": "Wędrówka po planetach i Ziemi uczy Księcia, czym jest miłość — wraca do Róży inny, niż odleciał",
+      "wWypracowaniu": "Do tez „podróż zmienia człowieka” i „błądzenie pomaga zrozumieć, co ważne”"
+    },
+    {
+      "motyw": "Samotność",
+      "przyklad": "Każdy dorosły siedzi sam na swojej planecie; Lis nudzi się bez przyjaciela; Książę płacze w ogrodzie tysiąca róż",
+      "wWypracowaniu": "Do tez „samotność pokonują więzi” — bez oswojenia jesteśmy dla siebie obcy"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "mk-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Gdzie pilot spotyka Małego Księcia?",
+      "opcje": [
+        "Na planecie B-612",
+        "Na pustyni Sahara, po awarii samolotu",
+        "W ogrodzie pełnym róż",
+        "Na planecie Latarnika"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pilot poznaje Księcia dopiero na Ziemi — na Saharze, gdzie naprawia zepsuty silnik. O planecie B-612 i podróży wie tylko z jego opowieści.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Co przedstawiał rysunek nr 1, który pilot wykonał w dzieciństwie?",
+      "opcje": [
+        "Kapelusz",
+        "Baranka w skrzynce",
+        "Baobab rozsadzający planetę",
+        "Węża boa trawiącego słonia"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Rysunek przedstawiał węża boa trawiącego słonia — ale dorośli widzieli w nim tylko kapelusz. To symbol oceniania po pozorach.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe, czy fałszywe.",
+      "opcje": [
+        "Mały Książę opuścił swoją planetę, bo zwątpił w miłość Róży.",
+        "Pilot towarzyszył Księciu w podróży po sześciu planetach.",
+        "Sekret Lisa brzmi: „Dobrze widzi się tylko sercem”."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Książę odleciał z powodu Róży — to prawda. Pilot NIE podróżował z nim po planetach (poznał go na Saharze). Sekret Lisa to słynne zdanie o widzeniu sercem.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego trzeba było wyrywać baobaby na planecie B-612?",
+      "opcje": [
+        "Zaniedbane rozrosłyby się i rozsadziły całą planetę",
+        "Zasłaniały zachody słońca",
+        "Ich korzenie zatruwały wodę w studni",
+        "Róża była na nie uczulona"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Małe baobaby łatwo wyrwać, ale zaniedbane rozsadzają planetę korzeniami. To symbol zła i złych nawyków, z którymi trzeba walczyć, póki są małe.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Co według Lisa znaczy „oswoić”?",
+      "opcje": [
+        "Nauczyć zwierzę posłuszeństwa",
+        "Dać komuś jedzenie i dom",
+        "Stworzyć więzy — stać się dla kogoś jedynym na świecie",
+        "Zamknąć kogoś w klatce, by nie uciekł"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "„Oswoić znaczy stworzyć więzy” — dzięki oswojeniu ludzie i zwierzęta stają się dla siebie jedyni na świecie. To definicja przyjaźni w tej lekturze.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Których dorosłych spotkał Mały Książę podczas podróży po planetach? Wskaż wszystkie poprawne.",
+      "opcje": [
+        "Króla, który rozkazywał nawet słońcu",
+        "Pijaka, który pił, by zapomnieć o wstydzie",
+        "Ogrodnika, który hodował tysiąc róż",
+        "Bankiera, który liczył i „posiadał” gwiazdy"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Na planetach mieszkali: Król, Próżny, Pijak, Bankier, Latarnik i Geograf. Ogród tysiąca róż Książę zobaczył dopiero na Ziemi — nie było tam żadnego ogrodnika-planety.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego Mały Książę rozpłakał się w ogrodzie pełnym róż?",
+      "opcje": [
+        "Róże wyśmiały jego małą planetę",
+        "Przypomniał sobie o niewyrwanych baobabach",
+        "Zrozumiał, że jego Róża nie jest jedynym kwiatem na świecie",
+        "Zgubił drogę powrotną do pilota"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Widok pięciu tysięcy podobnych róż załamał Księcia — myślał, że jego Róża jest jedyna. Dopiero Lis wyjaśnił mu, że jedyną czyni ją czas, który jej poświęcił.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Który z mieszkańców planet jako jedyny zajmował się czymś innym niż sobą?",
+      "opcje": [
+        "Latarnik — zapalał i gasił latarnię zgodnie z rozkazem",
+        "Próżny — dbał o swoją publiczność",
+        "Geograf — badał góry i rzeki podczas wypraw",
+        "Król — troszczył się o poddanych na innych planetach"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tylko Latarnik wykonywał pracę dla czegoś poza sobą, dlatego Książę go polubił. Uwaga: Geograf sam NIE podróżował — spisywał cudze relacje.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Co symbolizuje studnia odnaleziona przez pilota i Księcia na pustyni?",
+      "opcje": [
+        "Bogactwo, o którym marzą dorośli",
+        "Niebezpieczeństwo czyhające na podróżnych",
+        "Karę za opuszczenie własnej planety",
+        "Ukrytą nadzieję i sens — to, co niewidoczne, a najcenniejsze"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "„Pustynię upiększa to, że gdzieś w sobie kryje studnię” — studnia symbolizuje ukryty sens i nadzieję. Woda z niej jest „dobra dla serca” jak święto, nie zwykły napój.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego historia tureckiego astronoma, odkrywcy planety B-612, jest ważna dla wymowy utworu?",
+      "opcje": [
+        "Pokazuje, że nauka zawsze wygrywa z przesądami",
+        "Ośmiesza dorosłych, którzy oceniają po pozorach — uwierzono mu dopiero w europejskim garniturze",
+        "Udowadnia, że planeta B-612 naprawdę istnieje",
+        "Tłumaczy, skąd Książę znał drogę na Ziemię"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Ten sam człowiek, to samo odkrycie — a dorośli uwierzyli dopiero, gdy zmienił strój. To złośliwa satyra na ocenianie ludzi po wyglądzie, spójna z rysunkiem nr 1.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jak należy rozumieć finał utworu — ukąszenie Księcia przez węża?",
+      "opcje": [
+        "Wąż podstępnie zamordował Księcia wbrew jego woli",
+        "To zwykły wypadek na pustyni, bez głębszego znaczenia",
+        "Książę świadomie wybrał symboliczny powrót do Róży — ciało znika, a pilot wierzy, że Książę wrócił na planetę",
+        "Pilot wymyślił tę scenę, by nie szukać chłopca"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Książę sam umówił się z wężem w rocznicę przybycia — ciało „za ciężkie” zostawia, by wrócić do Róży. Finał jest symboliczny i celowo tajemniczy, nie kryminalny.",
+      "punkty": 1
+    },
+    {
+      "id": "mk-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Które pary „symbol → znaczenie” są poprawne? Wskaż wszystkie.",
+      "opcje": [
+        "Róża → miłość wymagająca troski",
+        "Lis → zdrada i podstęp",
+        "Baobaby → zło, które trzeba wyrywać, póki małe",
+        "Wąż → śmierć i tajemnica przejścia"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Lis to symbol PRZYJAŹNI i mądrości — pomylenie go ze zdradą to poważny błąd interpretacyjny (w wypracowaniu mógłby być kardynalny!). Pozostałe pary są poprawne.",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    { "id": "mk-f-01", "przod": "Kim jest Mały Książę i skąd pochodzi?", "tyl": "Chłopiec z maleńkiej planety B-612; opuścił ją, bo zwątpił w miłość kapryśnej Róży — podróż uczy go, czym jest miłość i przyjaźń.", "kategoria": "bohater" },
+    { "id": "mk-f-02", "przod": "Kim jest narrator „Małego Księcia”?", "tyl": "Pilot, który po awarii samolotu na Saharze spotyka Księcia; opowiada historię 6 lat później. Jako dziecko narysował węża boa — dorośli widzieli kapelusz.", "kategoria": "bohater" },
+    { "id": "mk-f-03", "przod": "Kim jest Róża?", "tyl": "Kwiat z planety B-612, miłość Księcia — piękna, próżna i kapryśna, kocha, ale nie umie tego okazać; przyznaje się do miłości dopiero przy pożegnaniu.", "kategoria": "bohater" },
+    { "id": "mk-f-04", "przod": "Kim jest Lis i czego uczy Księcia?", "tyl": "Symbol przyjaźni i mądrości; uczy, że oswoić = stworzyć więzy, że przyjaźń wymaga czasu i rytuałów, i oddaje sekret o widzeniu sercem.", "kategoria": "bohater" },
+    { "id": "mk-f-05", "przod": "Kim jest Wąż w utworze?", "tyl": "Pierwsza istota spotkana na Ziemi; mówi zagadkami, „odsyła ludzi tam, skąd przybyli” — symbol śmierci i tajemniczego przejścia.", "kategoria": "bohater" },
+    { "id": "mk-f-06", "przod": "Król, Próżny, Pijak — jakie wady uosabiają?", "tyl": "Król — pustą władzę (rozkazuje słońcu, gdy „warunki sprzyjają”); Próżny — potrzebę poklasku; Pijak — nałóg i błędne koło (pije, bo wstydzi się picia).", "kategoria": "bohater" },
+    { "id": "mk-f-07", "przod": "Bankier, Latarnik, Geograf — jakie postawy uosabiają?", "tyl": "Bankier — chciwość (liczy i „posiada” gwiazdy); Latarnik — jedyny pracuje dla czegoś poza sobą; Geograf — wiedzę bez doświadczenia (sam nie podróżuje).", "kategoria": "bohater" },
+    { "id": "mk-f-08", "przod": "Scena: rysunek nr 1", "tyl": "Wąż boa trawiący słonia — dorośli widzą tylko kapelusz. Symbol utraty wyobraźni przez dorosłych i oceniania po pozorach.", "kategoria": "scena" },
+    { "id": "mk-f-09", "przod": "Scena: oswajanie Lisa", "tyl": "Lis każe przychodzić codziennie o tej samej porze — rytuały budują więź. Po oswojeniu Książę jest dla niego jedyny, a zboże przypomina kolor jego włosów.", "kategoria": "scena" },
+    { "id": "mk-f-10", "przod": "Scena: ogród tysiąca róż", "tyl": "Książę płacze — jego Róża nie jest jedyna na świecie. Lis wyjaśnia: jedyną czyni ją CZAS, który jej poświęcił.", "kategoria": "scena" },
+    { "id": "mk-f-11", "przod": "Scena: finał — ukąszenie węża", "tyl": "W rocznicę przybycia Książę pozwala się ukąsić: żółty błysk, ciało znika. Symboliczny powrót do Róży — pilot wierzy, że Książę żyje na B-612.", "kategoria": "scena" },
+    { "id": "mk-f-12", "przod": "Dokończ sekret Lisa: „Dobrze widzi się tylko…”", "tyl": "„…sercem. Najważniejsze jest niewidoczne dla oczu”. Najsłynniejszy cytat lektury — przeciwieństwo oceniania po pozorach.", "kategoria": "cytat" },
+    { "id": "mk-f-13", "przod": "Cytat o odpowiedzialności — jak brzmi?", "tyl": "„Stajesz się odpowiedzialny na zawsze za to, co oswoiłeś”. Miłość i przyjaźń to nie uczucie na chwilę, lecz trwała odpowiedzialność.", "kategoria": "cytat" },
+    { "id": "mk-f-14", "przod": "Co to jest baśń filozoficzna (powiastka filozoficzna)?", "tyl": "Utwór o baśniowej fabule i prostym języku, który przekazuje uniwersalne prawdy o życiu; bohaterowie i miejsca są alegoriami i symbolami.", "kategoria": "pojecie" },
+    { "id": "mk-f-15", "przod": "Co symbolizują baobaby?", "tyl": "Zło i złe nawyki — małe łatwo wyrwać, zaniedbane rozsadzą całą planetę. Stąd apel: „Dzieci, uwaga na baobaby!”.", "kategoria": "pojecie" },
+    { "id": "mk-f-16", "przod": "Co symbolizują studnia i zachody słońca?", "tyl": "Studnia — ukrytą nadzieję i sens („pustynię upiększa to, że kryje studnię”); zachody słońca — smutek i tęsknotę (43 zachody jednego dnia).", "kategoria": "pojecie" },
+    { "id": "mk-f-17", "przod": "Jaką prawdę o przyjaźni przekazuje lektura?", "tyl": "Przyjaźń wymaga czasu, cierpliwości i rytuałów; dzięki więzom przestajemy być samotni i stajemy się dla siebie jedyni na świecie.", "kategoria": "wartosc" },
+    { "id": "mk-f-18", "przod": "Jaką prawdę o miłości przekazuje historia Róży?", "tyl": "Kochać to troszczyć się i brać odpowiedzialność; o wartości bliskiej osoby decyduje czas i serce, które jej poświęcamy, a nie pozory.", "kategoria": "wartosc" }
+  ]
+}

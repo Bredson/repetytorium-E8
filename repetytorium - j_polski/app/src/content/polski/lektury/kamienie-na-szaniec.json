@@ -1,0 +1,406 @@
+{
+  "id": "kamienie-na-szaniec",
+  "tytul": "Kamienie na szaniec",
+  "autor": "Aleksander Kamiński",
+  "gatunek": {
+    "nazwa": "opowieść o autentycznych ludziach i wydarzeniach (literatura faktu z elementami gawędy)",
+    "cechy": [
+      "Bohaterowie i wydarzenia są AUTENTYCZNE — Alek, Rudy i Zośka istnieli naprawdę",
+      "Autor opiera się na dokumentach i relacjach świadków (m.in. na wspomnieniu napisanym przez Zośkę)",
+      "Narrator zwraca się wprost do czytelnika jak gawędziarz („Posłuchajcie opowiadania o Alku, Rudym, Zośce…”)",
+      "Konkretny czas i miejsce: okupowana Warszawa 1939–1943 (inaczej niż w baśni!)",
+      "Cel utworu: dać świadectwo i wzór postawy — bohaterstwa i przyjaźni",
+      "Łączy relację reporterską z oceną i emocjami narratora (nie jest w pełni obiektywny)"
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Fabuła krok po kroku",
+      "tresc": "Wiosną 1939 roku Alek, Rudy i Zośka — przyjaciele z warszawskiego gimnazjum im. Batorego i harcerze drużyny „Buków” (Pomarańczarni) — zdają maturę. Mają plany, pasje i całe życie przed sobą. Wybucha wojna: po wrześniowej wędrówce na wschód wracają do okupowanej Warszawy i zamiast biernie czekać, podejmują walkę. Najpierw MAŁY SABOTAŻ w organizacji „Wawer”: rysują kotwice Polski Walczącej (mistrzem był Rudy), gazują kina („Tylko świnie siedzą w kinie”), zrywają niemieckie flagi, wybijają szyby fotografom wystawiającym zdjęcia Niemców. Słynny wyczyn Alka: zdjęcie niemieckiej tablicy z pomnika Kopernika. Potem przechodzą do DYWERSJI w Grupach Szturmowych Szarych Szeregów: wysadzają tory kolejowe, ewakuują więźniów, uczestniczą w akcjach zbrojnych. 23 marca 1943 roku Gestapo aresztuje Rudego. Jest bestialsko torturowany na Szucha, ale nikogo nie wydaje. 26 marca przyjaciele odbijają go w AKCJI POD ARSENAŁEM — jednak Rudy umiera cztery dni później z ran zadanych podczas tortur. Tego samego dnia umiera Alek, ranny w brzuch w czasie akcji. Załamany Zośka pisze wspomnienie o przyjacielu i wraca do walki — ginie 20 sierpnia 1943 roku w ataku na posterunek żandarmerii w Sieczychach.",
+      "punkty": [
+        "Matura 1939 → wybuch wojny → powrót do okupowanej Warszawy i decyzja o walce",
+        "Mały Sabotaż („Wawer”): kotwice, gazowanie kin, flagi, tablica z pomnika Kopernika (Alek)",
+        "Dywersja w Grupach Szturmowych Szarych Szeregów: tory, akcje zbrojne",
+        "23 III 1943: aresztowanie Rudego — tortury na Szucha, nikogo nie wydał",
+        "26 III 1943: Akcja pod Arsenałem — Rudy odbity, ale umiera z ran 30 III; tego samego dnia umiera ranny Alek",
+        "20 VIII 1943: Zośka ginie w akcji pod Sieczychami — wcześniej pisze wspomnienie o Rudym"
+      ],
+      "czasMin": 8
+    },
+    {
+      "id": "swiat",
+      "tytul": "Świat przedstawiony i narracja",
+      "tresc": "Akcja toczy się w okupowanej Warszawie (oraz okolicach, m.in. Sieczychy) od wiosny 1939 do sierpnia 1943 roku. To świat terroru: łapanki, godzina policyjna, egzekucje, Pawiak i aleja Szucha (siedziba Gestapo) — ale też świat konspiracji: tajne komplety (podziemne nauczanie), podziemne harcerstwo (Szare Szeregi), prasa konspiracyjna. Bohaterowie należą do pokolenia, które nazywamy pokoleniem Kolumbów — dorastali w wolnej Polsce, a dorosłość odebrała im wojna. Narrator jest trzecioosobowy, ale nie bezosobowy: zwraca się do czytelnika jak gawędziarz, jawnie podziwia bohaterów i ocenia zdarzenia. Aleksander Kamiński sam działał w konspiracji (twórca „Wawra”, redaktor „Biuletynu Informacyjnego”) i pisał na gorąco, w 1943 roku — korzystał m.in. ze wspomnienia, które o Rudym napisał Zośka. Tytuł pochodzi z wiersza Juliusza Słowackiego „Testament mój”: „A kiedy trzeba, na śmierć idą po kolei, / Jak kamienie przez Boga rzucane na szaniec!” — ten fragment recytował umierający Rudy.",
+      "punkty": [
+        "Czas i miejsce KONKRETNE: okupowana Warszawa, wiosna 1939 – sierpień 1943",
+        "Realia okupacji: łapanki, egzekucje, Pawiak, aleja Szucha; konspiracja: tajne komplety, Szare Szeregi",
+        "Bohaterowie to pokolenie Kolumbów — młodość odebrana przez wojnę",
+        "Narrator trzecioosobowy, ale gawędziarski i zaangażowany — podziwia i ocenia",
+        "Kamiński pisał w 1943 r., na podstawie relacji świadków i wspomnienia Zośki o Rudym",
+        "Tytuł z „Testamentu mojego” Słowackiego — fragment recytowany przez umierającego Rudego"
+      ],
+      "czasMin": 6
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka: o czym to naprawdę jest",
+      "tresc": "Najkrótsze streszczenie idei utworu dał sam Kamiński: to opowieść o ludziach, „którzy potrafili pięknie umierać i pięknie żyć”. PIĘKNE ŻYCIE to nie tylko walka — to przyjaźń, wierność ideałom BRATERSTWA I SŁUŻBY, samokształcenie na tajnych kompletach, praca nad charakterem, miłość do rodziców. PIĘKNA ŚMIERĆ to śmierć nadająca sens: za przyjaciela, za ojczyznę, bez wydania towarzyszy. Drugi wielki temat to PRZYJAŹŃ wystawiona na najwyższą próbę: akcja pod Arsenałem to decyzja „ratujemy przyjaciela, choćby za cenę życia” — i Alek tę cenę płaci. Trzeci temat to PATRIOTYZM CZYNU: bohaterowie nie tylko kochają ojczyznę — działają, stopniowo dojrzewając od psot Małego Sabotażu do śmiertelnie poważnej dywersji. Czwarty temat: DORASTANIE W CZASACH PRÓBY — wojna zmusza dwudziestolatków do decyzji, których nie podejmują dorośli. Wreszcie HEROIZM I CENA WALKI: utwór nie ukrywa cierpienia (tortury Rudego, rozpacz Zośki po stracie przyjaciół) — bohaterstwo kosztuje najwięcej, ale nadaje życiu sens.",
+      "punkty": [
+        "Idea utworu: ludzie, „którzy potrafili pięknie umierać i pięknie żyć”",
+        "Ideały braterstwa i służby: przyjaźń, samokształcenie, praca nad sobą, pomoc innym",
+        "Przyjaźń na śmierć i życie: akcja pod Arsenałem — ratunek Rudego za cenę życia Alka",
+        "Patriotyzm czynu: od Małego Sabotażu do dywersji — dojrzewanie do walki",
+        "Pokolenie Kolumbów: wojna odbiera młodość i zmusza do dorosłych wyborów",
+        "Heroizm ma cenę: tortury, śmierć, rozpacz — ale nadaje życiu sens"
+      ],
+      "czasMin": 8
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Gatunek — dlaczego to literatura faktu",
+      "tresc": "„Kamienie na szaniec” to opowieść o AUTENTYCZNYCH ludziach i wydarzeniach — i to odróżnia ją od wszystkich baśni, ballad i komedii z listy lektur. Alek to Aleksy Dawidowski, Rudy to Jan Bytnar, Zośka to Tadeusz Zawadzki — prawdziwi warszawscy harcerze (ich pseudonimy nosi dziś m.in. batalion „Zośka”). Kamiński opierał się na dokumentach i relacjach: najważniejszym źródłem było wspomnienie o Rudym napisane przez samego Zośkę po akcji pod Arsenałem. Jednocześnie utwór ma cechy GAWĘDY: narrator zwraca się do czytelnika („Posłuchajcie opowiadania o Alku, Rudym, Zośce…”), komentuje, wzrusza się i chwali bohaterów — nie jest chłodnym reporterem. Ma też cel WYCHOWAWCZY: powstał w 1943 roku, w środku wojny, żeby dać młodym wzór postawy. Na egzaminie: jeśli temat każe odwołać się do „lektury, w której bohater poświęca się dla innych” albo „postaci autentycznej” — to jest twój pewniak. Pamiętaj tylko, że wobec literatury faktu błędy w datach i losach bohaterów są szczególnie groźne.",
+      "punkty": [
+        "Literatura faktu: autentyczni bohaterowie — Alek (Dawidowski), Rudy (Bytnar), Zośka (Zawadzki)",
+        "Źródła: dokumenty i relacje świadków, zwłaszcza wspomnienie Zośki o Rudym",
+        "Cechy gawędy: narrator mówi wprost do czytelnika, komentuje i ocenia",
+        "Cel wychowawczy: wzór postawy dla młodych, pisany w 1943 r., w czasie wojny",
+        "Idealna lektura do tematów o poświęceniu, przyjaźni i postaci autentycznej",
+        "W literaturze faktu błędy w faktach (daty, losy bohaterów) są szczególnie groźne"
+      ],
+      "czasMin": 6
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Jak użyć „Kamieni na szaniec” w wypracowaniu",
+      "tresc": "To najmocniejsza lektura do tematów o przyjaźni, poświęceniu, patriotyzmie i dorastaniu. Do tezy „prawdziwa przyjaźń wymaga poświęceń” masz najlepszy dowód w całym kanonie: akcję pod Arsenałem — przyjaciele odbijają Rudego z rąk Gestapo, a Alek płaci za to życiem. Jako drugi argument świetnie zagra oswajanie Lisa z „Małego Księcia” (przyjaźń wymaga czasu i troski) — dwa dowody z dwóch epok i gatunków. Do tezy „miłość do ojczyzny wyraża się w czynach” masz drogę bohaterów od Małego Sabotażu do dywersji. UWAGA — tu błędy kardynalne są wyjątkowo łatwe: Rudy NIE zginął w walce pod Arsenałem — został ODBITY, a zmarł cztery dni później (30 III 1943) z ran zadanych podczas TORTUR. Alek NIE przeżył: umarł tego samego dnia co Rudy, z rany odniesionej w akcji. Zośka NIE zginął pod Arsenałem — poległ pod SIECZYCHAMI w sierpniu 1943. Nie myl też etapów: Mały Sabotaż (napisy, gazowanie kin) to NIE dywersja (broń, wysadzanie torów). I nie pisz „powieść fantastyczna” ani „baśń” — to opowieść o autentycznych wydarzeniach. Tytułowy cytat ze Słowackiego („Jak kamienie przez Boga rzucane na szaniec”) warto przywołać w zakończeniu.",
+      "punkty": [
+        "Teza „przyjaźń wymaga poświęceń”: akcja pod Arsenałem + duet z Lisem z „Małego Księcia”",
+        "Teza „patriotyzm to czyny”: droga od Małego Sabotażu (Wawer) do dywersji (Grupy Szturmowe)",
+        "BŁĄD KARDYNALNY: Rudy nie zginął pod Arsenałem — odbity, zmarł 4 dni później z ran po torturach",
+        "BŁĄD KARDYNALNY: Alek umarł tego samego dnia co Rudy; Zośka poległ pod Sieczychami (VIII 1943)",
+        "Nie myl Małego Sabotażu z dywersją; to literatura faktu, nie baśń ani fantastyka",
+        "W zakończeniu: cytat ze Słowackiego „Jak kamienie przez Boga rzucane na szaniec”"
+      ],
+      "czasMin": 7
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Rudy (Jan Bytnar)",
+      "kim": "Harcerz o rudych włosach, „chłopiec o sercu czułym jak dziewczyna” — intelektualista i mistrz Małego Sabotażu",
+      "cechy": ["genialny i uzdolniony technicznie", "wrażliwy i refleksyjny", "niezłomny — nie wydał nikogo na torturach", "perfekcjonista"],
+      "scenyDowody": [
+        "Mistrz kotwic Polski Walczącej — wymyślał sposoby malowania napisów w biały dzień",
+        "Na tajnych kompletach i w samokształceniu najlepszy z trójki — umysł ścisły i humanistyczny",
+        "Bestialsko torturowany na Szucha — nie wydał ani jednego nazwiska ani adresu",
+        "Umierając, recytuje z pamięci „Testament mój” Słowackiego — stąd tytuł utworu"
+      ],
+      "przestroga": "Rudy NIE zginął w walce pod Arsenałem — został odbity, a zmarł 30 III 1943 z ran zadanych podczas tortur. To najczęstszy błąd kardynalny!"
+    },
+    {
+      "imie": "Alek (Aleksy Dawidowski)",
+      "kim": "Wysoki, pogodny optymista, „słoneczny chłopiec” — brawurowy wykonawca najgłośniejszych akcji Małego Sabotażu",
+      "cechy": ["odważny do brawury", "pogodny i szlachetny", "prawdomówny", "oddany przyjaciołom i rodzinie"],
+      "scenyDowody": [
+        "Zdjął niemiecką tablicę z pomnika Kopernika — najsłynniejszy wyczyn Małego Sabotażu",
+        "Postanowił zawsze mówić prawdę — praca nad charakterem w duchu braterstwa i służby",
+        "W akcji pod Arsenałem osłania odbicie Rudego — zostaje śmiertelnie ranny w brzuch",
+        "Umiera pogodnie tego samego dnia co Rudy, myśląc o bliskich"
+      ],
+      "przestroga": "Nie pisz, że Alek przeżył akcję pod Arsenałem — zmarł z ran 30 III 1943, tego samego dnia co Rudy."
+    },
+    {
+      "imie": "Zośka (Tadeusz Zawadzki)",
+      "kim": "Urodzony przywódca o dziewczęcej urodzie (stąd pseudonim) — dowódca w Grupach Szturmowych",
+      "cechy": ["urodzony przywódca", "ambitny i wymagający od siebie", "opanowany", "głęboko przeżywa stratę przyjaciół"],
+      "scenyDowody": [
+        "Harcmistrz i hufcowy — świetnie organizuje ludzi, w akcjach dowodzi grupą",
+        "W akcji pod Arsenałem dowodzi atakiem, który odbija Rudego z konwoju Gestapo",
+        "Po śmierci Rudego i Alka załamuje się — pisze wspomnienie o Rudym (źródło Kamińskiego)",
+        "Wraca do walki i ginie 20 VIII 1943 w ataku na posterunek żandarmerii w Sieczychach"
+      ],
+      "przestroga": "Zośka to chłopak (pseudonim od dziewczęcej urody!) i NIE zginął pod Arsenałem — poległ pod Sieczychami w sierpniu 1943."
+    },
+    {
+      "imie": "Orsza (Stanisław Broniewski)",
+      "kim": "Dowódca warszawskich Grup Szturmowych, dowodzi całością akcji pod Arsenałem",
+      "cechy": ["odpowiedzialny dowódca", "opanowany w krytycznych chwilach", "cieszy się zaufaniem młodych"],
+      "scenyDowody": [
+        "Podejmuje decyzję o przeprowadzeniu akcji odbicia Rudego",
+        "Dowodzi całością akcji pod Arsenałem 26 III 1943 (Zośka dowodzi grupą atakującą)",
+        "Reprezentuje dorosłe, przemyślane dowodzenie konspiracją — nie brawurę"
+      ],
+      "przestroga": "Nie myl ról: pod Arsenałem Orsza dowodził CAŁOŚCIĄ akcji, a Zośka grupą atakującą."
+    },
+    {
+      "imie": "„Buki” (paczka przyjaciół z Pomarańczarni)",
+      "kim": "Grupa harcerzy z gimnazjum im. Batorego — środowisko, z którego wyrośli Alek, Rudy i Zośka",
+      "cechy": ["zgrani i lojalni", "ambitni (samokształcenie)", "wierni ideałom braterstwa i służby"],
+      "scenyDowody": [
+        "Wspólne wyprawy i praca harcerska przed wojną — fundament przyjaźni na całe życie",
+        "Po klęsce wrześniowej razem wchodzą do konspiracji — nikt nie zostaje z boku",
+        "Tajne komplety i samokształcenie — walka to także rozwój, nie tylko broń",
+        "Kolejni giną lub trafiają do więzień — cena, jaką płaci całe pokolenie"
+      ],
+      "przestroga": "Alek, Rudy i Zośka nie działali samotnie — siłą była wspólnota. W wypracowaniu o przyjaźni pisz o grupie, nie tylko o trójce."
+    },
+    {
+      "imie": "Rodzice bohaterów",
+      "kim": "Domy rodzinne Alka, Rudego i Zośki — źródło wartości, które zaprowadziły chłopców do konspiracji",
+      "cechy": ["patriotyczni", "wspierający", "sami płacą cenę wojny"],
+      "scenyDowody": [
+        "Wychowali synów w duchu patriotyzmu i uczciwości — wartości domu owocują w konspiracji",
+        "Ojciec Alka zostaje rozstrzelany przez Niemców — rodziny też są ofiarami terroru",
+        "Matka Rudego czuwa przy torturowanym synu po odbiciu — miłość rodzicielska w czasie wojny",
+        "Umierający Alek i Rudy myślą o rodzicach — więź z domem do końca"
+      ],
+      "przestroga": "Nie pomijaj rodzin: pokazują, że bohaterstwo chłopców wyrosło z wartości wyniesionych z domu."
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "Przyjaźń na śmierć i życie",
+      "przyklad": "Akcja pod Arsenałem: przyjaciele odbijają torturowanego Rudego z konwoju Gestapo; Alek płaci za to życiem",
+      "wWypracowaniu": "Najmocniejszy dowód do tezy „przyjaźń wymaga poświęceń”; duet z oswajaniem Lisa z „Małego Księcia”"
+    },
+    {
+      "motyw": "Patriotyzm czynu",
+      "przyklad": "Droga bohaterów od Małego Sabotażu (kotwice, gazowanie kin, tablica Kopernika) do dywersji w Grupach Szturmowych",
+      "wWypracowaniu": "Do tez „miłość do ojczyzny wyraża się w czynach” i „każdy może walczyć na miarę swoich sił”"
+    },
+    {
+      "motyw": "Bohaterstwo i jego cena",
+      "przyklad": "Rudy torturowany nie wydaje nikogo; umiera z ran, a wraz z nim Alek — heroizm kosztuje życie",
+      "wWypracowaniu": "Do tez „bohaterstwo wymaga ofiary” — z cytatem „pięknie umierać i pięknie żyć”"
+    },
+    {
+      "motyw": "Dorastanie w czasach próby",
+      "przyklad": "Maturzyści z 1939 roku zamiast studiów wybierają konspirację — wojna zmusza ich do dorosłych decyzji",
+      "wWypracowaniu": "Do tez o dojrzewaniu i pokoleniu Kolumbów — młodość odebrana przez historię"
+    },
+    {
+      "motyw": "Wierność ideałom",
+      "przyklad": "Braterstwo i służba: samokształcenie, praca nad charakterem (prawdomówność Alka), pomoc słabszym — także w środku wojny",
+      "wWypracowaniu": "Do tez „wartości sprawdzają się w trudnych czasach”"
+    },
+    {
+      "motyw": "Pamięć i świadectwo",
+      "przyklad": "Zośka pisze wspomnienie o Rudym, a Kamiński całą książkę — by bohaterowie nie zostali zapomniani; tytuł z wiersza Słowackiego",
+      "wWypracowaniu": "Do tez „literatura ocala od zapomnienia” — utwór sam jest pomnikiem przyjaciół"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "kns-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kim są główni bohaterowie „Kamieni na szaniec”?",
+      "opcje": [
+        "Fikcyjnymi rycerzami z legendy o Warszawie",
+        "Dorosłymi oficerami Wojska Polskiego",
+        "Autentycznymi warszawskimi harcerzami: Alkiem, Rudym i Zośką",
+        "Uczniami wiejskiej szkoły spod Sieczych"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Alek (Aleksy Dawidowski), Rudy (Jan Bytnar) i Zośka (Tadeusz Zawadzki) to autentyczne postacie — warszawscy harcerze i maturzyści z 1939 roku. To literatura faktu.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Czym zajmowali się bohaterowie w ramach Małego Sabotażu?",
+      "opcje": [
+        "Wysadzaniem mostów i pociągów",
+        "Malowaniem kotwic, gazowaniem kin i zrywaniem niemieckich flag",
+        "Przerzucaniem broni przez granicę",
+        "Walką w powstaniu warszawskim"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Mały Sabotaż („Wawer”) to nękanie okupanta bez broni: napisy i kotwice na murach, gazowanie kin, flagi, szyby fotografów. Wysadzanie torów to już DYWERSJA — późniejszy etap.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe, czy fałszywe.",
+      "opcje": [
+        "Alek zdjął niemiecką tablicę z pomnika Kopernika.",
+        "Rudy zginął w walce podczas akcji pod Arsenałem.",
+        "Tytuł utworu pochodzi z wiersza Juliusza Słowackiego „Testament mój”."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Tablica Kopernika to słynny wyczyn Alka. Rudy NIE zginął w walce — został odbity, a zmarł z ran po torturach. Tytułowy cytat pochodzi z „Testamentu mojego” Słowackiego.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Co wydarzyło się 26 marca 1943 roku pod Arsenałem?",
+      "opcje": [
+        "Grupy Szturmowe odbiły Rudego z konwoju Gestapo",
+        "Niemcy aresztowali Zośkę i Alka",
+        "Wybuchło powstanie w getcie warszawskim",
+        "Bohaterowie wysadzili niemiecki pociąg z bronią"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Akcja pod Arsenałem to odbicie torturowanego Rudego z konwoju przewożącego więźniów z Szucha na Pawiak. Całością dowodził Orsza, grupą atakującą — Zośka.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Jak zginął Zośka?",
+      "opcje": [
+        "Z ran odniesionych pod Arsenałem",
+        "Rozstrzelany na Pawiaku",
+        "W powstaniu warszawskim",
+        "W ataku na posterunek żandarmerii w Sieczychach w sierpniu 1943 roku"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Zośka przeżył akcję pod Arsenałem — poległ pół roku później, 20 sierpnia 1943 r., podczas ataku na posterunek żandarmerii w Sieczychach.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Które cechy świadczą o tym, że „Kamienie na szaniec” to literatura faktu? Wskaż wszystkie poprawne.",
+      "opcje": [
+        "Bohaterowie i wydarzenia są autentyczne",
+        "Autor korzystał z dokumentów i relacji świadków, m.in. wspomnienia Zośki",
+        "Akcja toczy się w baśniowym, nieokreślonym czasie",
+        "Podane są konkretne daty i miejsca (Warszawa 1939–1943)"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Literaturę faktu poznajemy po autentycznych bohaterach, źródłach i konkretnych realiach. Baśniowy, nieokreślony czas to cecha np. „Małego Księcia” — dokładne przeciwieństwo.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Jak zachował się Rudy podczas przesłuchań na Szucha?",
+      "opcje": [
+        "Wydał adresy, by przerwać tortury",
+        "Mimo bestialskich tortur nie wydał ani jednego nazwiska ani adresu",
+        "Uciekł z przesłuchania przez okno",
+        "Podał Niemcom fałszywe nazwiska kolegów z Wawra"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Rudy był katowany, ale nikogo nie wydał — dzięki temu konspiracja ocalała i możliwa była akcja odbicia. To najmocniejszy dowód jego niezłomności.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Co zrobił Zośka po śmierci Rudego i Alka?",
+      "opcje": [
+        "Wycofał się z konspiracji na prośbę rodziców",
+        "Wyjechał z Warszawy na wieś",
+        "Załamany, napisał wspomnienie o Rudym, a potem wrócił do walki",
+        "Zorganizował zamach na komendanta Pawiaka"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zośka głęboko przeżył stratę przyjaciół — napisał wspomnienie o Rudym (z niego korzystał Kamiński), po czym wrócił do służby w Grupach Szturmowych.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Co oznacza tytułowa metafora „kamienie rzucane na szaniec”?",
+      "opcje": [
+        "Bezsensowne niszczenie młodego pokolenia przez dowódców",
+        "Budowanie barykad podczas obrony Warszawy we wrześniu 1939 roku",
+        "Zabawy harcerzy sprzed wojny",
+        "Młodych, którzy świadomie oddają życie, by ich ofiara stała się fundamentem wolności"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "U Słowackiego kamienie rzucane na szaniec to ofiara kolejnych pokoleń umacniająca „szaniec” — obronę ojczyzny. Bohaterowie idą na śmierć świadomie, a ich ofiara ma sens.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jak rozumiesz słowa o bohaterach, „którzy potrafili pięknie umierać i pięknie żyć”?",
+      "opcje": [
+        "Piękne życie to przyjaźń, rozwój i wierność ideałom, a piękna śmierć — ofiara, która ma sens",
+        "Bohaterowie dbali o elegancki wygląd nawet w konspiracji",
+        "Chodzi wyłącznie o bohaterską śmierć w walce — życie się nie liczy",
+        "To ironia narratora wobec naiwności młodych"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Kamiński podkreśla OBIE strony: bohaterowie nie tylko umierali za ojczyznę, ale przede wszystkim pięknie żyli — uczyli się, przyjaźnili, pracowali nad charakterem.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego bohaterów „Kamieni na szaniec” zaliczamy do pokolenia Kolumbów?",
+      "opcje": [
+        "Bo marzyli o odkrywaniu nowych lądów jak Kolumb",
+        "Bo dorastali w wolnej Polsce, a wchodzenie w dorosłość przypadło im na czas wojny",
+        "Bo wszyscy urodzili się w roku odkrycia Ameryki",
+        "Bo należeli do drużyny harcerskiej imienia Kolumba"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pokolenie Kolumbów to rocznik ok. 1920: dzieciństwo w wolnej Polsce, matura tuż przed wojną — a potem konspiracja zamiast studiów i dorosłość naznaczona okupacją.",
+      "punkty": 1
+    },
+    {
+      "id": "kns-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Które zdania o losach bohaterów są PRAWDZIWE (bez błędu kardynalnego)? Wskaż wszystkie.",
+      "opcje": [
+        "Rudy zmarł cztery dni po odbiciu, z ran zadanych podczas tortur",
+        "Alek zmarł tego samego dnia co Rudy, ranny w akcji pod Arsenałem",
+        "Zośka zginął pod Arsenałem, osłaniając odwrót",
+        "Zośka poległ w Sieczychach w sierpniu 1943 roku"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Zośka NIE zginął pod Arsenałem — dowodził tam grupą atakującą i przeżył; poległ pod Sieczychami. Pomylenie losów tej trójki to klasyczny błąd kardynalny w wypracowaniu.",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    { "id": "kns-f-01", "przod": "Kim był Rudy (Jan Bytnar)?", "tyl": "Genialny, wrażliwy harcerz, mistrz kotwic Małego Sabotażu; torturowany przez Gestapo nie wydał nikogo; zmarł 30 III 1943 z ran — 4 dni po odbiciu pod Arsenałem.", "kategoria": "bohater" },
+    { "id": "kns-f-02", "przod": "Kim był Alek (Aleksy Dawidowski)?", "tyl": "Pogodny, brawurowy optymista; zdjął niemiecką tablicę z pomnika Kopernika; śmiertelnie ranny w akcji pod Arsenałem, zmarł tego samego dnia co Rudy.", "kategoria": "bohater" },
+    { "id": "kns-f-03", "przod": "Kim był Zośka (Tadeusz Zawadzki)?", "tyl": "Urodzony przywódca (pseudonim od dziewczęcej urody); pod Arsenałem dowodził grupą atakującą; po stracie przyjaciół napisał wspomnienie o Rudym; poległ w Sieczychach 20 VIII 1943.", "kategoria": "bohater" },
+    { "id": "kns-f-04", "przod": "Kim był Orsza?", "tyl": "Stanisław Broniewski — dowódca warszawskich Grup Szturmowych; dowodził całością akcji pod Arsenałem (Zośka tylko grupą atakującą).", "kategoria": "bohater" },
+    { "id": "kns-f-05", "przod": "Kim byli „Buki” (Pomarańczarnia)?", "tyl": "Paczka harcerzy z gimnazjum im. Batorego, środowisko Alka, Rudego i Zośki — wspólnota wiernych ideałom braterstwa i służby.", "kategoria": "bohater" },
+    { "id": "kns-f-06", "przod": "Kim jest autor i jaka była jego rola w konspiracji?", "tyl": "Aleksander Kamiński — twórca Małego Sabotażu „Wawer” i redaktor konspiracyjnego „Biuletynu Informacyjnego”; książkę napisał w 1943 r. na podstawie relacji świadków.", "kategoria": "bohater" },
+    { "id": "kns-f-07", "przod": "Jaką rolę odgrywają rodzice bohaterów?", "tyl": "To z domów wynieśli chłopcy patriotyzm i uczciwość; rodziny też płacą cenę wojny (ojciec Alka rozstrzelany), a umierający synowie do końca myślą o bliskich.", "kategoria": "bohater" },
+    { "id": "kns-f-08", "przod": "Scena: tablica z pomnika Kopernika", "tyl": "Alek odkręcił niemiecką tablicę zasłaniającą polski napis na pomniku — najsłynniejszy wyczyn Małego Sabotażu, symbol walki o polskość Warszawy.", "kategoria": "scena" },
+    { "id": "kns-f-09", "przod": "Scena: aresztowanie i tortury Rudego", "tyl": "23 III 1943 Gestapo aresztuje Rudego; bestialsko katowany na Szucha, nie wydaje ani jednego nazwiska — niezłomność ratuje całą konspirację.", "kategoria": "scena" },
+    { "id": "kns-f-10", "przod": "Scena: akcja pod Arsenałem (26 III 1943)", "tyl": "Grupy Szturmowe odbijają Rudego z konwoju Gestapo; dowodzi Orsza, grupą atakującą Zośka; Alek zostaje śmiertelnie ranny w brzuch.", "kategoria": "scena" },
+    { "id": "kns-f-11", "przod": "Scena: śmierć Rudego i Alka (30 III 1943)", "tyl": "Rudy umiera z ran po torturach (recytując Słowackiego), tego samego dnia umiera Alek. Cena przyjaźni i walki — ale odbicie dało Rudemu godne odejście wśród bliskich.", "kategoria": "scena" },
+    { "id": "kns-f-12", "przod": "Dokończ cytat ze Słowackiego: „A kiedy trzeba, na śmierć idą po kolei…”", "tyl": "„…Jak kamienie przez Boga rzucane na szaniec!” — fragment „Testamentu mojego”, recytowany przez umierającego Rudego; stąd tytuł utworu.", "kategoria": "cytat" },
+    { "id": "kns-f-13", "przod": "Jakimi słowami określa się ideę życia bohaterów?", "tyl": "Byli ludźmi, „którzy potrafili pięknie umierać i pięknie żyć” — piękne życie (przyjaźń, ideały, rozwój) jest równie ważne jak bohaterska śmierć.", "kategoria": "cytat" },
+    { "id": "kns-f-14", "przod": "Co to był Mały Sabotaż („Wawer”)?", "tyl": "Nękanie okupanta BEZ broni: kotwice i napisy na murach, gazowanie kin, zrywanie flag, wybijanie szyb. Etap przed dywersją.", "kategoria": "pojecie" },
+    { "id": "kns-f-15", "przod": "Czym różni się dywersja od Małego Sabotażu?", "tyl": "Dywersja to walka ZBROJNA Grup Szturmowych Szarych Szeregów: wysadzanie torów, odbijanie więźniów, akcje z bronią — śmiertelnie poważny etap konspiracji.", "kategoria": "pojecie" },
+    { "id": "kns-f-16", "przod": "Co to jest pokolenie Kolumbów?", "tyl": "Rocznik ok. 1920: dzieciństwo w wolnej Polsce, matura tuż przed 1939 r. — wchodzenie w dorosłość odebrała im wojna i konspiracja.", "kategoria": "pojecie" },
+    { "id": "kns-f-17", "przod": "Jaką prawdę o przyjaźni pokazuje akcja pod Arsenałem?", "tyl": "Prawdziwa przyjaźń wymaga poświęceń — przyjaciele ryzykują wszystko, by odbić Rudego, a Alek płaci za to życiem. Najmocniejszy dowód w całym kanonie lektur.", "kategoria": "wartosc" },
+    { "id": "kns-f-18", "przod": "Jaką prawdę o patriotyzmie przekazuje utwór?", "tyl": "Miłość do ojczyzny wyraża się w CZYNACH — na miarę możliwości: od napisów na murach po walkę zbrojną; a wierność ideałom sprawdza się w najtrudniejszych czasach.", "kategoria": "wartosc" }
+  ]
+}

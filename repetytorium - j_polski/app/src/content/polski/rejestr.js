@@ -8,6 +8,8 @@ import dziady2 from "./lektury/dziady-2.json";
 import balladyna from "./lektury/balladyna.json";
 import zemsta from "./lektury/zemsta.json";
 import opowiescWigilijna from "./lektury/opowiesc-wigilijna.json";
+import malyKsiaze from "./lektury/maly-ksiaze.json";
+import kamienieNaSzaniec from "./lektury/kamienie-na-szaniec.json";
 import gramatyka1 from "./cwiczenia/gramatyka-1.json";
 import ortografia1 from "./cwiczenia/ortografia-1.json";
 import ortografia2 from "./cwiczenia/ortografia-2.json";
@@ -22,6 +24,8 @@ export const LEKTURY = {
   balladyna,
   zemsta,
   "opowiesc-wigilijna": opowiescWigilijna,
+  "maly-ksiaze": malyKsiaze,
+  "kamienie-na-szaniec": kamienieNaSzaniec,
 };
 export const CWICZENIA = {
   "gramatyka-1": gramatyka1,
