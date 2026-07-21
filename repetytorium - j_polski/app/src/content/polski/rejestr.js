@@ -14,10 +14,12 @@ import gramatyka1 from "./cwiczenia/gramatyka-1.json";
 import ortografia1 from "./cwiczenia/ortografia-1.json";
 import ortografia2 from "./cwiczenia/ortografia-2.json";
 import literackie1 from "./cwiczenia/literackie-1.json";
+import literackie2 from "./cwiczenia/literackie-2.json";
 import czytanie1 from "./cwiczenia/czytanie-1.json";
 import czytanie2 from "./cwiczenia/czytanie-2.json";
 import zaproszenie1 from "./pisanie/zaproszenie-1.json";
 import rozprawka1 from "./pisanie/rozprawka-1.json";
+import opowiadanie1 from "./pisanie/opowiadanie-1.json";
 
 export const LEKTURY = {
   "dziady-2": dziady2,
@@ -32,10 +34,15 @@ export const CWICZENIA = {
   "ortografia-1": ortografia1,
   "ortografia-2": ortografia2,
   "literackie-1": literackie1,
+  "literackie-2": literackie2,
   "czytanie-1": czytanie1,
   "czytanie-2": czytanie2,
 };
-export const PISANIE = { "zaproszenie-1": zaproszenie1, "rozprawka-1": rozprawka1 };
+export const PISANIE = {
+  "zaproszenie-1": zaproszenie1,
+  "rozprawka-1": rozprawka1,
+  "opowiadanie-1": opowiadanie1,
+};
 
 /** Materiał powtórki (obiekt z .quiz/.fiszki) po ref rekordu powtórki. */
 export function material(ref) {

@@ -1,0 +1,258 @@
+{
+  "id": "literackie-2",
+  "modul": "D",
+  "tytul": "Gatunki literackie + pojęcia analizy utworu",
+  "teoria": [
+    {
+      "id": "gatunki-epiki",
+      "tytul": "Gatunki epickie: od noweli do literatury faktu",
+      "tresc": "POWIEŚĆ — długi utwór z rozbudowaną fabułą, wieloma wątkami i bohaterami. OPOWIADANIE — krótsze, zwykle jeden wątek, swobodna kompozycja. NOWELA — krótka, jeden wątek, wyrazisty punkt kulminacyjny i puenta, bez dygresji. PRZYPOWIEŚĆ (parabola) — prosta historia, której sens jest UKRYTY i uniwersalny (np. biblijna przypowieść o synu marnotrawnym); postaci i zdarzenia są tylko przykładem prawdy moralnej. BAJKA — krótki utwór z morałem, bohaterami są często zwierzęta uosabiające ludzkie wady (lis = chytrość). EPOPEJA — obszerny utwór wierszem o przełomowych wydarzeniach dla narodu („Pan Tadeusz\"). POWIASTKA FILOZOFICZNA — baśniowa fabuła służy refleksji o życiu i wartościach („Mały Książę\"). LITERATURA FAKTU — opowiada o PRAWDZIWYCH ludziach i wydarzeniach („Kamienie na szaniec\" o Rudym, Alku i Zośce).",
+      "punkty": [
+        "Powieść: wiele wątków; nowela: jeden wątek + punkt kulminacyjny + puenta",
+        "Przypowieść: prosta historia z ukrytym, uniwersalnym sensem moralnym",
+        "Bajka: morał + zwierzęta uosabiające ludzkie wady",
+        "Powiastka filozoficzna: baśń w służbie refleksji — „Mały Książę\"",
+        "Literatura faktu: prawdziwi ludzie i wydarzenia — „Kamienie na szaniec\""
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "gatunki-dramatu",
+      "tytul": "Komedia, tragedia, dramat romantyczny + rodzaje komizmu",
+      "tresc": "KOMEDIA — dramat o pogodnej tematyce, ze szczęśliwym zakończeniem i KOMIZMEM. Trzy rodzaje komizmu (na przykładzie „Zemsty\"): SŁOWNY — śmieszy język (powtarzane „mocium panie\" Cześnika w dyktowanym liście); SYTUACYJNY — śmieszy zdarzenie (Papkin barykadujący się ze strachu, oświadczyny „na niby\"); POSTACI — śmieszy charakter bohatera (tchórzliwy samochwała Papkin). TRAGEDIA — bohater uwikłany w konflikt, którego nie może wygrać; jego działania prowadzą do KATASTROFY (klęski, często śmierci). W „Balladynie\" bohaterka przez własne zbrodnie doprowadza do nieuchronnej katastrofy — ginie od pioruna, wydawszy wyrok na samą siebie. DRAMAT ROMANTYCZNY — łamie klasyczne zasady: łączy świat realny z FANTASTYCZNYM (duchy!), sceny poważne z lżejszymi, czerpie z wierzeń ludowych — tak jak „Dziady cz. II\" z obrzędem wywoływania duchów.",
+      "punkty": [
+        "Komizm słowny („mocium panie\"), sytuacyjny (zdarzenia), postaci (Papkin)",
+        "Tragedia: konflikt nie do wygrania → katastrofa bohatera",
+        "Dramat romantyczny: świat realny + fantastyka + ludowość („Dziady II\")",
+        "Komedia = szczęśliwe zakończenie; „Zemsta\" kończy się zgodą i ślubem",
+        "„Balladyna\": zbrodnie bohaterki prowadzą do jej nieuchronnej klęski"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "gatunki-liryki",
+      "tytul": "Gatunki liryczne + ballada (gatunek mieszany)",
+      "tresc": "FRASZKA — krótki, często żartobliwy utwór z celną puentą (Kochanowski „Na zdrowie\"). TREN — utwór żałobny, wyraża żal po śmierci bliskiej osoby (treny Kochanowskiego po Urszulce). PIEŚŃ — utwór o regularnej budowie (równe strofy, rytm), pierwotnie do śpiewu. HYMN — uroczysta pieśń pochwalna (do Boga, ojczyzny). SONET — kunsztowny wiersz o 14 wersach (4+4+3+3). BALLADA — gatunek MIESZANY (synkretyczny): łączy epikę (narrator opowiada fabułę), lirykę (nastrój, wiersz) i dramat (dialogi). Typowa ballada romantyczna czerpie z ludowych wierzeń i pokazuje świat fantastyczny oraz zasadę: nie ma winy bez kary. Uwaga na pułapkę: „Balladyna\" ma balladę w tytule i ludową moralność, ale jest DRAMATEM!",
+      "punkty": [
+        "Fraszka: krótka + puenta; tren: żałobny; pieśń: regularna budowa",
+        "Hymn: uroczysta pieśń pochwalna; sonet: 14 wersów",
+        "Ballada: epika + liryka + dramat w jednym (gatunek synkretyczny)",
+        "Ballada romantyczna: ludowość, fantastyka, „nie ma winy bez kary\"",
+        "Pułapka: „Balladyna\" to dramat, nie ballada!"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "symbol-alegoria",
+      "tytul": "Symbol, alegoria, morał",
+      "tresc": "SYMBOL — element utworu (przedmiot, postać, zdarzenie), który poza znaczeniem dosłownym ma znaczenia UKRYTE i WIELOZNACZNE — można go różnie interpretować. W „Małym Księciu\": róża symbolizuje miłość wymagającą troski, lis — przyjaźń i oswajanie, baobaby — zło, które trzeba wyrywać, póki małe. ALEGORIA — obraz o znaczeniu JEDNOZNACZNYM, utrwalonym przez tradycję: lis w bajkach = chytrość, sowa = mądrość, waga = sprawiedliwość. Różnica: symbol otwiera interpretacje, alegoria ma jeden ustalony sens. MORAŁ — pouczenie wprost sformułowane w utworze (typowe dla bajki). Na egzaminie: gdy pytają „co symbolizuje X\", podaj znaczenie przenośne i UZASADNIJ je treścią utworu, nie skojarzeniem „z powietrza\".",
+      "punkty": [
+        "Symbol: wieloznaczny — róża (miłość), lis (przyjaźń), baobaby (zło)",
+        "Alegoria: jednoznaczna, utrwalona tradycją — lis w bajce = chytrość",
+        "Morał: pouczenie sformułowane wprost, typowe dla bajki",
+        "Symbol interpretujesz z TREŚCI utworu, nie z luźnych skojarzeń",
+        "Ten sam lis: symbol w „Małym Księciu\", alegoria w bajce Krasickiego"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "swiat-przedstawiony",
+      "tytul": "Świat przedstawiony i budowa fabuły",
+      "tresc": "ŚWIAT PRZEDSTAWIONY to wszystko, co istnieje w utworze: czas i miejsce akcji, bohaterowie, wydarzenia. FABUŁA — wszystkie wydarzenia w utworze; AKCJA — ciąg wydarzeń powiązanych przyczynowo, zmierzających do celu. WĄTEK — ciąg wydarzeń związanych z jednym bohaterem lub parą (np. wątek Wacława i Klary w „Zemście\"). PUNKT KULMINACYJNY — moment najwyższego napięcia, po którym następuje rozwiązanie. RETROSPEKCJA — powrót do wydarzeń WCZEŚNIEJSZYCH niż akcja (Duch Wigilii Minionych pokazuje Scrooge'owi jego młodość). PUENTA — zaskakujące, celne zakończenie, które nadaje całości sens. PROLOG — wprowadzenie przed akcją właściwą; EPILOG — informacja o dalszych losach bohaterów po zakończeniu akcji.",
+      "punkty": [
+        "Świat przedstawiony: czas + miejsce + bohaterowie + wydarzenia",
+        "Wątek: wydarzenia wokół jednego bohatera; akcja zmierza do celu",
+        "Punkt kulminacyjny: szczyt napięcia → potem rozwiązanie",
+        "Retrospekcja: cofnięcie się do przeszłości (duchy u Scrooge'a)",
+        "Puenta: celne zakończenie; prolog przed akcją, epilog po niej"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "gatunki-lektur",
+      "tytul": "Ściąga: gatunki lektur obowiązkowych",
+      "tresc": "Egzamin uwielbia pytać o gatunek KONKRETNEJ lektury — oto mapa kanonu klas VII-VIII: „Dziady cz. II\" Mickiewicza → DRAMAT ROMANTYCZNY (fantastyka, ludowy obrzęd, brak zasady trzech jedności). „Balladyna\" Słowackiego → DRAMAT ROMANTYCZNY o cechach TRAGEDII (zbrodnia prowadzi do katastrofy), z ludową zasadą „nie ma winy bez kary\". „Zemsta\" Fredry → KOMEDIA (komizm słowny, sytuacyjny, postaci; szczęśliwe zakończenie — NIKT nie ginie!). „Opowieść wigilijna\" Dickensa → OPOWIEŚĆ z elementami FANTASTYKI (duchy) osadzona w realistycznym Londynie. „Mały Książę\" de Saint-Exupéry'ego → POWIASTKA FILOZOFICZNA z cechami baśni. „Kamienie na szaniec\" Kamińskiego → LITERATURA FAKTU: prawdziwi harcerze (Rudy, Alek, Zośka) i prawdziwe wydarzenia (akcja pod Arsenałem).",
+      "punkty": [
+        "„Dziady II\" — dramat romantyczny; „Balladyna\" — dramat z cechami tragedii",
+        "„Zemsta\" — komedia (3 rodzaje komizmu, nikt nie ginie)",
+        "„Opowieść wigilijna\" — realizm + fantastyka (duchy) w Londynie",
+        "„Mały Książę\" — powiastka filozoficzna; „Kamienie na szaniec\" — literatura faktu",
+        "Pytanie o gatunek = podaj też CECHĘ, która o nim świadczy"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "d2-q-01",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "„Kamienie na szaniec\" Aleksandra Kamińskiego to:",
+      "opcje": ["powieść fantastyczna", "literatura faktu", "przypowieść", "komedia"],
+      "poprawna": 1,
+      "wyjasnienie": "Kamiński opisał PRAWDZIWYCH harcerzy (Rudego, Alka, Zośkę) i prawdziwe wydarzenia, m.in. akcję pod Arsenałem — to literatura faktu.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-02",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Krótki utwór z morałem, w którym zwierzęta uosabiają ludzkie wady, to:",
+      "opcje": ["przypowieść", "nowela", "bajka", "tren"],
+      "poprawna": 2,
+      "wyjasnienie": "To bajka — lis oznacza w niej chytrość, mrówka pracowitość, a całość kończy (lub otwiera) morał. Przypowieść też poucza, ale jej bohaterami są ludzie, a sens jest ukryty.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-03",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Przypowieść przedstawia prostą historię, by przekazać uniwersalną prawdę moralną.",
+        "Ballada należy wyłącznie do liryki.",
+        "Puenta to zaskakujące, celne zakończenie utworu."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Przypowieść to historia-przykład z ukrytym sensem. Ballada jest gatunkiem MIESZANYM — łączy epikę (fabuła), lirykę (nastrój) i dramat (dialogi). Puenta celnie zamyka utwór i nadaje mu sens.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-04",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Cześnik dyktuje Dyndalskiemu list, co chwila wtrącając swoje „mocium panie\". Jaki rodzaj komizmu przede wszystkim tworzy ta scena?",
+      "opcje": ["komizm postaci", "komizm sytuacyjny", "tragizm", "komizm słowny"],
+      "poprawna": 3,
+      "wyjasnienie": "Śmieszy tu przede wszystkim JĘZYK — powtarzany bezwiednie zwrot „mocium panie\", który trafia nawet do dyktowanego listu. To komizm słowny (scena ma też rysy sytuacyjne, ale źródłem śmiechu są słowa).",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-05",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego „Dziady cz. II\" nazywamy dramatem romantycznym?",
+      "opcje": [
+        "Łączą świat realny z fantastycznym i czerpią z ludowych wierzeń",
+        "Zachowują klasyczną zasadę trzech jedności i unikają fantastyki",
+        "Mają narratora wszechwiedzącego, który opowiada fabułę",
+        "Opisują wyłącznie prawdziwe, historyczne wydarzenia"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dramat romantyczny łamie klasyczne reguły: w kaplicy obok żywych chłopów pojawiają się duchy, a całość opiera się na ludowym obrzędzie dziadów. Narratora w dramacie nie ma.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-06",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie gatunki EPICKIE.",
+      "opcje": ["nowela", "hymn", "powieść", "komedia", "przypowieść"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Nowela, powieść i przypowieść mają narratora i fabułę — to epika. Hymn to uroczysta pieśń (liryka), komedia to gatunek dramatu.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-07",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Róża w „Małym Księciu\" oznacza m.in. miłość, która wymaga troski, ale bywa też odczytywana jako bliska osoba, o którą trzeba dbać. Czym jest w utworze?",
+      "opcje": [
+        "alegorią, bo ma jedno utrwalone znaczenie",
+        "epitetem, bo określa rzeczownik",
+        "symbolem, bo jej ukryte znaczenie jest wieloznaczne",
+        "onomatopeją, bo naśladuje dźwięk"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Skoro różę można interpretować na kilka sposobów, to symbol — znak wieloznaczny. Alegoria ma jeden, ustalony przez tradycję sens (jak lis-chytrość w bajkach).",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-08",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Retrospekcja to powrót do wydarzeń wcześniejszych niż akcja utworu.",
+        "Punkt kulminacyjny to moment największego napięcia w utworze.",
+        "Wątek to realna osoba, która napisała utwór."
+      ],
+      "poprawnaMaska": [true, true, false],
+      "wyjasnienie": "Retrospekcja cofa nas w przeszłość — jak Duch Wigilii Minionych pokazujący Scrooge'owi młodość. Po punkcie kulminacyjnym następuje rozwiązanie akcji. Wątek to ciąg wydarzeń wokół bohatera; realna osoba to autor.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-09",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Która cecha „Balladyny\" pozwala mówić o niej jako o dramacie z cechami TRAGEDII?",
+      "opcje": [
+        "Zbrodnie bohaterki prowadzą do nieuchronnej katastrofy — jej śmierci",
+        "Utwór kończy się szczęśliwie zgodą zwaśnionych rodów",
+        "Bohaterowie śmieszą widza swoimi wadami i języczkiem",
+        "Akcja rozgrywa się wyłącznie w świecie realnym, bez fantastyki"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Istotą tragedii jest nieuchronna katastrofa wynikająca z winy bohatera: Balladyna morduje dla władzy i sama — jako królowa-sędzia — wydaje na siebie wyrok, a piorun go wykonuje. Fantastyka (Goplana) w utworze JEST, a zakończenie nie jest szczęśliwe.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-10",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "„Opowieść wigilijna\" łączy realistyczny Londyn z postaciami duchów. Jaka jest FUNKCJA elementów fantastycznych w tym utworze?",
+      "opcje": [
+        "Mają jedynie przestraszyć czytelnika",
+        "Dowodzą, że utwór należy do literatury faktu",
+        "Tworzą komizm sytuacyjny i ośmieszają Scrooge'a",
+        "Umożliwiają przemianę Scrooge'a — pokazują mu przeszłość, teraźniejszość i przyszłość"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Duchy nie są ozdobą — to narzędzie przemiany bohatera: dzięki nim skąpiec widzi swoje życie z zewnątrz i zdąża się zmienić. Odpowiedź o funkcji zawsze łącz z sensem całego utworu.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-11",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego „Małego Księcia\" nazywamy powiastką filozoficzną?",
+      "opcje": [
+        "Bo opisuje prawdziwe wydarzenia z życia pilota Saint-Exupéry'ego",
+        "Bo prosta, baśniowa fabuła służy refleksji o przyjaźni, miłości i wartościach",
+        "Bo składa się wyłącznie z dialogów i didaskaliów",
+        "Bo jest wierszem sylabicznym o regularnej budowie"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "W powiastce filozoficznej fabuła (podróż chłopca po planetach) jest pretekstem do rozważań o tym, co w życiu ważne — „dobrze widzi się tylko sercem\". To utwór epicki z narratorem-pilotem, nie dramat i nie relacja faktów.",
+      "punkty": 1
+    },
+    {
+      "id": "d2-q-12",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz wszystkie POPRAWNE połączenia lektury z gatunkiem.",
+      "opcje": [
+        "„Zemsta\" — komedia",
+        "„Dziady cz. II\" — dramat romantyczny",
+        "„Mały Książę\" — literatura faktu",
+        "„Kamienie na szaniec\" — literatura faktu",
+        "„Balladyna\" — fraszka"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "„Zemsta\" to komedia Fredry, „Dziady cz. II\" — dramat romantyczny, „Kamienie na szaniec\" — literatura faktu o prawdziwych harcerzach. „Mały Książę\" to powiastka filozoficzna (fikcja!), a „Balladyna\" — dramat, nie krótka żartobliwa fraszka.",
+      "punkty": 1
+    }
+  ]
+}

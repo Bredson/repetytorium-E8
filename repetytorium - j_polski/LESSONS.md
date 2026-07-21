@@ -210,3 +210,27 @@ Format wpisu:
   Cofnięcie "przerobienia" lektury (delete z `p.lektury` + filtr powtórek) to najprostszy
   sposób na ponowne pokazanie jej w "Na dziś" do testu mobile.
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 7: opowiadanie-1 + literackie-2)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony czwarty raz —
+  opowiadanie-1 (pisanie, F) i literackie-2 (ćwiczenie, D) weszły przez 2 pliki JSON
+  + 3 linie w `rejestr.js`. Build 54 moduły bez błędów. Kontrakt pisania sprawdzony
+  automatycznie: porównanie zbiorów kluczy z rozprawka-1 (python3, `set(c) == set(r)`)
+  wyłapałoby literówkę w polu zanim dotknie UI.
+- Obserwacja (metodyka): opowiadanie twórcze domknęło parę egzaminacyjną wypracowania
+  (rozprawka LUB opowiadanie — uczeń zna teraz obie opcje wyboru). Wzorzec opowiadania
+  celowo spina temat przyjaźni z Małym Księciem (lis, róża, "oswoiłeś") — utrwala duet
+  argumentacyjny z iteracji 6. literackie-2 dopełnia literackie-1 bez dublowania:
+  gatunki + komizm/tragizm + symbol/alegoria + świat przedstawiony, z sekcją-ściągą
+  "gatunek każdej lektury kanonu" (częsty typ pytania egzaminacyjnego); pułapka
+  "Balladyna to nie ballada" zapisana wprost.
+- Obserwacja (QA): desktop: literackie-2 teoria (6 sekcji) + quiz 12/12 → 🎉;
+  opowiadanie-1: licznik wyrazów reaguje na wpisany tekst (387 ✓), po "Gotowe" render
+  wzorca + 8 kryteriów samooceny, 8/8 → 20/20 pkt → 🏆. Sloty D i F znikają z "Na dziś"
+  po ukończeniu wszystkich treści modułu. Mobile 390x844: dashboard, literackie-2
+  i opowiadanie-1 scrollW = innerW = 390. Stan Zosi przywrócony z backupu.
+- Obserwacja (QA, technika): przepływ pisania ma DWA kroki potwierdzenia:
+  "Gotowe — porównuję ze wzorcem" (aktywny dopiero przy min. wyrazów) → checkboxy
+  kryteriów → "Zapisz samoocenę". Textarea wypełniać natywnym setterem
+  `HTMLTextAreaElement.prototype.value` + event `input` (analogicznie do inputów).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

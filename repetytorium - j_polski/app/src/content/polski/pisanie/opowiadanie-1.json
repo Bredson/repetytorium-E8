@@ -1,0 +1,36 @@
+{
+  "id": "opowiadanie-1",
+  "modul": "F",
+  "forma": "opowiadanie",
+  "tytul": "Opowiadanie twórcze — fabuła, elementy twórcze, puenta",
+  "czasMin": 40,
+  "pigulka": "Na egzaminie wybierasz JEDEN z dwóch tematów wypracowania: rozprawkę albo opowiadanie twórcze — oba dają 20 z 45 punktów. Opowiadanie kusi swobodą, ale ma twarde wymagania: musi DOWODZIĆ, że dobrze znasz lekturę obowiązkową (bohater zachowuje się zgodnie z książką — błąd kardynalny zeruje kompetencje literackie!), i powinno zawierać co najmniej 6 elementów twórczych z listy: dialog, monolog, opis przeżyć wewnętrznych, retrospekcja, zwrot akcji, punkt kulminacyjny, puenta, opis miejsca lub sytuacji. Pilnuj konsekwentnej narracji (najczęściej pierwszoosobowej, w czasie przeszłym) i progu 200 wyrazów — poniżej 180 praca jest oceniana tylko za treść (max 7 pkt).",
+  "planFormy": [
+    "WSTĘP (zawiązanie akcji): kto opowiada, gdzie i kiedy — wprowadź bohatera lektury naturalnie, nie „z nieba\"",
+    "ROZWINIĘCIE: wydarzenia prowadzące do PUNKTU KULMINACYJNEGO — wpleć dialog, opis przeżyć, zwrot akcji",
+    "ZAKOŃCZENIE: rozwiązanie akcji + PUENTA (myśl, która zostaje z czytelnikiem)",
+    "Minimum 6 elementów twórczych: dialog, monolog, opis przeżyć, retrospekcja, zwrot akcji, punkt kulminacyjny, puenta, opis miejsca",
+    "Bohater lektury MUSI być zgodny z książką: jego charakter, słowa i losy bez błędu rzeczowego",
+    "Konsekwentna narracja: jedna osoba (zwykle 1-osobowa) i jeden czas (zwykle przeszły) w całym tekście",
+    "Zapis dialogów: każda wypowiedź od myślnika, w nowej linii; minimum 200 wyrazów"
+  ],
+  "zadanie": {
+    "id": "f3-open-01",
+    "modul": "F",
+    "typ": "open-long",
+    "minSlow": 200,
+    "tresc": "Napisz opowiadanie o spotkaniu z wybranym bohaterem lektury obowiązkowej, w czasie którego przekonałeś się / przekonałaś się, że o przyjaźń warto walczyć. Wypracowanie powinno dowodzić, że dobrze znasz wybraną lekturę obowiązkową. Twoja praca powinna liczyć co najmniej 200 wyrazów.",
+    "wzorzec": "Do dziś nie wiem, czy to był sen. Siedziałem wieczorem nad otwartą książką, gdy lampa zamigotała, a na biurku stanął maleńki chłopiec w długim płaszczu, z włosami jak zboże.\n\n— Narysuj mi baranka — powiedział zamiast powitania.\n\nPoznałem go natychmiast. Mały Książę patrzył jednak nie na kartkę, lecz na mój telefon, z którego godzinę wcześniej usunąłem numer Bartka. Pokłóciliśmy się tydzień temu o głupstwo i żaden nie chciał odezwać się pierwszy.\n\n— Miałeś przyjaciela? — zapytał cicho.\n\n— Mam… miałem — poprawiłem się i poczułem wstyd ściskający gardło. Opowiedziałem mu o wspólnych meczach, o rowerowych wyprawach i o tej jednej kłótni, która wszystko przekreśliła.\n\n— Ja zostawiłem na swojej planecie różę — odparł. — Też odleciałem przez głupstwo. Wiesz, czego nauczył mnie lis? Że stajesz się odpowiedzialny na zawsze za to, co oswoiłeś. Twój przyjaciel jest jedyny na świecie, bo to jemu poświęciłeś swój czas.\n\nChciałem odpowiedzieć, ale zegar wybił północ — i biurko było puste. Została tylko kartka z niezdarnym barankiem, którego nie pamiętałem, żebym rysował.\n\nNastępnego ranka czekałem pod blokiem Bartka, zanim wyszedł do szkoły. Nie musiałem wiele mówić. Wystarczyło jedno „przepraszam\" — i szliśmy razem, jakby tygodnia milczenia nigdy nie było.\n\nOd tamtej pory, gdy kłócę się z kimś bliskim, przypominam sobie chłopca z dalekiej planety. To on przekonał mnie, że o przyjaźń trzeba walczyć, nawet jeśli pierwszy krok kosztuje najwięcej. Różę trzeba czasem podlać, choć ma kolce.",
+    "kryteriaSamooceny": [
+      "Czy moje opowiadanie realizuje temat: jest SPOTKANIE z bohaterem lektury i wniosek, że o przyjaźń warto walczyć?",
+      "Czy bohater lektury jest zgodny z książką (jego charakter, słowa, losy — bez błędu rzeczowego i kardynalnego)?",
+      "Czy praca DOWODZI znajomości lektury: przywołuję konkretne fakty (np. róża, lis, sekret), a nie tylko imię bohatera?",
+      "Czy mam co najmniej 6 elementów twórczych (dialog, opis przeżyć, retrospekcja, zwrot akcji, punkt kulminacyjny, puenta…)?",
+      "Czy narracja jest konsekwentna: jedna osoba i jeden czas w całym tekście, a fabuła ma wstęp, rozwinięcie i zakończenie w akapitach?",
+      "Czy dialogi zapisuję poprawnie: każda wypowiedź od myślnika, w nowej linii?",
+      "Czy zakończenie zawiera puentę — myśl, która wynika z wydarzeń, a nie urwaną akcję?",
+      "Czy sprawdziłem/sprawdziłam pisownię i interpunkcję, a praca liczy co najmniej 200 wyrazów?"
+    ],
+    "punkty": 20
+  }
+}
