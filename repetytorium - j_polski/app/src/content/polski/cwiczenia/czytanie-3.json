@@ -1,0 +1,272 @@
+{
+  "id": "czytanie-3",
+  "modul": "E",
+  "tytul": "Wnioskowanie, polecenia egzaminacyjne, teksty ikoniczne i porównywanie tekstów",
+  "teoria": [
+    {
+      "id": "wprost-wniosek",
+      "tytul": "Informacja wprost a wniosek z tekstu",
+      "tresc": "Na egzaminie pytania dzielą się na dwa poziomy. INFORMACJA WPROST to coś, co jest ZAPISANE w tekście — wystarczy wskazać zdanie („Schronisko przyjęło 120 zwierząt\"). WNIOSEK to informacja, której NIE MA w tekście dosłownie, ale logicznie z niego WYNIKA: jeśli tekst mówi, że schronisko ma 80 miejsc, a przyjęło 120 zwierząt, to wnioskujemy, że jest przepełnione — choć słowo „przepełnione\" nie pada. Pułapka: wniosek musi wynikać Z TEKSTU, nie z Twojej wiedzy czy domysłów. Odpowiedź „autor lubi zwierzęta\" to zgadywanie, jeśli tekst tego nie sugeruje. Metoda: przy każdej odpowiedzi zapytaj „które zdanie tekstu to potwierdza?\" — jeśli żadne, odrzuć.",
+      "punkty": [
+        "Wprost = zapisane w tekście; możesz wskazać palcem zdanie",
+        "Wniosek = wynika logicznie z połączenia informacji z tekstu",
+        "Wniosek to NIE domysł — musi mieć oparcie w tekście",
+        "Test: „które zdanie to potwierdza?\" — brak zdania = błędna odpowiedź",
+        "Typowe polecenie: „Co wynika z tekstu?\" = pytanie o wniosek"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "czasowniki-polecen",
+      "tytul": "Czasowniki poleceń: wyjaśnij, uzasadnij, oceń",
+      "tresc": "Punkty tracą często ci, którzy odpowiadają NIE NA TO polecenie. WYMIEŃ / PODAJ — wystarczy wypisać (bez zdań). WYJAŚNIJ — napisz, JAK coś rozumiesz, własnymi słowami (nie cytuj!). UZASADNIJ — podaj odpowiedź I argument, dlaczego tak („tak, ponieważ...\"). Sama odpowiedź „tak/nie\" = 0 punktów. OCEŃ — wyraź własne zdanie i je uzasadnij. UDOWODNIJ NA PODSTAWIE TEKSTU — argument musi pochodzić z tekstu (przywołaj konkretny fragment). NAZWIJ — użyj terminu (np. „epitet\", „zdanie przydawkowe\"). Zasada złota: podkreśl czasownik w poleceniu, zanim zaczniesz pisać, i sprawdź na końcu, czy zrobiłaś dokładnie TO.",
+      "punkty": [
+        "Wymień = wypisz; wyjaśnij = powiedz własnymi słowami",
+        "Uzasadnij = odpowiedź + „ponieważ...\" — samo tak/nie to 0 pkt",
+        "Oceń = Twoje zdanie + argument",
+        "„Na podstawie tekstu\" = argument MUSI być z tekstu",
+        "Nawyk: podkreśl czasownik polecenia przed pisaniem"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "teksty-ikoniczne",
+      "tytul": "Teksty ikoniczne: plakat, mem, komiks",
+      "tresc": "Plakat czy mem to TEKST KULTURY — też się go „czyta\". Analizujesz trzy warstwy: OBRAZ (co widać: postaci, kolory, symbole), SŁOWO (hasło, podpis) i ich WSPÓŁDZIAŁANIE — sens powstaje z połączenia. Przykład: plakat z hasłem „Karmimy wyobraźnię\" i rysunkiem książki na talerzu — obraz dosłownie pokazuje metaforę z hasła i przez to ją wzmacnia. Pytaj: kto jest ADRESATEM (do kogo skierowany?), jaka jest INTENCJA (zachęta? ostrzeżenie? reklama?), jakie środki działają na odbiorcę (kontrast kolorów, wielkość liter, gra słów, humor). Mem działa podobnie: komizm rodzi się z zderzenia obrazka z podpisem. Na egzaminie plakat pojawia się z pytaniem o sens hasła w połączeniu z grafiką.",
+      "punkty": [
+        "Trzy warstwy: obraz + słowo + ich współdziałanie",
+        "Sens plakatu = połączenie hasła z grafiką, nie samo hasło",
+        "Zawsze ustal adresata i intencję (zachęta, ostrzeżenie, reklama)",
+        "Środki: kontrast, symbol, gra słów, humor, wielkość napisu",
+        "Mem = komizm ze zderzenia obrazka i podpisu"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "porownywanie",
+      "tytul": "Porównywanie dwóch tekstów",
+      "tresc": "Egzamin często zestawia DWA teksty o wspólnym temacie (np. wiersz i artykuł, fragment prozy i poradnik). Porównujesz na trzech poziomach. TEMAT: co je łączy? (oba mówią o górach, o przyjaźni...). FORMA I CEL: czym się różnią? — jeden może być refleksyjny i metaforyczny (blog, wiersz), drugi praktyczny i informacyjny (poradnik, instrukcja). WSPÓLNA MYŚL: czy da się je sprowadzić do jednego przesłania? (np. „w górach potrzebna jest rozwaga\"). Błąd typowy: opisanie każdego tekstu OSOBNO bez zestawienia. W odpowiedzi używaj zwrotów: „oba teksty...\", „w przeciwieństwie do tekstu 1., tekst 2. ...\", „łączy je...\". Porównanie to szukanie podobieństw I różnic — nie ocenianie, który jest ładniejszy.",
+      "punkty": [
+        "Trzy poziomy: wspólny temat, różnice formy i celu, wspólna myśl",
+        "Refleksyjny/metaforyczny kontra praktyczny/informacyjny",
+        "Zwroty: „oba teksty...\", „w przeciwieństwie do...\", „łączy je...\"",
+        "Błąd: dwa osobne opisy zamiast zestawienia",
+        "Porównanie ≠ ocena, który tekst jest lepszy"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "znaczenie-z-kontekstu",
+      "tytul": "Znaczenie słowa z kontekstu i frazeologizmy",
+      "tresc": "Gdy w tekście trafisz na nieznane słowo lub przenośnię, znaczenia szukaj w KONTEKŚCIE — zdaniach obok. Metoda podstawiania: wstaw w miejsce słowa swoją propozycję i sprawdź, czy zdanie zachowuje sens. Przenośnia w tekście („góry zawracają tego, kto ma pychę\") nie działa dosłownie — góry nie mają rąk; chodzi o to, że zbyt pewny siebie turysta poniesie porażkę. FRAZEOLOGIZMY to utrwalone połączenia o znaczeniu przenośnym: „mieć duszę na ramieniu\" (bać się), „rzucać słowa na wiatr\" (obiecywać bez pokrycia), „patrzeć przez różowe okulary\" (widzieć zbyt optymistycznie). Na egzaminie: wyjaśnij frazeologizm własnymi słowami albo wskaż sytuację, do której pasuje. Nie tłumacz dosłownie!",
+      "punkty": [
+        "Znaczenie słowa odczytuj ze zdań obok (kontekst)",
+        "Metoda podstawiania: wstaw swoje słowo i sprawdź sens",
+        "Przenośni nie czytaj dosłownie — szukaj sensu ukrytego",
+        "Frazeologizm = utarte wyrażenie: „dusza na ramieniu\" = strach",
+        "Polecenie „wyjaśnij znaczenie\" = własnymi słowami, nie dosłownie"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e3-q-01",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Polecenie „UZASADNIJ swoją odpowiedź\" oznacza, że masz:",
+      "opcje": [
+        "przepisać odpowiedni fragment tekstu",
+        "podać samą odpowiedź: tak lub nie",
+        "podać odpowiedź i poprzeć ją argumentem",
+        "streścić cały tekst własnymi słowami"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Uzasadnić = odpowiedzieć I podać argument („tak, ponieważ...\"). Sama odpowiedź „tak/nie\" bez argumentu to na egzaminie 0 punktów.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-02",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Informacja podana WPROST w tekście to taka, którą:",
+      "opcje": [
+        "czytelnik musi samodzielnie wywnioskować",
+        "można znaleźć bezpośrednio w zdaniach tekstu",
+        "zna każdy czytelnik bez czytania tekstu",
+        "autor jedynie sugeruje między wierszami"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Wprost = zapisane w tekście; możesz wskazać konkretne zdanie. Informacje, które trzeba wywnioskować lub które autor sugeruje, to już wnioski — drugi poziom czytania.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-03",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Wniosek to informacja, która logicznie wynika z tekstu, choć nie jest w nim zapisana dosłownie.",
+        "Plakat i mem to teksty kultury, które również poddajemy analizie i interpretacji.",
+        "Porównując dwa teksty, oceniamy przede wszystkim, który z nich jest ładniejszy."
+      ],
+      "poprawnaMaska": [true, true, false],
+      "wyjasnienie": "Wniosek wynika z tekstu, choć nie pada wprost. Plakat i mem „czytamy\" jak każdy tekst kultury (obraz + słowo). Porównywanie to szukanie podobieństw i różnic — nie konkurs piękności.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-04",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Schronisko „Cztery Łapy\" od stycznia przyjęło już sto dwadzieścia zwierząt, choć ma miejsca dla osiemdziesięciu. Wolontariuszy, którzy w weekendy wyprowadzają psy, jest dziś trzykrotnie mniej niż rok temu. Jeśli nic się nie zmieni, część podopiecznych trzeba będzie przenieść do placówek oddalonych o dziesiątki kilometrów. Adopcja to nie jedyny sposób pomocy: wystarczy godzina spaceru w sobotę.",
+      "tresc": "Która informacja jest podana w tekście WPROST?",
+      "opcje": [
+        "Schronisko przyjęło od stycznia sto dwadzieścia zwierząt.",
+        "Schronisko zostanie wkrótce zamknięte.",
+        "Weekendowi wolontariusze są leniwi.",
+        "Liczba adopcji wyraźnie wzrosła."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Liczba przyjętych zwierząt jest zapisana w pierwszym zdaniu — to informacja wprost. O zamknięciu, lenistwie czy adopcjach tekst nie mówi; to domysły bez oparcia w tekście.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-05",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Schronisko „Cztery Łapy\" od stycznia przyjęło już sto dwadzieścia zwierząt, choć ma miejsca dla osiemdziesięciu. Wolontariuszy, którzy w weekendy wyprowadzają psy, jest dziś trzykrotnie mniej niż rok temu. Jeśli nic się nie zmieni, część podopiecznych trzeba będzie przenieść do placówek oddalonych o dziesiątki kilometrów. Adopcja to nie jedyny sposób pomocy: wystarczy godzina spaceru w sobotę.",
+      "tresc": "Który WNIOSEK wynika z tekstu?",
+      "opcje": [
+        "Schronisko ma więcej miejsc, niż potrzebuje.",
+        "W schronisku pracuje dziś trzy razy więcej wolontariuszy niż rok temu.",
+        "Autor tekstu nie lubi zwierząt domowych.",
+        "Schronisko jest przepełnione — zwierząt jest więcej niż miejsc."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Tekst podaje: 120 zwierząt przy 80 miejscach. Słowo „przepełnione\" nie pada, ale wynika z porównania liczb — to właśnie wniosek. Pozostałe opcje przeczą tekstowi lub nie mają w nim oparcia.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-06",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 2,
+      "zrodloTekst": "Schronisko „Cztery Łapy\" od stycznia przyjęło już sto dwadzieścia zwierząt, choć ma miejsca dla osiemdziesięciu. Wolontariuszy, którzy w weekendy wyprowadzają psy, jest dziś trzykrotnie mniej niż rok temu. Jeśli nic się nie zmieni, część podopiecznych trzeba będzie przenieść do placówek oddalonych o dziesiątki kilometrów. Adopcja to nie jedyny sposób pomocy: wystarczy godzina spaceru w sobotę.",
+      "tresc": "Oceń na podstawie tekstu, czy zdania są prawdziwe.",
+      "opcje": [
+        "Liczba weekendowych wolontariuszy spadła w porównaniu z zeszłym rokiem.",
+        "Z tekstu wynika, że jedynym sposobem pomocy schronisku jest adopcja.",
+        "Autor zachęca czytelnika do poświęcenia choćby godziny w sobotę."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Wolontariuszy jest „trzykrotnie mniej niż rok temu\" — spadek. Tekst mówi wprost: „adopcja to NIE jedyny sposób pomocy\". Ostatnie zdanie („wystarczy godzina spaceru w sobotę\") to zachęta.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-07",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Schronisko „Cztery Łapy\" od stycznia przyjęło już sto dwadzieścia zwierząt, choć ma miejsca dla osiemdziesięciu. Wolontariuszy, którzy w weekendy wyprowadzają psy, jest dziś trzykrotnie mniej niż rok temu. Jeśli nic się nie zmieni, część podopiecznych trzeba będzie przenieść do placówek oddalonych o dziesiątki kilometrów. Adopcja to nie jedyny sposób pomocy: wystarczy godzina spaceru w sobotę.",
+      "tresc": "Jaka jest główna INTENCJA autora tekstu?",
+      "opcje": [
+        "rozbawienie czytelnika zabawną historią",
+        "zachęcenie czytelnika do pomocy schronisku",
+        "krytyka pracy schronisk dla zwierząt",
+        "przedstawienie historii powstania schroniska"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Autor pokazuje problem (przepełnienie, brak wolontariuszy) i kończy wskazaniem prostego sposobu pomocy — cały tekst prowadzi do zachęty. Nie ma tu humoru, krytyki schroniska ani jego historii.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-08",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Na plakacie zachęcającym do czytania hasło „Karmimy wyobraźnię\" umieszczono nad rysunkiem książki leżącej na talerzu. Jak współdziałają słowo i obraz?",
+      "opcje": [
+        "Obraz zaprzecza treści hasła.",
+        "Hasło i obraz dotyczą zupełnie różnych tematów.",
+        "Obraz pełni wyłącznie funkcję ozdobną.",
+        "Obraz dosłownie pokazuje metaforę „karmienia\" i wzmacnia sens hasła."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Książka na talerzu to dosłowna ilustracja metafory „karmić wyobraźnię\" (czytanie = pokarm dla umysłu). Sens plakatu powstaje właśnie z połączenia hasła z grafiką — obraz nie zdobi, lecz współtworzy znaczenie.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-09",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "TEKST 1. (z bloga podróżnika): Góry nie pytają, kim jesteś. Wpuszczają każdego, kto ma pokorę, a zawracają tego, kto ma tylko pychę.\n\nTEKST 2. (z poradnika turystycznego): Przed wyjściem w góry sprawdź prognozę pogody, zabierz mapę i naładowany telefon. Turyści przeceniający swoje siły najczęściej wymagają pomocy ratowników.",
+      "tresc": "Co ŁĄCZY oba teksty?",
+      "opcje": [
+        "Oba dotyczą zachowania człowieka w górach i przestrzegają przed brawurą.",
+        "Oba są szczegółowymi instrukcjami przygotowania do wycieczki.",
+        "Oba opisują codzienną pracę ratowników górskich.",
+        "Oba zniechęcają czytelnika do chodzenia po górach."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wspólny temat: człowiek w górach; wspólne ostrzeżenie: pycha/przecenianie sił źle się kończy. Instrukcją jest tylko tekst 2., o ratownikach wspomina jedno zdanie, a żaden tekst nie zniechęca do gór.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-10",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "TEKST 1. (z bloga podróżnika): Góry nie pytają, kim jesteś. Wpuszczają każdego, kto ma pokorę, a zawracają tego, kto ma tylko pychę.\n\nTEKST 2. (z poradnika turystycznego): Przed wyjściem w góry sprawdź prognozę pogody, zabierz mapę i naładowany telefon. Turyści przeceniający swoje siły najczęściej wymagają pomocy ratowników.",
+      "tresc": "Czym RÓŻNIĄ się oba teksty?",
+      "opcje": [
+        "Tekst 1. podaje dane liczbowe, a tekst 2. — refleksje autora.",
+        "Tekst 1. jest praktyczną instrukcją, a tekst 2. — poetycką refleksją.",
+        "Tekst 1. mówi o górach obrazowo i refleksyjnie, a tekst 2. daje praktyczne wskazówki.",
+        "Oba teksty są utrzymane w tym samym, metaforycznym stylu."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Tekst 1. używa przenośni (góry „wpuszczają\", „zawracają\") i skłania do refleksji; tekst 2. to konkretne, praktyczne polecenia (sprawdź, zabierz). Opcje 1. i 2. odwracają role tekstów.",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-11",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "TEKST 1. (z bloga podróżnika): Góry nie pytają, kim jesteś. Wpuszczają każdego, kto ma pokorę, a zawracają tego, kto ma tylko pychę.\n\nTEKST 2. (z poradnika turystycznego): Przed wyjściem w góry sprawdź prognozę pogody, zabierz mapę i naładowany telefon. Turyści przeceniający swoje siły najczęściej wymagają pomocy ratowników.",
+      "tresc": "Jak należy rozumieć przenośnię: góry „zawracają tego, kto ma tylko pychę\"?",
+      "opcje": [
+        "Góry fizycznie zagradzają drogę niektórym turystom.",
+        "Osoba zbyt pewna siebie poniesie w górach porażkę i będzie musiała się wycofać.",
+        "Wejście w góry jest zakazane dla osób bez przygotowania.",
+        "Pycha pomaga turystom zdobywać najwyższe szczyty."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Przenośni nie czytamy dosłownie — góry nie mają rąk, by kogoś zawrócić. Sens: brawura i przecenianie własnych sił kończą się porażką. Potwierdza to tekst 2.: tacy turyści „najczęściej wymagają pomocy ratowników\".",
+      "punkty": 1
+    },
+    {
+      "id": "e3-q-12",
+      "modul": "E",
+      "typ": "multi",
+      "poziom": 3,
+      "zrodloTekst": "TEKST 1. (z bloga podróżnika): Góry nie pytają, kim jesteś. Wpuszczają każdego, kto ma pokorę, a zawracają tego, kto ma tylko pychę.\n\nTEKST 2. (z poradnika turystycznego): Przed wyjściem w góry sprawdź prognozę pogody, zabierz mapę i naładowany telefon. Turyści przeceniający swoje siły najczęściej wymagają pomocy ratowników.",
+      "tresc": "Zaznacz wszystkie zdania PRAWDZIWE dotyczące obu tekstów.",
+      "opcje": [
+        "Oba teksty kierowane są do osoby wybierającej się w góry.",
+        "Tekst 2. wymienia wprost, co należy zabrać na wycieczkę.",
+        "Tekst 1. to fragment urzędowego regulaminu parku narodowego.",
+        "Oba teksty można sprowadzić do wspólnej myśli: w górach potrzebna jest rozwaga."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Adresatem obu jest turysta; tekst 2. wprost wylicza ekwipunek (mapa, telefon); wspólne przesłanie to rozwaga i pokora. Tekst 1. pochodzi z bloga podróżnika — jest refleksyjny, nie urzędowy.",
+      "punkty": 1
+    }
+  ]
+}

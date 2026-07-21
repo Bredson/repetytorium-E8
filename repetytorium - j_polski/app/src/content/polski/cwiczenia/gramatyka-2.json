@@ -1,0 +1,253 @@
+{
+  "id": "gramatyka-2",
+  "modul": "B",
+  "tytul": "Składnia zdania złożonego, imiesłowy, słowotwórstwo",
+  "teoria": [
+    {
+      "id": "wspolrzedne",
+      "tytul": "Zdania złożone współrzędnie — 4 typy",
+      "tresc": "Zdanie złożone WSPÓŁRZĘDNIE składa się z części równorzędnych — żadna nie określa drugiej, każda mogłaby istnieć osobno. Cztery typy poznasz po spójniku: ŁĄCZNE (i, oraz, a także) — czynności współistnieją: „Zjadłem obiad i poszedłem na trening\". ROZŁĄCZNE (albo, lub, bądź) — wybór: „Pójdziemy do kina albo zostaniemy w domu\". PRZECIWSTAWNE (ale, lecz, jednak, natomiast) — treści się przeciwstawiają: „Chciałem przyjść, ale zachorowałem\". WYNIKOWE (więc, dlatego, toteż) — druga część wynika z pierwszej: „Było ciemno, więc zapaliłem lampę\". Interpunkcja: przecinek stawiamy przed ale, lecz, więc, dlatego — NIE stawiamy przed pojedynczym i, oraz, albo, lub.",
+      "punkty": [
+        "Łączne: i, oraz — „Zjadłem i poszedłem\" (bez przecinka przed „i\")",
+        "Rozłączne: albo, lub — wybór jednej z możliwości",
+        "Przeciwstawne: ale, lecz, jednak — ZAWSZE z przecinkiem",
+        "Wynikowe: więc, dlatego — skutek; ZAWSZE z przecinkiem",
+        "Test współrzędności: obie części brzmią sensownie osobno"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "podrzedne",
+      "tytul": "Zdania złożone podrzędnie — pytaj jak o część zdania",
+      "tresc": "W zdaniu złożonym PODRZĘDNIE jedna część (podrzędna) określa drugą (nadrzędną) i odpowiada na pytanie zadane od niej — jak część zdania. PRZYDAWKOWE — pytanie jaki? który? czyj?: „Kupiłam książkę (jaką?), którą polecił nauczyciel\". DOPEŁNIENIOWE — pytania przypadków kogo? czego? co? o czym?: „Wiem (co?), że masz rację\". OKOLICZNIKOWE — pytania kiedy? gdzie? jak? dlaczego? po co?: „Wstałem (kiedy?), gdy zadzwonił budzik\"; „Uczę się (dlaczego?), bo chcę zdać\". Zdanie podrzędne może stać przed nadrzędnym, po nim albo w środku (wtedy wydzielamy je przecinkami z OBU stron: „Książka, którą czytam, jest gruba\"). Interpunkcja: część podrzędną ZAWSZE oddzielamy przecinkiem.",
+      "punkty": [
+        "Metoda: zadaj pytanie od zdania nadrzędnego do podrzędnego",
+        "jaki? który? → przydawkowe; kogo? co? o czym? → dopełnieniowe",
+        "kiedy? gdzie? jak? dlaczego? → okolicznikowe",
+        "Wtrącone zdanie podrzędne = przecinki z obu stron",
+        "Przecinek przed „że\", „który\", „gdy\", „bo\" — zawsze"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "imieslowy",
+      "tytul": "Imiesłowy — 4 typy po końcówkach",
+      "tresc": "IMIESŁÓW to forma czasownika. PRZYMIOTNIKOWE odmieniają się jak przymiotniki i określają rzeczownik: CZYNNE z -ĄCY (śpiący kot = kot, który śpi — sam wykonuje czynność), BIERNE z -NY, -ONY, -TY (napisany list, umyty kubek = coś, z czym czynność zrobiono). PRZYSŁÓWKOWE są nieodmienne i nazywają czynność towarzyszącą: WSPÓŁCZESNE z -ĄC (czytając, idąc — dzieje się RÓWNOCZEŚNIE z inną czynnością), UPRZEDNIE z -WSZY, -ŁSZY (przeczytawszy, zjadłszy — stało się WCZEŚNIEJ). Ściąga: -ący = czynny, -ny/-ty = bierny, -ąc = współczesny, -wszy/-łszy = uprzedni. Uwaga: „śpiąc\" (przysłówkowy) to nie to samo co „śpiący\" (przymiotnikowy)!",
+      "punkty": [
+        "Przymiotnikowy czynny: -ący — „śpiący kot\" (sam wykonuje)",
+        "Przymiotnikowy bierny: -ny, -ony, -ty — „napisany list\"",
+        "Przysłówkowy współczesny: -ąc — „czytając\" (równocześnie)",
+        "Przysłówkowy uprzedni: -wszy, -łszy — „przeczytawszy\" (wcześniej)",
+        "Przymiotnikowe odmieniają się; przysłówkowe są nieodmienne"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "rownowaznik-imieslowowy",
+      "tytul": "Imiesłowowy równoważnik zdania — pułapka z podmiotem",
+      "tresc": "Imiesłów przysłówkowy (-ąc, -wszy) tworzy RÓWNOWAŻNIK ZDANIA: „Wracając do domu, spotkałem sąsiada\". ŻELAZNA ZASADA: wykonawca obu czynności musi być TEN SAM (to ja wracałem i ja spotkałem). Klasyczny błąd egzaminacyjny: „Idąc do szkoły, padał deszcz\" — wynika z tego, że to DESZCZ szedł do szkoły! Poprawnie: „Gdy szedłem do szkoły, padał deszcz\". Test poprawności: zamień równoważnik na zdanie z „gdy\" i sprawdź, kto co robi. Druga zasada: czynność z -ąc dzieje się RÓWNOCZEŚNIE z główną („Słuchając muzyki, odrabiam lekcje\"), z -wszy — WCZEŚNIEJ. Interpunkcja: imiesłowowy równoważnik zdania ZAWSZE oddzielamy przecinkiem.",
+      "punkty": [
+        "Ten sam wykonawca obu czynności — inaczej błąd składniowy",
+        "„Idąc do szkoły, padał deszcz\" = deszcz szedł do szkoły (ŹLE)",
+        "Test: przekształć na zdanie z „gdy\" i sprawdź podmioty",
+        "-ąc = równocześnie; -wszy = wcześniej niż czynność główna",
+        "Równoważnik imiesłowowy zawsze oddzielamy przecinkiem"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "strona-mowa",
+      "tytul": "Strona czynna i bierna; mowa niezależna i zależna",
+      "tresc": "STRONA CZYNNA: podmiot wykonuje czynność — „Uczniowie przygotowali przedstawienie\". STRONA BIERNA: podmiotem staje się odbiorca czynności — „Przedstawienie zostało przygotowane przez uczniów\" (być/zostać + imiesłów bierny). Strony biernej używamy, gdy ważniejszy jest efekt niż wykonawca (styl urzędowy, notatki prasowe). MOWA NIEZALEŻNA: przytaczamy czyjeś słowa dosłownie, w cudzysłowie lub po myślniku: Kasia zapytała: „Czy pójdziesz ze mną do kina?\". MOWA ZALEŻNA: relacjonujemy słowa zdaniem podrzędnym ze spójnikiem że/czy/żeby: „Kasia zapytała, czy pójdę z nią do kina\". Uwaga przy przekształcaniu: zmienia się PERSPEKTYWA — „pójdziesz ze mną\" (jej słowa do mnie) staje się „czy pójdę z nią\" (moja relacja).",
+      "punkty": [
+        "Czynna: podmiot działa; bierna: być/zostać + imiesłów bierny",
+        "„Przygotowali przedstawienie\" → „Przedstawienie zostało przygotowane\"",
+        "Mowa niezależna: dosłowny cytat z dwukropkiem i cudzysłowem",
+        "Mowa zależna: zdanie podrzędne z „że\", „czy\", „żeby\"",
+        "Przekształcając, zmień osobę i zaimki (pójdziesz→pójdę, ze mną→z nią)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "slowotworstwo",
+      "tytul": "Słowotwórstwo: podstawa, formant, rodzina wyrazów",
+      "tresc": "WYRAZ PODSTAWOWY to ten, OD którego tworzymy nowy; WYRAZ POCHODNY — ten utworzony (pisać → pisarz). PODSTAWA SŁOWOTWÓRCZA to część wspólna (pis-), a FORMANT — cząstka tworząca nowy wyraz (przyrostek: -arz, -ek, -anie; przedrostek: na-, prze-, wy-). RODZINA WYRAZÓW to wszystkie wyrazy o wspólnym rdzeniu: pisać, pisarz, napis, przepisać, pisownia (rdzeń pis-, czasem oboczny: uczyć — nauka, rdzeń ucz-/uk-). Formanty niosą znaczenie: ZDROBNIENIA (-ek, -ik, -eczka: domek, kotek) wyrażają małość lub czułość; ZGRUBIENIA (-isko, -ysko: psisko, domisko) — wielkość lub niechęć. WYRAZY ZŁOŻONE powstają z DWÓCH podstaw: samochód (sam + chodzić), listopad, łamigłówka.",
+      "punkty": [
+        "Podstawowy → pochodny: pisać → pisarz (kierunek tworzenia!)",
+        "Formant: przyrostek (-arz, -ek) lub przedrostek (na-, prze-)",
+        "Rodzina wyrazów = wspólny rdzeń (pis-: napis, pisarz, przepisać)",
+        "Zdrobnienie: domek (małość); zgrubienie: psisko (wielkość/niechęć)",
+        "Wyraz złożony ma dwie podstawy: samochód, łamigłówka"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b2-q-01",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "„Zjadłem obiad i poszedłem na trening\" to zdanie:",
+      "opcje": [
+        "złożone podrzędnie",
+        "złożone współrzędnie łączne",
+        "pojedyncze rozwinięte",
+        "równoważnik zdania"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Dwa orzeczenia (zjadłem, poszedłem) połączone spójnikiem „i\" — części są równorzędne, więc to zdanie współrzędnie złożone łączne. Przed pojedynczym „i\" nie stawiamy przecinka.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-02",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Która forma to imiesłów przysłówkowy WSPÓŁCZESNY?",
+      "opcje": ["czytając", "przeczytawszy", "czytający", "przeczytany"],
+      "poprawna": 0,
+      "wyjasnienie": "Końcówka -ąc = przysłówkowy współczesny (czynność równoczesna). „Przeczytawszy\" to przysłówkowy uprzedni (-wszy), „czytający\" — przymiotnikowy czynny (-ący), „przeczytany\" — przymiotnikowy bierny (-ny).",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-03",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "W zdaniu złożonym podrzędnie jedna część określa drugą i odpowiada na jej pytanie.",
+        "Równoważnik zdania zawiera orzeczenie w formie osobowej.",
+        "„Zostałem pochwalony przez nauczyciela\" to strona bierna."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Podrzędność = jedna część określa drugą (jak część zdania). Równoważnik NIE MA osobowej formy czasownika — właśnie dlatego jest równoważnikiem, nie zdaniem. „Zostałem pochwalony\" = zostać + imiesłów bierny, czyli strona bierna.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-04",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Chciałem przyjść, ale zachorowałem\" to zdanie złożone współrzędnie:",
+      "opcje": ["łączne", "rozłączne", "wynikowe", "przeciwstawne"],
+      "poprawna": 3,
+      "wyjasnienie": "Spójnik „ale\" przeciwstawia treść drugiej części pierwszej (chęć kontra przeszkoda) — to zdanie przeciwstawne. Przed „ale\", „lecz\", „jednak\" zawsze stawiamy przecinek.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Kupiłam książkę, którą polecił mi nauczyciel\". Zdanie podrzędne jest:",
+      "opcje": ["dopełnieniowe", "okolicznikowe", "przydawkowe", "orzecznikowe"],
+      "poprawna": 2,
+      "wyjasnienie": "Pytamy od zdania nadrzędnego: kupiłam książkę — JAKĄ? — którą polecił nauczyciel. Pytanie „jaki? który?\" wskazuje zdanie przydawkowe (określa rzeczownik, jak przydawka).",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-06",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie imiesłowy PRZYMIOTNIKOWE.",
+      "opcje": ["śpiący", "zrobiwszy", "napisany", "biegnąc", "umyty"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Przymiotnikowe odmieniają się i określają rzeczownik: śpiący (-ący, czynny), napisany i umyty (-ny, -ty, bierne). „Zrobiwszy\" (-wszy) i „biegnąc\" (-ąc) to imiesłowy przysłówkowe — nieodmienne.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-07",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Które zdanie z imiesłowowym równoważnikiem jest POPRAWNE?",
+      "opcje": [
+        "Idąc do szkoły, padał deszcz.",
+        "Wracając do domu, spotkałem sąsiada.",
+        "Czytając książkę, zgasło światło.",
+        "Jadąc pociągiem, minęła nas burza."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Wykonawca obu czynności musi być ten sam: to JA wracałem i JA spotkałem — poprawnie. W pozostałych zdaniach deszcz „idzie do szkoły\", światło „czyta książkę\", a burza „jedzie pociągiem\" — klasyczny błąd składniowy.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-08",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "W stronie biernej podmiot zdania sam wykonuje czynność.",
+        "„Mama powiedziała, że wróci późno\" to mowa zależna.",
+        "Wyraz „domek\" powstał od wyrazu „dom\" przez dodanie formantu -ek."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "W stronie biernej podmiot jest ODBIORCĄ czynności („list został napisany\"). Relacja ze spójnikiem „że\" to mowa zależna (niezależna brzmiałaby: Mama powiedziała: „Wrócę późno\"). Domek = dom + przyrostek -ek (zdrobnienie).",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-09",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Przekształć na stronę bierną: „Uczniowie przygotowali przedstawienie\".",
+      "opcje": [
+        "Uczniowie przygotowują przedstawienie.",
+        "Przedstawienie przygotowało uczniów.",
+        "Przygotowano przedstawienie dla uczniów.",
+        "Przedstawienie zostało przygotowane przez uczniów."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Strona bierna = odbiorca czynności staje się podmiotem + zostać/być + imiesłów bierny: „Przedstawienie zostało przygotowane (przez uczniów)\". Opcja 1 zmienia tylko czas, opcja 2 — sens, opcja 3 to forma bezosobowa i zmienia znaczenie.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Wskaż parę: wyraz PODSTAWOWY → wyraz POCHODNY.",
+      "opcje": ["pisać → pisarz", "pisarz → pisać", "pisarz → pismo", "pisanie → pisać"],
+      "poprawna": 0,
+      "wyjasnienie": "Pochodny powstaje OD podstawowego: od czasownika „pisać\" tworzymy nazwę wykonawcy „pisarz\" (podstawa pis- + formant -arz). Kierunek ma znaczenie — „pisać\" nie powstało od „pisarza\".",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-11",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Kasia zapytała: „Czy pójdziesz ze mną do kina?\". Wskaż POPRAWNE przekształcenie na mowę zależną (relacjonuje osoba zapytana).",
+      "opcje": [
+        "Kasia zapytała, że pójdziesz z nią do kina.",
+        "Kasia powiedziała: pójdziesz ze mną do kina.",
+        "Kasia zapytała, czy pójdę z nią do kina.",
+        "Kasia zapytała, czy pójdziesz ze mną do kina."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Pytanie relacjonujemy spójnikiem „czy\" (nie „że\") i zmieniamy perspektywę: jej „pójdziesz ze mną\" w mojej relacji to „pójdę z nią\". Opcja ostatnia kopiuje słowa Kasi bez zmiany osoby — to błąd przekształcenia.",
+      "punkty": 1
+    },
+    {
+      "id": "b2-q-12",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz wszystkie zdania złożone PODRZĘDNIE.",
+      "opcje": [
+        "Wiem, że masz rację.",
+        "Przyszedł i usiadł przy oknie.",
+        "Gdy zadzwonił budzik, wstałem.",
+        "Było ciemno, więc zapaliłem lampę.",
+        "Książka, którą czytam, jest gruba."
+      ],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Podrzędne odpowiadają na pytanie części nadrzędnej: wiem (co?), wstałem (kiedy?), książka (jaka?). „Przyszedł i usiadł\" to współrzędne łączne, „Było ciemno, więc...\" — współrzędne wynikowe.",
+      "punkty": 1
+    }
+  ]
+}

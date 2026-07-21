@@ -234,3 +234,27 @@ Format wpisu:
   kryteriów → "Zapisz samoocenę". Textarea wypełniać natywnym setterem
   `HTMLTextAreaElement.prototype.value` + event `input` (analogicznie do inputów).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 8: gramatyka-2 + czytanie-3)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony piąty raz —
+  gramatyka-2 (B) i czytanie-3 (E) weszły przez 2 pliki JSON + 4 linie w `rejestr.js`.
+  Build 56 modułów. Po tej iteracji KAŻDY rotowany moduł (B, C, D, E) ma ≥2 ćwiczenia,
+  więc rotacja tygodniowa nie wyczerpie treści w jednym przebiegu.
+- Obserwacja (metodyka): gramatyka-2 dopełnia gramatyka-1 bez dublowania — składnia
+  zdania złożonego (współrzędne 4 typy / podrzędne po pytaniach), imiesłowy z pułapką
+  równoważnika ("Idąc do szkoły, padał deszcz"), strona bierna, mowa zależna
+  (zmiana perspektywy zaimków!), słowotwórstwo. czytanie-3 wprowadza umiejętności
+  egzaminacyjne wyższego rzędu: wprost vs wniosek, czasowniki poleceń (uzasadnij =
+  odpowiedź + argument, samo tak/nie = 0 pkt), teksty ikoniczne, porównywanie dwóch
+  tekstów. Dwa fikcyjne teksty źródłowe (schronisko; góry: blog vs poradnik) obsługują
+  po 4 pytania każdy — format żywcem z arkusza CKE.
+- Obserwacja (QA): desktop: oba quizy 12/12 → 🎉; `zrodloTekst` renderuje się dokładnie
+  przy q04-07 i q09-12 czytania-3 (weryfikacja obecności tekstu w każdym kroku pętli).
+  Sloty B i E znikają z "Na dziś" po ukończeniu. Mobile 390x844: teoria gramatyka-2
+  i pytanie z ramką tekstu źródłowego — scrollW = innerW = 390. Stan Zosi przywrócony.
+- Obserwacja (QA, technika): pełny quiz da się przejść JEDNYM skryptem `evaluate_script`
+  z tablicą odpowiedzi `{t: "s"|"m"|"pf", v}` i pętlą (klik → Sprawdź → Dalej/Zakończ,
+  waity 100-350 ms) — szybsze i stabilniejsze niż klik-po-kliku przez snapshoty.
+  Do QA dwóch modułów naraz wystarczy jedna podmiana `plan.tygodnie[0].tematy[0..1]`
+  na B i E + oznaczenie wcześniejszych ćwiczeń modułu jako przerobione.
+- Zmiana w skilu: nie (wnioski zapisane tutaj).
