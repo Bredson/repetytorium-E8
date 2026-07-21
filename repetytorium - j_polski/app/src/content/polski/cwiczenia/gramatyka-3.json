@@ -1,0 +1,283 @@
+{
+  "id": "gramatyka-3",
+  "modul": "B",
+  "tytul": "Fleksja w praktyce: tryby, stopniowanie, liczebniki i trudne formy",
+  "teoria": [
+    {
+      "id": "tryby-czasownika",
+      "tytul": "Trzy tryby czasownika",
+      "tresc": "Tryb mówi o nastawieniu mówiącego: czy stwierdza fakt, rozkazuje, czy tylko przypuszcza. Na egzaminie pytają o rozpoznanie trybu i o przekształcenie zdania z jednego trybu na inny.",
+      "punkty": [
+        "Oznajmujący: stwierdza fakt — „Ola czyta”, „Ola przeczytała”, „Ola przeczyta”",
+        "Rozkazujący: polecenie — „Przeczytaj!”, „Niech przeczyta”, „Czytajmy!”",
+        "Przypuszczający: cząstka BY — „przeczytałbym”, „poszłaby” (gdyby, chciałbym)",
+        "Rozkazujący dla 3. osoby tworzymy z „niech”: niech napisze, niech wejdą",
+        "Test: jest „by” przy czasowniku? → przypuszczający; jest polecenie? → rozkazujący"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "stopniowanie",
+      "tytul": "Stopniowanie przymiotników i przysłówków",
+      "tresc": "Stopniowanie pokazuje natężenie cechy: równy → wyższy → najwyższy. Są trzy sposoby stopniowania — i jedna klasyczna pułapka, czyli mieszanie dwóch sposobów naraz.",
+      "punkty": [
+        "Proste: końcówka -szy/-ejszy + przedrostek naj-: miły → milszy → najmilszy",
+        "Opisowe: bardziej/najbardziej — dla długich przymiotników: bardziej interesujący",
+        "Nieregularne (na pamięć!): dobry→lepszy→najlepszy, zły→gorszy→najgorszy, mały→mniejszy→najmniejszy, duży→większy→największy",
+        "Przysłówki też się stopniują: szybko → szybciej → najszybciej; dobrze → lepiej → najlepiej",
+        "BŁĄD: „bardziej lepszy”, „bardziej milszy” — nie łączymy dwóch sposobów naraz",
+        "Nie wszystko się stopniuje: „drewniany”, „polski” nie mają stopnia wyższego"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "liczebniki",
+      "tytul": "Liczebniki: główne, porządkowe, zbiorowe, ułamkowe",
+      "tresc": "Liczebnik odpowiada na pytania: ile? który z kolei? Najwięcej błędów robimy przy liczebnikach zbiorowych (dwoje, pięcioro) — a to ulubiony typ zadań w arkuszach.",
+      "punkty": [
+        "Główny: ile? — pięć, dwadzieścia; porządkowy: który z kolei? — piąty, dwudziesty",
+        "Zbiorowy: dwoje, troje, pięcioro — dla dzieci i istot niedorosłych (pięcioro kociąt)",
+        "Zbiorowy także dla grup mieszanych (kobiety + mężczyźni): dwoje rodziców, troje uczniów",
+        "Ułamkowy: pół, półtora, ćwierć — „półtora roku” (nie „półtorej roku”!)",
+        "Liczebnik zbiorowy + czasownik w liczbie pojedynczej rodzaju nijakiego: „dwoje dzieci weszło” (nie „weszli”)",
+        "Zapamiętaj rymowankę: dzieci, oczy, uszy, zwierzęta młode — liczymy zbiorowo"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "zaimki-trudne-formy",
+      "tytul": "Zaimki: tę czy tą? mi czy mnie?",
+      "tresc": "Zaimki mają formy dłuższe i krótsze oraz jedną słynną pułapkę: tę/tą. W piśmie obowiązuje norma wzorcowa — i właśnie jej wymaga egzamin.",
+      "punkty": [
+        "TĘ + biernik (kogo? co?): „Przeczytałem tę książkę”, „Widzę tę dziewczynę”",
+        "TĄ + narzędnik (z kim? z czym?): „Idę z tą koleżanką”, „Piszę tą ręką”",
+        "Test: podstaw „tamtą/tamtę”? Nie — podstaw rzeczownik: czytam (co?) książkę → tę",
+        "Formy krótkie (mi, ci, go, mu) — w środku zdania: „Podaj mi zeszyt”",
+        "Formy długie (mnie, tobie, jego, jemu) — na początku zdania i przy nacisku: „Mnie to nie przekonuje”",
+        "BŁĄD: „Mi się to podoba” — na początku zdania zawsze forma długa: „Mnie się to podoba”"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "rodzaj-meskoosobowy",
+      "tytul": "Rodzaj męskoosobowy: oni czy one?",
+      "tresc": "W liczbie mnogiej polszczyzna dzieli świat na dwa rodzaje: męskoosobowy (grupy z mężczyznami) i niemęskoosobowy (cała reszta — kobiety, dzieci, zwierzęta, rzeczy).",
+      "punkty": [
+        "Męskoosobowy: ONI, CI, -LI — „Chłopcy grali”, „Ci uczniowie napisali”",
+        "Niemęskoosobowy: ONE, TE, -ŁY — „Dziewczyny grały”, „Te psy szczekały”",
+        "Grupa mieszana (choć jeden mężczyzna) = męskoosobowy: „Ola i Adam poszli”",
+        "Zwierzęta i rzeczy zawsze niemęskoosobowe: „koty spały”, „stoły stały”",
+        "BŁĄD: „te chłopcy przyszły” — poprawnie: „ci chłopcy przyszli”"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "formy-nieosobowe",
+      "tytul": "Formy nieosobowe i trudne formy czasownika",
+      "tresc": "Nie każda forma czasownika wskazuje osobę. Bezokolicznik i formy na -no/-to mówią o czynności, ale nie zdradzają wykonawcy. Do tego dochodzą formy, w których Polacy najczęściej się mylą.",
+      "punkty": [
+        "Bezokolicznik: czytać, nieść, biec — forma podstawowa, bez osoby i czasu",
+        "Formy na -NO/-TO: „umyto okna”, „zbudowano szkołę” — czynność bez wykonawcy",
+        "Formy na -no/-to zawsze dotyczą PRZESZŁOŚCI, choć nie mają końcówki czasu",
+        "Trudne formy (norma!): wziąłem (nie „wzięłem”), szedłem (nie „szłem”), poszedłem",
+        "Umiem, rozumiem (nie „umię”, „rozumię”); on umie, oni umieją",
+        "Włączać/wyłączać (nie „włanczać”); zaczął, zaczęła (nie „zaczeła”)"
+      ],
+      "czasMin": 5
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b3-q-01",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Który tryb czasownika wyraża przypuszczenie lub warunek?",
+      "opcje": [
+        "oznajmujący",
+        "przypuszczający",
+        "rozkazujący",
+        "pytający"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Tryb przypuszczający poznasz po cząstce BY: „poszedłbym”, „chciałaby”. Wyraża to, co mogłoby się zdarzyć. „Tryb pytający” nie istnieje.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-02",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Wskaż poprawny stopień najwyższy przymiotnika „dobry”:",
+      "opcje": [
+        "dobrszy",
+        "bardziej dobry",
+        "najdobrzejszy",
+        "najlepszy"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "„Dobry” stopniuje się nieregularnie: dobry → lepszy → najlepszy. Te formy trzeba znać na pamięć, tak jak zły → gorszy → najgorszy.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-03",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe:",
+      "opcje": [
+        "„Zrobiłbym to inaczej” — czasownik jest w trybie przypuszczającym.",
+        "„Niech Ola napisze list” — czasownik jest w trybie oznajmującym.",
+        "Przysłówki też się stopniują, np. szybko → szybciej → najszybciej."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "„Zrobiłbym” ma cząstkę BY, więc to tryb przypuszczający. „Niech napisze” to polecenie dla 3. osoby — tryb rozkazujący, nie oznajmujący. Przysłówki stopniują się tak jak przymiotniki.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-04",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Pięcioro dzieci” — jaki to liczebnik?",
+      "opcje": [
+        "zbiorowy",
+        "główny",
+        "porządkowy",
+        "ułamkowy"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dwoje, troje, pięcioro to liczebniki zbiorowe — używamy ich m.in. dla dzieci i młodych zwierząt. Główny to „pięć”, porządkowy to „piąty”.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Które zdanie jest poprawne?",
+      "opcje": [
+        "Widziałem tą dziewczynę na przystanku.",
+        "Podaj mi tą książkę z półki.",
+        "Przeczytałem tę lekturę w tydzień.",
+        "Kup tą gazetę po drodze."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "W bierniku (kogo? co?) piszemy TĘ: przeczytałem (co?) tę lekturę. Forma „tą” pasuje tylko do narzędnika: „idę z tą koleżanką”.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-06",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz zdania z rodzajem MĘSKOOSOBOWYM:",
+      "opcje": [
+        "Chłopcy grali w piłkę na boisku.",
+        "Dziewczyny grały w siatkówkę.",
+        "Uczniowie napisali test bezbłędnie.",
+        "Psy szczekały głośno całą noc.",
+        "Rodzice przyszli na zebranie."
+      ],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Męskoosobowy = grupa z mężczyznami: chłopcy graLI, uczniowie napisaLI, rodzice przyszLI (grupa mieszana). Dziewczyny i psy to rodzaj niemęskoosobowy: grały, szczekały.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-07",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Forma „umyto okna” to:",
+      "opcje": [
+        "tryb rozkazujący",
+        "imiesłów przymiotnikowy",
+        "czas przyszły",
+        "forma bezosobowa na -no/-to"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Formy na -NO/-TO (umyto, zbudowano, napisano) mówią o czynności z przeszłości, ale nie zdradzają, kto ją wykonał — dlatego nazywamy je bezosobowymi.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-08",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe:",
+      "opcje": [
+        "„Bardziej lepszy” to poprawna forma stopnia wyższego.",
+        "Liczebniki zbiorowe łączą się m.in. z rzeczownikami typu „dzieci”, „kurczęta”.",
+        "Na początku zdania używamy długiej formy zaimka: „Mnie się to podoba”, nie „Mi się to podoba”."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "„Bardziej lepszy” łączy dwa sposoby stopniowania naraz — to błąd; poprawnie: „lepszy”. Zbiorowe (dwoje, pięcioro) pasują do dzieci i młodych zwierząt. Krótkie formy (mi, ci, go) nie mogą zaczynać zdania.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-09",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Które zdanie jest w trybie ROZKAZUJĄCYM?",
+      "opcje": [
+        "Niech Ola przeczyta ten wiersz na głos.",
+        "Ola przeczytała wiersz na głos.",
+        "Ola przeczytałaby wiersz, gdyby miała czas.",
+        "Ola czyta wiersz na głos."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Tryb rozkazujący dla 3. osoby tworzymy z „niech”: niech przeczyta. Zdanie 2. i 4. to tryb oznajmujący (fakty), a 3. — przypuszczający (cząstka BY).",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Chłopak opowiada o wczorajszym dniu. Która forma jest POPRAWNA?",
+      "opcje": [
+        "Wzięłem plecak i wyszedłem.",
+        "Wziąłem plecak i szłem do szkoły.",
+        "Wziąłem plecak i szedłem do szkoły.",
+        "Wzięłem plecak i szłem do szkoły."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "W rodzaju męskim: WZIĄŁEM (ą!) i SZEDŁEM. Forma „wzięłem” jest błędna (żeńska to „wzięłam”), a „szłem” w ogóle nie istnieje — mówimy „szedłem”.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-11",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "„Dwoje uczniów WESZŁO do klasy”. Dlaczego czasownik ma formę „weszło”, a nie „weszli”?",
+      "opcje": [
+        "Bo to błąd — poprawnie jest „dwoje uczniów weszli”.",
+        "Bo liczebnik zbiorowy łączy się z czasownikiem w liczbie pojedynczej rodzaju nijakiego.",
+        "Bo uczniowie są niedorośli, a o dzieciach mówimy „weszło”.",
+        "Bo w czasie przeszłym wszystkie czasowniki mają końcówkę -ło."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Po liczebniku zbiorowym (dwoje, troje, pięcioro) czasownik przyjmuje formę liczby pojedynczej rodzaju nijakiego: dwoje uczniów weszło, pięcioro dzieci bawiło się.",
+      "punkty": 1
+    },
+    {
+      "id": "b3-q-12",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz formy POPRAWNE:",
+      "opcje": [
+        "To najlepszy film, jaki widziałem.",
+        "W schronisku mieszka pięcioro kociąt.",
+        "Ten pomysł jest bardziej mądrzejszy od poprzedniego.",
+        "Oni poszli do kina po lekcjach.",
+        "Te chłopcy przyszły na trening."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "„Najlepszy” to poprawne stopniowanie nieregularne, „pięcioro kociąt” — poprawny liczebnik zbiorowy, „oni poszli” — poprawny rodzaj męskoosobowy. Błędy: „bardziej mądrzejszy” (dwa sposoby naraz) i „te chłopcy przyszły” (poprawnie: ci chłopcy przyszli).",
+      "punkty": 1
+    }
+  ]
+}

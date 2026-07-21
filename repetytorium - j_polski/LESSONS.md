@@ -286,3 +286,29 @@ Format wpisu:
   Mobile 390x844: teoria i pisanie scrollW = innerW = 390. Stan Zosi przywrócony
   z backupu (fetch przez public/backup-tmp.json, plik usunięty).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 10: gramatyka-3 + literackie-3)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony siódmy raz —
+  gramatyka-3 (B) i literackie-3 (D) weszły przez 2 pliki JSON + 4 linie
+  w `rejestr.js`. Build 60 modułów. Symetria domknięta: moduły B, C, D, E mają
+  po 3 ćwiczenia. Diagnoza Zosi: D był najsłabszy z rotowanych (1/4).
+- Obserwacja (metodyka): gramatyka-3 domyka fleksję bez dublowania gram-1/2 —
+  tryby czasownika, stopniowanie (pułapka "bardziej lepszy"), liczebniki zbiorowe
+  (dwoje uczniów WESZŁO), tę/tą, rodzaj męskoosobowy, formy -no/-to + trudne formy
+  (wziąłem/szedłem). Literackie-3 celuje w najtrudniejszy typ zadań wg wyników 2026:
+  wnioskowanie ponadtekstowe (sąd szczegółowy vs ogólny, schemat scena → prawda
+  o człowieku), aksjologia (prawda-dobro-piękno), motywy wędrowne jako duety
+  argumentacyjne, konteksty funkcjonalne, plakat/obraz (symbolika z TREŚCI lektury).
+  Pytania-pułapki anty-kardynalne wplecione (w "Zemście" nikt nie ginie — 2x).
+- Obserwacja (pułapka cudzysłowów — potwierdzona): oba pliki wymagały naprawy
+  regexem (81 + 59 wystąpień ASCII `"` po `„`). Procedura z it. 9 działa:
+  po write od razu `json.loads`, naprawa w pętli, dopiero potem walidator.
+- Obserwacja (QA/symulacja): `plan.tygodnie[i].tematy[]` to OBIEKTY
+  `{typ, modul, temat}` (plan.js:135-155), nie kody modułów — symulacja tematów
+  tygodnia stringami "B"/"D" renderuje puste "·" i nie tworzy slotów.
+  Poprawna podmiana: `{typ:"cwiczenia", modul:"B", temat:"..."}`.
+- Obserwacja (QA): oba quizy 12/12 → 🎉 jednym skryptem; sloty B i D znikają
+  z "Na dziś" po ukończeniu. Mobile 390x844: teoria scrollW = innerW = 390.
+  Stan Zosi przywrócony z backupu (plik z evaluate_script filePath jest podwójnie
+  zakodowany — odpakowywać JSON.parse w pętli aż do obiektu, u nas depth=2).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

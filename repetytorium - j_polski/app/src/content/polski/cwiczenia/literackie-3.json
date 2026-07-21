@@ -1,0 +1,284 @@
+{
+  "id": "literackie-3",
+  "modul": "D",
+  "tytul": "Wartości, konteksty i wnioskowanie ponadtekstowe",
+  "teoria": [
+    {
+      "id": "wartosci-aksjologia",
+      "tytul": "Prawda, dobro, piękno — wartości w lekturach",
+      "tresc": "Aksjologia to nauka o wartościach. Egzamin 2027 mocno akcentuje pytania o to, JAKIE wartości niesie utwór i jak bohaterowie ich bronią (albo je zdradzają). To nie jest wiedza tajemna — to pytanie: co w tej historii jest cenne?",
+      "punkty": [
+        "Klasyczna triada wartości: PRAWDA — DOBRO — PIĘKNO",
+        "Wartość ma swoją antywartość: dobro–zło, prawda–kłamstwo, wierność–zdrada",
+        "Bohater wybiera między wartościami: Scrooge — pieniądze czy ludzie?",
+        "Słownictwo wartościujące zdradza ocenę: „bohaterski czyn” (plus), „podły postępek” (minus)",
+        "Pytanie egzaminacyjne: „Jaką wartość bohater stawia najwyżej? Uzasadnij sceną z lektury”"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "sad-ogolny",
+      "tytul": "Od sceny do prawdy o człowieku — sąd ogólny",
+      "tresc": "Najtrudniejszy typ zadań wg wyników 2026: wnioskowanie ponadtekstowe. Chodzi o przejście od konkretu z lektury (sąd szczegółowy) do uniwersalnej prawdy o ludziach (sąd ogólny). To umiejętność, którą da się wyćwiczyć jak schemat.",
+      "punkty": [
+        "Sąd szczegółowy: o JEDNYM bohaterze i scenie — „Scrooge kupił indyka Cratchitom”",
+        "Sąd ogólny: o KAŻDYM człowieku — „Człowiek może się zmienić, gdy zrozumie skutki swoich czynów”",
+        "Schemat przejścia: scena → co zrobił bohater → co to mówi o ludziach W OGÓLE",
+        "Test sądu ogólnego: czy zdanie jest prawdziwe także BEZ tej lektury? Jeśli tak — jest ogólne",
+        "Słowa-sygnały sądu ogólnego: człowiek, ludzie, każdy z nas, warto, należy",
+        "Błąd: sam przykład to nie wniosek — zawsze dopisz uogólnienie"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "motywy-wedrowne",
+      "tytul": "Motywy wędrowne i duety lekturowe",
+      "tresc": "Motyw wędrowny to temat, który powtarza się w literaturze różnych epok: przemiana, przyjaźń, wina i kara, wędrówka. Znajomość motywów to gotowe pary lektur do rozprawki — dwa argumenty od ręki.",
+      "punkty": [
+        "PRZEMIANA: Scrooge („Opowieść wigilijna”) ↔ Cześnik i Rejent godzą się w „Zemście”",
+        "PRZYJAŹŃ: Lis i Mały Książę ↔ Alek, Rudy, Zośka („Kamienie na szaniec”)",
+        "WINA I KARA: Balladyna (zbrodnia → klęska) ↔ duchy w „Dziadach cz. II”",
+        "STOSUNEK DO PIENIĘDZY: Scrooge ↔ Bankier z planety Małego Księcia",
+        "Motyw = gotowy duet argumentacyjny do rozprawki: jedna teza, dwie lektury",
+        "Uwaga na fakty: w „Zemście” NIKT nie ginie, a Tim Cratchit ŻYJE — błąd kardynalny zeruje punkty"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "konteksty",
+      "tytul": "Konteksty: biograficzny, historyczny, kulturowy",
+      "tresc": "Kontekst to wiedza SPOZA utworu, która pomaga go głębiej zrozumieć. Na egzaminie użycie kontekstu w wypracowaniu podnosi ocenę kompetencji literackich — ale kontekst musi być funkcjonalny, czyli naprawdę coś wyjaśniać.",
+      "punkty": [
+        "Biograficzny: życie autora — Aleksander Kamiński znał bohaterów „Kamieni” osobiście",
+        "Historyczny: epoka i wydarzenia — okupacja niemiecka wyjaśnia wybory Alka, Rudego i Zośki",
+        "Kulturowy: obyczaje i wierzenia — ludowy obrzęd dziadów wyjaśnia sytuację w „Dziadach cz. II”",
+        "Kontekst funkcjonalny = połączony z wnioskiem, nie wrzucony „na ozdobę”",
+        "Formuła: „Zrozumienie utworu pogłębia fakt, że...” + co z tego wynika",
+        "Nie myl kontekstu z streszczeniem biografii — liczy się związek z SENSEM utworu"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "plakat-obraz",
+      "tytul": "Plakat i obraz: symbolika i kompozycja",
+      "tresc": "Nowy akcent egzaminu: teksty ikoniczne w zestawieniu z lekturą. Plakat teatralny czy reprodukcję obrazu czytamy jak tekst — pytamy, CO pokazano, JAK to skomponowano i CO to znaczy w związku z utworem.",
+      "punkty": [
+        "Krok 1 — CO: elementy plakatu (postać, przedmiot, kolor, napis)",
+        "Krok 2 — JAK: kompozycja (co w centrum, co największe, jakie barwy dominują)",
+        "Krok 3 — CO ZNACZY: symbolika w związku z TREŚCIĄ lektury, nie z luźnym skojarzeniem",
+        "Kolory mówią: czerwień — krew, namiętność; czerń — śmierć, tajemnica; biel — niewinność",
+        "Zawsze łącz element plakatu ze sceną lub motywem z utworu: korona + czerwień → zbrodnia Balladyny",
+        "Na plakacie nie oceniamy „ładności” — oceniamy znaczenie i związek z lekturą"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "sady-w-wypracowaniu",
+      "tytul": "Jak wpleść sądy ogólne do wypracowania",
+      "tresc": "Sąd ogólny to najmocniejszy element rozprawki: pokazuje, że rozumiesz utwór PONAD fabułą. Egzaminatorzy nagradzają wnioski o człowieku i świecie — nie streszczenia.",
+      "punkty": [
+        "Struktura akapitu: teza cząstkowa → przykład z lektury → SĄD OGÓLNY na końcu",
+        "Formuły startowe: „Historia bohatera pokazuje uniwersalną prawdę, że...”",
+        "„Losy ... dowodzą, że człowiek...”, „Ta scena uczy, że warto...”",
+        "Jeden akapit = jeden przykład + jedno uogólnienie (nie mieszaj)",
+        "W zakończeniu rozprawki wróć do tezy sądem ogólnym — to domyka wywód",
+        "Unikaj pustych ogólników bez przykładu — sąd ogólny zawsze wyrasta ze sceny"
+      ],
+      "czasMin": 4
+    }
+  ],
+  "quiz": [
+    {
+      "id": "d3-q-01",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Klasyczna triada wartości to:",
+      "opcje": [
+        "siła — władza — bogactwo",
+        "wiedza — praca — sukces",
+        "prawda — dobro — piękno",
+        "honor — odwaga — duma"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Prawda, dobro i piękno to klasyczna triada wartości, do której odwołuje się egzamin (wymiar aksjologiczny). Pozostałe zestawy to nie triada klasyczna.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-02",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Antywartością dla „dobra” jest:",
+      "opcje": [
+        "zło",
+        "smutek",
+        "bieda",
+        "strach"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Antywartość to przeciwieństwo wartości: dobro–zło, prawda–kłamstwo, wierność–zdrada. Smutek, bieda i strach to stany, nie antywartości dobra.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-03",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe:",
+      "opcje": [
+        "Motyw wędrowny to temat powtarzający się w utworach różnych epok.",
+        "Sąd ogólny dotyczy tylko jednego bohatera i jednej sceny.",
+        "Przemiana Scrooge’a w „Opowieści wigilijnej” to przykład motywu przemiany."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Motyw wędrowny „wędruje” przez literaturę różnych epok. Sąd dotyczący jednego bohatera i sceny to sąd SZCZEGÓŁOWY — ogólny mówi o ludziach w ogóle. Scrooge to podręcznikowy przykład motywu przemiany.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-04",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Który wniosek jest sądem OGÓLNYM (ponadtekstowym)?",
+      "opcje": [
+        "Scrooge odwiedził dom Cratchitów z Duchem Tegorocznych Świąt.",
+        "Duchy pokazały Scrooge’owi jego przeszłość i przyszłość.",
+        "Scrooge kupił wielkiego indyka rodzinie Cratchitów.",
+        "Człowiek może się zmienić, gdy zrozumie skutki swoich czynów."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Trzy pierwsze zdania to sądy szczegółowe — opisują konkretne sceny. Tylko ostatnie mówi o człowieku W OGÓLE i jest prawdziwe także bez tej lektury — to sąd ogólny.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-05",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Motyw WINY I KARY najlepiej łączy lektury:",
+      "opcje": [
+        "„Mały Książę” i „Kamienie na szaniec”",
+        "„Balladyna” i „Dziady cz. II”",
+        "„Zemsta” i „Mały Książę”",
+        "„Opowieść wigilijna” i „Zemsta”"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Balladyna za zbrodnie ponosi klęskę, a duchy w „Dziadach cz. II” cierpią kary za winy z życia — to duet „nie ma winy bez kary”. Pozostałe pary łączą inne motywy (przyjaźń, przemiana).",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-06",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz TRAFNE pary lektura–wartość:",
+      "opcje": [
+        "„Kamienie na szaniec” — przyjaźń i braterstwo",
+        "„Zemsta” — żałoba po śmierci głównego bohatera",
+        "„Mały Książę” — odpowiedzialność za tych, których oswoiliśmy",
+        "„Balladyna” — nagroda za sprytnie ukrytą zbrodnię",
+        "„Opowieść wigilijna” — dobroć i hojność wobec innych"
+      ],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Trafne: przyjaźń w „Kamieniach”, odpowiedzialność u Lisa, dobroć u odmienionego Scrooge’a. Pułapki: w „Zemście” NIKT nie ginie (to komedia!), a Balladyna za zbrodnie ponosi karę, nie nagrodę.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-07",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dla której lektury kontekst HISTORYCZNY (okupacja niemiecka) jest kluczowy?",
+      "opcje": [
+        "„Balladyna”",
+        "„Mały Książę”",
+        "„Kamienie na szaniec”",
+        "„Zemsta”"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "„Kamienie na szaniec” to literatura faktu o harcerzach w okupowanej Warszawie — bez kontekstu okupacji nie zrozumiemy wyborów Alka, Rudego i Zośki.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-08",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe:",
+      "opcje": [
+        "Analizując plakat teatralny, oceniamy przede wszystkim, czy jest ładny.",
+        "Kontekst biograficzny to wiedza o życiu autora, która pomaga zrozumieć utwór.",
+        "Symbol na plakacie interpretujemy w związku z treścią lektury, a nie z luźnymi skojarzeniami."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "Plakatu nie oceniamy pod kątem „ładności” — pytamy o znaczenie elementów i związek z utworem. Kontekst biograficzny działa, gdy fakt z życia autora coś WYJAŚNIA. Symbole czytamy z treści utworu.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-09",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Uczeń napisał w rozprawce: „Warto pomagać innym, bo Scrooge kupił indyka”. Co jest główną słabością tego wywodu?",
+      "opcje": [
+        "Jest błędny, bo Scrooge nikomu nie kupił indyka.",
+        "Brakuje przejścia od szczegółu do uogólnienia — sam przykład to jeszcze nie wniosek.",
+        "Scrooge to bohater spoza listy lektur obowiązkowych.",
+        "Zdanie jest zbyt długie jak na rozprawkę."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Przykład jest prawdziwy (Scrooge rzeczywiście kupił indyka), ale między sceną a tezą brakuje mostu: co ta scena mówi o ludziach w ogóle? Np. „pomaganie daje radość obu stronom”.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-10",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Na plakacie teatralnym do „Balladyny” złotą koronę przecina czerwona plama. Która interpretacja jest NAJTRAFNIEJSZA?",
+      "opcje": [
+        "To przypadkowa dekoracja bez znaczenia.",
+        "Czerwień symbolizuje miłość Balladyny do Kirkora.",
+        "Korona symbolizuje Polskę, a czerwień — flagę narodową.",
+        "Czerwień to krew — zbrodnia jako droga Balladyny do korony i cena władzy."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Symbol czytamy w związku z TREŚCIĄ utworu: Balladyna zdobywa koronę przez zbrodnie (czerwień = krew) i za nie ginie od pioruna. Interpretacje 2. i 3. to luźne skojarzenia bez oparcia w lekturze.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-11",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Które sformułowanie najlepiej ZACZYNA wniosek ponadtekstowy w wypracowaniu?",
+      "opcje": [
+        "„Historia bohatera pokazuje uniwersalną prawdę, że...”",
+        "„W lekturze na stronie pięćdziesiątej czwartej czytamy, że...”",
+        "„Moim zdaniem lektura była dość ciekawa, ponieważ...”",
+        "„Autor urodził się w tysiąc osiemsetnym roku i...”"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Wniosek ponadtekstowy prowadzi od losów bohatera do prawdy o człowieku — formuła „pokazuje uniwersalną prawdę, że...” robi dokładnie to. Cytowanie strony, ocena „ciekawości” i biografia autora nie budują sądu ogólnego.",
+      "punkty": 1
+    },
+    {
+      "id": "d3-q-12",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz zdania PRAWDZIWE o kontekstach i wartościach w lekturach:",
+      "opcje": [
+        "Kontekst kulturowy „Dziadów cz. II” to ludowy obrzęd wywoływania duchów przodków.",
+        "Lis w „Małym Księciu” uczy, że dobrze widzi się tylko sercem.",
+        "W „Zemście” Rejent ginie w pojedynku z Cześnikiem.",
+        "Duet „Zemsta”–„Opowieść wigilijna” pasuje do rozprawki o przemianie bohatera.",
+        "Wartości w lekturze wskazujemy tylko wtedy, gdy narrator nazywa je wprost."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Obrzęd dziadów to kontekst kulturowy, słowa Lisa to sedno lektury, a przemiana łączy Scrooge’a ze zgodą Cześnika i Rejenta. Pułapki: w „Zemście” nikt nie ginie, a wartości najczęściej odczytujemy z czynów bohaterów, nie z gotowych deklaracji.",
+      "punkty": 1
+    }
+  ]
+}
