@@ -9,7 +9,7 @@ import PasekPostepu from "../components/PasekPostepu.jsx";
 
 const IKONY_ZADAN = { powtorka: "🔁", lektura: "📖", cwiczenia: "✏️", pisanie: "📝" };
 
-export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOtworzLekture, onOtworzPowtorke, onOtworzCwiczenie, onOtworzPisanie, onWyloguj, onZmienMotyw }) {
+export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOtworzLekture, onOtworzPowtorke, onOtworzCwiczenie, onOtworzPisanie, onOtworzEgzamin, onWyloguj, onZmienMotyw }) {
   const dni = dniDoEgzaminu(profil);
   const diagnoza = postepy?.diagnoza;
   const [pokazPlan, setPokazPlan] = useState(false);
@@ -168,6 +168,28 @@ export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOt
               )}
             </section>
           )}
+          <section className="karta" style={{ marginTop: "var(--sp-4)", display: "grid", gap: "var(--sp-3)" }}>
+            <h3 style={{ margin: 0 }}>🎓 Egzamin próbny</h3>
+            {(postepy.egzaminy ?? []).length > 0 ? (
+              <p className="tekst-2 tekst-maly" style={{ margin: 0 }}>
+                Ostatni wynik:{" "}
+                <strong>
+                  {postepy.egzaminy[postepy.egzaminy.length - 1].wynikPkt}/
+                  {postepy.egzaminy[postepy.egzaminy.length - 1].maksPkt} pkt
+                  {" "}({postepy.egzaminy[postepy.egzaminy.length - 1].procent}%)
+                </strong>
+                {" "}· podejść: {postepy.egzaminy.length}
+              </p>
+            ) : (
+              <p className="tekst-2 tekst-maly" style={{ margin: 0 }}>
+                Pełna symulacja arkusza: 25 pytań + wypracowanie, 45 pkt, 150 minut.
+                Zarezerwuj sobie spokojne ~2,5 godziny.
+              </p>
+            )}
+            <button className="btn btn--pelny" onClick={onOtworzEgzamin}>
+              {(postepy.egzaminy ?? []).length > 0 ? "Podchodzę jeszcze raz" : "Rozpocznij egzamin próbny"}
+            </button>
+          </section>
         </>
       )}
 

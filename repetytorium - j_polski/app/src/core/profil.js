@@ -53,12 +53,13 @@ export function dniDoEgzaminu(profil, teraz = new Date()) {
 /** Pusty stan postępów — schemat wg docs/ARCHITEKTURA.md + rozszerzenia Fazy 1 (SPEC-FAZA-1, -IT2). */
 export function pustePostepy() {
   return {
-    wersjaSchematu: 3,
+    wersjaSchematu: 4,
     diagnoza: null,
     plan: null,
     lektury: {},
     cwiczenia: {},
     pisanie: {},
+    egzaminy: [],
     sesje: [],
     powtorki: [],
     kamienieMilowe: { X2026: null, I2027: null, III2027: null, IV2027: null },
@@ -76,6 +77,10 @@ export function migrujPostepy(postepy) {
   if (dane.wersjaSchematu < 3) {
     // 2 → 3: dodaj stan ćwiczeń modułowych i form pisemnych
     dane = { ...dane, wersjaSchematu: 3, cwiczenia: {}, pisanie: {} };
+  }
+  if (dane.wersjaSchematu < 4) {
+    // 3 → 4: dodaj historię egzaminów próbnych
+    dane = { ...dane, wersjaSchematu: 4, egzaminy: [] };
   }
   return dane;
 }

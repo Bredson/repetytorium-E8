@@ -387,3 +387,34 @@ Format wpisu:
   depth=1, cudzysłowy: 0 napraw (trzeci raz z rzędu). Stan Zosi przywrócony
   (fetch przez public/backup-tmp.json, plik usunięty, "Na dziś" bazowe).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 14: egzamin próbny)
+- Obserwacja: pierwsza iteracja od dawna z nową logiką core (egzamin.js)
+  zamiast "sam JSON". Kluczowe decyzje: arkusz losowany z PULA_EGZAMINU
+  (264 pytania z quizów lektur + ćwiczeń, rozkład A:6 B:5 C:4 D:5 E:5 = 25),
+  wypracowanie reużywa istniejących form open-long (rozprawka/opowiadanie/
+  przemówienie) przez FORMY_EGZAMINU w rejestrze — zero nowej treści,
+  czysta rekompozycja. Reguła CKE <180 słów → cap 7/20 pkt zaimplementowana
+  w policzWynikEgzaminu i przetestowana node'em (cap, brak capu ≥180,
+  granica równo 180 bez capu).
+- Obserwacja (architektura): migracja schematu 3→4 (egzaminy:[]) potwierdziła
+  wartość wersjonowania — stary backup v3 wgrany do localStorage
+  automatycznie awansuje przy logowaniu bez utraty danych. Wynik egzaminu
+  zapisuje pełne szczegóły (25 odpowiedzi + wypracowanie z liczbą słów),
+  co otworzy drogę do statystyk postępu w przyszłej iteracji.
+- Obserwacja (UX): egzamin celowo BEZ feedbacku po pytaniu (własne kopie
+  OpcjeSingle/Multi/TrueFalse zamiast reużycia komponentów quizu) — symulacja
+  warunków arkusza. Zegar odlicza w dół od 2:30:00, po zerze nie blokuje
+  (baner "Czas minął — dokończ spokojnie" — growth mindset zamiast kary).
+  Ekran wyniku pokazuje delty per moduł vs diagnoza (▲/▽/=) — Zosia widzi
+  postęp względem punktu startowego, nie tylko surowy wynik.
+- Obserwacja (QA): pułapka CSS capitalize — wybór formy renderuje
+  "Rozprawka", ale textContent to "rozprawka" (mała litera); skrypty QA
+  muszą matchować bez uwzględnienia wielkości pierwszej litery. Desktop:
+  pełny przebieg 25 pytań + rozprawka 205 słów + samoocena 6/8 → 20/45,
+  zapis zweryfikowany (v4, egzaminy[0], sesja typ:"egzamin", powtórki
+  nietknięte). Mobile 390x844: scrollW = innerW = 390. Backup depth=1,
+  przywrócenie przez public/backup-tmp.json bez niespodzianek.
+- Kandydat techniczny: chunk 658 kB (>500 kB warning) — code-splitting
+  do rozważenia w jednej z kolejnych iteracji.
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

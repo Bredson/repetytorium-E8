@@ -68,6 +68,19 @@ export const PISANIE = {
   "przemowienie-1": przemowienie1,
 };
 
+/** Pula pytań zamkniętych do egzaminu próbnego (moduły A-E, patrz core/egzamin.js). */
+export const PULA_EGZAMINU = [
+  ...Object.values(LEKTURY).flatMap((l) => l.quiz),
+  ...Object.values(CWICZENIA).flatMap((c) => c.quiz),
+];
+
+/** Długie formy wypowiedzi (20 pkt) do wyboru w części pisemnej egzaminu próbnego. */
+export const FORMY_EGZAMINU = {
+  "rozprawka-1": rozprawka1,
+  "opowiadanie-1": opowiadanie1,
+  "przemowienie-1": przemowienie1,
+};
+
 /** Materiał powtórki (obiekt z .quiz/.fiszki) po ref rekordu powtórki. */
 export function material(ref) {
   return LEKTURY[ref] ?? CWICZENIA[ref] ?? null;

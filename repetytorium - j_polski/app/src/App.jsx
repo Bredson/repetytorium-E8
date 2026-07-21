@@ -3,7 +3,7 @@ import { storage } from "./storage/adapter.js";
 import { pustePostepy, migrujPostepy } from "./core/profil.js";
 import { generujPlan } from "./core/plan.js";
 import { nowaPowtorka, oznaczPowtorke, zaktualizujPowtorki, maPowtorke } from "./core/powtorki.js";
-import { LEKTURY, CWICZENIA, PISANIE, material } from "./content/polski/rejestr.js";
+import { LEKTURY, CWICZENIA, PISANIE, PULA_EGZAMINU, FORMY_EGZAMINU, material } from "./content/polski/rejestr.js";
 import WyborProfilu from "./ui/pages/WyborProfilu.jsx";
 import NowyProfil from "./ui/pages/NowyProfil.jsx";
 import EkranPin from "./ui/pages/EkranPin.jsx";
@@ -14,6 +14,7 @@ import Lektura from "./ui/pages/Lektura.jsx";
 import Powtorka from "./ui/pages/Powtorka.jsx";
 import Cwiczenie from "./ui/pages/Cwiczenie.jsx";
 import Pisanie from "./ui/pages/Pisanie.jsx";
+import EgzaminProbny from "./ui/pages/EgzaminProbny.jsx";
 
 /** Ustawia atrybuty motywu na <html> zgodnie z preferencjami profilu. */
 function zastosujPreferencje(profil) {
@@ -158,6 +159,15 @@ export default function App() {
     });
   }
 
+  /** Egzamin próbny: pełny wynik do historii + sesja (bez powtórek — omówienie na miejscu). */
+  async function zapiszEgzamin(wynik) {
+    await zapiszPostepy({
+      ...postepy,
+      egzaminy: [...(postepy.egzaminy ?? []), wynik],
+      sesje: [...postepy.sesje, { typ: "egzamin", data: wynik.data, wynikPkt: wynik.wynikPkt, maksPkt: wynik.maksPkt }],
+    });
+  }
+
   /** Ocena powtórki — zwraca nowy rekord (UI pokazuje kolejny interwał). */
   function ocenPowtorke(ocena, wynik) {
     const nowy = oznaczPowtorke(aktywnaPowtorka, ocena);
@@ -210,6 +220,7 @@ export default function App() {
         onOtworzPowtorke={(rekord) => { setAktywnaPowtorka(rekord); setEkran("powtorka"); }}
         onOtworzCwiczenie={(ref) => { setAktywneCwiczenie(ref); setEkran("cwiczenie"); }}
         onOtworzPisanie={(ref) => { setAktywnePisanie(ref); setEkran("pisanie"); }}
+        onOtworzEgzamin={() => setEkran("egzamin")}
         onWyloguj={wyloguj}
         onZmienMotyw={zmienMotyw}
       />
@@ -252,6 +263,17 @@ export default function App() {
         tresc={PISANIE[aktywnePisanie]}
         onGotowe={(wynik) => zapiszPisanie(aktywnePisanie, wynik)}
         onWroc={() => { setAktywnePisanie(null); setEkran("start"); }}
+      />
+    );
+
+  if (ekran === "egzamin")
+    return (
+      <EgzaminProbny
+        pula={PULA_EGZAMINU}
+        formy={FORMY_EGZAMINU}
+        diagnoza={postepy.diagnoza}
+        onGotowe={zapiszEgzamin}
+        onWroc={() => setEkran("start")}
       />
     );
 
