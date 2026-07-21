@@ -1,0 +1,232 @@
+{
+  "id": "gramatyka-5",
+  "modul": "B",
+  "tytul": "Fonetyka — głoski, upodobnienia, akcent",
+  "teoria": [
+    {
+      "id": "gloska-litera",
+      "tytul": "Głoska to nie litera",
+      "tresc": "GŁOSKA to najmniejszy DŹWIĘK mowy — coś, co słyszysz i wymawiasz. LITERA to ZNAK GRAFICZNY — coś, co widzisz i piszesz. Zwykle się pokrywają, ale nie zawsze! Dwuznaki (sz, cz, rz, ch, dz, dż, dź) to DWIE litery, ale JEDNA głoska: „szafa” ma 5 liter, ale tylko 4 głoski (sz-a-f-a). Druga pułapka to „i”: przed spółgłoską lub na końcu wyrazu jest osobną głoską („igła”, „lis”), ale przed samogłoską tylko ZMIĘKCZA poprzednią spółgłoskę i NIE jest osobną głoską: „siano” to 4 głoski (ś-a-n-o), choć ma 5 liter.",
+      "punkty": [
+        "Głoska = dźwięk (słyszysz), litera = znak (widzisz)",
+        "Dwuznak (sz, cz, rz, ch, dz, dż, dź) = 2 litery, ale 1 głoska",
+        "„i” przed samogłoską tylko zmiękcza: „siano” = ś-a-n-o = 4 głoski",
+        "Licz głoski USZAMI, a litery OCZAMI — „dżdżownica” ma 10 liter i 8 głosek"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "samogloski-spolgloski",
+      "tytul": "Samogłoski i spółgłoski",
+      "tresc": "SAMOGŁOSKI w polszczyźnie to: a, e, i, o, u (ó), y, ą, ę — tylko 8 dźwięków. Cała reszta to SPÓŁGŁOSKI (jest ich znacznie więcej). Samogłoska ma superwładzę: TWORZY SYLABĘ. Ile samogłosek w wyrazie, tyle sylab: „ma-te-ma-ty-ka” — 5 samogłosek, 5 sylab. Spółgłoska sama sylaby nie utworzy — dlatego nie da się wymówić „krk” jako słowa. Ta wiedza przydaje się przy dzieleniu wyrazów przy przenoszeniu i przy liczeniu sylab do akcentu.",
+      "punkty": [
+        "Samogłoski: a, e, i, o, u (ó), y, ą, ę — jest ich 8",
+        "Samogłoska tworzy sylabę: liczba samogłosek = liczba sylab",
+        "Spółgłoski same nie tworzą sylab",
+        "Sylaby liczysz do akcentu i przy przenoszeniu wyrazów"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "dzwieczne-bezdzwieczne",
+      "tytul": "Głoski dźwięczne i bezdźwięczne",
+      "tresc": "Połóż palce na gardle i powiedz „zzz”, a potem „sss”. Przy „z” czujesz drganie — to głoska DŹWIĘCZNA (drgają wiązadła głosowe). Przy „s” drgania nie ma — głoska BEZDŹWIĘCZNA. Wiele głosek chodzi PARAMI: dźwięczna ↔ bezdźwięczna: b–p, d–t, g–k, w–f, z–s, ż–sz, ź–ś, dz–c, dż–cz, dź–ć. Wszystkie samogłoski są dźwięczne. Znajomość par to klucz do zrozumienia upodobnień — najczęstszego zjawiska fonetycznego w zadaniach egzaminacyjnych.",
+      "punkty": [
+        "Dźwięczna = wiązadła głosowe drgają (test palcami na gardle)",
+        "Pary: b–p, d–t, g–k, w–f, z–s, ż–sz, ź–ś, dz–c, dż–cz, dź–ć",
+        "Wszystkie samogłoski są dźwięczne",
+        "Pary dźwięczna–bezdźwięczna to podstawa upodobnień"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "upodobnienia",
+      "tytul": "Upodobnienia — piszemy inaczej, niż mówimy",
+      "tresc": "Powiedz na głos „kawka”. Słyszysz [kafka]! Dźwięczne „w” pod wpływem bezdźwięcznego „k” traci dźwięczność — to UBEZDŹWIĘCZNIENIE. Działa też w drugą stronę: „prośba” wymawiamy [proźba] — bezdźwięczne „ś” staje się dźwięczne przed dźwięcznym „b” (UDŹWIĘCZNIENIE). Osobne zjawisko to UTRATA DŹWIĘCZNOŚCI W WYGŁOSIE, czyli na końcu wyrazu: „chleb” wymawiamy [chlep], „ogród” — [ogrót]. Ważne: upodobnienia dotyczą WYMOWY, a pisownia zostaje bez zmian — oddaje pochodzenie wyrazu (prośba, bo prosić).",
+      "punkty": [
+        "Ubezdźwięcznienie: „kawka” → [kafka] (w traci dźwięczność przed k)",
+        "Udźwięcznienie: „prośba” → [proźba] (ś staje się dźwięczne przed b)",
+        "Utrata dźwięczności w wygłosie: „chleb” → [chlep], „ogród” → [ogrót]",
+        "Pisownia się NIE zmienia — oddaje rodzinę wyrazu (prośba, bo prosić)"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "akcent",
+      "tytul": "Akcent wyrazowy i jego wyjątki",
+      "tresc": "AKCENT to mocniejsze wymówienie jednej sylaby. W polszczyźnie zasada jest prosta: akcent pada na PRZEDOSTATNIĄ sylabę (akcent paroksytoniczny): „szko-ŁA” — nie, właśnie: „SZKO-ła”, „ta-BLI-ca”. Wyjątki akcentujemy na TRZECIEJ sylabie od końca: 1) wyrazy obce zakończone na -yka/-ika: „ma-te-MA-ty-ka”, „MU-zy-ka”, „FI-zy-ka”; 2) czasowniki w 1. i 2. osobie liczby mnogiej czasu przeszłego: „zro-BI-liś-my”, „czy-TA-liś-cie”; 3) liczebniki typu „CZTE-ry-sta”, „O-siem-set”. Na egzaminie pytają właśnie o wyjątki!",
+      "punkty": [
+        "Zasada: akcent na przedostatniej sylabie (SZKO-ła)",
+        "Wyjątek 1: -yka/-ika → 3. od końca (ma-te-MA-ty-ka, MU-zy-ka)",
+        "Wyjątek 2: -liśmy/-liście → 3. od końca (zro-BI-liś-my)",
+        "Wyjątek 3: liczebniki „czterysta”, „osiemset” → 3. od końca"
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "fonetyka-a-ortografia",
+      "tytul": "Po co to wszystko? Fonetyka a ortografia (FUNKCJA!)",
+      "tresc": "Egzamin 2027 pyta o FUNKCJĘ zjawisk językowych — nie tylko „co to jest”, ale „po co to działa”. Fonetyka wprost tłumaczy błędy ortograficzne: piszemy „prośba” (nie „proźba”), bo pisownia oddaje pochodzenie od „prosić”, a to wymowa uległa udźwięcznieniu. Piszemy „ławka” (nie „łafka”), bo w formie „ława” słychać wyraźne „w”. Sprawdzanie przez FORMĘ POKREWNĄ (taką, gdzie po spornej głosce stoi samogłoska) to najlepszy sposób weryfikacji pisowni: „chleb — bo chleba”, „ogród — bo ogrody”. Fonetyka to więc nie sucha teoria, ale narzędzie do bezbłędnego pisania — a błędy ortograficzne kosztują punkty w wypracowaniu!",
+      "punkty": [
+        "Pisownia oddaje pochodzenie wyrazu, wymowa ulega upodobnieniom",
+        "Sprawdzaj formą pokrewną: „ławka — bo ława”, „chleb — bo chleba”",
+        "Upodobnienia tłumaczą typowe błędy: „proźba”, „łafka”, „ogrót”",
+        "Egzamin 2027 pyta o FUNKCJĘ: dlaczego piszemy inaczej, niż mówimy"
+      ],
+      "czasMin": 5
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b5-q-01",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Ile głosek ma wyraz „szafa”?",
+      "opcje": ["6", "5", "4", "3"],
+      "poprawna": 2,
+      "wyjasnienie": "„Szafa” ma 5 liter, ale „sz” to dwuznak — dwie litery, jedna głoska. Głoski: sz-a-f-a, czyli 4.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-02",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Akcent w języku polskim pada zazwyczaj na sylabę:",
+      "opcje": ["przedostatnią", "ostatnią", "pierwszą", "trzecią od końca"],
+      "poprawna": 0,
+      "wyjasnienie": "Polski akcent jest paroksytoniczny — pada na przedostatnią sylabę (SZKO-ła, ta-BLI-ca). Trzecia od końca to tylko wyjątki.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-03",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Głoska to najmniejszy dźwięk mowy, a litera to znak graficzny.",
+        "Wyraz „szafa” ma tyle samo głosek co liter.",
+        "Samogłoska tworzy sylabę — ile samogłosek, tyle sylab."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Głoskę słyszysz, literę widzisz — to prawda. „Szafa” ma 5 liter i 4 głoski (sz = 1 głoska) — fałsz. Samogłoski są sylabotwórcze — prawda.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-04",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dźwięczna para do bezdźwięcznego „p” to:",
+      "opcje": ["f", "b", "t", "k"],
+      "poprawna": 1,
+      "wyjasnienie": "Pary dźwięczna–bezdźwięczna: b–p, d–t, g–k, w–f. Do „p” parą jest „b” — połóż palce na gardle: przy „b” czujesz drganie.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wyraz „kawka” wymawiamy [kafka]. To zjawisko nazywamy:",
+      "opcje": ["udźwięcznieniem", "akcentem", "zmiękczeniem", "ubezdźwięcznieniem"],
+      "poprawna": 3,
+      "wyjasnienie": "Dźwięczne „w” pod wpływem bezdźwięcznego „k” traci dźwięczność i brzmi jak „f” — to ubezdźwięcznienie. Pisownia zostaje: kawka, bo kawek.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-06",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie wyrazy, w których liczba głosek jest MNIEJSZA niż liczba liter:",
+      "opcje": ["czapka", "krok", "dzwon", "most", "siano"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "„Czapka”: cz = 1 głoska (6 liter, 5 głosek). „Dzwon”: dz = 1 głoska (5 liter, 4 głoski). „Siano”: ś-a-n-o (5 liter, 4 głoski — „i” tylko zmiękcza). „Krok” i „most” mają tyle samo głosek co liter.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-07",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wyjątkowy akcent na TRZECIEJ sylabie od końca ma wyraz:",
+      "opcje": ["matematyka", "szkoła", "tablica", "przyroda"],
+      "poprawna": 0,
+      "wyjasnienie": "Wyrazy obce zakończone na -yka/-ika akcentujemy na 3. sylabie od końca: ma-te-MA-ty-ka. Pozostałe wyrazy mają zwykły akcent na przedostatniej.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-08",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Na końcu wyrazu głoski dźwięczne wymawiamy dźwięcznie, np. „chleb” jako [chleb].",
+        "Upodobnienia tłumaczą, dlaczego piszemy „prośba”, choć wymawiamy [proźba].",
+        "Formy typu „zrobiliśmy” akcentujemy na trzeciej sylabie od końca."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "W wygłosie głoski dźwięczne tracą dźwięczność: „chleb” wymawiamy [chlep] — zdanie 1. jest fałszywe. „Prośba” to udźwięcznienie w wymowie przy zachowanej pisowni — prawda. Czasowniki na -liśmy to wyjątek akcentowy — prawda: zro-BI-liś-my.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-09",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Ile głosek ma wyraz „dżdżownica”?",
+      "opcje": ["10", "6", "9", "8"],
+      "poprawna": 3,
+      "wyjasnienie": "„Dż” to dwuznak — jedna głoska, a występuje dwa razy: dż-dż-o-w-n-i-c-a = 8 głosek przy 10 literach.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W którym wyrazie „i” TYLKO zmiękcza poprzednią spółgłoskę i nie jest osobną głoską?",
+      "opcje": ["igła", "siano", "lis", "instrument"],
+      "poprawna": 1,
+      "wyjasnienie": "W „siano” „i” stoi przed samogłoską „a”, więc tylko zmiękcza „s” do „ś”: ś-a-n-o (4 głoski). W „igła”, „lis” i „instrument” „i” jest samodzielną głoską.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-11",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego piszemy „prośba” przez „ś”, choć wymawiamy [proźba]?",
+      "opcje": [
+        "bo to wyjątek ortograficzny, który trzeba zapamiętać",
+        "bo „ś” i „ź” to w polszczyźnie ta sama głoska",
+        "bo pisownia oddaje pochodzenie od „prosić”, a wymowa uległa udźwięcznieniu",
+        "bo dawniej wymawiano [prośba] i pisownia jest archaizmem"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "To pytanie o FUNKCJĘ: pisownia zachowuje związek z rodziną wyrazów (prosić, prosi), a udźwięcznienie przed „b” zmienia tylko wymowę. Sprawdzanie formą pokrewną to najlepsza metoda weryfikacji pisowni.",
+      "punkty": 1
+    },
+    {
+      "id": "b5-q-12",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz wszystkie zdania PRAWDZIWE:",
+      "opcje": [
+        "Wyraz „muzyka” akcentujemy na trzeciej sylabie od końca: MU-zy-ka.",
+        "W wyrazie „ławka” słyszymy [łafka] — to ubezdźwięcznienie.",
+        "Litera zawsze odpowiada dokładnie jednej głosce.",
+        "Liczebnik „czterysta” akcentujemy na trzeciej sylabie od końca: CZTE-ry-sta.",
+        "Samogłosek jest w polszczyźnie więcej niż spółgłosek."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "„Muzyka” (-yka) i „czterysta” to wyjątki akcentowe — prawda. „Ławka” → [łafka] to ubezdźwięcznienie (w przed k) — prawda. Dwuznaki obalają zdanie 3., a samogłosek jest tylko 8 — znacznie mniej niż spółgłosek.",
+      "punkty": 1
+    }
+  ]
+}

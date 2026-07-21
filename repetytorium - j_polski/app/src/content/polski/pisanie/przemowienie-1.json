@@ -1,0 +1,36 @@
+{
+  "id": "przemowienie-1",
+  "modul": "F",
+  "forma": "przemówienie",
+  "tytul": "Przemówienie — wypowiedź argumentacyjna do słuchaczy",
+  "czasMin": 40,
+  "pigulka": "PRZEMÓWIENIE to — obok rozprawki — druga forma argumentacyjna na egzaminie: w części II możesz wybrać temat argumentacyjny, a on może mieć formę rozprawki LUB właśnie przemówienia. Sedno jest to samo: teza + argumenty + lektura obowiązkowa. Różnica: przemówienie ma SŁUCHACZY — piszesz tekst, który ktoś wygłasza. Dlatego obowiązują trzy wyróżniki: 1) BEZPOŚREDNIE ZWROTY do słuchaczy — zaczynasz apostrofą („Drodzy Koledzy i Drogie Koleżanki!”) i wracasz do nich w trakcie („Zastanówcie się…”); 2) ŚRODKI RETORYCZNE — pytania retoryczne, wykrzyknienia, „my” włączające słuchaczy („wszyscy znamy to uczucie”); 3) KLAMRA: na początku przedstawiasz cel wystąpienia, na końcu — apel lub wezwanie. Reszta zasad jak w rozprawce: minimum 200 wyrazów (poniżej 180 egzaminator oceni TYLKO treść — max 7 z 20 pkt!), funkcjonalne odwołanie do lektury obowiązkowej i zero błędów rzeczowych — błąd kardynalny (np. pomylenie losów bohatera) zeruje punkty za kompetencje literackie. Styl staranny, ale żywszy niż w rozprawce — masz PORWAĆ słuchaczy, nie tylko ich przekonać.",
+  "planFormy": [
+    "Apostrofa na początku: „Drodzy Koledzy i Drogie Koleżanki!” (i wykrzyknik!)",
+    "Wstęp: przedstaw CEL wystąpienia i tezę („Chcę Was dziś przekonać, że…”)",
+    "Argument 1 + przykład z lektury obowiązkowej (tytuł, autor, bohater, konkretna scena)",
+    "Argument 2 + przykład (z drugiej lektury, historii lub własnego doświadczenia)",
+    "Środki retoryczne po drodze: pytania retoryczne, wykrzyknienia, „my” („wszyscy wiemy…”)",
+    "Zakończenie: potwierdzenie tezy + APEL do słuchaczy („Nie czekajmy więc…”)",
+    "Minimum 200 wyrazów, styl staranny (bez „spoko”, „fajnie”), akapity"
+  ],
+  "zadanie": {
+    "id": "f6-open-01",
+    "modul": "F",
+    "typ": "open-long",
+    "minSlow": 200,
+    "tresc": "Napisz PRZEMÓWIENIE, w którym przekonasz koleżanki i kolegów z klasy, że prawdziwa przyjaźń jest jedną z najważniejszych wartości w życiu. W argumentacji odwołaj się do wybranej lektury obowiązkowej oraz do innego tekstu literackiego lub własnych doświadczeń. Twoja praca powinna liczyć co najmniej 200 wyrazów.",
+    "wzorzec": "Drodzy Koledzy i Drogie Koleżanki!\n\nStoję dziś przed Wami, aby przekonać Was, że prawdziwa przyjaźń jest jedną z najważniejszych wartości, jakie możemy w życiu zdobyć. Czy wyobrażacie sobie świat, w którym nie ma nikogo, kto poda nam rękę w trudnej chwili? Ja nie potrafię.\n\nPo pierwsze, prawdziwa przyjaźń daje siłę w najtrudniejszych momentach. Najlepiej pokazują to „Kamienie na szaniec” Aleksandra Kamińskiego. Gdy Rudy został aresztowany przez gestapo, jego przyjaciele nie zawahali się ani chwili — Zośka i Alek doprowadzili do akcji pod Arsenałem, by go odbić. Ryzykowali własne życie, bo przyjaźń była dla nich zobowiązaniem, a nie tylko wspólną zabawą. Ich historia uczy nas, że przyjaciel to ktoś, kto zostaje, gdy inni odchodzą.\n\nPo drugie, przyjaźń wymaga troski i czasu — i właśnie dlatego jest tak cenna. Pamiętacie Lisa z „Małego Księcia”? To on wyjaśnił bohaterowi, że oswoić znaczy stworzyć więzy, a „stajesz się odpowiedzialny na zawsze za to, co oswoiłeś”. Wszyscy znamy to uczucie, gdy ktoś poświęca nam swój czas — czujemy się wtedy naprawdę ważni.\n\nZapytacie może: po co mi przyjaźń, skoro mam setki znajomych w internecie? Odpowiem pytaniem: ilu z nich przyjdzie do Was, gdy naprawdę będzie źle?\n\nNie czekajmy więc! Dbajmy o naszych przyjaciół już dziś — rozmawiajmy, pomagajmy, bądźmy obok. Prawdziwa przyjaźń to skarb, który sami tworzymy.",
+    "kryteriaSamooceny": [
+      "Czy zaczynam APOSTROFĄ do słuchaczy („Drodzy Koledzy i Drogie Koleżanki!”) i wracam do nich w trakcie wystąpienia?",
+      "Czy we wstępie przedstawiam CEL wystąpienia i jasną tezę („chcę Was przekonać, że…”)?",
+      "Czy mam co najmniej DWA rozwinięte argumenty i każdy kończy się wnioskiem?",
+      "Czy odwołuję się do lektury obowiązkowej FUNKCJONALNIE: tytuł, autor, bohater i konkretna scena — bez błędu rzeczowego?",
+      "Czy używam środków retorycznych: pytania retorycznego, wykrzyknienia, „my” włączającego słuchaczy?",
+      "Czy zakończenie potwierdza tezę i zawiera APEL lub wezwanie do słuchaczy?",
+      "Czy styl jest staranny (bez kolokwializmów typu „spoko”, „fajny”), a praca ma akapity?",
+      "Czy sprawdziłem/sprawdziłam pisownię i interpunkcję, a praca liczy co najmniej 200 wyrazów?"
+    ],
+    "punkty": 20
+  }
+}

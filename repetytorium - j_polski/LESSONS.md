@@ -339,3 +339,27 @@ Format wpisu:
   Mobile 390x844: dashboard i teoria scrollW = innerW = 390. Stan Zosi
   przywrócony z backupu (fetch przez public/backup-tmp.json, plik usunięty).
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 12: gramatyka-5 + przemowienie-1)
+- Obserwacja: wzorzec "sam JSON" potwierdzony dziewiąty raz — gramatyka-5
+  (B, fonetyka: głoska/litera, dźwięczność, upodobnienia, akcent + FUNKCJA
+  fonetyki dla ortografii) i przemowienie-1 (F, druga długa forma
+  argumentacyjna — na egzaminie wybór rozprawka LUB przemówienie) weszły
+  przez 2 JSON-y + 4 linie w rejestr.js. Build 64 moduły. Moduł B ma 5 ćwiczeń
+  (komplet wg planu merytorycznego), F ma 6 form (3 krótkie + 3 długie).
+- Obserwacja (metodyka): przemówienie dziedziczy kontrakt open-long rozprawki
+  (200 wyrazów, 20 pkt, 8 kryteriów), różni się wyróżnikami retorycznymi:
+  apostrofa, pytania retoryczne, "my" włączające, apel w zakończeniu.
+  Wzorzec spina duety argumentacyjne: Kamienie (Arsenał = przyjaźń jako
+  zobowiązanie, fakty anty-kardynalne zgodne) + Lis z Małego Księcia.
+- Obserwacja (QA, PF — WAŻNE doprecyzowanie): klikanie par Prawda/Fałsz
+  BEZ sleep między klikami gubi zaznaczenia (React re-render unieważnia
+  referencje — zarejestrował się tylko ostatni klik). Procedura: przed KAŻDYM
+  klikiem PF ponownie pobrać listę `button.btn` i odczekać ~250 ms po kliku.
+  To samo dotyczy multi (re-query opcji przed każdym klikiem).
+- Obserwacja (QA): backup it. 12 miał depth=1 (nie 2 jak w it. 10) — pętla
+  `while typeof v === "string"` pozostaje jedynym bezpiecznym odpakowaniem.
+  Pisanie długiej formy: licznik wyrazów działa (207), "Gotowe" odblokowuje
+  się po przekroczeniu progu, 8 checkboxów → "Zapisz samoocenę" → 🏆 20/20.
+  Cudzysłowy: 0 napraw w obu plikach (drugi raz z rzędu).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).
