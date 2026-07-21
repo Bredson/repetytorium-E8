@@ -1,0 +1,580 @@
+/* ==========================================================================
+   REPETYTORIUM ÓSMOKLASISTY — DESIGN SYSTEM (theme.css)
+   Mobile-first (min 375px) · fonty systemowe · offline-ready · bez frameworków
+   Motywy: jasny (domyślny), [data-theme="dark"], [data-dysleksja="true"]
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. TOKENY — :root (motyw jasny, domyślny)
+   -------------------------------------------------------------------------- */
+:root {
+  /* Kolory — powierzchnie i tekst */
+  --kolor-tlo: #f7f8fb;            /* spokojne, lekko chłodne tło strony */
+  --kolor-powierzchnia: #ffffff;   /* karty, panele */
+  --kolor-powierzchnia-2: #eef0f6; /* wgłębienia: tory pasków, pola nieaktywne */
+  --kolor-tekst: #1d2433;          /* prawie-czarny, nie #000 (mniej męczy) */
+  --kolor-tekst-2: #5a6478;        /* tekst drugorzędny, podpisy */
+  --kolor-obrys: #dde1ea;          /* delikatne obramowania */
+
+  /* Kolory — semantyczne */
+  --kolor-akcent: #4f6df5;         /* główny akcent (indygo — skupienie) */
+  --kolor-akcent-hover: #3d58d9;
+  --kolor-akcent-tlo: #edf0fe;     /* tło zaznaczeń, wybrana opcja */
+  --kolor-sukces: #2e9e5b;         /* ciepła, spokojna zieleń */
+  --kolor-sukces-tlo: #e7f6ed;
+  --kolor-uwaga: #c98a1b;          /* bursztyn — "warto poprawić", NIE alarm */
+  --kolor-uwaga-tlo: #fdf3e0;
+  --kolor-fokus: #4f6df5;
+
+  /* Kolory — akcenty modułów A-F (rozróżnialne, jedna saturacja) */
+  --modul-a: #7c5cd6;  /* A lektury — fiolet */
+  --modul-b: #2b8fb8;  /* B nauka o języku — morski */
+  --modul-c: #c9701b;  /* C ortografia/interpunkcja — pomarańcz */
+  --modul-d: #c14b7e;  /* D kształcenie literackie — malina */
+  --modul-e: #3a9e6e;  /* E czytanie ze zrozumieniem — zieleń */
+  --modul-f: #5a6ee0;  /* F tworzenie wypowiedzi — indygo */
+
+  /* Spacing (skala 4px) */
+  --sp-1: 0.25rem;   /* 4px  */
+  --sp-2: 0.5rem;    /* 8px  */
+  --sp-3: 0.75rem;   /* 12px */
+  --sp-4: 1rem;      /* 16px */
+  --sp-5: 1.5rem;    /* 24px */
+  --sp-6: 2rem;      /* 32px */
+  --sp-7: 3rem;      /* 48px */
+
+  /* Radiusy */
+  --radius-s: 8px;
+  --radius-m: 12px;
+  --radius-l: 20px;
+  --radius-pelny: 999px;
+
+  /* Cienie (subtelne — głębia, nie dramat) */
+  --cien-1: 0 1px 3px rgba(29, 36, 51, 0.07), 0 1px 2px rgba(29, 36, 51, 0.05);
+  --cien-2: 0 4px 14px rgba(29, 36, 51, 0.09);
+
+  /* Typografia — fonty systemowe */
+  --font-tekst: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  --font-rozmiar-baza: 16px;
+  --rozmiar-xs: 0.8125rem;  /* 13px — metki, podpisy */
+  --rozmiar-s: 0.9375rem;   /* 15px — tekst pomocniczy */
+  --rozmiar-m: 1rem;        /* 16px — tekst bazowy */
+  --rozmiar-l: 1.1875rem;   /* 19px — treść pytania */
+  --rozmiar-xl: 1.5rem;     /* 24px — nagłówki sekcji */
+  --rozmiar-xxl: 1.875rem;  /* 30px — nagłówek ekranu */
+  --interlinia: 1.55;
+  --interlinia-naglowek: 1.25;
+  --odstep-liter: 0;
+
+  /* Przejścia */
+  --przejscie-szybkie: 140ms ease;
+  --przejscie-srednie: 260ms ease;
+
+  /* Layout */
+  --max-szerokosc-tresci: 680px;
+  --min-tap: 44px;
+
+  color-scheme: light;
+}
+
+/* --------------------------------------------------------------------------
+   2. MOTYW CIEMNY — [data-theme="dark"]
+   -------------------------------------------------------------------------- */
+[data-theme="dark"] {
+  --kolor-tlo: #14181f;
+  --kolor-powierzchnia: #1d232e;
+  --kolor-powierzchnia-2: #262e3c;
+  --kolor-tekst: #e8ebf2;
+  --kolor-tekst-2: #9aa4b8;
+  --kolor-obrys: #333c4d;
+
+  --kolor-akcent: #7a92ff;
+  --kolor-akcent-hover: #93a7ff;
+  --kolor-akcent-tlo: #262e48;
+  --kolor-sukces: #4cc57e;
+  --kolor-sukces-tlo: #1c3527;
+  --kolor-uwaga: #e0a94a;
+  --kolor-uwaga-tlo: #3a2f1a;
+  --kolor-fokus: #7a92ff;
+
+  --modul-a: #a78ce8;
+  --modul-b: #56b3d9;
+  --modul-c: #e09a4e;
+  --modul-d: #de7ba7;
+  --modul-e: #5cc491;
+  --modul-f: #8b9bef;
+
+  --cien-1: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --cien-2: 0 4px 14px rgba(0, 0, 0, 0.5);
+
+  color-scheme: dark;
+}
+
+/* --------------------------------------------------------------------------
+   3. TRYB DYSLEKSJI — [data-dysleksja="true"]
+   Większa baza, szersze odstępy, wyraźna interlinia, zero justowania.
+   -------------------------------------------------------------------------- */
+[data-dysleksja="true"] {
+  --font-rozmiar-baza: 18px;
+  --interlinia: 1.75;
+  --interlinia-naglowek: 1.4;
+  --odstep-liter: 0.04em;
+  --font-tekst: Verdana, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+[data-dysleksja="true"] body {
+  word-spacing: 0.12em;
+}
+
+[data-dysleksja="true"] p,
+[data-dysleksja="true"] li,
+[data-dysleksja="true"] .opcja {
+  text-align: left !important; /* nigdy justowanie */
+  max-width: 60ch;             /* krótszy wiersz = łatwiejszy powrót wzroku */
+}
+
+/* --------------------------------------------------------------------------
+   4. RESET I STYLE BAZOWE
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-rozmiar-baza);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-tekst);
+  font-size: var(--rozmiar-m);
+  line-height: var(--interlinia);
+  letter-spacing: var(--odstep-liter);
+  color: var(--kolor-tekst);
+  background: var(--kolor-tlo);
+  -webkit-font-smoothing: antialiased;
+  transition: background var(--przejscie-srednie), color var(--przejscie-srednie);
+}
+
+h1, h2, h3 {
+  line-height: var(--interlinia-naglowek);
+  letter-spacing: var(--odstep-liter);
+  margin: 0 0 var(--sp-4);
+  font-weight: 700;
+  color: var(--kolor-tekst);
+}
+
+h1 { font-size: var(--rozmiar-xxl); }
+h2 { font-size: var(--rozmiar-xl); }
+h3 { font-size: var(--rozmiar-l); }
+
+p {
+  margin: 0 0 var(--sp-4);
+}
+
+img, svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* Kontener treści — mobile-first, wycentrowany */
+.tresc {
+  width: 100%;
+  max-width: var(--max-szerokosc-tresci);
+  margin-inline: auto;
+  padding: var(--sp-4);
+}
+
+@media (min-width: 720px) {
+  .tresc {
+    padding: var(--sp-6) var(--sp-5);
+  }
+}
+
+/* Widoczny fokus klawiatury — zawsze */
+:focus-visible {
+  outline: 3px solid var(--kolor-fokus);
+  outline-offset: 2px;
+  border-radius: var(--radius-s);
+}
+
+/* --------------------------------------------------------------------------
+   5. PRZYCISKI
+   -------------------------------------------------------------------------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--min-tap);
+  padding: var(--sp-3) var(--sp-5);
+  font-family: inherit;
+  font-size: var(--rozmiar-m);
+  font-weight: 600;
+  letter-spacing: var(--odstep-liter);
+  line-height: 1.2;
+  color: var(--kolor-tekst);
+  background: var(--kolor-powierzchnia);
+  border: 1px solid var(--kolor-obrys);
+  border-radius: var(--radius-m);
+  cursor: pointer;
+  text-decoration: none;
+  transition: background var(--przejscie-szybkie),
+    border-color var(--przejscie-szybkie),
+    transform var(--przejscie-szybkie),
+    box-shadow var(--przejscie-szybkie);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:hover {
+  border-color: var(--kolor-akcent);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: var(--kolor-akcent);
+  border-color: var(--kolor-akcent);
+  box-shadow: var(--cien-1);
+}
+
+.btn-primary:hover {
+  background: var(--kolor-akcent-hover);
+  border-color: var(--kolor-akcent-hover);
+}
+
+[data-theme="dark"] .btn-primary {
+  color: #10131a;
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--kolor-tekst-2);
+}
+
+.btn-ghost:hover {
+  background: var(--kolor-powierzchnia-2);
+  border-color: transparent;
+  color: var(--kolor-tekst);
+}
+
+/* Przycisk pełnej szerokości (główne CTA na mobile) */
+.btn--pelny {
+  width: 100%;
+}
+
+/* --------------------------------------------------------------------------
+   6. KARTA
+   -------------------------------------------------------------------------- */
+.karta {
+  background: var(--kolor-powierzchnia);
+  border: 1px solid var(--kolor-obrys);
+  border-radius: var(--radius-l);
+  box-shadow: var(--cien-1);
+  padding: var(--sp-5);
+}
+
+.karta--klikalna {
+  cursor: pointer;
+  transition: border-color var(--przejscie-szybkie),
+    box-shadow var(--przejscie-szybkie),
+    transform var(--przejscie-szybkie);
+}
+
+.karta--klikalna:hover {
+  border-color: var(--kolor-akcent);
+  box-shadow: var(--cien-2);
+  transform: translateY(-2px);
+}
+
+/* Karta z akcentem modułu (lewy pasek koloru) */
+.karta--modul-a { border-left: 4px solid var(--modul-a); }
+.karta--modul-b { border-left: 4px solid var(--modul-b); }
+.karta--modul-c { border-left: 4px solid var(--modul-c); }
+.karta--modul-d { border-left: 4px solid var(--modul-d); }
+.karta--modul-e { border-left: 4px solid var(--modul-e); }
+.karta--modul-f { border-left: 4px solid var(--modul-f); }
+
+/* --------------------------------------------------------------------------
+   7. PASEK POSTĘPU — element pierwszoplanowy motywacji
+   -------------------------------------------------------------------------- */
+.pasek-postepu {
+  width: 100%;
+  height: 12px;
+  background: var(--kolor-powierzchnia-2);
+  border-radius: var(--radius-pelny);
+  overflow: hidden;
+}
+
+.pasek-postepu-wypelnienie {
+  height: 100%;
+  width: 0%; /* ustawiane inline: style={{ width: `${procent}%` }} */
+  background: linear-gradient(90deg, var(--kolor-akcent), #7a8ef8);
+  border-radius: var(--radius-pelny);
+  transition: width 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Wariant sukcesu (np. pasek opanowania modułu ≥ 80%) */
+.pasek-postepu-wypelnienie--sukces {
+  background: linear-gradient(90deg, var(--kolor-sukces), #57c988);
+}
+
+/* Wypełnienie kolorem modułu (wykres wyniku per moduł) */
+.pasek-postepu-wypelnienie--modul-a { background: var(--modul-a); }
+.pasek-postepu-wypelnienie--modul-b { background: var(--modul-b); }
+.pasek-postepu-wypelnienie--modul-c { background: var(--modul-c); }
+.pasek-postepu-wypelnienie--modul-d { background: var(--modul-d); }
+.pasek-postepu-wypelnienie--modul-e { background: var(--modul-e); }
+.pasek-postepu-wypelnienie--modul-f { background: var(--modul-f); }
+
+/* Etykieta nad paskiem: "Pytanie 7 z 18" */
+.pasek-postepu-etykieta {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--rozmiar-xs);
+  font-weight: 600;
+  color: var(--kolor-tekst-2);
+  margin-bottom: var(--sp-2);
+}
+
+/* --------------------------------------------------------------------------
+   8. OPCJE QUIZU (jedno pytanie na ekran)
+   Feedback błędu: bursztyn/neutralny — NIGDY agresywna czerwień.
+   -------------------------------------------------------------------------- */
+.opcja {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  min-height: var(--min-tap);
+  padding: var(--sp-4);
+  margin-bottom: var(--sp-3);
+  font-family: inherit;
+  font-size: var(--rozmiar-m);
+  line-height: var(--interlinia);
+  letter-spacing: var(--odstep-liter);
+  text-align: left;
+  color: var(--kolor-tekst);
+  background: var(--kolor-powierzchnia);
+  border: 2px solid var(--kolor-obrys);
+  border-radius: var(--radius-m);
+  cursor: pointer;
+  transition: border-color var(--przejscie-szybkie),
+    background var(--przejscie-szybkie),
+    transform var(--przejscie-szybkie);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.opcja:hover {
+  border-color: var(--kolor-akcent);
+}
+
+.opcja:active {
+  transform: scale(0.99);
+}
+
+.opcja--wybrana {
+  border-color: var(--kolor-akcent);
+  background: var(--kolor-akcent-tlo);
+}
+
+.opcja--poprawna {
+  border-color: var(--kolor-sukces);
+  background: var(--kolor-sukces-tlo);
+}
+
+.opcja--niepoprawna {
+  border-color: var(--kolor-uwaga);
+  background: var(--kolor-uwaga-tlo);
+  /* celowo bez czerwieni: informacja, nie kara */
+}
+
+.opcja:disabled {
+  cursor: default;
+}
+
+/* Litera opcji (A/B/C/D) */
+.opcja-litera {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: var(--rozmiar-s);
+  font-weight: 700;
+  color: var(--kolor-tekst-2);
+  background: var(--kolor-powierzchnia-2);
+  border-radius: var(--radius-pelny);
+}
+
+.opcja--poprawna .opcja-litera {
+  color: #ffffff;
+  background: var(--kolor-sukces);
+}
+
+.opcja--niepoprawna .opcja-litera {
+  color: #ffffff;
+  background: var(--kolor-uwaga);
+}
+
+/* --------------------------------------------------------------------------
+   9. POLA FORMULARZA
+   -------------------------------------------------------------------------- */
+.pole {
+  display: block;
+  width: 100%;
+  min-height: var(--min-tap);
+  padding: var(--sp-3) var(--sp-4);
+  font-family: inherit;
+  font-size: var(--rozmiar-m);
+  line-height: var(--interlinia);
+  letter-spacing: var(--odstep-liter);
+  color: var(--kolor-tekst);
+  background: var(--kolor-powierzchnia);
+  border: 2px solid var(--kolor-obrys);
+  border-radius: var(--radius-m);
+  transition: border-color var(--przejscie-szybkie);
+}
+
+.pole:focus {
+  outline: none;
+  border-color: var(--kolor-akcent);
+}
+
+.pole::placeholder {
+  color: var(--kolor-tekst-2);
+  opacity: 0.7;
+}
+
+.pole-etykieta {
+  display: block;
+  font-size: var(--rozmiar-s);
+  font-weight: 600;
+  color: var(--kolor-tekst);
+  margin-bottom: var(--sp-2);
+}
+
+.pole-podpowiedz {
+  font-size: var(--rozmiar-xs);
+  color: var(--kolor-tekst-2);
+  margin-top: var(--sp-1);
+}
+
+/* Pole PIN (4 cyfry, duże, wycentrowane) */
+.pole--pin {
+  max-width: 220px;
+  text-align: center;
+  font-size: var(--rozmiar-xl);
+  font-weight: 700;
+  letter-spacing: 0.4em;
+}
+
+/* --------------------------------------------------------------------------
+   10. BADGE POZIOMÓW (braki / częściowy / solidny)
+   Bez zawstydzania: "braki" = bursztyn ("tu popracujemy"), nie czerwień.
+   -------------------------------------------------------------------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-1);
+  padding: var(--sp-1) var(--sp-3);
+  font-size: var(--rozmiar-xs);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-pelny);
+  white-space: nowrap;
+}
+
+.badge--braki {
+  color: var(--kolor-uwaga);
+  background: var(--kolor-uwaga-tlo);
+}
+
+.badge--czesciowy {
+  color: var(--kolor-akcent);
+  background: var(--kolor-akcent-tlo);
+}
+
+.badge--solidny {
+  color: var(--kolor-sukces);
+  background: var(--kolor-sukces-tlo);
+}
+
+/* --------------------------------------------------------------------------
+   11. CELEBRACJA — mikro-nagroda (poprawna odpowiedź, koniec testu)
+   Subtelna: krótki "pop" + poświata. Bez konfetti-chaosu.
+   -------------------------------------------------------------------------- */
+@keyframes celebracja-pop {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
+@keyframes celebracja-poswiata {
+  0%   { box-shadow: 0 0 0 0 rgba(46, 158, 91, 0.35); }
+  100% { box-shadow: 0 0 0 16px rgba(46, 158, 91, 0); }
+}
+
+.celebracja {
+  animation: celebracja-pop 480ms cubic-bezier(0.22, 1, 0.36, 1),
+    celebracja-poswiata 700ms ease-out;
+}
+
+/* Wjazd treści nowego ekranu (pytanie po pytaniu) */
+@keyframes ekran-wjazd {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.ekran-wjazd {
+  animation: ekran-wjazd 280ms ease-out;
+}
+
+/* --------------------------------------------------------------------------
+   12. DROBNE POMOCNIKI
+   -------------------------------------------------------------------------- */
+.tekst-2 { color: var(--kolor-tekst-2); }
+.tekst-maly { font-size: var(--rozmiar-s); }
+.tekst-srodek { text-align: center; }
+
+/* Ukrycie wizualne z zachowaniem dostępności (czytniki ekranu) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --------------------------------------------------------------------------
+   13. REDUKCJA RUCHU — szacunek dla ustawień systemowych
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

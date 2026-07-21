@@ -1,0 +1,276 @@
+{
+  "id": "ortografia-1",
+  "modul": "C",
+  "tytul": "Ortografia i interpunkcja — pewniaki egzaminacyjne",
+  "teoria": [
+    {
+      "id": "rz-z",
+      "tytul": "RZ czy Ż?",
+      "tresc": "Najpewniejsza metoda to szukanie wymiany. RZ piszemy, gdy wymienia się na R (morze — morski, dworzec — dworca) oraz po spółgłoskach p, b, t, d, k, g, ch, j, w (przygoda, brzeg, trzeba, drzewo, krzak, grzyb, chrzan, wrzesień). Ż piszemy, gdy wymienia się na G, DZ, Z, S, H lub Ź (możesz — mogę, pieniążek — pieniądze, mrożony — mróz, bliżej — blisko, drużyna — druh, wożę — wozić). Gdy wymiany nie ma — to wyraz do zapamiętania (np. burza, żaba, rzeka).",
+      "punkty": [
+        "RZ wymienia się na R: morze — morski, wierzyć — wiara",
+        "RZ po spółgłoskach: p, b, t, d, k, g, ch, j, w (przy-, brze-, trze-, drze-...)",
+        "Ż wymienia się na: G (możesz—mogę), DZ (pieniążek—pieniądze), Z (mrożony—mróz), S (bliżej—blisko), H (drużyna—druh), Ź (wożę—wozić)",
+        "Uwaga na wyjątki po spółgłoskach: kształt, wszystko, zawsze, pszenica, pszczoła — piszemy SZ"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "o-u",
+      "tytul": "Ó czy U?",
+      "tresc": "Ó piszemy, gdy wymienia się na O, E lub A (lód — lody, niósł — niesie, skrócić — skracać) oraz w zakończeniach -ów, -ówka, -ówna (Kraków, złotówka). U piszemy na początku wyrazu (ulica, ubranie — wyjątki: ósmy, ów, ówczesny) i zawsze na końcu wyrazu (komu, domu), w zakończeniach -uje, -unek, -uszek (maluje, rachunek, staruszek) oraz w wyjątkach: skuwka, zasuwka, wsuwka. Zapamiętaj: czasowniki na -uje NIGDY nie mają kreski (maluje, pracuje).",
+      "punkty": [
+        "Ó wymienia się na O, E, A: lód — lody, niósł — niesie, skrócić — skracać",
+        "Ó w końcówkach: -ów (Kraków), -ówka (złotówka), -ówna",
+        "U w końcówkach: -uje, -unek, -uszek (maluje, rachunek, staruszek)",
+        "„-uje się nie kreskuje\" — czasowniki na -uje zawsze przez U",
+        "Wyjątki: skuwka, zasuwka, wsuwka — przez U (pochodzą od suwać)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "ch-h",
+      "tytul": "CH czy H?",
+      "tresc": "CH piszemy, gdy wymienia się na SZ (mucha — muszka, duch — dusza), po literze S (schody, wschód) oraz na końcu wyrazu (dach, gmach; wyjątek: druh). H piszemy, gdy wymienia się na G, Ż lub Z (wahać się — waga, druh — drużyna, błahy — błazen). H jest znacznie rzadsze — występuje głównie w wyrazach zapożyczonych: hałas, herbata, historia, bohater.",
+      "punkty": [
+        "CH wymienia się na SZ: mucha — muszka, duch — dusza",
+        "CH po S: schody, schować, wschód",
+        "CH na końcu wyrazu: dach, gmach (jedyny wyjątek: druh)",
+        "H wymienia się na G, Ż, Z: wahać — waga, druh — drużyna",
+        "H w zapożyczeniach: herbata, historia, hałas, bohater"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "wielka-litera",
+      "tytul": "Wielka litera (z reformą 2026!)",
+      "tresc": "Wielką literą piszemy: imiona i nazwiska, nazwy geograficzne (Wisła, Tatry, Kraków), nazwy państw i ich mieszkańców (Polska, Polak), święta (Boże Narodzenie, Wielkanoc), tytuły — pierwszy wyraz (\"Kamienie na szaniec\"). UWAGA — od 1 stycznia 2026 r. obowiązuje reforma ortografii: nazwy mieszkańców miast i wsi TAKŻE piszemy wielką literą (Warszawianin, Krakowianka) — tak samo jak mieszkańców państw. Małą literą wciąż piszemy: dni tygodnia (poniedziałek), miesiące (styczeń), nazwy kierunków świata (północ) i przymiotniki od nazw miast (krakowski).",
+      "punkty": [
+        "Wielką: imiona, nazwiska, państwa, miasta, rzeki, góry, święta",
+        "NOWOŚĆ 2026: mieszkańcy miast i wsi wielką literą — Warszawianin, Krakowianka",
+        "Małą: dni tygodnia, miesiące, kierunki świata (poniedziałek, maj, południe)",
+        "Małą: przymiotniki od nazw miejsc — krakowski rynek, polska flaga",
+        "Tytuły lektur: wielką literą tylko pierwszy wyraz — \"Zemsta\", \"Pan Tadeusz\" (Tadeusz to imię)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "nie-pisownia",
+      "tytul": "„Nie\" — łącznie czy rozdzielnie?",
+      "tresc": "ŁĄCZNIE z rzeczownikami (niepokój), przymiotnikami (niemiły) i przysłówkami od przymiotników (niemile). Od reformy 2026 „nie\" z imiesłowami przymiotnikowymi piszemy zawsze łącznie (nieczytający, nieumyty). ROZDZIELNIE z czasownikami (nie ma, nie wiem, nie czytam), z liczebnikami (nie dwa), z przymiotnikami i przysłówkami w stopniu wyższym i najwyższym (nie lepszy, nie najgorzej). Pułapka egzaminacyjna: „nie ma\" zawsze rozdzielnie! Wyjątki-czasowniki, które bez „nie\" nie istnieją: nienawidzić, niepokoić, niedomagać — łącznie.",
+      "punkty": [
+        "ŁĄCZNIE: rzeczowniki, przymiotniki, przysłówki — niepokój, niemiły, niemile",
+        "ŁĄCZNIE (od 2026 zawsze): imiesłowy przymiotnikowe — nieczytający, nieumyty",
+        "ROZDZIELNIE: czasowniki — nie ma, nie wiem, nie czytam",
+        "ROZDZIELNIE: stopień wyższy i najwyższy — nie lepszy, nie najmilej",
+        "Wyjątki łączne: nienawidzić, niepokoić, niedomagać (bez „nie\" nie istnieją)"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "przecinki",
+      "tytul": "Przecinki — 5 pewniaków",
+      "tresc": "Na egzaminie najczęściej sprawdzane są proste, powtarzalne sytuacje. 1) Przecinek przed: że, żeby, bo, ponieważ, ale, lecz, więc, który/która/które. 2) Zdanie podrzędne wplecione w środek oddzielamy przecinkami z OBU stron (Książka, którą czytam, jest ciekawa). 3) Wołacz oddzielamy przecinkiem (Zosiu, podejdź tu). 4) Wyliczenia rozdzielamy przecinkami, ale przed pojedynczym „i\", „oraz\", „lub\", „albo\" przecinka NIE stawiamy. 5) Wtrącenia (np. oczywiście, niestety — gdy przerywają zdanie) wydzielamy przecinkami.",
+      "punkty": [
+        "Przecinek zawsze przed: że, żeby, bo, ponieważ, ale, lecz, który",
+        "Zdanie wplecione w środek — przecinki z obu stron",
+        "Wołacz oddzielamy przecinkiem: „Mamo, pomóż mi\"",
+        "Bez przecinka przed pojedynczym: i, oraz, lub, albo",
+        "Wyliczenia i wtrącenia rozdzielamy przecinkami"
+      ],
+      "czasMin": 4
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c1-q-01",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Dlaczego w wyrazie „przyroda\" piszemy rz?",
+      "opcje": [
+        "Bo rz wymienia się tu na r",
+        "Bo rz występuje po spółgłosce p",
+        "Bo to wyraz zapożyczony",
+        "Bo to wyjątek do zapamiętania"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Po spółgłoskach p, b, t, d, k, g, ch, j, w piszemy rz — „przyroda\" zaczyna się od „prz\". To najczęstsza zasada rz na egzaminie.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-02",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "W którym wyrazie pisownię ó można uzasadnić wymianą na o?",
+      "opcje": [
+        "który",
+        "ogórek",
+        "lód",
+        "córka"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Lód — lody: ó wymienia się na o. Pozostałe wyrazy (który, ogórek, córka) to pisownia niewymienna, którą trzeba zapamiętać.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-03",
+      "modul": "C",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Po literze s piszemy ch, np. schody, wschód.",
+        "Wyraz „druh\" piszemy przez h, bo h wymienia się na ż w wyrazie „drużyna\".",
+        "Wyraz „burza\" zapisujemy przez ż."
+      ],
+      "poprawnaMaska": [true, true, false],
+      "wyjasnienie": "Po s zawsze ch (schody). Druh — drużyna to wymiana h:ż. Ale „burza\" piszemy przez RZ — to pisownia niewymienna, częsta pułapka!",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-04",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Którą nazwę — zgodnie z zasadami obowiązującymi od 2026 r. — zapisujemy WIELKĄ literą?",
+      "opcje": [
+        "nazwę miesiąca (np. styczeń)",
+        "nazwę kierunku świata (np. północ)",
+        "nazwę mieszkańca miasta (np. Warszawianin)",
+        "nazwę dnia tygodnia (np. piątek)"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Od 1 stycznia 2026 r. nazwy mieszkańców miast i wsi piszemy wielką literą: Warszawianin, Krakowianka — tak jak Polak. Dni tygodnia, miesiące i kierunki świata wciąż piszemy małą literą.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-05",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz WSZYSTKIE wyrazy zapisane poprawnie.",
+      "opcje": [
+        "pójdę",
+        "skuwka",
+        "wieżowiec",
+        "gura"
+      ],
+      "poprawne": [0, 1, 2],
+      "wyjasnienie": "Pójdę (ó niewymienne w formach „pójść\"), skuwka (wyjątek — od „suwać\", przez u), wieżowiec (od „wieża\", przez ż). Błędny zapis: „gura\" — poprawnie „góra\" (ó niewymienne).",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-06",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Jak zapisujemy „nie\" z czasownikami?",
+      "opcje": [
+        "Zawsze łącznie",
+        "Łącznie tylko w czasie przeszłym",
+        "Zależnie od tego, czy zdanie jest pytaniem",
+        "Rozdzielnie (z kilkoma wyjątkami, np. nienawidzić)"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "„Nie\" z czasownikami piszemy rozdzielnie: nie ma, nie wiem, nie czytam. Wyjątki to czasowniki, które bez „nie\" nie istnieją: nienawidzić, niepokoić, niedomagać.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-07",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Nie\" z przymiotnikiem w stopniu wyższym (np. nie milszy) piszemy...",
+      "opcje": [
+        "łącznie, jak z każdym przymiotnikiem",
+        "rozdzielnie",
+        "z łącznikiem (nie-milszy)",
+        "dowolnie — obie formy są poprawne"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "W stopniu równym łącznie (niemiły), ale w stopniu wyższym i najwyższym ROZDZIELNIE: nie milszy, nie najmilszy. To ulubiona pułapka autorów zadań.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-08",
+      "modul": "C",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy poniższe zdania o przecinkach są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Przed „że\" stawiamy przecinek.",
+        "Przed „ale\" nie stawiamy przecinka.",
+        "Wołacz (np. „Zosiu, podejdź\") oddzielamy przecinkiem."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Przed „że\", „ale\", „lecz\", „który\" przecinek stawiamy zawsze — zdanie drugie jest fałszywe. Wołacz również oddzielamy przecinkiem.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-09",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W zdaniu „Książka którą czytam jest ciekawa\" przecinki należy postawić...",
+      "opcje": [
+        "tylko przed „którą\"",
+        "tylko po „czytam\"",
+        "przed „którą\" i po „czytam\"",
+        "nigdzie — zdanie nie wymaga przecinków"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zdanie podrzędne „którą czytam\" jest wplecione w środek zdania nadrzędnego, więc oddzielamy je przecinkami z OBU stron: „Książka, którą czytam, jest ciekawa\".",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-10",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wyrazy, w których pisownię ż można uzasadnić wymianą.",
+      "opcje": [
+        "grożę (bo: grozić)",
+        "może (bo: mogę)",
+        "dużo",
+        "burza"
+      ],
+      "poprawne": [0, 1],
+      "wyjasnienie": "Grożę — grozić (ż:z) i może — mogę (ż:g) mają wymianę. „Dużo\" to ż niewymienne, a „burza\" w ogóle piszemy przez RZ — uwaga na tę pułapkę!",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-11",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wskaż zdanie zapisane bez błędu ortograficznego.",
+      "opcje": [
+        "Wkrudce wyruszymy w podróż na południe.",
+        "Wkrótce wyrószymy w podruż na południe.",
+        "Wkrótce wyruszymy w podrósz na połódnie.",
+        "Wkrótce wyruszymy w podróż na południe."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Wkrótce — ó jak w „krótki\"; wyruszymy — u jak w „ruszać\"; podróż — ó wymienia się na o w wyrazie pokrewnym „droga\"; południe — zwykłe u, bo nie ma wymiany na o, e ani a. Poprawne jest tylko ostatnie zdanie.",
+      "punkty": 1
+    },
+    {
+      "id": "c1-q-12",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Wskaż zdanie zapisane w CAŁOŚCI poprawnie (ortografia i interpunkcja).",
+      "opcje": [
+        "Mamo czy wiesz, że jutro niema lekcji?",
+        "Mamo, czy wiesz, że jutro nie ma lekcji?",
+        "Mamo, czy wiesz że jutro nie ma lekcji?",
+        "Mamo, czy wiesz, że jutro niema lekcji?"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Potrzebne są: przecinek po wołaczu „Mamo\", przecinek przed „że\" oraz rozdzielna pisownia „nie ma\" (nie + czasownik). Wszystkie trzy warunki spełnia tylko zdanie drugie.",
+      "punkty": 1
+    }
+  ]
+}

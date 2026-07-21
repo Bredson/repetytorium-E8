@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "forma-pisemna",
+    "przedmiot": "polski",
+    "wersja": 1,
+    "maksPkt": 3,
+    "szacowanyCzasMin": 10
+  },
+  "zadanie": {
+    "id": "tw-open-01",
+    "modul": "F",
+    "typ": "open-short",
+    "tresc": "Twoja klasa organizuje szkolną zbiórkę książek dla biblioteki. Napisz OGŁOSZENIE zachęcające uczniów do udziału w zbiórce. Podaj wszystkie niezbędne informacje (co, kiedy, gdzie, kto organizuje) i użyj sformułowania zachęcającego do działania. Wystarczą 3-4 zdania.",
+    "wzorzec": "OGŁOSZENIE\n\nUczniowie klasy 8a zapraszają wszystkich do udziału w szkolnej zbiórce książek dla naszej biblioteki. Książki w dobrym stanie można przynosić od 5 do 16 października do sali nr 12, codziennie na długiej przerwie. Każda podarowana książka to nowa przygoda dla kolejnego czytelnika — nie może Cię zabraknąć!\n\nOrganizatorzy — klasa 8a",
+    "kryteriaSamooceny": [
+      "Czy moje ogłoszenie ma nagłówek OGŁOSZENIE (lub równie jasne oznaczenie formy)?",
+      "Czy napisałem/napisałam, CO się odbywa i KTO to organizuje?",
+      "Czy podałem/podałam, KIEDY i GDZIE można przynosić książki?",
+      "Czy jest zdanie zachęcające do udziału (np. wykrzyknienie, bezpośredni zwrot do czytelnika)?",
+      "Czy tekst jest zwięzły (3-4 zdania) i nie ma w nim błędów ortograficznych ani interpunkcyjnych?"
+    ],
+    "punkty": 3
+  }
+}

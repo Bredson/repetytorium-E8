@@ -1,0 +1,266 @@
+{
+  "id": "czytanie-1",
+  "modul": "E",
+  "tytul": "Czytanie ze zrozumieniem — fakt, opinia, argument",
+  "teoria": [
+    {
+      "id": "typy-tekstow",
+      "tytul": "Trzy typy tekstów nieliterackich",
+      "tresc": "Na egzaminie dostaniesz tekst NIELITERACKI — bez fabuły i bohaterów, za to z informacjami i poglądami. Tekst NAUKOWY: precyzyjne terminy, obiektywny, pisany dla specjalistów. Tekst POPULARNONAUKOWY: tłumaczy naukę prostym językiem dla każdego, często z ciekawostkami i pytaniami do czytelnika — to najczęstszy typ na E8. Tekst PUBLICYSTYCZNY (felieton, artykuł prasowy): autor komentuje aktualne sprawy i WYRAŻA WŁASNE ZDANIE, chce przekonać odbiorcę. Rozpoznasz go po ocenach, emocjach i zwrotach typu „moim zdaniem\", „warto\", „niestety\".",
+      "punkty": [
+        "Naukowy: terminy, obiektywizm, dla specjalistów",
+        "Popularnonaukowy: nauka prostym językiem, ciekawostki — najczęstszy na E8",
+        "Publicystyczny: opinia autora + komentarz do aktualnych spraw",
+        "Sygnały publicystyki: „moim zdaniem\", „warto\", oceny, emocje",
+        "Pierwsze zadanie po przeczytaniu: ustal, PO CO autor napisał ten tekst"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "mysl-glowna",
+      "tytul": "Myśl główna akapitu i teza autora",
+      "tresc": "Każdy akapit ma jedną myśl główną — najczęściej w pierwszym lub ostatnim zdaniu; reszta to rozwinięcie. Teza to główny pogląd CAŁEGO tekstu — to, co autor chce udowodnić. Szukaj jej na początku (autor zapowiada) lub na końcu (autor podsumowuje). Technika: po przeczytaniu każdego akapitu powiedz sobie jednym zdaniem, „o czym on był\" — z tych zdań złożysz streszczenie i łatwo wskażesz tezę. Uwaga na zadanie „streszczenie z lukami\": uzupełniaj je wyłącznie tym, co wynika z tekstu, i pilnuj, by zachować sens ORYGINAŁU, nie własną interpretację.",
+      "punkty": [
+        "Myśl główna akapitu: zwykle pierwsze lub ostatnie zdanie",
+        "Teza = główny pogląd całego tekstu (początek lub zakończenie)",
+        "Po każdym akapicie: jedno zdanie „o czym to było\"",
+        "Streszczenie z lukami: tylko sens oryginału, zero własnych dopowiedzeń",
+        "Tytuł tekstu często podpowiada tezę — czytaj go uważnie"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "fakt-opinia",
+      "tytul": "Fakt czy opinia? Test sprawdzalności",
+      "tresc": "FAKT można obiektywnie sprawdzić — jest prawdziwy albo fałszywy niezależnie od tego, kto mówi („Woda wrze w 100°C\", „Egzamin trwa 150 minut\"). OPINIA to czyjś sąd, ocena lub przypuszczenie — można się z nią zgodzić lub nie („Matematyka jest trudna\", „Warto czytać przed snem\"). Test: zapytaj „czy da się to zweryfikować pomiarem, dokumentem, obserwacją?\". Sygnały opinii: przymiotniki oceniające (wspaniały, nudny), zwroty „sądzę\", „moim zdaniem\", „chyba\", „powinno się\". Pułapka: opinia może zawierać liczby („aż 40% to za dużo\") — liczba jest faktem, ale ocena „za dużo\" to już opinia.",
+      "punkty": [
+        "Fakt: sprawdzalny obiektywnie (pomiar, dokument, obserwacja)",
+        "Opinia: sąd lub ocena — można się z nią spierać",
+        "Sygnały opinii: „moim zdaniem\", „warto\", „powinno się\", oceniające przymiotniki",
+        "Pułapka: zdanie z liczbą też może być opinią („aż 40% to za dużo\")",
+        "Test: czy dwie osoby MUSZĄ się co do tego zgodzić? Tak → fakt"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "argument-przyklad",
+      "tytul": "Teza, argument, przykład — nie mieszaj poziomów",
+      "tresc": "TEZA to pogląd do udowodnienia („Warto uprawiać sport\"). ARGUMENT to powód, DLACZEGO teza jest słuszna („bo poprawia zdrowie i koncentrację\"). PRZYKŁAD to konkret ilustrujący argument („po wprowadzeniu porannych rozgrzewek uczniowie klasy 8a poprawili wyniki testów\"). Na egzaminie często musisz odróżnić argument od przykładu: argument jest OGÓLNY (dotyczy zasady), przykład jest KONKRETNY (dotyczy jednego przypadku, osoby, badania). Sprawdzaj też, czy argument rzeczywiście wspiera tezę — zadania każą czasem wskazać argument NIE na temat.",
+      "punkty": [
+        "Teza → argument (dlaczego?) → przykład (konkret na dowód)",
+        "Argument = ogólna zasada; przykład = jeden konkretny przypadek",
+        "Badanie naukowe przywołane w tekście to zwykle PRZYKŁAD wspierający argument",
+        "Sprawdzaj, czy argument faktycznie dotyczy tezy (bywają zmyłki)",
+        "W rozprawce ta sama drabinka: teza → argumenty → przykłady z lektur"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "odpowiedz-z-tekstu",
+      "tytul": "Żelazna zasada: odpowiedź ZAWSZE z tekstu",
+      "tresc": "Najczęstszy błąd zerujący punkty: odpowiadanie „z głowy\" — własną wiedzą lub domysłem zamiast tym, co NAPISAŁ AUTOR. Jeśli polecenie brzmi „na podstawie tekstu\", każda odpowiedź musi mieć pokrycie w konkretnym zdaniu. Technika trzech kroków: 1) przeczytaj polecenie i podkreśl, o co DOKŁADNIE pytają; 2) znajdź w tekście fragment, który o tym mówi; 3) odpowiedz własnymi słowami, ale zgodnie z fragmentem. Uważaj na przeczenia w poleceniach („które zdanie NIE jest zgodne z tekstem\") i na odpowiedzi-pułapki: prawdziwe ogólnie, ale nieobecne w tekście.",
+      "punkty": [
+        "„Na podstawie tekstu\" = wskaż pokrycie w konkretnym zdaniu",
+        "Odpowiedź prawdziwa, ale spoza tekstu = 0 punktów",
+        "Krok 1: podkreśl, o co pytają; krok 2: znajdź fragment; krok 3: sparafrazuj",
+        "Czytaj polecenia z „NIE\" dwa razy — to klasyczna zmyłka",
+        "Pułapka w opcjach: zdanie zgodne z wiedzą ogólną, ale nie z tym tekstem"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e1-q-01",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Tekst, w którym autor prostym językiem tłumaczy odkrycia naukowe szerokiemu gronu czytelników, to tekst:",
+      "opcje": ["naukowy", "popularnonaukowy", "publicystyczny", "urzędowy"],
+      "poprawna": 1,
+      "wyjasnienie": "Popularnonaukowy = nauka „przetłumaczona\" dla każdego, często z ciekawostkami. Tekst naukowy jest pisany terminami dla specjalistów, publicystyczny komentuje i ocenia.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-02",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Które zdanie jest FAKTEM?",
+      "opcje": [
+        "Czytanie książek to najprzyjemniejsza forma spędzania wolnego czasu.",
+        "Każdy nastolatek powinien czytać przynajmniej godzinę dziennie.",
+        "Biblioteka szkolna jest otwarta od poniedziałku do piątku.",
+        "Papierowe książki są lepsze od e-booków."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Godziny otwarcia biblioteki można obiektywnie sprawdzić — to fakt. Pozostałe zdania to oceny i zalecenia („najprzyjemniejsza\", „powinien\", „lepsze\") — opinie, z którymi można się spierać.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-03",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Myśl główna akapitu znajduje się najczęściej w jego pierwszym lub ostatnim zdaniu.",
+        "Odpowiadając na pytanie „na podstawie tekstu\", możesz korzystać z własnej wiedzy spoza tekstu.",
+        "Teza to główny pogląd, który autor udowadnia w tekście."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Akapit zwykle zaczyna się lub kończy myślą główną. „Na podstawie tekstu\" oznacza, że odpowiedź MUSI mieć pokrycie w tekście — wiedza własna, nawet prawdziwa, daje 0 punktów. Teza to pogląd do udowodnienia.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-04",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Warto ograniczyć telefon wieczorem (1), bo światło ekranu utrudnia zasypianie (2), co potwierdziło badanie 500 uczniów z Krakowa (3)\". Czym są kolejno elementy 1-2-3?",
+      "opcje": [
+        "teza — argument — przykład",
+        "argument — teza — przykład",
+        "teza — przykład — argument",
+        "opinia — opinia — opinia"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "„Warto ograniczyć telefon\" to pogląd (teza). „Bo światło utrudnia zasypianie\" to ogólny powód (argument). Konkretne badanie 500 uczniów to przykład ilustrujący argument.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-05",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Jeszcze sto lat temu uważano, że sen to po prostu „wyłączenie\" mózgu. Dziś wiemy, że jest dokładnie odwrotnie. Podczas snu mózg nastolatka pracuje intensywnie: porządkuje wspomnienia z całego dnia i przenosi najważniejsze informacje do pamięci długotrwałej. Naukowcy porównują ten proces do pracy bibliotekarza, który nocą rozkłada zwrócone książki na właściwe półki. Badania przeprowadzone na grupie uczniów wykazały, że ci, którzy spali co najmniej osiem godzin przed sprawdzianem, zapamiętali średnio o jedną czwartą więcej materiału niż ich niewyspani koledzy. Wniosek nasuwa się sam: nocna nauka „na ostatnią chwilę\" przynosi więcej szkody niż pożytku.",
+      "tresc": "Która myśl jest TEZĄ powyższego tekstu?",
+      "opcje": [
+        "Sto lat temu uważano sen za „wyłączenie\" mózgu.",
+        "Bibliotekarz nocą rozkłada książki na półki.",
+        "Sen to czas intensywnej pracy mózgu, ważnej dla zapamiętywania.",
+        "Uczniowie powinni mieć mniej sprawdzianów."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Cały tekst udowadnia jedno: sen = intensywna praca mózgu kluczowa dla pamięci. Zdanie o „wyłączeniu\" to pogląd DAWNY (autor go obala), bibliotekarz to tylko porównanie, a o liczbie sprawdzianów tekst w ogóle nie mówi — to pułapka „z głowy\".",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-06",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Jeszcze sto lat temu uważano, że sen to po prostu „wyłączenie\" mózgu. Dziś wiemy, że jest dokładnie odwrotnie. Podczas snu mózg nastolatka pracuje intensywnie: porządkuje wspomnienia z całego dnia i przenosi najważniejsze informacje do pamięci długotrwałej. Naukowcy porównują ten proces do pracy bibliotekarza, który nocą rozkłada zwrócone książki na właściwe półki. Badania przeprowadzone na grupie uczniów wykazały, że ci, którzy spali co najmniej osiem godzin przed sprawdzianem, zapamiętali średnio o jedną czwartą więcej materiału niż ich niewyspani koledzy. Wniosek nasuwa się sam: nocna nauka „na ostatnią chwilę\" przynosi więcej szkody niż pożytku.",
+      "tresc": "Jaką funkcję pełni w tekście porównanie mózgu do bibliotekarza?",
+      "opcje": [
+        "Udowadnia, że biblioteki są potrzebne",
+        "Jest przykładem badania naukowego",
+        "Wprowadza opinię autora o nauce nocnej",
+        "Przybliża czytelnikowi trudny proces w prosty, obrazowy sposób"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Porównanie do bibliotekarza tłumaczy abstrakcyjny proces (porządkowanie wspomnień) przez coś znanego i konkretnego — typowy zabieg tekstu popularnonaukowego. To pytanie o FUNKCJĘ środka w tekście nieliterackim.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-07",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 2,
+      "zrodloTekst": "Jeszcze sto lat temu uważano, że sen to po prostu „wyłączenie\" mózgu. Dziś wiemy, że jest dokładnie odwrotnie. Podczas snu mózg nastolatka pracuje intensywnie: porządkuje wspomnienia z całego dnia i przenosi najważniejsze informacje do pamięci długotrwałej. Naukowcy porównują ten proces do pracy bibliotekarza, który nocą rozkłada zwrócone książki na właściwe półki. Badania przeprowadzone na grupie uczniów wykazały, że ci, którzy spali co najmniej osiem godzin przed sprawdzianem, zapamiętali średnio o jedną czwartą więcej materiału niż ich niewyspani koledzy. Wniosek nasuwa się sam: nocna nauka „na ostatnią chwilę\" przynosi więcej szkody niż pożytku.",
+      "tresc": "Oceń zgodność zdań z tekstem.",
+      "opcje": [
+        "Według tekstu wyspani uczniowie zapamiętali o około 25% więcej materiału.",
+        "Tekst zaleca naukę nocą tuż przed sprawdzianem.",
+        "Informacja o wynikach badania uczniów pełni w tekście funkcję przykładu."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "„O jedną czwartą więcej\" = ok. 25%. Autor kończy wnioskiem, że nauka „na ostatnią chwilę\" SZKODZI — tekst mówi coś przeciwnego niż zdanie 2. Badanie to konkretny przypadek wspierający argument, czyli przykład.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-08",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Które polecenie wymaga szczególnej czujności, bo zawiera klasyczną zmyłkę egzaminacyjną?",
+      "opcje": [
+        "Wypisz z tekstu dwa argumenty autora.",
+        "Podaj myśl główną drugiego akapitu.",
+        "Wyjaśnij znaczenie wyrazu „intensywnie\".",
+        "Wskaż zdanie, które NIE jest zgodne z tekstem."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Polecenia z przeczeniem („NIE jest zgodne\") odwracają logikę zadania — czytane w pośpiechu prowadzą do zaznaczenia zdania zgodnego z tekstem. Czytaj je dwa razy i podkreślaj „NIE\".",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-09",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Moda na szkolne automaty z przekąskami wróciła — i bardzo dobrze. Krytycy narzekają, że batony i chipsy szkodzą zdrowiu, ale zapominają o jednym: zakazany owoc smakuje najlepiej. Gdy trzy lata temu automaty zniknęły z mojej szkoły, uczniowie po prostu przynosili te same przekąski z pobliskiego sklepu, tyle że w większych ilościach. Rozsądniejsze wydaje się więc inne rozwiązanie: zostawić automaty, ale wypełnić je owocami, orzechami i wodą. Tak zrobiono w jednej z warszawskich podstawówek — po semestrze sprzedaż wody przewyższyła tam sprzedaż słodkich napojów. Może więc zamiast zakazywać, warto po prostu mądrze wybierać?",
+      "tresc": "Ten tekst jest publicystyczny. Który element NAJWYRAŹNIEJ na to wskazuje?",
+      "opcje": [
+        "Precyzyjne terminy naukowe i obiektywny ton",
+        "Autor wyraża własne oceny („i bardzo dobrze\", „rozsądniejsze\") i polemizuje z krytykami",
+        "Brak jakichkolwiek przykładów i danych",
+        "Tekst składa się z dialogów i didaskaliów"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Publicystykę poznajesz po jawnej opinii autora i chęci przekonania czytelnika — tu od pierwszego zdania („i bardzo dobrze\") plus polemika z krytykami i pytanie na końcu. Przykłady w tekście SĄ, ale służą opinii, nie obiektywnemu wykładowi.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-10",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Moda na szkolne automaty z przekąskami wróciła — i bardzo dobrze. Krytycy narzekają, że batony i chipsy szkodzą zdrowiu, ale zapominają o jednym: zakazany owoc smakuje najlepiej. Gdy trzy lata temu automaty zniknęły z mojej szkoły, uczniowie po prostu przynosili te same przekąski z pobliskiego sklepu, tyle że w większych ilościach. Rozsądniejsze wydaje się więc inne rozwiązanie: zostawić automaty, ale wypełnić je owocami, orzechami i wodą. Tak zrobiono w jednej z warszawskich podstawówek — po semestrze sprzedaż wody przewyższyła tam sprzedaż słodkich napojów. Może więc zamiast zakazywać, warto po prostu mądrze wybierać?",
+      "tresc": "Które zdanie z tekstu jest FAKTEM, a nie opinią autora?",
+      "opcje": [
+        "Moda na automaty wróciła — i bardzo dobrze.",
+        "Zakazany owoc smakuje najlepiej.",
+        "Rozsądniejsze wydaje się inne rozwiązanie.",
+        "Po semestrze sprzedaż wody przewyższyła sprzedaż słodkich napojów."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Dane o sprzedaży można sprawdzić w dokumentach szkoły — to fakt. „Bardzo dobrze\", „smakuje najlepiej\" i „rozsądniejsze wydaje się\" to oceny i przypuszczenia autora, czyli opinie.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-11",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Moda na szkolne automaty z przekąskami wróciła — i bardzo dobrze. Krytycy narzekają, że batony i chipsy szkodzą zdrowiu, ale zapominają o jednym: zakazany owoc smakuje najlepiej. Gdy trzy lata temu automaty zniknęły z mojej szkoły, uczniowie po prostu przynosili te same przekąski z pobliskiego sklepu, tyle że w większych ilościach. Rozsądniejsze wydaje się więc inne rozwiązanie: zostawić automaty, ale wypełnić je owocami, orzechami i wodą. Tak zrobiono w jednej z warszawskich podstawówek — po semestrze sprzedaż wody przewyższyła tam sprzedaż słodkich napojów. Może więc zamiast zakazywać, warto po prostu mądrze wybierać?",
+      "tresc": "Jaką funkcję pełni w argumentacji autora historia warszawskiej podstawówki?",
+      "opcje": [
+        "Jest tezą całego tekstu",
+        "Jest kontrargumentem — podważa stanowisko autora",
+        "Jest przykładem potwierdzającym, że proponowane rozwiązanie działa",
+        "Jest opinią krytyków automatów"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Autor proponuje: zostawić automaty ze zdrowymi produktami. Konkretna szkoła, w której to zadziałało (woda sprzedaje się lepiej), to przykład na poparcie tej propozycji — konkret wspierający ogólny argument.",
+      "punkty": 1
+    },
+    {
+      "id": "e1-q-12",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Moda na szkolne automaty z przekąskami wróciła — i bardzo dobrze. Krytycy narzekają, że batony i chipsy szkodzą zdrowiu, ale zapominają o jednym: zakazany owoc smakuje najlepiej. Gdy trzy lata temu automaty zniknęły z mojej szkoły, uczniowie po prostu przynosili te same przekąski z pobliskiego sklepu, tyle że w większych ilościach. Rozsądniejsze wydaje się więc inne rozwiązanie: zostawić automaty, ale wypełnić je owocami, orzechami i wodą. Tak zrobiono w jednej z warszawskich podstawówek — po semestrze sprzedaż wody przewyższyła tam sprzedaż słodkich napojów. Może więc zamiast zakazywać, warto po prostu mądrze wybierać?",
+      "tresc": "Uczeń odpowiedział: „Autor uważa, że słodycze powinny być całkiem zakazane w szkołach\". Dlaczego ta odpowiedź dostałaby 0 punktów?",
+      "opcje": [
+        "Bo jest za krótka",
+        "Bo przeczy tekstowi — autor jest właśnie PRZECIW zakazom i proponuje mądry wybór",
+        "Bo nie zawiera cytatu z tekstu",
+        "Bo autor w ogóle nie wypowiada się o słodyczach"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Autor od początku broni automatów i kończy: „zamiast zakazywać, warto mądrze wybierać\". Odpowiedź ucznia to domysł „z głowy\", sprzeczny z tekstem — najczęstszy błąd zerujący punkty w module E.",
+      "punkty": 1
+    }
+  ]
+}

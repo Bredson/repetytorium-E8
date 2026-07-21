@@ -1,0 +1,272 @@
+{
+  "id": "ortografia-2",
+  "modul": "C",
+  "tytul": "Przecinki w zdaniach złożonych — trening celowany",
+  "teoria": [
+    {
+      "id": "ile-zdan",
+      "tytul": "Krok 1: policz orzeczenia",
+      "tresc": "Zanim postawisz jakikolwiek przecinek, policz ORZECZENIA (czasowniki w formie osobowej). Ile orzeczeń — tyle zdań składowych. „Gdy zadzwonił dzwonek, uczniowie wyszli z klasy\" ma dwa orzeczenia (zadzwonił, wyszli), więc to zdanie złożone z dwóch zdań składowych. Granica między zdaniami składowymi to właśnie miejsce, gdzie najczęściej potrzebny jest przecinek. Jedno orzeczenie = zdanie pojedyncze = zasady przecinków w złożonych go nie dotyczą.",
+      "punkty": [
+        "Liczba orzeczeń = liczba zdań składowych",
+        "Przecinki w zdaniu złożonym stawiamy na granicach zdań składowych",
+        "Najpierw znajdź czasowniki, potem szukaj spójnika między nimi",
+        "Jedno orzeczenie = zdanie pojedyncze, nie szukaj tam granic"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "wspolrzednie",
+      "tytul": "Zdania współrzędne: kiedy przecinek, kiedy nie",
+      "tresc": "W zdaniach złożonych współrzędnie przecinek stawiamy ZAWSZE przed: ale, lecz, jednak, więc, zatem, czyli, dlatego. Przecinka NIE stawiamy przed pojedynczym: i, oraz, lub, albo, ani, bądź. Uwaga na pułapkę: jeśli spójnik się POWTARZA, przecinek stawiamy przed drugim i każdym kolejnym wystąpieniem: „Lubię i jabłka, i gruszki\", „Nie kupił ani chleba, ani masła\". Gdy dwa zdania składowe łączą się BEZ spójnika, przecinek jest obowiązkowy: „Zadzwonił dzwonek, uczniowie wstali\".",
+      "punkty": [
+        "Przecinek zawsze przed: ale, lecz, jednak, więc, zatem, czyli",
+        "Bez przecinka przed pojedynczym: i, oraz, lub, albo, ani",
+        "Spójnik powtórzony — przecinek przed drugim: „i jabłka, i gruszki\"",
+        "Zdania połączone bez spójnika oddzielamy przecinkiem"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "podrzedne",
+      "tytul": "Zdania podrzędne: przecinek obowiązkowy",
+      "tresc": "Zdanie podrzędne ZAWSZE oddzielamy przecinkiem od nadrzędnego — bez wyjątków. Sygnałem podrzędności są słowa: że, żeby, aby, bo, ponieważ, gdyż, gdy, kiedy, jeśli, jeżeli, choć, chociaż, który, która, które, co, gdzie, dokąd. Kolejność nie ma znaczenia: „Zostaniemy w domu, jeśli będzie padać\" i „Jeśli będzie padać, zostaniemy w domu\" — w obu wersjach przecinek stoi na granicy zdań składowych. Gdy zdanie podrzędne stoi PIERWSZE, przecinek stawiamy po nim, a nie przed spójnikiem.",
+      "punkty": [
+        "Zdanie podrzędne zawsze oddzielamy przecinkiem",
+        "Sygnały: że, żeby, bo, ponieważ, gdy, jeśli, choć, który, gdzie",
+        "Podrzędne na początku — przecinek PO nim: „Jeśli będzie padać, zostaniemy\"",
+        "Przed pytajnikami wplecionymi (kiedy, dlaczego, jak) też przecinek: „Powiedz mi, kiedy wrócisz\""
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "wplecione",
+      "tytul": "Zdanie wplecione: przecinki z OBU stron",
+      "tresc": "Gdy zdanie podrzędne jest wplecione w środek nadrzędnego, wydzielamy je przecinkami z obu stron — to najczęściej gubiony przecinek na egzaminie. „Film, który obejrzeliśmy wczoraj, był nudny\": zdanie „który obejrzeliśmy wczoraj\" przerywa zdanie „Film był nudny\", więc zamykamy je w przecinki jak w nawias. Test kontrolny: usuń część między przecinkami — reszta musi tworzyć sensowne zdanie („Film był nudny\" — działa!). Najczęstszy błąd: przecinek tylko przed „który\", a brak zamykającego.",
+      "punkty": [
+        "Zdanie wplecione = przecinki z obu stron, jak nawias",
+        "Test: usuń część między przecinkami — reszta musi mieć sens",
+        "Najczęstszy błąd egzaminacyjny: brak przecinka ZAMYKAJĄCEGO",
+        "„Książka, którą czytam, jest ciekawa\" — dwa przecinki, nie jeden"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "imieslowy",
+      "tytul": "Imiesłów na -ąc, -wszy, -łszy: zawsze przecinek",
+      "tresc": "Imiesłowowy równoważnik zdania — czyli część wypowiedzenia z imiesłowem zakończonym na -ąc (czytając, idąc), -wszy (przeczytawszy) lub -łszy (zszedłszy) — ZAWSZE oddzielamy przecinkiem, niezależnie od tego, gdzie stoi. „Wracając ze szkoły, spotkałem sąsiada\", „Spotkałem sąsiada, wracając ze szkoły\", a wpleciony w środek — z obu stron: „Marek, przeczytawszy list, zbladł\". Ta zasada obowiązuje w pełni od reformy interpunkcji i jest chętnie sprawdzana na egzaminie.",
+      "punkty": [
+        "Imiesłów na -ąc, -wszy, -łszy = obowiązkowy przecinek",
+        "Na początku: „Wracając ze szkoły, spotkałem sąsiada\"",
+        "Na końcu: „Spotkałem sąsiada, wracając ze szkoły\"",
+        "W środku: przecinki z obu stron, jak zdanie wplecione"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "spojniki-zestawione",
+      "tytul": "Pułapka: mimo że, chyba że, tak że",
+      "tresc": "Spójniki zestawione (dwuwyrazowe): mimo że, chyba że, tak że, dlatego że, podczas gdy — traktujemy jak JEDEN spójnik. Przecinek stawiamy przed CAŁYM wyrażeniem, nigdy w jego środku: „Poszliśmy na spacer, mimo że padał deszcz\" (nie: „mimo, że\"!). Wyjątek do zapamiętania na później: gdy chcemy coś mocno zaakcentować, przecinek może się „cofnąć\" — ale na egzaminie ósmoklasisty trzymaj się zasady podstawowej: przecinek przed całym zestawieniem.",
+      "punkty": [
+        "Mimo że, chyba że, tak że, dlatego że = jeden spójnik",
+        "Przecinek przed całym wyrażeniem: „…, mimo że padał deszcz\"",
+        "Błąd klasyczny: „mimo, że\" — przecinka w środku NIE stawiamy",
+        "Ta sama zasada: podczas gdy, zwłaszcza że, tym bardziej że"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c2-q-01",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Ile zdań składowych ma wypowiedzenie: „Gdy zadzwonił dzwonek, uczniowie wyszli z klasy\"?",
+      "opcje": [
+        "jedno",
+        "dwa",
+        "trzy",
+        "cztery"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Liczymy orzeczenia: „zadzwonił\" i „wyszli\" — dwa orzeczenia, czyli dwa zdania składowe. To pierwszy krok każdej analizy interpunkcyjnej.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-02",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Przed którym spójnikiem ZAWSZE stawiamy przecinek?",
+      "opcje": [
+        "i",
+        "oraz",
+        "ale",
+        "albo"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Przed „ale\" (podobnie: lecz, więc, czyli, jednak) przecinek stawiamy zawsze. Przed pojedynczym „i\", „oraz\", „albo\" przecinka nie stawiamy.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-03",
+      "modul": "C",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania o przecinkach są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Przed pojedynczym „i\" nie stawiamy przecinka.",
+        "Przed „który\" stawiamy przecinek.",
+        "Zdanie podrzędne oddzielamy przecinkiem tylko wtedy, gdy stoi na końcu wypowiedzenia."
+      ],
+      "poprawnaMaska": [true, true, false],
+      "wyjasnienie": "Dwa pierwsze zdania są prawdziwe. Trzecie jest fałszywe: zdanie podrzędne oddzielamy przecinkiem ZAWSZE — niezależnie od tego, czy stoi na początku, w środku, czy na końcu.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-04",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego w zdaniu „Zjadł śniadanie i poszedł do szkoły\" NIE stawiamy przecinka?",
+      "opcje": [
+        "Bo zdania składowe łączy pojedynczy spójnik „i\"",
+        "Bo zdanie jest krótkie",
+        "Bo oba czasowniki są w czasie przeszłym",
+        "Bo to zdanie pojedyncze"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "To zdanie złożone (dwa orzeczenia: zjadł, poszedł), ale zdania składowe łączy pojedyncze „i\" — a przed pojedynczym „i\", „oraz\", „lub\", „albo\" przecinka nie stawiamy. Długość zdania nie ma znaczenia.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-05",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wskaż zdanie z poprawną interpunkcją.",
+      "opcje": [
+        "Czytając książkę robił notatki.",
+        "Czytając, książkę robił notatki.",
+        "Czytając książkę robił, notatki.",
+        "Czytając książkę, robił notatki."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Imiesłowowy równoważnik zdania („czytając książkę\") zawsze oddzielamy przecinkiem od reszty wypowiedzenia. Przecinek stoi na granicy: „Czytając książkę, robił notatki\".",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-06",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz WSZYSTKIE zdania z poprawnie postawionymi przecinkami.",
+      "opcje": [
+        "Wiem, że masz rację.",
+        "Kupiłem chleb, i masło.",
+        "Nie przyszedł, bo był chory.",
+        "Zosiu, podaj mi zeszyt."
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Przecinek przed „że\" i „bo\" — poprawnie; wołacz „Zosiu\" oddzielony przecinkiem — poprawnie. Błędne jest „Kupiłem chleb, i masło\": przed pojedynczym „i\" przecinka nie stawiamy.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-07",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wskaż poprawny zapis zdania z powtórzonym spójnikiem.",
+      "opcje": [
+        "Lubię, i jabłka i gruszki.",
+        "Lubię i jabłka, i gruszki.",
+        "Lubię i jabłka i gruszki.",
+        "Lubię, i jabłka, i gruszki."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Gdy spójnik „i\" się powtarza, przecinek stawiamy przed jego DRUGIM wystąpieniem: „i jabłka, i gruszki\". Przed pierwszym „i\" przecinka nie ma.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-08",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W zdaniu „Jeśli będzie padać zostaniemy w domu\" przecinek należy postawić...",
+      "opcje": [
+        "przed „Jeśli\"",
+        "po „będzie\"",
+        "po „padać\"",
+        "nigdzie — zdanie nie wymaga przecinka"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zdanie podrzędne „Jeśli będzie padać\" stoi na początku, więc przecinek stawiamy PO nim, na granicy zdań składowych: „Jeśli będzie padać, zostaniemy w domu\".",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-09",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W zdaniu „Film który obejrzeliśmy wczoraj był nudny\" przecinki należy postawić...",
+      "opcje": [
+        "tylko przed „który\"",
+        "tylko po „wczoraj\"",
+        "przed „który\" i po „wczoraj\"",
+        "nigdzie — zdanie nie wymaga przecinków"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zdanie „który obejrzeliśmy wczoraj\" jest wplecione w środek zdania nadrzędnego „Film był nudny\", więc wydzielamy je przecinkami z OBU stron. Test: po usunięciu części między przecinkami zostaje sensowne „Film był nudny\".",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-10",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jak poprawnie postawić przecinek w zdaniu ze spójnikiem zestawionym „mimo że\"?",
+      "opcje": [
+        "Przed całym wyrażeniem: „Poszliśmy na spacer, mimo że padał deszcz.\"",
+        "W środku wyrażenia: „Poszliśmy na spacer mimo, że padał deszcz.\"",
+        "Przed i w środku: „Poszliśmy na spacer, mimo, że padał deszcz.\"",
+        "Wcale — „mimo że\" nie wymaga przecinka."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Spójniki zestawione (mimo że, chyba że, dlatego że) traktujemy jak jeden spójnik — przecinek stawiamy przed całym wyrażeniem. Zapis „mimo, że\" to klasyczny błąd egzaminacyjny.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-11",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz WSZYSTKIE wypowiedzenia, w których BRAKUJE przecinka.",
+      "opcje": [
+        "Wracając ze szkoły spotkałem sąsiada.",
+        "Powiedz mi kiedy wrócisz.",
+        "Marek czyta książki i gra w szachy.",
+        "Chcę żebyś mi pomógł."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Brakuje przecinka: po imiesłowie („Wracając ze szkoły, spotkałem\"), przed „kiedy\" („Powiedz mi, kiedy wrócisz\") i przed „żebyś\" („Chcę, żebyś mi pomógł\"). Zdanie z pojedynczym „i\" jest poprawne bez przecinka.",
+      "punkty": 1
+    },
+    {
+      "id": "c2-q-12",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Wskaż wypowiedzenie zapisane w CAŁOŚCI poprawnie.",
+      "opcje": [
+        "Kiedy wrócisz do domu zadzwoń do babci, która czeka na wiadomość.",
+        "Kiedy wrócisz do domu, zadzwoń do babci która czeka na wiadomość.",
+        "Kiedy, wrócisz do domu, zadzwoń do babci, która czeka na wiadomość.",
+        "Kiedy wrócisz do domu, zadzwoń do babci, która czeka na wiadomość."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Potrzebne są dwa przecinki: po zdaniu podrzędnym stojącym na początku („Kiedy wrócisz do domu,\") oraz przed „która\". Oba warunki spełnia tylko ostatnia wersja.",
+      "punkty": 1
+    }
+  ]
+}

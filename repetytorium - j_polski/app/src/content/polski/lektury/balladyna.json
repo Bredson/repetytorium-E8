@@ -1,0 +1,409 @@
+{
+  "id": "balladyna",
+  "tytul": "Balladyna",
+  "autor": "Juliusz Słowacki",
+  "gatunek": {
+    "nazwa": "dramat romantyczny (tragedia)",
+    "cechy": [
+      "Świat realny i fantastyczny współistnieją — obok wdowy i rycerzy działają Goplana, Skierka i Chochlik.",
+      "Ludowość — fabuła wyrasta z ludowej ballady o malinach i z ludowego przekonania, że każda zbrodnia musi zostać ukarana.",
+      "Zerwanie z zasadą trzech jedności — akcja toczy się w wielu miejscach (las, chata, zamek, pole bitwy) i przez wiele dni.",
+      "Łączenie tragizmu z komizmem i groteską — obok zbrodni Balladyny są komiczne sceny z pijakiem Grabcem.",
+      "Nawiązania do Szekspira — żądza władzy i zbrodnia jak w „Makbecie\", duchy natury jak ze „Snu nocy letniej\".",
+      "Przyroda współuczestniczy w akcji — kaprys nimfy uruchamia tragedię, a piorun wykonuje ostateczny wyrok."
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Mapa fabuły — od malin do korony",
+      "tresc": "Akcja układa się w lawinę: jedna zbrodnia wymusza kolejne. Zapamiętaj łańcuch wydarzeń — na egzaminie pytania o fabułę sprawdzają, czy znasz KOLEJNOŚĆ i ZWIĄZKI przyczynowe, nie pojedyncze ciekawostki.",
+      "punkty": [
+        "Nimfa Goplana budzi się w jeziorze Gopło i zakochuje się w prostaku Grabcu.",
+        "Zazdrosna o Grabca Goplana każe Skierce ściągnąć rycerza Kirkora do chaty wdowy — Skierka sprawia, że przy chacie pęka oś powozu.",
+        "Kirkor chce się żenić, ale nie umie wybrać między siostrami — wdowa ogłasza próbę: która pierwsza przyniesie z lasu pełny dzban malin, zostanie żoną.",
+        "Alina uczciwie zbiera pełny dzban. Balladyna zabija ją nożem — na czole zostaje jej krwawa plama, której nie da się zmyć.",
+        "Balladyna kłamie, że siostra uciekła z kochankiem; zostaje żoną Kirkora i panią zamku.",
+        "Na zamkowej uczcie wstydzi się prostej matki, wypiera się jej, a później wygania ją w noc burzy.",
+        "Goplana zamienia Grabca w wierzbę, a potem czyni go „królem dzwonkowym\" i oddaje mu skradzioną koronę Popielów.",
+        "Kirkor wyrusza na wojnę, by przywrócić tron Pustelnikowi — prawowitemu królowi Popielowi III. Balladyna spiskuje z Kostrynem, dowódcą straży.",
+        "Balladyna nocą zabija Grabca i zabiera koronę; z Kostrynem morduje posłańca Gralona; wojska Kostryna pokonują Kirkora, który ginie w bitwie, a Pustelnik zostaje powieszony.",
+        "Balladyna truje Kostryna zatrutym chlebem i samodzielnie obejmuje tron.",
+        "Finał — sąd: nowa królowa musi osądzić trzy skargi (zabójstwo Aliny, otrucie Kostryna, wygnanie matki). Oślepła wdowa umiera na torturach, nie wydając imienia córki. Balladyna trzykrotnie orzeka „winna śmierci\" — na samą siebie — i ginie od uderzenia pioruna."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "swiat",
+      "tytul": "Świat przedstawiony — baśniowa Polska i dwa plany",
+      "tresc": "Słowacki umieszcza akcję w legendarnych, przedchrześcijańskich czasach — to Polska z baśni, nie z podręcznika historii. Kluczem jest współistnienie dwóch planów: realistycznego i fantastycznego.",
+      "punkty": [
+        "Czas: epoka legendarna, czasy króla Popiela — celowo baśniowa, bez konkretnej daty.",
+        "Miejsce: okolice jeziora Gopło — chata wdowy, las malinowy, zamek Kirkora, pole bitwy, stolica Gniezno.",
+        "Plan realistyczny: wdowa z córkami, Kirkor, Kostryn, wojna o tron — świat ludzkich ambicji i zbrodni.",
+        "Plan fantastyczny: Goplana (nimfa wodna), jej słudzy Skierka i Chochlik — świat natury i kaprysu.",
+        "Oba plany się przenikają: to kaprys Goplany (miłość do Grabca) uruchamia ciąg wydarzeń prowadzący do tragedii.",
+        "Natura jest też narzędziem sprawiedliwości — burza oślepia wygnaną wdowę, a piorun zabija Balladynę."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka — zbrodnia, sumienie i nieuchronna kara",
+      "tresc": "Balladyna to studium tego, jak ambicja krok po kroku zamienia człowieka w zbrodniarza — i dowód, że przed sprawiedliwością nie da się uciec. Te wątki są ulubionym materiałem na tematy wypracowań.",
+      "punkty": [
+        "Lawina zbrodni: pierwsze morderstwo (Alina) wymusza kolejne — kłamstwa, spisek, trucizna. Zło ma logikę lawiny.",
+        "Sumienie: krwawa plama na czole to niezmywalny ślad winy — Balladyna ukrywa ją przepaską i tłumaczy skaleczeniem, ale nie może się jej pozbyć.",
+        "Balladyna nie czuje skruchy — czuje STRACH przed odkryciem. To odróżnia ją od bohaterów, którzy żałują.",
+        "Żądza władzy niszczy: każdy szczebel kariery (żona rycerza → wspólniczka spisku → królowa) kosztuje kolejne życie.",
+        "Niewdzięczność wobec matki: wyparcie się wdowy to wina moralna równie ciężka jak zbrodnie krwi — to skarga matki domyka sąd.",
+        "Kontrast sióstr: Alina i Balladyna wyrosły w tej samej chacie — o tym, kim się stały, zdecydowały ich wybory, nie pochodzenie.",
+        "Sprawiedliwość ostateczna: gdy zawodzi prawo ludzkie (królowej nikt nie może sądzić), wyrok wykonuje niebo — piorun."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Balladyna jako dramat romantyczny",
+      "tresc": "Na egzaminie coraz częściej pyta się o FUNKCJĘ cech gatunkowych: nie „wymień cechy dramatu romantycznego\", tylko „po co Słowackiemu świat fantastyczny\". Ucz się każdej cechy razem z jej funkcją.",
+      "punkty": [
+        "Świat fantastyczny obok realnego → Goplana uruchamia akcję, ale o zbrodniach decyduje sama Balladyna — fantastyka uwypukla ludzką odpowiedzialność.",
+        "Ludowość → ludowa moralność: zbrodnia zawsze wychodzi na jaw i zostaje ukarana (jak w balladzie „Lilije\" Mickiewicza).",
+        "Zerwanie z trzema jednościami → akcja skacze po miejscach i dniach jak w kronice — swoboda kompozycji typowa dla romantyzmu.",
+        "Tragizm + komizm i groteska → sceny z Grabcem rozładowują grozę i ośmieszają świat władzy (pijak z koroną na głowie).",
+        "Nawiązania do Szekspira → Balladyna jak Makbet: morduje dla władzy i nie może się zatrzymać; nosi też niezmywalny ślad jak Lady Makbet plamę na rękach.",
+        "Ironia tragiczna → w finale prawo, które Balladyna reprezentuje jako królowa, zmusza ją do skazania samej siebie."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Balladyna w wypracowaniu",
+      "tresc": "Balladyna i Dziady cz. II to najmocniejsze typy na lekturę wiodącą 2027 — żadna z nich nigdy nie była wiodąca. Miej gotowe pary teza → scena-dowód. Zawsze podawaj tytuł, autora, bohatera i konkretną scenę.",
+      "punkty": [
+        "Teza „to, jakimi jesteśmy ludźmi, zależy od nas samych\" → argument: Alina i Balladyna z tej samej chaty — jedna uczciwie zbiera maliny, druga wybiera nóż.",
+        "Teza „zbrodnia pociąga za sobą kolejne zbrodnie\" → argument: po zabójstwie Aliny Balladyna morduje Grabca, Gralona i Kostryna, by ukryć pierwszą winę.",
+        "Teza „przed sprawiedliwością nie da się uciec\" → argument: królowej nie może sądzić nikt — więc sądzi się sama i ginie od pioruna.",
+        "Teza „władza zdobyta podstępem niszczy człowieka\" → argument: droga Balladyny od chaty do tronu usłana jest trupami, a kończy się jej śmiercią.",
+        "Teza „niewdzięczność rani najbliższych\" → argument: Balladyna wypiera się matki na uczcie i wygania ją w burzę; wdowa mimo to nie wydaje córki na torturach.",
+        "Do opowiadania: możesz wykorzystać próbę malin, las, zamek — pilnuj zgodności z lekturą (błąd kardynalny: np. „Balladyna zabiła matkę\" zeruje kompetencje literackie!).",
+        "Świetny duet argumentacyjny: Balladyna + widmo złego pana z Dziadów cz. II — dwa dowody, że za wybory moralne płaci się nieuchronnie."
+      ],
+      "czasMin": 5
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Balladyna",
+      "kim": "Starsza córka wdowy — ambitna wiejska dziewczyna, która drogą zbrodni dochodzi do tronu.",
+      "cechy": ["bezwzględnie ambitna", "konsekwentna w zbrodni", "dręczona strachem, nie skruchą"],
+      "scenyDowody": [
+        "W lesie zabija nożem Alinę, gdy ta uczciwie nazbierała pełny dzban malin.",
+        "Na uczcie wypiera się prostej matki, a potem wygania ją z zamku w noc burzy.",
+        "Truje Kostryna zatrutym chlebem, by nie dzielić się władzą.",
+        "Jako królowa trzykrotnie orzeka „winna śmierci\" — nieświadomie skazując samą siebie — i ginie od pioruna."
+      ],
+      "przestroga": "Pierwsza zbrodnia wymusza kolejne — a przed sprawiedliwością nie ucieknie nawet królowa."
+    },
+    {
+      "imie": "Alina",
+      "kim": "Młodsza córka wdowy — dobra, pracowita i ufna; ofiara pierwszej zbrodni siostry.",
+      "cechy": ["uczciwa i pracowita", "kochająca matkę i siostrę", "ufna aż do naiwności"],
+      "scenyDowody": [
+        "Jako pierwsza uczciwie zbiera pełny dzban malin — wygrywa próbę bez podstępu.",
+        "Do ostatniej chwili nie wierzy, że siostra może jej zrobić krzywdę — żartuje z nią w lesie tuż przed śmiercią.",
+        "Jej śmierć uruchamia całą lawinę zbrodni Balladyny."
+      ],
+      "przestroga": "Kontrast z siostrą: obie wyszły z tej samej chaty — o tym, kim jesteśmy, decydują wybory, nie pochodzenie."
+    },
+    {
+      "imie": "Wdowa (matka)",
+      "kim": "Uboga matka Balladyny i Aliny — kocha córki ślepo i bezgranicznie.",
+      "cechy": ["bezgranicznie kochająca", "dumna z córki mimo krzywd", "wierna do końca"],
+      "scenyDowody": [
+        "Ogłasza próbę malin, bo nie chce sama wybierać między córkami.",
+        "Wygnana przez Balladynę w noc burzy traci wzrok.",
+        "Na torturach umiera, nie wydając imienia wyrodnej córki."
+      ],
+      "przestroga": "Miłość rodzicielska bywa bezwarunkowa — tym cięższa jest wina niewdzięcznego dziecka."
+    },
+    {
+      "imie": "Kirkor",
+      "kim": "Rycerz, pan zamku — prawy i waleczny, ale łatwowierny mąż Balladyny.",
+      "cechy": ["szlachetny i prawy", "waleczny", "łatwowierny — nie zna natury żony"],
+      "scenyDowody": [
+        "Trafia do chaty wdowy, gdy przy niej pęka oś jego powozu (sprawka Skierki na rozkaz Goplany).",
+        "Wyrusza na wojnę, by przywrócić tron prawowitemu królowi — Pustelnikowi (Popielowi III).",
+        "Ginie w bitwie zdradzony przez własną żonę i Kostryna."
+      ],
+      "przestroga": "Szlachetność bez rozwagi jest bezbronna wobec podstępu."
+    },
+    {
+      "imie": "Goplana",
+      "kim": "Nimfa jeziora Gopło, władczyni okolicznej przyrody — jej kaprys uruchamia tragedię.",
+      "cechy": ["kapryśna i zazdrosna", "zakochana w niegodnym (Grabcu)", "zdolna do skruchy"],
+      "scenyDowody": [
+        "Z miłości do Grabca każe Skierce ściągnąć Kirkora do chaty wdowy — od tego zaczyna się cały łańcuch wydarzeń.",
+        "Za karę zamienia Grabca w wierzbę, a potem czyni go „królem dzwonkowym\" z koroną Popielów.",
+        "Widząc skutki swojej ingerencji, żałuje i odlatuje z kluczem żurawi na północ."
+      ],
+      "przestroga": "Nawet „niewinna\" ingerencja w cudze losy może uruchomić lawinę nieszczęść."
+    },
+    {
+      "imie": "Grabiec",
+      "kim": "Wiejski prostak i pijak, syn zakrystiana — postać komiczna i groteskowa.",
+      "cechy": ["prostacki i chciwy", "komiczny", "przypadkowa ofiara cudzej ambicji"],
+      "scenyDowody": [
+        "Obiekt miłości Goplany — woli jednak dziewczęta z karczmy i wódkę.",
+        "Zamieniony w wierzbę, potem ustanowiony „królem dzwonkowym\" z prawdziwą koroną Popielów.",
+        "Ginie nocą z ręki Balladyny, która przychodzi po koronę."
+      ],
+      "przestroga": "Groteskowy „król na niby\" ośmiesza świat władzy — i ginie, gdy staje na drodze prawdziwej ambicji."
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "wina i kara",
+      "przyklad": "Balladyna morduje kolejno Alinę, Grabca, Gralona i Kostryna — a w finale sama wydaje na siebie trzykrotny wyrok śmierci i ginie od pioruna.",
+      "wWypracowaniu": "Do tezy „sprawiedliwości nie da się oszukać\" — gdy zawodzi prawo ludzkie, karę wymierza niebo. Zestaw z widmem złego pana z Dziadów cz. II."
+    },
+    {
+      "motyw": "żądza władzy",
+      "przyklad": "Droga Balladyny: chłopka → żona rycerza → wspólniczka spisku → królowa. Każdy szczebel kosztuje czyjeś życie.",
+      "wWypracowaniu": "Do tezy „władza zdobyta zbrodnią niszczy człowieka\" — jak Makbet u Szekspira, Balladyna nie może się już zatrzymać."
+    },
+    {
+      "motyw": "sumienie",
+      "przyklad": "Krwawa plama na czole Balladyny nie daje się zmyć — bohaterka ukrywa ją przepaską i kłamie, że to skaleczenie.",
+      "wWypracowaniu": "Do tezy „przed samym sobą nie da się uciec\" — znamię to widzialny głos sumienia, którego nie zagłuszy nawet korona."
+    },
+    {
+      "motyw": "rodzina i niewdzięczność",
+      "przyklad": "Balladyna wypiera się matki na uczcie i wygania ją w burzę; oślepła wdowa mimo tortur nie wydaje córki.",
+      "wWypracowaniu": "Do tezy „miłość rodzica jest bezwarunkowa\" albo „niewdzięczność to jedna z najcięższych win\" — to skarga matki domyka sąd nad Balladyną."
+    },
+    {
+      "motyw": "dobro i zło (kontrast sióstr)",
+      "przyklad": "Alina i Balladyna wychowały się w tej samej ubogiej chacie — jedna uczciwie zbiera maliny, druga sięga po nóż.",
+      "wWypracowaniu": "Do tezy „to, jakimi jesteśmy ludźmi, zależy od nas samych\" — o losach sióstr zdecydowały ich wybory, nie warunki."
+    },
+    {
+      "motyw": "natura i fantastyka",
+      "przyklad": "Kaprys Goplany ściąga Kirkora do chaty wdowy; burza oślepia wygnaną matkę; piorun wykonuje wyrok na królowej.",
+      "wWypracowaniu": "Do refleksji „nie wszystko zależy od człowieka — ale wybór moralny tak\": fantastyka uruchamia zdarzenia, lecz zbrodnie wybiera sama Balladyna."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "bl-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Jaką próbę wyznaczono siostrom, by rozstrzygnąć, która zostanie żoną Kirkora?",
+      "opcje": [
+        "Która upiecze smaczniejszy chleb",
+        "Która pierwsza przyniesie z lasu pełny dzban malin",
+        "Która piękniej zaśpiewa dla rycerza",
+        "Która utka piękniejsze płótno"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Wdowa nie chciała sama wybierać między córkami, więc ogłosiła próbę malin: która pierwsza wróci z pełnym dzbanem, ta zostanie żoną Kirkora. Uczciwie wygrała ją Alina — i dlatego zginęła.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Jak zginęła Alina?",
+      "opcje": [
+        "Utonęła w jeziorze Gopło",
+        "Została otruta zatrutym chlebem",
+        "Zginęła w lesie od noża siostry",
+        "Zabił ją Kostryn na rozkaz Balladyny"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Balladyna zabiła Alinę nożem w lesie, gdy ta jako pierwsza nazbierała pełny dzban malin. Zatruty chleb to sposób, w jaki Balladyna zgładziła później Kostryna — nie myl tych scen.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Goplana to nimfa z jeziora Gopło, zakochana w prostaku Grabcu.",
+        "Wdowa na torturach wydała sędziom imię swojej córki.",
+        "Balladyna zginęła od uderzenia pioruna."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Goplana rzeczywiście kocha Grabca i to jej kaprys uruchamia tragedię. Wdowa NIE wydała córki — umarła na torturach, chroniąc ją do końca. Balladynę zabił piorun tuż po tym, jak sama skazała się na śmierć.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Czym jest krwawa plama na czole Balladyny i jaką pełni funkcję?",
+      "opcje": [
+        "Znakiem królewskiego pochodzenia, który pomaga jej zdobyć tron",
+        "Klątwą rzuconą przez Goplanę za zdradę Grabca",
+        "Zwykłym skaleczeniem gałązką maliny, bez większego znaczenia",
+        "Niezmywalnym śladem zbrodni — widzialnym znakiem winy i głosu sumienia"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Plama pojawia się po zabójstwie Aliny i nie daje się zmyć — Balladyna ukrywa ją przepaską i kłamie, że to skaleczenie. To symbol winy, której nie można się pozbyć (podobnie jak plamy na rękach Lady Makbet u Szekspira).",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego Kirkor w ogóle trafił do chaty wdowy?",
+      "opcje": [
+        "Skierka na rozkaz zazdrosnej Goplany sprawił, że przy chacie pękła oś jego powozu",
+        "Zabłądził w lesie podczas polowania i szukał noclegu",
+        "Znał wdowę od lat i przyjechał w odwiedziny",
+        "Pustelnik wskazał mu chatę jako miejsce, gdzie znajdzie żonę"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "To kluczowy związek przyczynowy: zazdrosna o Grabca Goplana chciała odsunąć od niego dziewczęta, więc kazała Skierce ściągnąć Kirkora do chaty. Kaprys nimfy uruchomił cały łańcuch wydarzeń — aż po zbrodnie i tron.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Kogo zabiła Balladyna — sama lub wspólnie z Kostrynem? Wskaż wszystkie poprawne odpowiedzi.",
+      "opcje": [
+        "Alinę",
+        "Swoją matkę — wdowę",
+        "Grabca",
+        "Kostryna"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Balladyna zabiła Alinę (nożem), Grabca (nocą, dla korony) i Kostryna (zatrutym chlebem); z Kostrynem zamordowała też posłańca Gralona. Matki NIE zabiła — wygnała ją; wdowa umarła na torturach podczas sądu. Uznanie „zabiła matkę\" za prawdę to typowy błąd kardynalny.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Kim naprawdę jest Pustelnik?",
+      "opcje": [
+        "Dawnym sługą Kirkora, który uciekł z zamku",
+        "Prawowitym królem Popielem III, wygnanym z tronu przez uzurpatora",
+        "Ojcem Goplany i strażnikiem jeziora Gopło",
+        "Przebranym Kostrynem, który szpieguje Kirkora"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pustelnik to wygnany, prawowity król Popiel III. Właśnie dlatego szlachetny Kirkor wyrusza na wojnę — chce przywrócić mu tron. Po klęsce Kirkora Pustelnik zostaje powieszony.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W jaki sposób Balladyna zdobyła koronę Popielów?",
+      "opcje": [
+        "Otrzymała ją w prezencie ślubnym od Kirkora",
+        "Ukradła ją Pustelnikowi z leśnej pustelni",
+        "Nocą zabiła Grabca, któremu koronę oddała wcześniej Goplana",
+        "Znalazła ją na polu bitwy po śmierci Kirkora"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Koronę Popielów Goplana oddała Grabcowi, czyniąc go groteskowym „królem dzwonkowym\". Balladyna zakradła się do niego nocą, zabiła go i zabrała koronę — to kolejne ogniwo jej lawiny zbrodni.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Na czym polega ironia tragiczna finałowej sceny sądu?",
+      "opcje": [
+        "Na tym, że sędziowie od początku wiedzą, kto jest winny, ale boją się to powiedzieć",
+        "Na tym, że wszystkie skargi okazują się zmyślone i sąd jest niepotrzebny",
+        "Na tym, że Balladyna uniewinnia się i unika kary ludzkiej, lecz zabija ją piorun",
+        "Na tym, że prawo, które Balladyna reprezentuje jako królowa, zmusza ją do skazania samej siebie"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Królowa MUSI sądzić — takie jest prawo, którego jest gwarantką. Trzy skargi (śmierć Aliny, otrucie Kostryna, krzywda matki) dotyczą jej własnych win, więc orzekając trzykrotnie „winna śmierci\", wydaje wyrok na siebie. Nie uniewinnia się — dlatego odpowiedź o uniknięciu kary jest błędna.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaką FUNKCJĘ pełni piorun w zakończeniu dramatu?",
+      "opcje": [
+        "Jest przypadkowym zjawiskiem pogodowym podkreślającym nastrój grozy",
+        "Jest zemstą Goplany za śmierć Grabca",
+        "Jest wyrokiem sprawiedliwości wyższej niż ludzka — karą, której nie może uniknąć nawet królowa",
+        "Dowodzi, że natura jest potężniejsza od człowieka i rządzi jego losem"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Piorun uderza dokładnie po trzecim wyroku „winna śmierci\" — wykonuje karę, której żaden człowiek nie mógł wymierzyć królowej. To ludowa moralność dramatu: zbrodnia zawsze zostaje ukarana, choćby przez niebo. Odpowiedź o „potędze natury\" pomija sens MORALNY tej sceny.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaka jest funkcja świata fantastycznego (Goplany, Skierki, Chochlika) w dramacie?",
+      "opcje": [
+        "Fantastyka uruchamia bieg zdarzeń, ale o zbrodniach decyduje sama Balladyna — uwypukla to jej odpowiedzialność",
+        "Duchy natury wymierzają bohaterom kary moralne, dokładnie tak jak w Dziadach cz. II",
+        "Świat fantastyczny jest wyłącznie baśniową ozdobą bez wpływu na akcję",
+        "Istoty fantastyczne chronią dobrych bohaterów i nagradzają ich cnoty"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Goplana działa z kaprysu i miłości — ściąga Kirkora do chaty, przemienia Grabca — ale noża w lesie nie podaje Balladynie nikt. Słowacki pokazuje, że nawet gdy los miesza w wydarzeniach, wybór moralny należy do człowieka. To INNA funkcja fantastyki niż w Dziadach, gdzie duchy same głoszą prawdy moralne.",
+      "punkty": 1
+    },
+    {
+      "id": "bl-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Które cechy dramatu romantycznego występują w Balladynie? Wskaż wszystkie poprawne.",
+      "opcje": [
+        "Współistnienie świata realnego i fantastycznego",
+        "Ścisłe przestrzeganie zasady trzech jedności: czasu, miejsca i akcji",
+        "Łączenie tragizmu z komizmem i groteską",
+        "Nawiązania do twórczości Szekspira"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "W Balladynie plan realny przenika się z fantastycznym, obok zbrodni są groteskowe sceny z Grabcem, a żądza władzy i niezmywalny ślad winy nawiązują do Makbeta. Trzech jedności Słowacki celowo NIE przestrzega — akcja toczy się w wielu miejscach przez wiele dni, co jest znakiem rozpoznawczym dramatu romantycznego.",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    { "id": "bl-f-01", "przod": "Kim jest Balladyna i jak kończy się jej historia?", "tyl": "Starsza córka wdowy; zabija Alinę, potem morduje dla korony (Grabiec, Gralon, Kostryn). Jako królowa sama skazuje się na śmierć i ginie od pioruna.", "kategoria": "bohater" },
+    { "id": "bl-f-02", "przod": "Kim jest Alina i co ją spotyka?", "tyl": "Młodsza, uczciwa siostra — jako pierwsza zbiera pełny dzban malin i ginie w lesie od noża Balladyny.", "kategoria": "bohater" },
+    { "id": "bl-f-03", "przod": "Kim jest Kirkor i jak ginie?", "tyl": "Prawy rycerz, mąż Balladyny; walczy o przywrócenie tronu Popielowi III i ginie w bitwie, zdradzony przez żonę i Kostryna.", "kategoria": "bohater" },
+    { "id": "bl-f-04", "przod": "Kim jest Goplana i co robi na końcu dramatu?", "tyl": "Nimfa jeziora Gopło; jej miłość do Grabca uruchamia tragedię. Widząc skutki, żałuje i odlatuje z kluczem żurawi na północ.", "kategoria": "bohater" },
+    { "id": "bl-f-05", "przod": "Kim jest Grabiec i jaką pełni funkcję w dramacie?", "tyl": "Wiejski pijak; zamieniony w wierzbę, potem groteskowy „król dzwonkowy\" z koroną Popielów; zabity przez Balladynę. Wnosi komizm i groteskę.", "kategoria": "bohater" },
+    { "id": "bl-f-06", "przod": "Co dzieje się z wdową — matką sióstr?", "tyl": "Wygnana przez Balladynę w noc burzy traci wzrok; na sądzie torturowana — umiera, NIE wydając imienia córki.", "kategoria": "bohater" },
+    { "id": "bl-f-07", "przod": "Kim naprawdę jest Pustelnik?", "tyl": "Wygnanym, prawowitym królem Popielem III — dla niego Kirkor rusza na wojnę; po klęsce Kirkora zostaje powieszony.", "kategoria": "bohater" },
+    { "id": "bl-f-08", "przod": "Kim jest Kostryn i jak ginie?", "tyl": "Niemiecki dowódca straży zamkowej, wspólnik zbrodni i ambicji Balladyny — ginie otruty przez nią zatrutym chlebem.", "kategoria": "bohater" },
+    { "id": "bl-f-09", "przod": "Na czym polegała próba malin?", "tyl": "Która z sióstr pierwsza przyniesie z lasu pełny dzban malin, zostanie żoną Kirkora. Wygrała Alina — Balladyna zabiła ją i zabrała dzban.", "kategoria": "scena" },
+    { "id": "bl-f-10", "przod": "Co oznacza plama na czole Balladyny i jak bohaterka ją tłumaczy?", "tyl": "Niezmywalny ślad zbrodni — widzialny znak winy i sumienia. Balladyna zasłania ją przepaską i kłamie, że to skaleczenie.", "kategoria": "scena" },
+    { "id": "bl-f-11", "przod": "Co robi Balladyna, gdy na zamkową ucztę przychodzi jej matka?", "tyl": "Wstydzi się prostej wieśniaczki i wypiera się jej przy gościach, a później wygania ją z zamku w noc burzy.", "kategoria": "scena" },
+    { "id": "bl-f-12", "przod": "Jakie słowa Balladyna wypowiada trzykrotnie jako sędzia — i co one oznaczają?", "tyl": "„Winna śmierci\" — orzekając o trzech skargach (śmierć Aliny, otrucie Kostryna, krzywda matki), królowa nieświadomie skazuje samą siebie.", "kategoria": "cytat" },
+    { "id": "bl-f-13", "przod": "Wymień 3 cechy dramatu romantycznego w Balladynie.", "tyl": "Świat realny + fantastyczny; zerwanie z trzema jednościami; łączenie tragizmu z komizmem/groteską (też: ludowość, nawiązania do Szekspira).", "kategoria": "pojecie" },
+    { "id": "bl-f-14", "przod": "Co to jest ironia tragiczna — na przykładzie finału Balladyny?", "tyl": "Bohater, działając zgodnie ze swoją rolą, sam sprowadza na siebie zgubę: królowa musi sądzić — i skazuje samą siebie.", "kategoria": "pojecie" },
+    { "id": "bl-f-15", "przod": "Do jakich utworów Szekspira nawiązuje Balladyna i czym?", "tyl": "„Makbet\" — zbrodnicza droga do władzy i niezmywalny ślad winy (jak plamy Lady Makbet); „Sen nocy letniej\" — kapryśne duchy natury.", "kategoria": "pojecie" },
+    { "id": "bl-f-16", "przod": "Jak w Balladynie działa sprawiedliwość?", "tyl": "Nieuchronnie: gdy zawodzi prawo ludzkie (królowej nikt nie może sądzić), wyrok wykonuje niebo — piorun. Ludowa zasada: każda zbrodnia zostaje ukarana.", "kategoria": "wartosc" },
+    { "id": "bl-f-17", "przod": "Czego o ludzkich wyborach uczy kontrast Aliny i Balladyny?", "tyl": "Obie wyrosły w tej samej chacie, a wybrały skrajnie różnie — to, jakimi jesteśmy ludźmi, zależy od nas samych, nie od pochodzenia.", "kategoria": "wartosc" },
+    { "id": "bl-f-18", "przod": "Czego o rodzinie uczy los wdowy?", "tyl": "Miłość rodzicielska bywa bezwarunkowa (matka nie wydaje córki nawet na torturach), a niewdzięczność dziecka to jedna z najcięższych win.", "kategoria": "wartosc" }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "gramatyka-1",
+  "modul": "B",
+  "tytul": "Nauka o języku — części mowy i części zdania",
+  "teoria": [
+    {
+      "id": "czesci-mowy-odmienne",
+      "tytul": "Części mowy odmienne",
+      "tresc": "Odmienne części mowy zmieniają swoją formę w zdaniu. Rzeczownik (kto? co?) odmienia się przez przypadki i liczby — nazywa osoby, rzeczy, zjawiska (uczeń, radość). Czasownik (co robi? co się z nim dzieje?) odmienia się przez osoby, liczby, czasy, tryby — nazywa czynności i stany (czyta, śpi). Przymiotnik (jaki? który? czyj?) odmienia się przez przypadki, liczby i rodzaje — nazywa cechy (mądry, drewniany). Liczebnik (ile? który z kolei?) — pięć, piąty. Zaimek zastępuje inne części mowy (on, ten, który, mój).",
+      "punkty": [
+        "Rzeczownik: kto? co? — odmienia się przez przypadki i liczby",
+        "Czasownik: co robi? — osoby, liczby, czasy, tryby",
+        "Przymiotnik: jaki? który? czyj? — przypadki, liczby, rodzaje",
+        "Liczebnik: ile? który z kolei? (pięć, piąty)",
+        "Zaimek zastępuje inne wyrazy: on, ten, mój, który"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "czesci-mowy-nieodmienne",
+      "tytul": "Części mowy nieodmienne",
+      "tresc": "Nieodmienne części mowy mają zawsze tę samą formę. Przysłówek (jak? gdzie? kiedy?) najczęściej pochodzi od przymiotnika i opisuje czynność (pisze ładnie, wróci jutro). Przyimek łączy się z rzeczownikiem i wskazuje relacje (na stole, pod ławką, z bratem). Spójnik łączy wyrazy lub zdania (i, ale, bo, że, więc). Partykuła wzmacnia lub modyfikuje sens (nie, czy, niech, -by, no). Wykrzyknik wyraża emocje lub dźwięki (och!, hej!, bęc!).",
+      "punkty": [
+        "Przysłówek: jak? gdzie? kiedy? — ładnie, wczoraj, blisko",
+        "Przyimek: łączy się z rzeczownikiem — na, pod, z, przy, obok",
+        "Spójnik: łączy wyrazy i zdania — i, ale, bo, że, więc",
+        "Partykuła: modyfikuje sens — nie, czy, niech, -by",
+        "Wykrzyknik: emocje i dźwięki — och!, hura!, trach!"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "przypadki",
+      "tytul": "Przypadki — 7 pytań, które musisz znać",
+      "tresc": "Przypadków jest siedem i każdy ma swoje pytania: Mianownik (kto? co?) — to forma podstawowa, słownikowa. Dopełniacz (kogo? czego?) — najczęściej po przeczeniu: nie ma czasu. Celownik (komu? czemu?) — przyglądam się ptakom. Biernik (kogo? co?) — widzę psa, czytam książkę. Narzędnik ((z) kim? (z) czym?) — idę z bratem, piszę długopisem. Miejscownik (o kim? o czym?) — zawsze z przyimkiem: myślę o wakacjach. Wołacz — służy do zwracania się: Zosiu!, Mamo! Pułapka egzaminacyjna: biernik i dopełniacz mylą się najczęściej — sprawdzaj przeczeniem (widzę film → nie widzę filmu).",
+      "punkty": [
+        "M. kto? co? · D. kogo? czego? · C. komu? czemu? · B. kogo? co?",
+        "N. (z) kim? (z) czym? · Ms. o kim? o czym? · W. o!",
+        "Dopełniacz po przeczeniu: nie ma CZASU, nie widzę FILMU",
+        "Miejscownik zawsze z przyimkiem: o domu, w szkole, na stole",
+        "Test na biernik: dodaj „nie\" — jeśli forma się zmienia, to był biernik"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "czesci-zdania",
+      "tytul": "Części zdania — kto jest kim w zdaniu",
+      "tresc": "Te same wyrazy pełnią w zdaniu różne FUNKCJE. Podmiot — wykonawca czynności (kto? co?): Zosia czyta. Orzeczenie — sedno zdania, zwykle czasownik (co robi?): Zosia CZYTA. Dopełnienie — uzupełnia czasownik (pytania przypadków oprócz mianownika): czyta KSIĄŻKĘ. Przydawka — określa rzeczownik (jaki? który? czyj? ile?): CIEKAWĄ książkę. Okolicznik — określa okoliczności czynności (jak? gdzie? kiedy? po co? dlaczego?): czyta WIECZOREM. Uwaga: przymiotnik to część MOWY, a przydawka to część ZDANIA — na egzaminie te dwa porządki często są sprawdzane razem.",
+      "punkty": [
+        "Podmiot: wykonawca (kto? co?) — zwykle rzeczownik w mianowniku",
+        "Orzeczenie: co robi podmiot? — zwykle czasownik osobowy",
+        "Dopełnienie: uzupełnia czasownik — czyta (co?) książkę",
+        "Przydawka: określa rzeczownik — (jaka?) ciekawa książka",
+        "Okolicznik: jak? gdzie? kiedy? — czyta wieczorem, biegnie szybko",
+        "Część mowy ≠ część zdania: przymiotnik (mowa) pełni funkcję przydawki (zdanie)"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "zdania-zlozone",
+      "tytul": "Zdanie pojedyncze, złożone i równoważnik",
+      "tresc": "Zdanie pojedyncze ma JEDNO orzeczenie (Zosia czyta książkę). Zdanie złożone ma co najmniej DWA orzeczenia. Złożone WSPÓŁRZĘDNIE — oba zdania składowe są równorzędne, żadne nie odpowiada na pytanie drugiego (Czytam i słucham muzyki). Złożone PODRZĘDNIE — jedno zdanie określa drugie i odpowiada na jego pytanie (Wiem, ŻE ZDASZ — wiem co?). Typowe spójniki współrzędne: i, oraz, ale, lecz, albo, więc. Podrzędne: że, żeby, bo, ponieważ, gdy, który. Równoważnik zdania nie ma orzeczenia osobowego (Cisza! Wracając do domu...). Szybki test: policz orzeczenia — tyle masz zdań składowych.",
+      "punkty": [
+        "Policz orzeczenia: 1 = pojedyncze, 2+ = złożone",
+        "Współrzędnie: składowe równorzędne — i, oraz, ale, albo, więc",
+        "Podrzędnie: jedno odpowiada na pytanie drugiego — że, bo, gdy, który",
+        "Równoważnik: brak orzeczenia osobowego — „Cisza!\", „Palenie wzbronione\"",
+        "Test: zadaj pytanie od pierwszego zdania — jeśli drugie odpowiada, to podrzędne"
+      ],
+      "czasMin": 4
+    }
+  ],
+  "quiz": [
+    {
+      "id": "b1-q-01",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Która część mowy odpowiada na pytania „jaki? który? czyj?\" i odmienia się przez przypadki, liczby i rodzaje?",
+      "opcje": ["przymiotnik", "przysłówek", "zaimek", "liczebnik"],
+      "poprawna": 0,
+      "wyjasnienie": "Przymiotnik nazywa cechy (mądry, drewniany) i odpowiada na pytania jaki? który? czyj?. Przysłówek też opisuje, ale odpowiada na „jak?\" i się NIE odmienia.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-02",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "W zdaniu „Zosia czyta ciekawą książkę\" wyraz „książkę\" to:",
+      "opcje": ["podmiot", "przydawka", "okolicznik", "dopełnienie"],
+      "poprawna": 3,
+      "wyjasnienie": "Czyta (co?) książkę — dopełnienie uzupełnia czasownik i odpowiada na pytania przypadków (poza mianownikiem). Podmiotem jest Zosia, przydawką — „ciekawą\".",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-03",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Przyimek jest nieodmienną częścią mowy.",
+        "Czasownik odmienia się przez przypadki.",
+        "Zdanie pojedyncze ma jedno orzeczenie."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Przyimek (na, pod, z) nigdy nie zmienia formy. Czasownik odmienia się przez osoby, liczby, czasy i tryby — przez przypadki odmieniają się rzeczowniki, przymiotniki, liczebniki i zaimki. Liczba orzeczeń = liczba zdań składowych.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-04",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W którym zdaniu wyraz „wieczorem\" pełni funkcję okolicznika?",
+      "opcje": [
+        "Wieczorem nazywamy porę po zachodzie słońca.",
+        "Wczorajszy wieczorem był wyjątkowo ciepły.",
+        "Spotkamy się wieczorem przy fontannie.",
+        "Ten wieczorem zapamiętam na długo."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Spotkamy się (kiedy?) wieczorem — okolicznik czasu określa czynność. W pozostałych zdaniach „wieczorem\"/„wieczór\" to formy rzeczownika w innych funkcjach (a opcje B i D są celowo niepoprawne językowo — takie „zgrzyty\" też wychwytuj).",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Nie zjadłem śniadania\". W jakim przypadku występuje wyraz „śniadania\"?",
+      "opcje": ["w bierniku", "w mianowniku", "w miejscowniku", "w dopełniaczu"],
+      "poprawna": 3,
+      "wyjasnienie": "Po przeczeniu biernik zamienia się w dopełniacz: zjadłem (co?) śniadanie → nie zjadłem (czego?) śniadania. To najczęstsza pułapka przypadkowa na egzaminie.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-06",
+      "modul": "B",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie nieodmienne części mowy.",
+      "opcje": ["spójnik", "zaimek", "przysłówek", "liczebnik", "wykrzyknik"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Nieodmienne to: przysłówek, przyimek, spójnik, partykuła, wykrzyknik. Zaimek i liczebnik się odmieniają (on — jego — jemu; pięć — pięciu).",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-07",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Które zdanie jest zdaniem złożonym podrzędnie?",
+      "opcje": [
+        "Zrobiło się późno, więc wróciliśmy do domu.",
+        "Ala czyta, a Janek gra na gitarze.",
+        "Wiem, że jutro będzie łatwiej.",
+        "Przyszedł, rozejrzał się i usiadł."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Wiem (co?), że jutro będzie łatwiej — drugie zdanie odpowiada na pytanie pierwszego, więc jest podrzędne. „Więc\", „a\", „i\" łączą zdania współrzędne.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-08",
+      "modul": "B",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "„Palenie wzbronione\" to równoważnik zdania.",
+        "Przydawka określa czasownik.",
+        "W zdaniu „Mama kupiła mi nowy plecak\" orzeczeniem jest „kupiła\"."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "„Palenie wzbronione\" nie ma orzeczenia osobowego — to równoważnik. Przydawka określa RZECZOWNIK (nowy plecak); czasownik określają dopełnienia i okoliczniki. „Kupiła\" to czasownik w formie osobowej — orzeczenie.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-09",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "„Ten dom zbudowano bardzo szybko\". Jaką część mowy i jaką funkcję w zdaniu ma wyraz „szybko\"?",
+      "opcje": [
+        "przymiotnik w funkcji przydawki",
+        "przysłówek w funkcji okolicznika",
+        "przysłówek w funkcji dopełnienia",
+        "partykuła — nie pełni funkcji w zdaniu"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Zbudowano (jak?) szybko — to przysłówek (część mowy), który w zdaniu pełni funkcję okolicznika sposobu (część zdania). Egzamin lubi sprawdzać oba porządki naraz.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Ile zdań składowych ma wypowiedzenie: „Gdy zadzwonił dzwonek, uczniowie wstali i wyszli z klasy\"?",
+      "opcje": ["jedno", "dwa", "trzy", "cztery"],
+      "poprawna": 2,
+      "wyjasnienie": "Licz orzeczenia: zadzwonił (1), wstali (2), wyszli (3) — trzy orzeczenia to trzy zdania składowe. „Gdy zadzwonił dzwonek\" jest podrzędne, „wstali\" i „wyszli\" łączą się współrzędnie.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-11",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W którym zdaniu „czy\" jest partykułą, a nie spójnikiem?",
+      "opcje": [
+        "Nie wiem, czy zdążę na autobus.",
+        "Czy możesz mi pomóc?",
+        "Zastanawiał się, czy warto tam iść.",
+        "Spytała, czy lubię czytać."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "„Czy możesz mi pomóc?\" — tu „czy\" tylko wprowadza pytanie (partykuła pytajna), niczego nie łączy. W pozostałych zdaniach „czy\" łączy zdanie nadrzędne z podrzędnym — jest spójnikiem.",
+      "punkty": 1
+    },
+    {
+      "id": "b1-q-12",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaką funkcję pełni powtórzenie konstrukcji z dopełniaczem w haśle „Nie ma dymu bez ognia\"?",
+      "opcje": [
+        "Formy „dymu\" i „ognia\" to biernik — podkreślają czynność",
+        "Formy „dymu\" i „ognia\" to dopełniacz wymagany przez przeczenie i przyimek „bez\"",
+        "Oba wyrazy występują w mianowniku, bo to podmioty",
+        "To miejscownik, bo mówimy „o czym\" jest przysłowie"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "„Nie ma (czego?) dymu\" — dopełniacz po przeczeniu; „bez (czego?) ognia\" — przyimek „bez\" zawsze łączy się z dopełniaczem. Pytanie o FUNKCJĘ formy, nie tylko nazwę — dokładnie tak pyta egzamin.",
+      "punkty": 1
+    }
+  ]
+}

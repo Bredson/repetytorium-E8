@@ -1,0 +1,272 @@
+{
+  "id": "czytanie-2",
+  "modul": "E",
+  "tytul": "Czytanie ze zrozumieniem — intencja autora, perswazja, streszczenie",
+  "teoria": [
+    {
+      "id": "intencja-autora",
+      "tytul": "Po co autor to napisał? Intencja tekstu",
+      "tresc": "Każdy tekst powstaje w jakimś CELU — i egzamin bardzo lubi o niego pytać. Trzy najczęstsze intencje: POINFORMOWAĆ (przekazać wiedzę i fakty — teksty naukowe, notatki, instrukcje), PRZEKONAĆ (zmienić zdanie lub zachowanie odbiorcy — apele, felietony, reklamy), ROZBAWIĆ lub WZRUSZYĆ (teksty rozrywkowe, wspomnieniowe). Jeden tekst może łączyć cele, ale zwykle jeden dominuje. Test: dokończ zdanie „Autor napisał ten tekst, żeby czytelnik…\" — jeśli kończysz „…coś ZROBIŁ lub ZMIENIŁ ZDANIE\", intencją jest perswazja.",
+      "punkty": [
+        "Trzy główne intencje: poinformować, przekonać, rozbawić/wzruszyć",
+        "Test: „Autor napisał to, żeby czytelnik…\" — dokończ i masz intencję",
+        "„…żeby czytelnik coś zrobił\" = tekst perswazyjny (apel, reklama, felieton)",
+        "„…żeby czytelnik się dowiedział\" = tekst informacyjny",
+        "Reklama zawsze chce przede wszystkim NAKŁONIĆ, nawet gdy podaje fakty"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "srodki-perswazji",
+      "tytul": "Środki perswazji — jak tekst „pracuje\" na czytelniku",
+      "tresc": "Autor, który chce przekonać, używa rozpoznawalnych chwytów. PYTANIE RETORYCZNE — pytanie bez oczekiwanej odpowiedzi, ma skłonić do refleksji („Czy naprawdę chcemy żyć w śmieciach?\"). BEZPOŚREDNI ZWROT DO CZYTELNIKA — „ty\", „pomyśl\", „zastanów się\" — wciąga odbiorcę do rozmowy. TRYB ROZKAZUJĄCY — „przynoś\", „segreguj\", „dołącz\" — wprost wzywa do działania. Forma „MY\" — „zróbmy to razem\", „nasza szkoła\" — buduje wspólnotę autora z odbiorcą. WYKRZYKNIENIE — wyraża emocje i je udziela. Na egzaminie pytają o FUNKCJĘ środka: nie wystarczy go nazwać, trzeba powiedzieć, po co został użyty.",
+      "punkty": [
+        "Pytanie retoryczne = bez oczekiwanej odpowiedzi, skłania do refleksji",
+        "Zwrot do czytelnika („pomyśl\", „ty\") — angażuje odbiorcę",
+        "Tryb rozkazujący („dołącz!\") — wprost wzywa do działania",
+        "Forma „my\" — buduje wspólnotę z czytelnikiem",
+        "Egzamin pyta o FUNKCJĘ: po co autor użył tego środka w TYM tekście"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "streszczenie",
+      "tytul": "Streszczenie — zwięźle i wiernie",
+      "tresc": "Dobre streszczenie spełnia trzy warunki: 1) ZWIĘZŁOŚĆ — tylko najważniejsze informacje, bez szczegółów, cytatów i przykładów; 2) WIERNOŚĆ — oddaje sens ORYGINAŁU, bez twoich opinii i dopowiedzeń; 3) KOMPLETNOŚĆ — odpowiada na pytania: o czym jest tekst, co autor twierdzi, do czego zmierza. Metoda: po każdym akapicie zapisz jedno zdanie „o czym to było\", potem połącz je w spójną całość. Najczęstsze błędy: przepisywanie zdań z tekstu, dodawanie własnej oceny („moim zdaniem autor słusznie…\"), skupienie się na jednym przykładzie zamiast na myśli głównej.",
+      "punkty": [
+        "Zwięzłość: bez szczegółów, cytatów i pobocznych przykładów",
+        "Wierność: sens oryginału, ZERO własnych opinii",
+        "Kompletność: o czym tekst + co autor twierdzi + do czego zmierza",
+        "Metoda: jedno zdanie na akapit, potem sklej w całość",
+        "Błąd klasyczny: streszczenie jednego przykładu zamiast całego tekstu"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "slowa-sygnaly",
+      "tytul": "Słowa-sygnały: mapa logiki tekstu",
+      "tresc": "Autorzy zostawiają w tekście drogowskazy, które zdradzają tok rozumowania. PRZECIWSTAWIENIE: jednak, natomiast, ale, mimo to — autor zaraz powie coś odwrotnego. DODAWANIE: ponadto, co więcej, poza tym — kolejny argument w tę samą stronę. WNIOSEK: a zatem, dlatego, w rezultacie, stąd — autor podsumowuje rozumowanie. PRZYKŁAD: na przykład, choćby, jak pokazuje… — za chwilę konkret. Gdy pytają „jaka jest relacja między akapitami\" albo „co wynika z tekstu\", szukaj tych słów — one prowadzą do odpowiedzi szybciej niż ponowne czytanie całości.",
+      "punkty": [
+        "Jednak, natomiast, mimo to = zwrot, autor przeciwstawia",
+        "Ponadto, co więcej = kolejny argument w tę samą stronę",
+        "A zatem, dlatego, w rezultacie = wniosek z rozumowania",
+        "Na przykład, choćby = zaraz będzie konkret",
+        "Słowa-sygnały to najszybsza droga do zadań o logikę tekstu"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "ironia",
+      "tytul": "Ironia — gdy autor mówi co innego, niż myśli",
+      "tresc": "IRONIA to celowa sprzeczność między tym, co powiedziane, a tym, co autor naprawdę myśli — służy ośmieszeniu lub podważeniu jakiegoś poglądu. Sygnały: przesadny zachwyt nie na miejscu („Cóż za odkrycie!\", „No pięknie!\"), cudzysłów przy zwykłym słowie (dorośli nie uznają czytania na ekranie za „prawdziwe\" czytanie), zderzenie pochwały z krytycznym kontekstem. Pułapka egzaminacyjna: potraktowanie zdania ironicznego DOSŁOWNIE wywraca zrozumienie całego tekstu — a właśnie o zdania ironiczne autorzy zadań lubią pytać. Gdy ton zdania kłóci się z resztą wywodu, sprawdź, czy to nie ironia.",
+      "punkty": [
+        "Ironia = słowa mówią co innego niż prawdziwa myśl autora",
+        "Sygnały: przesadny zachwyt, wykrzyknienia, cudzysłów przy zwykłym słowie",
+        "Cel ironii: ośmieszyć lub podważyć czyjś pogląd",
+        "Pułapka: odczytanie ironii dosłownie = błędna odpowiedź o cały tekst",
+        "Ton kłóci się z resztą tekstu? Sprawdź, czy to nie ironia"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "e2-q-01",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Głównym celem tekstu reklamowego jest:",
+      "opcje": [
+        "obiektywne poinformowanie o cechach produktu",
+        "rozbawienie odbiorcy zabawną historią",
+        "nakłonienie odbiorcy do kupna lub skorzystania z oferty",
+        "przekazanie wiedzy naukowej o produkcie"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Reklama może informować i bawić, ale to tylko środki do celu — jej intencją jest zawsze NAKŁONIENIE odbiorcy. Dlatego reklamę zaliczamy do tekstów perswazyjnych.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-02",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Pytanie retoryczne to pytanie, ...",
+      "opcje": [
+        "na które autor nie oczekuje odpowiedzi — ma skłonić odbiorcę do refleksji",
+        "na które odpowiedź pada w następnym akapicie",
+        "które bohater zadaje innemu bohaterowi w dialogu",
+        "które zawsze kończy tekst publicystyczny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Pytanie retoryczne nie służy zdobyciu informacji — odpowiedź jest oczywista albo w ogóle nieoczekiwana. Jego funkcja to zaangażowanie odbiorcy i skłonienie go do przemyślenia sprawy.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-03",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "Dobre streszczenie oddaje sens oryginału i nie zawiera opinii streszczającego.",
+        "Streszczenie powinno zawierać jak najwięcej szczegółów i cytatów z tekstu.",
+        "Słowo „jednak\" sygnalizuje, że autor przeciwstawia coś wcześniejszej myśli."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Streszczenie ma być wierne i ZWIĘZŁE — szczegóły, cytaty i własne oceny to najczęstsze błędy. „Jednak\", „natomiast\", „mimo to\" zapowiadają przeciwstawienie.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-04",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Czy zastanawiałeś się kiedyś, ile plastiku wyrzucasz w ciągu jednego szkolnego tygodnia? Policzyliśmy to w naszej klasie: butelki, folie po kanapkach, jednorazowe sztućce — średnio kilogram na osobę. Nie musimy jednak czekać, aż ktoś rozwiąże ten problem za nas. Wystarczy zacząć od trzech prostych kroków: przynoś wodę w bidonie, pakuj śniadanie do pudełka wielokrotnego użytku i segreguj to, czego nie da się uniknąć. Nasza szkoła dołączyła właśnie do programu „Czysta przerwa\" — w ciągu miesiąca zebraliśmy o czterdzieści kilogramów plastiku mniej niż zwykle. Zmiana zaczyna się od ciebie. Dołączysz do nas?",
+      "tresc": "Jaka jest główna intencja autora powyższego tekstu?",
+      "opcje": [
+        "Poinformowanie o wynikach ogólnopolskich badań naukowych",
+        "Nakłonienie czytelnika do ograniczenia plastiku w codziennym życiu",
+        "Rozbawienie czytelnika zabawną anegdotą z życia klasy",
+        "Skrytykowanie programu „Czysta przerwa\""
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Wszystko w tym tekście pracuje na jeden cel: pytanie do czytelnika, tryb rozkazujący („przynoś, pakuj, segreguj\"), przykład sukcesu szkoły i finałowe „Dołączysz do nas?\". To apel — tekst perswazyjny.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-05",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Czy zastanawiałeś się kiedyś, ile plastiku wyrzucasz w ciągu jednego szkolnego tygodnia? Policzyliśmy to w naszej klasie: butelki, folie po kanapkach, jednorazowe sztućce — średnio kilogram na osobę. Nie musimy jednak czekać, aż ktoś rozwiąże ten problem za nas. Wystarczy zacząć od trzech prostych kroków: przynoś wodę w bidonie, pakuj śniadanie do pudełka wielokrotnego użytku i segreguj to, czego nie da się uniknąć. Nasza szkoła dołączyła właśnie do programu „Czysta przerwa\" — w ciągu miesiąca zebraliśmy o czterdzieści kilogramów plastiku mniej niż zwykle. Zmiana zaczyna się od ciebie. Dołączysz do nas?",
+      "tresc": "Jaką funkcję pełni pytanie otwierające tekst („Czy zastanawiałeś się kiedyś…\")?",
+      "opcje": [
+        "Sprawdza wiedzę czytelnika i wymaga pisemnej odpowiedzi",
+        "Informuje o wynikach pomiarów przeprowadzonych w klasie",
+        "Wyraża wątpliwość autora, czy problem plastiku istnieje",
+        "Angażuje czytelnika i skłania go do refleksji nad własnymi nawykami"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "To pytanie retoryczne z bezpośrednim zwrotem do czytelnika („zastanawiałeś się\") — autor nie czeka na odpowiedź, tylko wciąga odbiorcę w temat już od pierwszego zdania.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-06",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 2,
+      "zrodloTekst": "Czy zastanawiałeś się kiedyś, ile plastiku wyrzucasz w ciągu jednego szkolnego tygodnia? Policzyliśmy to w naszej klasie: butelki, folie po kanapkach, jednorazowe sztućce — średnio kilogram na osobę. Nie musimy jednak czekać, aż ktoś rozwiąże ten problem za nas. Wystarczy zacząć od trzech prostych kroków: przynoś wodę w bidonie, pakuj śniadanie do pudełka wielokrotnego użytku i segreguj to, czego nie da się uniknąć. Nasza szkoła dołączyła właśnie do programu „Czysta przerwa\" — w ciągu miesiąca zebraliśmy o czterdzieści kilogramów plastiku mniej niż zwykle. Zmiana zaczyna się od ciebie. Dołączysz do nas?",
+      "tresc": "Oceń zgodność zdań z tekstem.",
+      "opcje": [
+        "Autor podaje dane liczbowe (kilogram na osobę, czterdzieści kilogramów), by uwiarygodnić swój apel.",
+        "Tekst ma charakter wyłącznie informacyjny — autor nie zachęca do żadnych działań.",
+        "Formy trybu rozkazującego („przynoś\", „pakuj\", „segreguj\") służą wezwaniu czytelnika do działania."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Liczby pełnią tu funkcję przykładów wspierających apel. Tekst NIE jest tylko informacyjny — od pierwszego pytania do finałowego „Dołączysz do nas?\" nakłania. Tryb rozkazujący to wprost wezwanie do działania.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-07",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "zrodloTekst": "Czy zastanawiałeś się kiedyś, ile plastiku wyrzucasz w ciągu jednego szkolnego tygodnia? Policzyliśmy to w naszej klasie: butelki, folie po kanapkach, jednorazowe sztućce — średnio kilogram na osobę. Nie musimy jednak czekać, aż ktoś rozwiąże ten problem za nas. Wystarczy zacząć od trzech prostych kroków: przynoś wodę w bidonie, pakuj śniadanie do pudełka wielokrotnego użytku i segreguj to, czego nie da się uniknąć. Nasza szkoła dołączyła właśnie do programu „Czysta przerwa\" — w ciągu miesiąca zebraliśmy o czterdzieści kilogramów plastiku mniej niż zwykle. Zmiana zaczyna się od ciebie. Dołączysz do nas?",
+      "tresc": "Jaką funkcję pełnią formy „policzyliśmy\", „nie musimy\", „zebraliśmy\" oraz końcowe „Dołączysz do nas?\"?",
+      "opcje": [
+        "Podkreślają dystans autora wobec czytelnika",
+        "Dowodzą, że tekst jest artykułem naukowym",
+        "Budują wspólnotę autora z odbiorcami i zapraszają czytelnika, by się do niej przyłączył",
+        "Są cytatami z regulaminu programu „Czysta przerwa\""
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Forma „my\" tworzy obraz wspólnoty, która już działa, a pytanie „Dołączysz do nas?\" otwiera w niej miejsce dla czytelnika. To klasyczny środek perswazji — łatwiej dołączyć do grupy niż działać samemu.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-08",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Które sformułowanie zapowiada WNIOSEK z wcześniejszych rozważań?",
+      "opcje": [
+        "na przykład",
+        "natomiast",
+        "a zatem",
+        "po pierwsze"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "„A zatem\" (podobnie: dlatego, w rezultacie, stąd) sygnalizuje, że autor podsumowuje rozumowanie. „Na przykład\" zapowiada konkret, „natomiast\" — przeciwstawienie, „po pierwsze\" — początek wyliczenia.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-09",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Znów słyszę, że młodzież nie czyta. Cóż za odkrycie! Tymczasem wystarczy zajrzeć do internetu, by zobaczyć nastolatków, którzy prowadzą blogi o książkach, nagrywają recenzje i spierają się o ulubionych bohaterów w setkach komentarzy. Z ogólnopolskiego raportu o czytelnictwie wynika zresztą, że wśród osób przed osiemnastym rokiem życia odsetek czytających jest wyższy niż wśród dorosłych. Problem polega raczej na tym, że wielu dorosłych nie uznaje czytania na ekranie za „prawdziwe\" czytanie. A przecież liczy się tekst, nie nośnik. Zanim więc kolejny raz westchniemy nad upadkiem czytelnictwa, sprawdźmy najpierw, co naprawdę robią młodzi ludzie.",
+      "tresc": "Jaką postawę autora wyraża wykrzyknienie „Cóż za odkrycie!\"?",
+      "opcje": [
+        "Szczery podziw dla autorów badań nad czytelnictwem",
+        "Ironię — autor uważa opinię o nieczytającej młodzieży za powtarzany banał",
+        "Zdziwienie zaskakującymi wynikami raportu",
+        "Radość z rosnącego czytelnictwa wśród dorosłych"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "To ironia: pozorny zachwyt („Cóż za odkrycie!\") kłóci się z resztą tekstu, w której autor OBALA opinię o nieczytającej młodzieży. Odczytanie tego zdania dosłownie wywróciłoby sens całego tekstu.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-10",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Znów słyszę, że młodzież nie czyta. Cóż za odkrycie! Tymczasem wystarczy zajrzeć do internetu, by zobaczyć nastolatków, którzy prowadzą blogi o książkach, nagrywają recenzje i spierają się o ulubionych bohaterów w setkach komentarzy. Z ogólnopolskiego raportu o czytelnictwie wynika zresztą, że wśród osób przed osiemnastym rokiem życia odsetek czytających jest wyższy niż wśród dorosłych. Problem polega raczej na tym, że wielu dorosłych nie uznaje czytania na ekranie za „prawdziwe\" czytanie. A przecież liczy się tekst, nie nośnik. Zanim więc kolejny raz westchniemy nad upadkiem czytelnictwa, sprawdźmy najpierw, co naprawdę robią młodzi ludzie.",
+      "tresc": "Która myśl jest TEZĄ powyższego tekstu?",
+      "opcje": [
+        "Dorośli czytają więcej książek niż młodzież.",
+        "Blogi o książkach powinny zastąpić lekcje języka polskiego.",
+        "Młodzież całkowicie przestała czytać książki.",
+        "Młodzi czytają — często na ekranie — a dorośli niesłusznie tego nie dostrzegają."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Cały wywód zmierza do jednego: młodzież czyta (blogi, recenzje, raport), tylko w innej formie, a problemem jest nieuznawanie ekranu przez dorosłych — „liczy się tekst, nie nośnik\". Pozostałe opcje przeczą tekstowi lub w ogóle w nim nie występują.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-11",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Znów słyszę, że młodzież nie czyta. Cóż za odkrycie! Tymczasem wystarczy zajrzeć do internetu, by zobaczyć nastolatków, którzy prowadzą blogi o książkach, nagrywają recenzje i spierają się o ulubionych bohaterów w setkach komentarzy. Z ogólnopolskiego raportu o czytelnictwie wynika zresztą, że wśród osób przed osiemnastym rokiem życia odsetek czytających jest wyższy niż wśród dorosłych. Problem polega raczej na tym, że wielu dorosłych nie uznaje czytania na ekranie za „prawdziwe\" czytanie. A przecież liczy się tekst, nie nośnik. Zanim więc kolejny raz westchniemy nad upadkiem czytelnictwa, sprawdźmy najpierw, co naprawdę robią młodzi ludzie.",
+      "tresc": "Które streszczenie tekstu jest NAJLEPSZE?",
+      "opcje": [
+        "Autor polemizuje z opinią, że młodzież nie czyta: wskazuje aktywność czytelniczą młodych w internecie i raport, według którego czytają częściej niż dorośli, a za problem uznaje nieuznawanie czytania na ekranie.",
+        "Autor opisuje historię pewnego nastolatka, który prowadzi blog o książkach i nagrywa w internecie recenzje ulubionych powieści.",
+        "Autor przekonuje, że dorośli powinni czytać więcej książek papierowych, ponieważ czytanie na ekranie szkodzi oczom.",
+        "Młodzież nie czyta, co potwierdza ogólnopolski raport — autor apeluje do młodych o powrót do książek."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Pierwsze streszczenie jest zwięzłe, wierne i kompletne: oddaje tezę, argumenty i wniosek. Drugie streszcza tylko poboczny przykład, trzecie dopisuje treści spoza tekstu, a czwarte wprost przeczy tezie autora.",
+      "punkty": 1
+    },
+    {
+      "id": "e2-q-12",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 3,
+      "zrodloTekst": "Znów słyszę, że młodzież nie czyta. Cóż za odkrycie! Tymczasem wystarczy zajrzeć do internetu, by zobaczyć nastolatków, którzy prowadzą blogi o książkach, nagrywają recenzje i spierają się o ulubionych bohaterów w setkach komentarzy. Z ogólnopolskiego raportu o czytelnictwie wynika zresztą, że wśród osób przed osiemnastym rokiem życia odsetek czytających jest wyższy niż wśród dorosłych. Problem polega raczej na tym, że wielu dorosłych nie uznaje czytania na ekranie za „prawdziwe\" czytanie. A przecież liczy się tekst, nie nośnik. Zanim więc kolejny raz westchniemy nad upadkiem czytelnictwa, sprawdźmy najpierw, co naprawdę robią młodzi ludzie.",
+      "tresc": "Uczeń zapisał w streszczeniu: „Autor ubolewa, że młodzież czyta coraz mniej\". Dlaczego taka odpowiedź otrzyma 0 punktów?",
+      "opcje": [
+        "Bo jest zbyt krótka jak na streszczenie",
+        "Bo przeczy tekstowi — autor właśnie OBALA opinię o nieczytającej młodzieży",
+        "Bo nie zawiera tytułu raportu o czytelnictwie",
+        "Bo w streszczeniu nie wolno wspominać o autorze"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Uczeń potraktował ironiczny początek („Znów słyszę, że młodzież nie czyta\") jak pogląd autora — a autor ten pogląd ośmiesza i obala. Odczytanie ironii dosłownie wywraca sens całego tekstu; to błąd zerujący punkty w module E.",
+      "punkty": 1
+    }
+  ]
+}

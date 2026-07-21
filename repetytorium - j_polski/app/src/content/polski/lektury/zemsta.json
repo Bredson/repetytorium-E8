@@ -1,0 +1,504 @@
+{
+  "id": "zemsta",
+  "tytul": "Zemsta",
+  "autor": "Aleksander Fredro",
+  "gatunek": {
+    "nazwa": "komedia",
+    "cechy": [
+      "Szczęśliwe zakończenie — konflikt rozwiązuje się zgodą i ślubem, nikt nie ginie.",
+      "Komizm w trzech odmianach: postaci (Papkin-samochwał), sytuacji (dyktowanie listu) i słowa (powiedzonka bohaterów).",
+      "Bohaterowie ośmieszani przez swoje wady — porywczość, obłuda, tchórzostwo, interesowność.",
+      "Intryga jako motor akcji — plany Cześnika i kontrplany Rejenta napędzają wydarzenia.",
+      "Kontrast charakterów jako zasada kompozycji — Cześnik i Rejent to dokładne przeciwieństwa.",
+      "Utwór pisany wierszem (ośmiozgłoskowiec), z wyrazistymi, „skrzydlatymi\" powiedzeniami bohaterów."
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Mapa fabuły — od muru granicznego do zgody",
+      "tresc": "Cała akcja rozgrywa się w ciągu jednego dnia na zamku podzielonym między dwóch skłóconych sąsiadów. Zapamiętaj łańcuch: spór o mur → plany małżeńskie → intryga z intercyzą → wymuszony ślub → zgoda. CKE lubi pytania o kolejność zdarzeń i o to, CO z czego wynika.",
+      "punkty": [
+        "Cześnik Raptusiewicz (opiekun Klary) i Rejent Milczek (ojciec Wacława) mieszkają w dwóch połowach tego samego zamku i toczą spór o mur graniczny.",
+        "Cześnik planuje ożenić się z Podstoliną — bogatą (jak sądzi) wdową goszczącą u niego; w swaty wysyła Papkina.",
+        "Rejent każe murarzom naprawiać mur; Cześnik przerywa robotę siłą — dochodzi do bójki, a Papkin „odzyskuje\" mur już po wszystkim.",
+        "Wacław (syn Rejenta) i Klara (bratanica Cześnika) potajemnie się kochają — mimo sporu rodów.",
+        "Wacław oddaje się Papkinowi „do niewoli\", by dostać się na stronę Cześnika i być bliżej Klary; Podstolina rozpoznaje w nim dawnego wielbiciela — „Wacława-birbanta\".",
+        "Klara żąda od zakochanego Papkina dowodów: pokory, milczenia i… sprowadzenia krokodyla.",
+        "Rejent spisuje zeznania murarzy przeciw Cześnikowi i postanawia zniszczyć jego plany: doprowadza do intercyzy — umowy ślubnej Wacława z Podstoliną (kara 100 tysięcy za zerwanie).",
+        "Podstolina zgadza się, bo wie, że jej majątek naprawdę należy do Klary i wkrótce go straci.",
+        "Wściekły Cześnik postanawia się zemścić: dyktuje Dyndalskiemu list rzekomo od Klary (słynna scena z „mocium panie\"), by zwabić Wacława na swoją stronę zamku.",
+        "Wacław przybywa sam — Cześnik zamiast pojedynku z Rejentem organizuje natychmiastowy ślub Wacława z Klarą (czekał już ksiądz).",
+        "Finał: Rejent przybywa po syna, ale wobec ślubu spór traci sens; intercyza upada, majątek Klary zostaje w rodzinie, a bohaterowie ogłaszają zgodę: „Tak jest — zgoda, a Bóg wtedy rękę poda\"."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "swiat",
+      "tytul": "Świat przedstawiony — jeden zamek, dwa wrogie światy",
+      "tresc": "Fredro zamyka akcję w jednym miejscu i jednym dniu — dzięki temu konflikt jest jak w soczewce. Kluczem jest symbolika podzielonego zamku i muru.",
+      "punkty": [
+        "Czas: przełom XVIII i XIX wieku, akcja trwa jeden dzień — zwarta budowa typowa dla komedii.",
+        "Miejsce: stary zamek podzielony między dwóch właścicieli (inspiracją był zamek w Odrzykoniu, o który naprawdę procesowali się dawni właściciele).",
+        "Mur graniczny to symbol sporu — dzieli nie tylko dziedziniec, ale dwa rody i dwa charaktery.",
+        "Strona Cześnika: hałaśliwa, impulsywna — pan domu krzyczy, wymachuje szablą, działa natychmiast.",
+        "Strona Rejenta: cicha i „pobożna\" — pan domu mówi słodko, pisze pozwy i działa podstępem.",
+        "Świat przedstawiony jest w pełni realistyczny — bez fantastyki; źródłem napięcia są wyłącznie ludzkie charaktery i interesy."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka — spór, zemsta i pojednanie",
+      "tresc": "Pod komediową powierzchnią Fredro stawia poważne pytania: do czego prowadzi zawziętość sąsiedzka i co naprawdę kończy spory. Odpowiedź utworu: nie zemsta, lecz miłość i zgoda.",
+      "punkty": [
+        "Bezsens sporu: nikt już nie pamięta, od czego się zaczął — mur jest tylko pretekstem do wzajemnego dokuczania.",
+        "Zemsta okazuje się przewrotna: Cześnik chce zemsty (ślub Wacława z Klarą wbrew Rejentowi), a jego „zemsta\" przynosi… szczęście młodym i zgodę rodów.",
+        "Motto utworu: „Nie masz nic tak złego, żeby się na dobre nie przydało\" — zapowiada, że zło (spór, intrygi) obróci się w dobro.",
+        "Miłość ponad podziałami: Wacław i Klara kochają się mimo wrogości opiekunów — to ich uczucie umożliwia pojednanie (łagodna wersja motywu z „Romea i Julii\").",
+        "Krytyka wad szlacheckich: porywczość i pieniactwo (Cześnik), obłuda i zawziętość (Rejent), interesowność (Podstolina), tchórzliwe samochwalstwo (Papkin).",
+        "Małżeństwo dla majątku: Cześnik i Podstolina planują ślub z wyrachowania — Fredro zestawia to z bezinteresowną miłością młodych.",
+        "Pojednanie jako wartość: finałowa zgoda ma wymiar niemal symboliczny — „Bóg wtedy rękę poda\", gdy ludzie wyciągną do siebie ręce."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Zemsta jako komedia — trzy rodzaje komizmu",
+      "tresc": "Na egzaminie nie wystarczy wiedzieć, ŻE jest śmiesznie — trzeba wskazać RODZAJ komizmu i jego funkcję. Ucz się każdego rodzaju z konkretną sceną-przykładem.",
+      "punkty": [
+        "Komizm postaci → Papkin: tchórz udający rycerza, „lew Północy\", który ucieka na widok zagrożenia; śmieszy rozziew między słowami a czynami.",
+        "Komizm sytuacji → dyktowanie listu: Cześnik dyktuje Dyndalskiemu list w imieniu Klary, a stary sługa pisze niezdarnie i wtrąca „mocium panie\" do listu młodej panny.",
+        "Komizm słowa → powiedzonka bohaterów: „mocium panie\" Cześnika, „niech się dzieje wola nieba…\" Rejenta — język charakteryzuje postać.",
+        "Kontrast jako źródło komizmu → zestawienie wybuchowego Cześnika z przesłodzonym Rejentem ośmiesza obu.",
+        "Funkcja komizmu: nie tylko śmieszy — OŚMIESZA wady (pieniactwo, obłudę, tchórzostwo), czyli uczy przez śmiech.",
+        "Cechy komedii w „Zemście\": pogodna tematyka, komizm, bohaterowie z wadami, intryga i szczęśliwe zakończenie (ślub + zgoda)."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Zemsta w wypracowaniu",
+      "tresc": "Zemsta świetnie pasuje do tematów o zgodzie, sporach, wadach ludzkich i sile miłości. Miej gotowe pary teza → scena-dowód. Zawsze podawaj tytuł, autora, bohatera i konkretną scenę.",
+      "punkty": [
+        "Teza „zgoda buduje, niezgoda rujnuje\" → argument: wieloletni spór o mur zatruwa życie obu domów, a dopiero pojednanie w finale przynosi wszystkim spokój.",
+        "Teza „miłość jest silniejsza niż nienawiść\" → argument: uczucie Wacława i Klary przetrwało wrogość rodów i doprowadziło do zgody opiekunów.",
+        "Teza „nie warto się mścić / zemsta bywa przewrotna\" → argument: „zemsta\" Cześnika (wymuszony ślub) wbrew intencjom uszczęśliwia młodych i kończy konflikt.",
+        "Teza „śmiech może uczyć\" → argument: Fredro ośmiesza pieniactwo Cześnika, obłudę Rejenta i tchórzostwo Papkina, byśmy rozpoznali te wady w sobie.",
+        "Teza „pozory mylą\" → argument: Rejent mówi słodko i powtarza pobożne formułki, a działa bezwzględnie — pozew, intercyza, łamanie planów sąsiada.",
+        "Do opowiadania: zamknięta przestrzeń zamku i jeden dzień akcji ułatwiają trzymanie się realiów lektury (błąd kardynalny: np. „Rejent zabił Cześnika\" — w „Zemście\" NIKT nie ginie!).",
+        "Świetny duet argumentacyjny: Zemsta + „Opowieść wigilijna\" — dwa dowody, że człowiek (i spór) może się odmienić na dobre."
+      ],
+      "czasMin": 5
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Cześnik Maciej Raptusiewicz",
+      "kim": "Porywczy szlachcic, opiekun bratanicy Klary, właściciel połowy zamku — mówiące nazwisko od „raptus\" (człowiek wybuchowy).",
+      "cechy": ["porywczy i wybuchowy", "szczery, działa wprost", "pieniacz, ale zdolny do zgody"],
+      "scenyDowody": [
+        "Na widok murarzy naprawiających mur każe siłą przerwać robotę — od słowa do bójki.",
+        "Dyktuje Dyndalskiemu list rzekomo od Klary, wtrącając swoje „mocium panie\" — chce zwabić Wacława.",
+        "Zamiast krwawej zemsty organizuje ślub Wacława z Klarą — jego „zemsta\" kończy się szczęściem młodych.",
+        "W finale podaje rękę Rejentowi: „Tak jest — zgoda, a Bóg wtedy rękę poda\"."
+      ],
+      "przestroga": "Porywczość ośmiesza i wpędza w kłopoty — ale szczery człowiek potrafi ostatecznie wybrać zgodę."
+    },
+    {
+      "imie": "Rejent Milczek",
+      "kim": "Sąsiad i przeciwnik Cześnika, ojciec Wacława — mówiące nazwisko od „milczeć\": cichy, przesłodzony, a bezwzględny.",
+      "cechy": ["obłudny — słodkie słowa, twarde czyny", "zawzięty i wyrachowany", "despotyczny wobec syna"],
+      "scenyDowody": [
+        "Powtarza pokorne „Niech się dzieje wola nieba, z nią się zawsze zgadzać trzeba\" — a równocześnie spisuje zeznania murarzy do pozwu.",
+        "Zmusza Wacława do intercyzy z Podstoliną (kara 100 tysięcy za zerwanie), by zniszczyć plany Cześnika.",
+        "Grozi Papkinowi wyrzuceniem przez okno, choć wcześniej częstuje go winem i słodkimi słówkami.",
+        "W finale, postawiony przed faktem ślubu, przyjmuje zgodę."
+      ],
+      "przestroga": "Obłuda to wada gorsza od jawnej porywczości — pozory pobożności nie usprawiedliwiają podstępów."
+    },
+    {
+      "imie": "Papkin",
+      "kim": "Ubogi szlachcic na usługach Cześnika — samochwał, gaduła i tchórz, samozwańczy „lew Północy\".",
+      "cechy": ["tchórzliwy mimo wojennych przechwałek", "gadatliwy samochwał", "naiwny i łatwowierny"],
+      "scenyDowody": [
+        "Chwali się zmyślonymi czynami rycerskimi i tytułuje „lwem Północy\", choć boi się każdej bójki.",
+        "„Zdobywa\" mur dopiero wtedy, gdy walka już się skończyła — i przypisuje sobie zwycięstwo.",
+        "Obiecuje Klarze sprowadzić krokodyla na dowód miłości, traktując jej żartobliwe żądanie serio.",
+        "Uwierzywszy, że Rejent otruł go winem, pisze komiczny testament."
+      ],
+      "przestroga": "Rozziew między słowami a czynami ośmiesza — przechwałki nie zastąpią odwagi."
+    },
+    {
+      "imie": "Klara Raptusiewiczówna",
+      "kim": "Bratanica i podopieczna Cześnika, panna z majątkiem — rozsądna i wierna w uczuciach.",
+      "cechy": ["rozsądna i trzeźwo myśląca", "wierna Wacławowi", "dowcipna, umie zażartować"],
+      "scenyDowody": [
+        "Potajemnie spotyka się z Wacławem mimo sporu opiekunów — ale odmawia ucieczki z nim: chce miłości bez skandalu.",
+        "Żartobliwie wystawia Papkina na próbę: żąda pokory, milczenia i krokodyla.",
+        "To jej majątkiem zarządza Podstolina — ślub Klary oznacza dla wdowy utratę pieniędzy (sprężyna intrygi).",
+        "Poślubia Wacława — ich ślub kończy spór rodów."
+      ],
+      "przestroga": "Rozsądek i wierność osiągają więcej niż intrygi — to młodzi naprawiają błędy starych."
+    },
+    {
+      "imie": "Wacław Milczek",
+      "kim": "Syn Rejenta, zakochany w Klarze; w młodości hulaka (jako „Birbancki\" romansował z Podstoliną).",
+      "cechy": ["zakochany i zdeterminowany", "pomysłowy", "ma za sobą lekkomyślną przeszłość"],
+      "scenyDowody": [
+        "Oddaje się Papkinowi „do niewoli\", by dostać się na stronę Cześnika i być bliżej Klary.",
+        "Podstolina rozpoznaje w nim dawnego wielbiciela z czasów, gdy podawał się za księcia Radosława — przeszłość wraca w najgorszym momencie.",
+        "Sprzeciwia się ojcu, gdy ten zmusza go do ślubu z Podstoliną.",
+        "Zwabiony listem przybywa do Cześnika i — postawiony przed księdzem — z radością poślubia Klarę."
+      ],
+      "przestroga": "Determinacja w dobrej sprawie popłaca — ale lekkomyślna przeszłość potrafi wrócić."
+    },
+    {
+      "imie": "Podstolina (Hanna Czepiersińska)",
+      "kim": "Trzykrotna wdowa goszcząca u Cześnika — pozornie bogata, w istocie zarządza tylko majątkiem Klary.",
+      "cechy": ["interesowna — szuka męża z majątkiem", "sprytna i wyrachowana", "praktyczna aż do cynizmu"],
+      "scenyDowody": [
+        "Przyjmuje oświadczyny Cześnika (przez Papkina), licząc na zabezpieczenie finansowe.",
+        "Błyskawicznie zmienia kandydata: podpisuje intercyzę z młodym Wacławem, gdy Rejent daje lepsze warunki.",
+        "Wie, że jej „majątek\" należy do Klary i przepadnie po ślubie podopiecznej — dlatego tak śpieszy się za mąż.",
+        "W finale zostaje z niczym... ale Klara wspaniałomyślnie zapewnia jej sto tysięcy z intercyzy."
+      ],
+      "przestroga": "Małżeństwo z wyrachowania to gra, którą łatwo przegrać — kontrast z bezinteresowną miłością młodych."
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "Spór sąsiedzki",
+      "przyklad": "Wieloletni konflikt o mur graniczny zamku — bójka o naprawę muru, pozwy, wzajemne złośliwości Cześnika i Rejenta.",
+      "wWypracowaniu": "Do tez o bezsensie kłótni i pieniactwie: spór, którego przyczyny nikt nie pamięta, zatruwa życie obu domów."
+    },
+    {
+      "motyw": "Zemsta (przewrotna)",
+      "przyklad": "Cześnik mści się na Rejencie, wymuszając ślub Wacława z Klarą — a zemsta przynosi młodym szczęście, rodom zgodę.",
+      "wWypracowaniu": "Do tez „nie warto się mścić\": jedyna zemsta, która „się udała\", to ta, która obróciła się w dobro (motto utworu!)."
+    },
+    {
+      "motyw": "Miłość ponad podziałami",
+      "przyklad": "Wacław i Klara kochają się mimo wrogości rodów — spotykają się potajemnie, a ich ślub kończy konflikt.",
+      "wWypracowaniu": "Do tez o sile miłości: łagodna, komediowa wersja losu Romea i Julii — tu miłość wygrywa i godzi zwaśnionych."
+    },
+    {
+      "motyw": "Zgoda i pojednanie",
+      "przyklad": "Finał: Cześnik i Rejent podają sobie ręce — „Tak jest — zgoda, a Bóg wtedy rękę poda\".",
+      "wWypracowaniu": "Do tez „zgoda buduje\": pojednanie jest w utworze wartością nadrzędną — kończy akcję i naprawia wszystkie intrygi."
+    },
+    {
+      "motyw": "Wady ludzkie ośmieszone",
+      "przyklad": "Porywczość Cześnika, obłuda Rejenta, tchórzliwe samochwalstwo Papkina, interesowność Podstoliny.",
+      "wWypracowaniu": "Do tez „śmiech uczy\" i o wadach człowieka: komedia ośmiesza wady, byśmy je rozpoznali i porzucili."
+    },
+    {
+      "motyw": "Małżeństwo dla majątku",
+      "przyklad": "Cześnik chce Podstoliny dla (rzekomych) pieniędzy; Podstolina podpisuje intercyzę z Wacławem dla zabezpieczenia.",
+      "wWypracowaniu": "Do tez o prawdziwych i fałszywych wartościach: wyrachowane plany matrymonialne upadają, wygrywa bezinteresowna miłość."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "zm-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "O co toczy się spór między Cześnikiem a Rejentem?",
+      "opcje": [
+        "O rękę Podstoliny",
+        "O mur graniczny dzielący wspólnie zamieszkiwany zamek",
+        "O majątek Klary",
+        "O wynik dawnego pojedynku"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Obaj mieszkają w dwóch połowach tego samego zamku i kłócą się o mur graniczny. Spór o Podstolinę i majątek Klary to wątki poboczne, które wyrastają z tego głównego konfliktu.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kim jest Papkin?",
+      "opcje": [
+        "Dzielnym rycerzem na służbie Rejenta",
+        "Starym sługą Cześnika, który pisze list",
+        "Ubogim szlachcicem na usługach Cześnika — samochwałem i tchórzem",
+        "Synem Rejenta zakochanym w Klarze"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Papkin to ubogi szlachcic-rezydent, który wykonuje polecenia Cześnika (swaty, „zdobycie\" muru). Chwali się bohaterstwem („lew Północy\"), ale jest tchórzem. Stary sługa od listu to Dyndalski, a syn Rejenta — Wacław.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Wacław jest synem Rejenta, a Klara — bratanicą Cześnika.",
+        "Podstolina od początku kochała Cześnika i odrzuciła oświadczyny Wacława.",
+        "Utwór kończy się zgodą zwaśnionych sąsiadów i ślubem Klary z Wacławem."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Wacław to syn Rejenta, Klara — bratanica Cześnika: młodzi z wrogich domów. Podstolina nie kierowała się miłością — przyjęła oświadczyny Cześnika z wyrachowania, a potem podpisała intercyzę z Wacławem. Finał to ślub i zgoda.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego Cześnik organizuje ślub Wacława z Klarą?",
+      "opcje": [
+        "Bo od dawna marzył, by mieć Wacława w rodzinie",
+        "Bo poprosiła go o to Podstolina",
+        "Bo chciał w ten sposób przejąć połowę zamku Rejenta",
+        "Bo chciał zemścić się na Rejencie za doprowadzenie do intercyzy Wacława z Podstoliną"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Gdy Rejent „ukradł\" Cześnikowi narzeczoną (intercyza Wacława z Podstoliną), wściekły Cześnik postanowił odpłacić tym samym: ożenić syna wroga wbrew jego woli. Tytułowa zemsta przewrotnie uszczęśliwiła młodych.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Scena, w której Cześnik dyktuje Dyndalskiemu list rzekomo od Klary, to przede wszystkim przykład komizmu:",
+      "opcje": [
+        "sytuacji i słowa — stary sługa niezdarnie pisze list panny, a do tekstu trafia „mocium panie\"",
+        "wyłącznie postaci — śmieszy sam wygląd Dyndalskiego",
+        "tragizmu połączonego z groteską",
+        "fantastyki — list pisze postać nierealistyczna"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Śmieszy sytuacja (dwaj starzy mężczyźni układają miłosny list młodej panny) i słowo (powiedzonko Cześnika „mocium panie\" wciska się do listu). W „Zemście\" nie ma fantastyki ani tragizmu.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Które cechy „Zemsty\" potwierdzają, że to komedia? Wskaż wszystkie poprawne odpowiedzi.",
+      "opcje": [
+        "Szczęśliwe zakończenie — ślub i zgoda rodów",
+        "Współistnienie świata realnego i fantastycznego",
+        "Komizm postaci, sytuacji i słowa",
+        "Bohaterowie ośmieszani przez swoje wady"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Komedię poznajemy po happy endzie, komizmie i ośmieszaniu wad. Świata fantastycznego w „Zemście\" NIE ma — to cecha np. dramatu romantycznego („Balladyna\", „Dziady\"). Nie myl gatunków!",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W jaki sposób Rejent postanawia zniszczyć plany małżeńskie Cześnika?",
+      "opcje": [
+        "Wyzywa Cześnika na pojedynek",
+        "Doprowadza do podpisania intercyzy — umowy ślubnej Wacława z Podstoliną",
+        "Porywa Klarę na swoją stronę zamku",
+        "Przekupuje Papkina, by zerwał swaty"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Rejent działa podstępem, nie siłą: skłania Podstolinę do intercyzy z Wacławem (z karą 100 tysięcy za zerwanie), odbierając Cześnikowi narzeczoną. To ta intryga wywołuje tytułową zemstę.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Czego — między innymi — zażądała Klara od Papkina jako dowodu miłości?",
+      "opcje": [
+        "Zdobycia połowy zamku Rejenta",
+        "Napisania poematu na jej cześć",
+        "Sprowadzenia krokodyla",
+        "Wygrania pojedynku z Wacławem"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Klara żartobliwie zażądała pokory, półrocznego milczenia i… krokodyla. Chciała zniechęcić natrętnego wielbiciela — a naiwny Papkin potraktował żądanie serio. To przykład komizmu i charakterystyki obu postaci.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaką funkcję pełni motto „Zemsty\": „Nie masz nic tak złego, żeby się na dobre nie przydało\"?",
+      "opcje": [
+        "Zapowiada tragiczny finał sporu",
+        "Ośmiesza wyłącznie postać Papkina",
+        "Krytykuje instytucję małżeństwa",
+        "Zapowiada, że zło (spór, intrygi, zemsta) obróci się ostatecznie w dobro"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Motto streszcza sens utworu: z konfliktu i intryg rodzi się dobro — ślub młodych i zgoda rodów. Nawet „zemsta\" Cześnika przydaje się na dobre. Pytania o FUNKCJĘ motta to typ zadania z akcentem egzaminacyjnym 2027.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego Papkin pisze testament?",
+      "opcje": [
+        "Bo przegrał pojedynek z Wacławem i umiera z ran",
+        "Bo Cześnik wygnał go z zamku bez grosza",
+        "Bo uwierzył, że Rejent otruł go winem podczas poselstwa",
+        "Bo zbankrutował i chce spłacić długi"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Nastraszony wzmianką o truciźnie Papkin uznał, że wino wypite u Rejenta było zatrute, i zabrał się do pisania testamentu. Scena ośmiesza jego tchórzostwo i łatwowierność — sztandarowy przykład komizmu postaci.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Na czym polega kontrast między Cześnikiem a Rejentem i jaka jest jego funkcja?",
+      "opcje": [
+        "Porywczość i jawność Cześnika kontra pozorna pokora i podstępność Rejenta — kontrast ośmiesza wady obu",
+        "Bogactwo Cześnika kontra bieda Rejenta — kontrast pokazuje niesprawiedliwość społeczną",
+        "Młodość Cześnika kontra starość Rejenta — kontrast pokoleniowy",
+        "Patriotyzm Cześnika kontra zdrada Rejenta — kontrast polityczny"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Cześnik-raptus krzyczy i działa wprost; Rejent-milczek mówi słodko („Niech się dzieje wola nieba…\"), a działa podstępem. Nazwiska mówiące podkreślają ten kontrast, który jest zasadą kompozycyjną utworu i źródłem komizmu.",
+      "punkty": 1
+    },
+    {
+      "id": "zm-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Piszesz wypracowanie z tezą „komedia ośmiesza wady ludzkie\". Które sceny z „Zemsty\" nadają się na argumenty? Wskaż wszystkie poprawne odpowiedzi.",
+      "opcje": [
+        "Papkin chwali się zmyślonymi czynami wojennymi i tytułuje „lwem Północy\"",
+        "Wacław i Klara wyznają sobie miłość przy murze",
+        "Cześnik dyktuje Dyndalskiemu list „od Klary\", wtrącając „mocium panie\"",
+        "Rejent słodkimi słowami o „woli nieba\" maskuje bezwzględne intrygi"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Ośmieszone wady to: samochwalstwo i tchórzostwo (Papkin), porywczość i nieporadność intrygancka (scena listu), obłuda (Rejent). Wyznanie miłości młodych NIE ośmiesza wady — to wątek liryczny, nie satyryczny.",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    {
+      "id": "zm-f-01",
+      "przod": "Kim jest Cześnik Maciej Raptusiewicz i co mówi jego nazwisko?",
+      "tyl": "Porywczy szlachcic, opiekun Klary, właściciel połowy zamku. Nazwisko mówiące: „raptus\" = człowiek wybuchowy. Powiedzonko: „mocium panie\".",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-02",
+      "przod": "Kim jest Rejent Milczek i co mówi jego nazwisko?",
+      "tyl": "Sąsiad-wróg Cześnika, ojciec Wacława. Nazwisko mówiące: „milczek\" = cichy. Pozornie pokorny i pobożny, w istocie obłudny i podstępny.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-03",
+      "przod": "Kim jest Papkin i jak sam siebie nazywa?",
+      "tyl": "Ubogi szlachcic na usługach Cześnika — samochwał, gaduła i tchórz. Tytułuje się „lwem Północy\", choć boi się każdej walki.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-04",
+      "przod": "Kim jest Klara i jaką rolę pełni jej majątek?",
+      "tyl": "Bratanica i podopieczna Cześnika, zakochana w Wacławie. Jej majątkiem zarządza Podstolina — po ślubie Klary wdowa straci pieniądze (sprężyna intrygi).",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-05",
+      "przod": "Kim jest Wacław i co łączyło go dawniej z Podstoliną?",
+      "tyl": "Syn Rejenta, zakochany w Klarze. W młodości hulaka — romansował z Podstoliną, podając się za księcia Radosława („Wacław-birbant\").",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-06",
+      "przod": "Kim jest Podstolina i dlaczego tak śpieszy się za mąż?",
+      "tyl": "Hanna Czepiersińska, trzykrotna wdowa. Uchodzi za bogatą, ale zarządza tylko majątkiem Klary — musi wyjść za mąż, zanim ślub Klary pozbawi ją pieniędzy.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-07",
+      "przod": "Kim jest Dyndalski i w której słynnej scenie występuje?",
+      "tyl": "Stary, wierny sługa Cześnika. Występuje w scenie dyktowania listu „od Klary\" — pisze niezdarnie, a do listu wciska się „mocium panie\".",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-08",
+      "przod": "Na czym polega kontrast Cześnik–Rejent?",
+      "tyl": "Cześnik: wybuchowy, jawny, działa siłą. Rejent: cichy, przesłodzony, działa podstępem (pozwy, intercyza). Kontrast to zasada kompozycyjna utworu i źródło komizmu.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "zm-f-09",
+      "przod": "Scena: spór o mur graniczny — co się dzieje?",
+      "tyl": "Rejent każe murarzom naprawiać mur; Cześnik siłą przerywa robotę — dochodzi do bójki. Papkin „zdobywa\" mur już po walce i przypisuje sobie zwycięstwo.",
+      "kategoria": "scena"
+    },
+    {
+      "id": "zm-f-10",
+      "przod": "Scena: dyktowanie listu — kto, komu i po co?",
+      "tyl": "Cześnik dyktuje Dyndalskiemu list rzekomo od Klary, by zwabić Wacława na swoją stronę zamku (zemsta na Rejencie). Komizm sytuacji i słowa („mocium panie\" w liście panny).",
+      "kategoria": "scena"
+    },
+    {
+      "id": "zm-f-11",
+      "przod": "Scena: testament Papkina — dlaczego go pisze?",
+      "tyl": "Papkin uwierzył, że Rejent otruł go winem podczas poselstwa, i pisze testament. Scena ośmiesza jego tchórzostwo i łatwowierność (komizm postaci).",
+      "kategoria": "scena"
+    },
+    {
+      "id": "zm-f-12",
+      "przod": "Dokończ i wskaż kontekst: „Tak jest — zgoda…\"",
+      "tyl": "„…a Bóg wtedy rękę poda\". Finał utworu — Cześnik i Rejent godzą się po ślubie Wacława i Klary. Cytat-symbol pojednania.",
+      "kategoria": "cytat"
+    },
+    {
+      "id": "zm-f-13",
+      "przod": "Czyje to słowa i co o postaci mówią: „Niech się dzieje wola nieba, z nią się zawsze zgadzać trzeba\"?",
+      "tyl": "Rejenta Milczka. Pozornie pobożna pokora — w istocie maska obłudnika, który właśnie knuje pozwy i intrygi. Przykład komizmu słowa i charakterystyki językowej.",
+      "kategoria": "cytat"
+    },
+    {
+      "id": "zm-f-14",
+      "przod": "Wymień trzy rodzaje komizmu i podaj przykład każdego z „Zemsty\".",
+      "tyl": "Komizm postaci — Papkin („lew Północy\"); komizm sytuacji — dyktowanie listu Dyndalskiemu; komizm słowa — „mocium panie\" Cześnika, powiedzonka Rejenta.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "zm-f-15",
+      "przod": "Wymień cechy komedii na przykładzie „Zemsty\".",
+      "tyl": "Szczęśliwe zakończenie (ślub + zgoda), komizm (postaci, sytuacji, słowa), bohaterowie ośmieszani przez wady, intryga jako motor akcji, pogodna tematyka.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "zm-f-16",
+      "przod": "Jak brzmi motto „Zemsty\" i co zapowiada?",
+      "tyl": "„Nie masz nic tak złego, żeby się na dobre nie przydało\". Zapowiada przewrotny bieg akcji: spór, intrygi i zemsta obrócą się w dobro — ślub i zgodę.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "zm-f-17",
+      "przod": "Jaką wartość stawia „Zemsta\" ponad zemstą i sporem?",
+      "tyl": "Zgodę i pojednanie. Wieloletni spór o mur nikomu nie służy; dopiero podanie sobie rąk w finale przynosi wszystkim spokój — „zgoda buduje, niezgoda rujnuje\".",
+      "kategoria": "wartosc"
+    },
+    {
+      "id": "zm-f-18",
+      "przod": "Co w „Zemście\" okazuje się silniejsze od nienawiści rodów?",
+      "tyl": "Miłość Wacława i Klary — przetrwała wrogość opiekunów i doprowadziła do zgody. Łagodna, komediowa wersja motywu Romea i Julii: tu miłość wygrywa.",
+      "kategoria": "wartosc"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "id": "test-wstepny",
+    "przedmiot": "polski",
+    "wersja": 1,
+    "maksPkt": 22,
+    "szacowanyCzasMin": 20
+  },
+  "pytania": [
+    {
+      "id": "tw-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kogo Mały Książę pielęgnował i chronił na swojej planecie, a potem tęsknił za nią podczas podróży?",
+      "opcje": [
+        "lisa",
+        "różę",
+        "żmiję",
+        "latarnika"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Na planecie B-612 Mały Książę opiekował się różą — podlewał ją, osłaniał kloszem i chronił przed przeciągami. Dopiero w podróży zrozumiał, że ją kocha i że jest za nią odpowiedzialny. Lisa, żmiję i latarnika spotkał już poza swoją planetą — to postacie z jego wędrówki, nie z domu.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-02",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Wskaż poprawny zapis tytułu lektury:",
+      "opcje": [
+        "Kamienie Na Szaniec",
+        "kamienie na szaniec",
+        "Kamienie na Szaniec",
+        "Kamienie na szaniec"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "W polskich tytułach książek wielką literą piszemy tylko pierwszy wyraz (oraz nazwy własne, gdyby się w tytule pojawiły). Zapisywanie każdego wyrazu wielką literą to kalka z angielskiego — po polsku to błąd. Warto to zapamiętać, bo na egzaminie zapis tytułu lektury w wypracowaniu też podlega ocenie ortograficznej.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-03",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Co oznacza frazeologizm „słomiany zapał”?",
+      "opcje": [
+        "entuzjazm, który szybko gaśnie — zapał krótkotrwały",
+        "ogromną, niewyczerpaną energię do działania",
+        "zamiłowanie do prac w gospodarstwie",
+        "gniew, który mija po chwili"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Słoma pali się szybko i efektownie, ale równie szybko gaśnie — stąd „słomiany zapał” to entuzjazm, który znika, zanim doprowadzi do celu. Frazeologizmów nie odczytujemy dosłownie (nie chodzi o prawdziwą słomę!) — to jedna z najczęstszych pułapek w arkuszach egzaminacyjnych.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Którego z bohaterów „Kamieni na szaniec” harcerze odbili z rąk Niemców w akcji pod Arsenałem?",
+      "opcje": [
+        "Alka",
+        "Zośkę",
+        "Rudego",
+        "Anodę"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "W akcji pod Arsenałem (26 marca 1943 r.) harcerze odbili Rudego — Janka Bytnara — przewożonego z przesłuchania na gestapo. Akcją dowodził Zośka, a Alek został w niej ciężko ranny. To scena-klucz: pokazuje przyjaźń, odwagę i cenę, jaką bohaterowie zapłacili — Rudy i Alek zmarli kilka dni później.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-05",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "W zdaniu: „Zmęczony wędrowiec powoli wspinał się na strome wzgórze” wyraz „strome” pełni funkcję:",
+      "opcje": [
+        "podmiotu",
+        "orzeczenia",
+        "przydawki",
+        "okolicznika"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "„Strome” odpowiada na pytanie „jakie wzgórze?” — określa rzeczownik, a część zdania określająca rzeczownik to przydawka. Wskazówka na przyszłość: przydawka odpowiada na pytania „jaki? który? czyj? ile?”, a okolicznik (tu: „powoli”) — na pytania „jak? gdzie? kiedy?” i określa czasownik.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-06",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Jaką funkcję pełni pytanie retoryczne w przemówieniu?",
+      "opcje": [
+        "Pozwala mówcy sprawdzić, czy słuchacze znają odpowiedź.",
+        "Angażuje słuchaczy i skłania ich do refleksji, choć nie oczekuje odpowiedzi.",
+        "Wydłuża wypowiedź, dzięki czemu wydaje się ona poważniejsza.",
+        "Nadaje wypowiedzi rytm i rym."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Pytanie retoryczne to pytanie, na które nikt nie ma odpowiadać — jego siła polega na tym, że słuchacz sam zaczyna szukać odpowiedzi w głowie, a więc angażuje się w tok myślenia mówcy. Na egzaminie coraz częściej pyta się właśnie o FUNKCJĘ środka (po co go użyto), a nie tylko o jego nazwę — warto ćwiczyć takie myślenie.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "O co toczy się główny spór między Cześnikiem Raptusiewiczem a Rejentem Milczkiem w „Zemście” Aleksandra Fredry?",
+      "opcje": [
+        "o rękę Klary",
+        "o naprawę muru granicznego dzielącego zamek",
+        "o pieniądze z posagu Podstoliny",
+        "o urząd starosty"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Cześnik i Rejent mieszkają w dwóch częściach tego samego zamku, a iskrą zapalną konfliktu jest naprawa muru granicznego — Rejent każe go murować, Cześnik przerywa roboty siłą. Mur to zresztą symbol: dzieli nie tylko zamek, ale i dwa przeciwne charaktery. Wątki Klary i Podstoliny są ważne, ale to nie one rozpoczynają spór.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-08",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wskaż zdanie złożone z poprawną interpunkcją:",
+      "opcje": [
+        "Myślę że jutro będzie padać.",
+        "Myślę, że jutro będzie padać.",
+        "Myślę że, jutro będzie padać.",
+        "Myślę, że, jutro będzie padać."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "W zdaniu złożonym podrzędnie przecinek stawiamy PRZED spójnikiem wprowadzającym zdanie podrzędne — tu przed „że”. Przecinek oddziela od siebie dwa zdania składowe: „Myślę” i „że jutro będzie padać”. Statystycznie przecinki w zdaniach złożonych to najsłabszy punkt ósmoklasistów, więc ta zasada naprawdę się opłaca.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-09",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń prawdziwość zdań dotyczących „Dziadów cz. II” Adama Mickiewicza (PRAWDA / FAŁSZ):",
+      "opcje": [
+        "Obrzęd dziadów odbywa się nocą w kaplicy, a przewodzi mu Guślarz.",
+        "Widmo złego pana może zostać zbawione dzięki modlitwom zgromadzonych na obrzędzie.",
+        "Duchy dzieci, Józia i Rózi, nie mogą trafić do nieba, bo nie zaznały w życiu goryczy i cierpienia."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Obrzęd rzeczywiście prowadzi Guślarz nocą w przycmentarnej kaplicy. Widmu złego pana nikt pomóc NIE może — „kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże” — to najcięższa kara w utworze. Józio i Rózia potwierdzają zasadę odwrotną: „kto nie doznał goryczy ni razu, ten nie dozna słodyczy w niebie”. Te trzy prawdy moralne to serce lektury.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-10",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Zdanie: „Kiedy skończysz lekcje, pójdziemy do kina” to wypowiedzenie:",
+      "opcje": [
+        "pojedyncze rozwinięte",
+        "złożone współrzędnie",
+        "złożone podrzędnie",
+        "równoważnik zdania"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Mamy tu dwa orzeczenia („skończysz”, „pójdziemy”), więc zdanie jest złożone. Część „kiedy skończysz lekcje” odpowiada na pytanie „kiedy pójdziemy?” — jedno zdanie określa drugie, czyli jest mu podrzędne (okolicznikowe czasu). W zdaniu współrzędnym oba człony byłyby równorzędne i żaden nie odpowiadałby na pytanie postawione od drugiego.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-11",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Wskaż WSZYSTKIE poprawne zapisy „nie” z różnymi częściami mowy:",
+      "opcje": [
+        "niezrobił",
+        "nieduży",
+        "nie miły",
+        "niechętnie"
+      ],
+      "poprawne": [1, 3],
+      "wyjasnienie": "Zasada-fundament: „nie” z czasownikami piszemy ROZDZIELNIE (poprawnie: „nie zrobił”), a z przymiotnikami i przysłówkami odprzymiotnikowymi — ŁĄCZNIE („nieduży”, „niechętnie”, a także „niemiły”, nie „nie miły”). Gdy się zawahasz, zapytaj: co to za część mowy? Odpowiedź niemal zawsze rozstrzyga pisownię.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-12",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Świtezianka” Adama Mickiewicza to ballada. Co jest charakterystyczne dla tego gatunku?",
+      "opcje": [
+        "Łączy elementy epiki, liryki i dramatu, a fabuła czerpie z wierzeń ludowych i ma nastrój tajemniczości.",
+        "Jest utworem żałobnym, wyrażającym smutek po stracie bliskiej osoby.",
+        "To krótki, żartobliwy utwór zakończony zaskakującą puentą.",
+        "To rozbudowany utwór wierszowany opisujący dzieje narodu na tle przełomowych wydarzeń."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Ballada jest gatunkiem „na pograniczu”: ma fabułę jak epika, wierszowaną formę i nastrój jak liryka, a dialogi jak dramat. Do tego ludowość (wierzenia, moralność gminna) i tajemniczość — w „Świteziance” jezioro wymierza karę niewiernemu strzelcowi. Opis żałobny pasuje do trenu, żartobliwy z puentą — do fraszki, a dzieje narodu — do epopei.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-13",
+      "modul": "F",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Które elementy MUSZĄ znaleźć się w zaproszeniu, aby spełniało ono wymogi tej formy wypowiedzi? Wskaż WSZYSTKIE.",
+      "opcje": [
+        "informacja, kto zaprasza i kogo",
+        "termin i miejsce wydarzenia",
+        "szczegółowy program wydarzenia minuta po minucie",
+        "informacja, na jakie wydarzenie zapraszamy"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Zaproszenie musi odpowiadać na pięć pytań: KTO zaprasza, KOGO, NA CO, KIEDY i GDZIE. Brak któregokolwiek z tych elementów to utrata punktów na egzaminie — sprawdzający liczy je dosłownie po kolei. Szczegółowy program nie jest wymagany; zaproszenie ma być zwięzłe i grzeczne, a nie drobiazgowe.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-14",
+      "modul": "E",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Która z poniższych myśli najlepiej oddaje tezę autora tekstu?",
+      "zrodloTekst": "Coraz więcej badań potwierdza, że robienie notatek ręcznie pomaga zapamiętywać lepiej niż pisanie na klawiaturze. Naukowcy z Uniwersytetu w Princeton porównali wyniki studentów notujących na oba sposoby. Osoby piszące ręcznie nie nadążały zapisać wszystkiego, więc musiały wybierać najważniejsze informacje i ujmować je własnymi słowami. To właśnie ten wysiłek — selekcja i przetwarzanie — sprawia, że wiedza zostaje w głowie na dłużej. Piszący na laptopie często przepisywali wykład niemal dosłownie, bez zastanowienia. Moim zdaniem warto więc wrócić do zwykłego zeszytu, przynajmniej na lekcjach wymagających zrozumienia materiału. Klawiatura kusi szybkością, ale szybciej nie zawsze znaczy skuteczniej.",
+      "opcje": [
+        "Pisanie na klawiaturze jest szybsze niż pisanie ręczne.",
+        "Studenci z Princeton nie umieją robić notatek.",
+        "Notowanie ręczne sprzyja zapamiętywaniu, bo zmusza do wybierania i przetwarzania informacji.",
+        "Laptopy powinny zostać zakazane w szkołach."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Teza to główna myśl, którą autor udowadnia przez cały tekst — tu: ręczne notowanie pomaga pamięci, bo wymaga selekcji i przetwarzania. Szybkość klawiatury to tylko wzmianka, badanie z Princeton to argument (dowód), a zakazu laptopów autor w ogóle nie postuluje. Żelazna zasada: tezę znajdujemy W TEKŚCIE, a nie dopowiadamy „z głowy”.",
+      "punkty": 1
+    },
+    {
+      "id": "tw-15",
+      "modul": "E",
+      "typ": "truefalse",
+      "poziom": 3,
+      "tresc": "Oceń każde stwierdzenie z tekstu: zaznacz PRAWDA, jeśli jest FAKTEM (można go sprawdzić), albo FAŁSZ, jeśli jest OPINIĄ autora.",
+      "zrodloTekst": "Coraz więcej badań potwierdza, że robienie notatek ręcznie pomaga zapamiętywać lepiej niż pisanie na klawiaturze. Naukowcy z Uniwersytetu w Princeton porównali wyniki studentów notujących na oba sposoby. Osoby piszące ręcznie nie nadążały zapisać wszystkiego, więc musiały wybierać najważniejsze informacje i ujmować je własnymi słowami. To właśnie ten wysiłek — selekcja i przetwarzanie — sprawia, że wiedza zostaje w głowie na dłużej. Piszący na laptopie często przepisywali wykład niemal dosłownie, bez zastanowienia. Moim zdaniem warto więc wrócić do zwykłego zeszytu, przynajmniej na lekcjach wymagających zrozumienia materiału. Klawiatura kusi szybkością, ale szybciej nie zawsze znaczy skuteczniej.",
+      "opcje": [
+        "Warto wrócić do zwykłego zeszytu, przynajmniej na lekcjach wymagających zrozumienia materiału.",
+        "Naukowcy z Uniwersytetu w Princeton porównali wyniki studentów notujących ręcznie i na klawiaturze.",
+        "Osoby piszące ręcznie ujmowały najważniejsze informacje własnymi słowami."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "Fakt można zweryfikować (badanie się odbyło albo nie; studenci pisali własnymi słowami albo nie) — dlatego zdania 2. i 3. to fakty. Zdanie 1. zaczyna się od sygnału „Moim zdaniem” i wyraża przekonanie autora, którego nie da się sprawdzić — to opinia. Szukaj słów-sygnałów opinii: „warto”, „moim zdaniem”, „sądzę”, „powinno się”.",
+      "punkty": 2
+    },
+    {
+      "id": "tw-16",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W wierszu osoba mówiąca wyznaje: „straciłem wiarę w ludzi”. Kim jest osoba wypowiadająca te słowa?",
+      "opcje": [
+        "autorem wiersza, który w liryce zawsze opisuje własne przeżycia",
+        "narratorem, który prowadzi akcję utworu",
+        "bohaterem epickim przedstawionym przez narratora",
+        "podmiotem lirycznym — głosem wykreowanym w wierszu, którego nie wolno utożsamiać z autorem"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "W liryce mówi podmiot liryczny — postać stworzona w utworze. Nawet gdy wypowiada się w pierwszej osobie, nie mamy prawa uznać, że to sam poeta zwierza się nam ze swojego życia. Narrator należy do epiki, nie do liryki. Mylenie autora z podmiotem lirycznym (i z narratorem) to klasyczna pułapka egzaminacyjna — CKE wraca do niej regularnie.",
+      "punkty": 2
+    },
+    {
+      "id": "tw-17",
+      "modul": "B",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W pismach urzędowych często czytamy: „Decyzja została podjęta”, zamiast „Urzędnik podjął decyzję”. Jaką funkcję pełni tu strona bierna?",
+      "opcje": [
+        "Kieruje uwagę na samo działanie i jego rezultat, a wykonawcę odsuwa na dalszy plan — nadaje wypowiedzi oficjalny, bezosobowy charakter.",
+        "Sprawia, że zdanie jest krótsze i łatwiejsze do zapamiętania.",
+        "Podkreśla emocje osoby, która podjęła decyzję.",
+        "Wskazuje, że czynność dopiero się wydarzy."
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Strona bierna przesuwa akcent: ważny staje się rezultat („decyzja”), a nie wykonawca. Dlatego styl urzędowy tak ją lubi — brzmi oficjalnie i bezosobowo. Zauważ, że zdanie w stronie biernej wcale nie jest krótsze, nie mówi o emocjach ani o przyszłości. Pytania o FUNKCJĘ konstrukcji językowej („po co jej użyto?”) to jeden z akcentów egzaminu 2027.",
+      "punkty": 2
+    },
+    {
+      "id": "tw-18",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W finale dramatu Balladyna — już jako królowa pełniąca rolę sędziego — trzykrotnie wydaje wyrok śmierci na sprawcę zbrodni, nie ujawniając, że sama je popełniła. Chwilę później ginie rażona piorunem. Jak można rozumieć tę scenę?",
+      "opcje": [
+        "To przypadek — burza nadeszła niespodziewanie i nie ma związku z akcją dramatu.",
+        "To dowód niewinności Balladyny — natura się pomyliła.",
+        "To zemsta Goplany za los Grabca.",
+        "To wymierzenie sprawiedliwości: Balladyna sama osądziła własne zbrodnie, a piorun wykonuje wyrok — zło zostaje ukarane przez siłę wyższą."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Słowacki buduje tu gorzką ironię losu: Balladyna, sądząc „nieznanych” zbrodniarzy, w istocie skazuje samą siebie — a piorun natychmiast wykonuje wyrok. Natura (siła wyższa) dopełnia sprawiedliwości, której nie zdołali wymierzyć ludzie. To ważny wniosek interpretacyjny: w świecie „Balladyny” zbrodnia nie może ujść bezkarnie, nawet gdy zbrodniarz sięga po koronę.",
+      "punkty": 2
+    }
+  ]
+}

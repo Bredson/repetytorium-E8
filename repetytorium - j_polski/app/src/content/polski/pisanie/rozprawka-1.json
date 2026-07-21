@@ -1,0 +1,36 @@
+{
+  "id": "rozprawka-1",
+  "modul": "F",
+  "forma": "rozprawka",
+  "tytul": "Rozprawka — schemat, teza, argumenty",
+  "czasMin": 40,
+  "pigulka": "Rozprawka to najważniejsza forma na egzaminie — wypracowanie daje aż 20 z 45 punktów. Twoim zadaniem jest zająć stanowisko (TEZA — jesteś pewny/pewna; HIPOTEZA — dopiero sprawdzasz) i udowodnić je argumentami. Każdy argument = twierdzenie + przykład z lektury + wniosek. Obowiązkowo odwołaj się do lektury obowiązkowej: podaj tytuł, autora, bohatera i KONKRETNĄ scenę — samo „w Dziadach też tak było\" nie wystarczy. Uwaga na dwa progi: praca poniżej 180 wyrazów jest oceniana TYLKO za treść (max 7 pkt), a błąd kardynalny (sprzeczny z lekturą, np. „Balladyna zabiła matkę\") zeruje punkty za kompetencje literackie.",
+  "planFormy": [
+    "WSTĘP: wprowadzenie w temat (2-3 zdania) + wyraźna TEZA (Twoje stanowisko)",
+    "ARGUMENT 1: twierdzenie → przykład z lektury obowiązkowej (tytuł, autor, bohater, scena) → wniosek cząstkowy",
+    "ARGUMENT 2: twierdzenie → przykład z innego utworu lub drugiej lektury → wniosek cząstkowy",
+    "ZAKOŃCZENIE: potwierdzenie tezy innymi słowami + myśl uogólniająca",
+    "Każda część = osobny akapit (wcięcie lub pusta linia)",
+    "Łączniki argumentacji: „po pierwsze\", „ponadto\", „warto zauważyć, że\", „przykładem może być\", „z tego wynika, że\"",
+    "Minimum 200 wyrazów — poniżej 180 tracisz punkty za język, styl i kompozycję"
+  ],
+  "zadanie": {
+    "id": "f2-open-01",
+    "modul": "F",
+    "typ": "open-long",
+    "minSlow": 200,
+    "tresc": "Napisz rozprawkę, w której rozważysz trafność stwierdzenia: „To, jakimi jesteśmy ludźmi, zależy od nas samych\". W argumentacji odwołaj się do wybranej lektury obowiązkowej oraz do innego utworu literackiego. Twoja praca powinna liczyć co najmniej 200 wyrazów.",
+    "wzorzec": "Każdy człowiek codziennie podejmuje decyzje — drobne i wielkie. To one, powtarzane dzień po dniu, budują nasz charakter. Uważam, że to, jakimi jesteśmy ludźmi, zależy przede wszystkim od nas samych, a nie od okoliczności czy innych osób. Przekonują mnie o tym losy bohaterów literackich.\n\nPo pierwsze, o prawdziwości tej tezy świadczy historia widma złego pana z „Dziadów cz. II\" Adama Mickiewicza. Dziedzic wsi za życia sam wybierał okrucieństwo: odmówił głodnemu resztek z wigilijnego stołu i wygnał na mróz wdowę z dzieckiem. Nikt nie zmuszał go do bezduszności — była ona jego świadomym wyborem. Dlatego po śmierci cierpi wieczny głód, a chór ptaków przypomina mu, że „kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże\". Mickiewicz pokazuje, że pan sam zapracował na swoją karę.\n\nPonadto trafność stwierdzenia potwierdza „Balladyna\" Juliusza Słowackiego. Tytułowa bohaterka i jej siostra Alina wychowały się w tej samej ubogiej chacie, a wyrosły na zupełnie różne osoby. To Balladyna zdecydowała się zabić siostrę dla korony, a potem mordowała dalej, by ukryć pierwszą zbrodnię. Każdy kolejny występek był jej wyborem — dlatego w finale, sądząc jako królowa własne zbrodnie, sama wydaje na siebie wyrok śmierci.\n\nOba przykłady dowodzą, że charakter nie jest nam dany raz na zawsze. Okoliczności bywają trudne, ale to my decydujemy, czy będziemy okrutni, czy ludzcy. Jesteśmy tym, co wybieramy.",
+    "kryteriaSamooceny": [
+      "Czy mam wyraźną TEZĘ we wstępie (jasne stanowisko wobec tematu)?",
+      "Czy mam co najmniej DWA rozwinięte argumenty i każdy kończy się wnioskiem?",
+      "Czy odwołuję się do lektury obowiązkowej FUNKCJONALNIE: tytuł, autor, bohater i konkretna scena — bez błędu rzeczowego?",
+      "Czy praca ma wstęp, rozwinięcie i zakończenie w OSOBNYCH akapitach, a zakończenie potwierdza tezę?",
+      "Czy styl jest jednolity i stosowny do rozprawki (bez kolokwializmów typu „fajny\", „super\")?",
+      "Czy używam słownictwa argumentacyjnego („po pierwsze\", „ponadto\", „z tego wynika\") i zróżnicowanych zdań?",
+      "Czy sprawdziłem/sprawdziłam pisownię (u/ó, ż/rz, ch/h, „nie\" z czasownikami, wielkie litery w tytułach)?",
+      "Czy postawiłem/postawiłam przecinki przed „że\", „który\", „ponieważ\" i praca liczy co najmniej 200 wyrazów?"
+    ],
+    "punkty": 20
+  }
+}

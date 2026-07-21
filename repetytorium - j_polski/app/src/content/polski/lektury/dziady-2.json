@@ -1,0 +1,404 @@
+{
+  "id": "dziady-2",
+  "tytul": "Dziady cz. II",
+  "autor": "Adam Mickiewicz",
+  "gatunek": {
+    "nazwa": "dramat romantyczny",
+    "cechy": [
+      "Świat realny i fantastyczny istnieją obok siebie — żywi wieśniacy i duchy spotykają się w jednej kaplicy.",
+      "Ludowość — obrzęd dziadów, wierzenia i moralność prostego ludu są źródłem prawdy o świecie.",
+      "Synkretyzm rodzajowy — dramat łączy elementy liryki (pieśni, zaklęcia) i epiki (opowieści duchów).",
+      "Obecność chóru — chór wieśniaków komentuje wydarzenia i powtarza nauki moralne jak w tragedii antycznej.",
+      "Tajemnica i otwarte zakończenie — milczące Widmo nie podlega regułom obrzędu, a jego historia pozostaje niewyjaśniona.",
+      "Odrzucenie klasycznych reguł — brak zasady trzech jedności w klasycznym rygorze, nastrój grozy i mroku."
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Mapa fabuły — przebieg obrzędu",
+      "tresc": "Cała akcja to jeden obrzęd dziadów prowadzony nocą w kaplicy cmentarnej. Guślarz wywołuje kolejno trzy kategorie duchów: lekkie, ciężkie i pośrednie. Zapamiętaj kolejność — to ulubione pytanie egzaminacyjne.",
+      "punkty": [
+        "Noc Zaduszek — wieśniacy gromadzą się w kaplicy cmentarnej, Guślarz rozpoczyna obrzęd.",
+        "Zamknięcie drzwi, zgaszenie świateł — 'Ciemno wszędzie, głucho wszędzie'.",
+        "1. Duchy LEKKIE: Józio i Rózia (dzieci) — proszą o dwa ziarnka gorczycy.",
+        "Przestroga dzieci: kto nie zaznał goryczy, nie zazna słodyczy w niebie.",
+        "2. Duch CIĘŻKI: Widmo złego pana (dziedzica wsi) — dręczony przez ptactwo (kruka i sowę).",
+        "Chór nocnego ptactwa odmawia mu nawet dwóch ziaren pszenicy i kropli wody.",
+        "Przestroga złego pana: kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże.",
+        "3. Duch POŚREDNI: Zosia (pasterka) — 'nie dotknęła ziemi ni razu', musi czekać jeszcze dwa lata.",
+        "Przestroga Zosi: kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie.",
+        "Finał: pojawia się milczące Widmo z raną w sercu — nie reaguje na zaklęcia Guślarza.",
+        "Widmo podąża wzrokiem za Pasterką w żałobie i wychodzi za nią — obrzęd zostaje przerwany, tajemnica nierozwiązana."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "swiat",
+      "tytul": "Czas, miejsce, obrzęd — świat przedstawiony",
+      "tresc": "Dziady to przedchrześcijański obrzęd ku czci zmarłych, obchodzony na Litwie i Białorusi. Mickiewicz opatrzył dramat mottem z 'Hamleta' Szekspira: 'Są dziwy w niebie i na ziemi, o których ani śniło się waszym filozofom'.",
+      "punkty": [
+        "Czas: noc Zaduszek (przełom października i listopada) — granica między światem żywych i umarłych.",
+        "Miejsce: kaplica cmentarna na wsi, prawdopodobnie na Litwie — przestrzeń zamknięta, mroczna, obrzędowa.",
+        "Obrzęd dziadów: lud przywołuje dusze czyśćcowe, by ofiarować im jedzenie i modlitwę oraz ulżyć w cierpieniu.",
+        "Połączenie wierzeń pogańskich (zaklęcia, kadzidło, kocioł wódki) z chrześcijańskimi (czyściec, zbawienie).",
+        "Uczestnicy: Guślarz (mistrz ceremonii), chór wieśniaków, starzec — zbiorowość ludowa.",
+        "Motto z Szekspira zapowiada romantyczne przekonanie: świat duchowy jest realny, choć rozum go nie ogarnia."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka — wina, kara i pełnia człowieczeństwa",
+      "tresc": "Każdy duch ilustruje inną naukę moralną. Razem tworzą ludowy kodeks etyczny: nie ma winy bez kary, a pełnym człowiekiem jest ten, kto doświadczył wszystkiego — i cierpienia, i radości, i miłości.",
+      "punkty": [
+        "Dzieci — życie bez cierpienia jest niepełne; sama beztroska nie wystarczy do zbawienia.",
+        "Zły pan — najcięższa wina to brak miłosierdzia; kto za życia nie był człowiekiem dla innych, po śmierci nie otrzyma pomocy od ludzi.",
+        "Zosia — życie bez miłości i bliskości z ludźmi ('nie dotknęła ziemi') też jest niepełne; obojętność na uczucia innych to wina.",
+        "Moralność ludowa: sprawiedliwość istnieje zawsze — jeśli nie na ziemi, to po śmierci.",
+        "Kary są dopasowane do win (np. zły pan cierpi głód i jest dręczony przez duchy skrzywdzonych — kruka i sowę).",
+        "Człowieczeństwo = pełnia doświadczeń: gorycz i słodycz, praca i zabawa, miłość ziemska i duchowa.",
+        "Milczące Widmo wymyka się tej prostej moralistyce — istnieją cierpienia, których obrzęd i lud nie potrafią wyjaśnić."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Dziady II jako dramat romantyczny",
+      "tresc": "Na egzaminie musisz umieć nie tylko nazwać gatunek, ale też pokazać jego cechy na przykładach z tekstu. Oto gotowe pary cecha + dowód.",
+      "punkty": [
+        "Świat fantastyczny obok realnego → duchy dzieci, widmo dziedzica i Zosia zjawiają się wśród żywych wieśniaków.",
+        "Ludowość → obrzęd dziadów, gwara obrzędowa, wiara ludu w duchy i sprawiedliwość pozaziemską.",
+        "Chór → wieśniacy powtarzają przestrogi duchów, nadając im rangę prawdy zbiorowej.",
+        "Nastrój grozy → noc, cmentarz, zamknięta kaplica, refren 'Ciemno wszędzie, głucho wszędzie, co to będzie, co to będzie?'.",
+        "Otwarta, luźna kompozycja → dramat jest fragmentem większej całości (cz. II obok cz. IV i III), kończy się zagadką.",
+        "Synkretyzm → w dramat wplecione są pieśni, zaklęcia i opowieści — mieszanie rodzajów literackich."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Dziady II w wypracowaniu",
+      "tresc": "Dziady cz. II to lektura obowiązkowa — możesz się do niej odwołać w rozprawce, przemówieniu i opowiadaniu. Kluczem jest KONKRETNA scena jako dowód, nie ogólnik. Ogólnik bez sceny = ryzyko zarzutu, że nie znasz lektury.",
+      "punkty": [
+        "Teza 'cierpienie kształtuje człowieka' → argument: dzieci nie zaznały goryczy, więc nie mogą osiągnąć nieba.",
+        "Teza 'trzeba być wrażliwym na krzywdę innych' → argument: zły pan odmówił pomocy głodnemu i wdowie z dzieckiem — po śmierci sam cierpi głód, dręczony przez kruka i sowę.",
+        "Teza 'miłość i bliskość są niezbędne w życiu' → argument: Zosia drwiła z uczuć zalotników, dlatego 'wiatr nią jak piórkiem pomiata' między niebem a ziemią.",
+        "Teza 'tradycja łączy pokolenia' → argument: obrzęd dziadów jako spotkanie żywych ze zmarłymi, pamięć o przodkach.",
+        "Teza 'nie wszystko da się wyjaśnić rozumem' → argument: milczące Widmo, wobec którego zawodzą zaklęcia Guślarza + motto z Szekspira.",
+        "Do opowiadania: możesz wykorzystać realia obrzędu (noc, kaplica, Guślarz, przywołanie ducha) — pilnuj zgodności z lekturą (błąd kardynalny!).",
+        "Zawsze podawaj: tytuł, autora, bohatera i KONKRETNĄ scenę-dowód."
+      ],
+      "czasMin": 5
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Guślarz",
+      "kim": "Przewodnik obrzędu dziadów, mistrz ceremonii — łącznik między światem żywych i umarłych.",
+      "cechy": ["doświadczony w obrzędach", "stanowczy wobec duchów", "bezradny wobec milczącego Widma"],
+      "scenyDowody": [
+        "Wywołuje kolejno duchy zaklęciami i pyta każdego: 'Czego potrzebujesz, duszeczko, żeby się dostać do nieba?'.",
+        "Odprawia duchy formułą 'A kysz, a kysz!', gdy otrzymają to, czego chciały (lub gdy pomóc nie można).",
+        "W finale nie potrafi ani przegnać, ani zrozumieć milczącego Widma — obrzęd zostaje przerwany."
+      ],
+      "przestroga": null
+    },
+    {
+      "imie": "Józio i Rózia",
+      "kim": "Duchy lekkie — dzieci, które zmarły młodo i nie zaznały w życiu żadnego cierpienia.",
+      "cechy": ["niewinne", "beztroskie", "proszą o drobiazg — dwa ziarnka gorczycy"],
+      "scenyDowody": [
+        "Przylatują pod kopułą kaplicy jako 'aniołki' i siadają na głowie matki (Kruszyny).",
+        "Proszą o dwa ziarnka gorczycy, bo do nieba nie wpuszcza ich nadmiar słodyczy życia.",
+        "Chór powtarza ich przestrogę, utrwalając naukę moralną."
+      ],
+      "przestroga": "Kto nie doznał goryczy ni razu, ten nie dozna słodyczy w niebie."
+    },
+    {
+      "imie": "Widmo złego pana",
+      "kim": "Duch ciężki — zmarły dziedzic wsi, za życia okrutny i bezlitosny dla poddanych.",
+      "cechy": ["okrutny", "bez miłosierdzia", "skazany na wieczny głód i pragnienie"],
+      "scenyDowody": [
+        "Dręczy go chmara nocnego ptactwa, która wydziera mu każdy kęs jedzenia.",
+        "Kruk to duch chłopa, którego pan kazał zakatować za zerwanie kilku jabłek z pańskiego sadu.",
+        "Sowa to duch wdowy z dzieckiem, którą pan w mroźny wieczór wygnał sprzed drzwi.",
+        "Prosi tylko o dwa ziarna pszenicy i kroplę wody — ale nawet tego nie może otrzymać."
+      ],
+      "przestroga": "Kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże."
+    },
+    {
+      "imie": "Zosia",
+      "kim": "Duch pośredni — piękna pasterka, zmarła w wieku dziewiętnastu lat; za życia drwiła z uczuć zalotników.",
+      "cechy": ["piękna", "próżna i obojętna na miłość", "zawieszona między niebem a ziemią"],
+      "scenyDowody": [
+        "Zjawia się jako zjawisko piękne i lekkie — 'wiatr nią jak piórkiem pomiata'.",
+        "Wspomina, że śmiała się z zalotników (m.in. odrzuciła Olesia), nie kochając nikogo.",
+        "Dowiaduje się, że musi czekać jeszcze dwa lata, zanim wejdzie do nieba — chłopcy nie mogą jej pomóc, ściągając ją do ziemi."
+      ],
+      "przestroga": "Kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie."
+    },
+    {
+      "imie": "Widmo milczące",
+      "kim": "Tajemniczy duch (upiór) z krwawą raną w sercu, pojawiający się na końcu obrzędu bez wezwania.",
+      "cechy": ["milczący", "nieposłuszny zaklęciom", "wpatrzony w Pasterkę w żałobie"],
+      "scenyDowody": [
+        "Pojawia się blade, z raną w sercu, i wskazuje na nią ręką — nie odpowiada na żadne pytania Guślarza.",
+        "Nie reaguje na zaklęcia i egzorcyzmy — obrzęd wobec niego zawodzi.",
+        "Wychodzi z kaplicy, krok w krok podążając za Pasterką w żałobie — zapowiedź historii nieszczęśliwej miłości (rozwiniętej w cz. IV)."
+      ],
+      "przestroga": null
+    },
+    {
+      "imie": "Chór wieśniaków",
+      "kim": "Zbiorowość ludowa uczestnicząca w obrzędzie — głos wspólnoty i jej moralności.",
+      "cechy": ["wierzący w świat duchów", "współczujący", "strażnik tradycji"],
+      "scenyDowody": [
+        "Powtarza refren 'Ciemno wszędzie, głucho wszędzie, co to będzie, co to będzie?' — buduje nastrój grozy.",
+        "Po każdym duchu powtarza jego przestrogę — zamienia jednostkową historię w naukę dla wszystkich.",
+        "Pomaga Guślarzowi w obrzędzie (światła, kadzidło, jedzenie dla duchów)."
+      ],
+      "przestroga": null
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "wina i kara",
+      "przyklad": "Zły pan za okrucieństwo wobec poddanych cierpi wieczny głód, dręczony przez duchy swoich ofiar — kruka i sowę.",
+      "wWypracowaniu": "Do tezy 'każdy czyn ma konsekwencje' lub 'zło zostaje ukarane' — pokaż zasadę: kara jest dopasowana do winy i nieuchronna."
+    },
+    {
+      "motyw": "miłosierdzie i człowieczeństwo",
+      "przyklad": "Pan odmówił chłopu jabłek, a wdowie schronienia; teraz 'człowiek nic mu nie pomoże', bo sam nie był człowiekiem.",
+      "wWypracowaniu": "Do tezy 'trzeba być wrażliwym na los innych' — argument: człowieczeństwo mierzy się stosunkiem do słabszych."
+    },
+    {
+      "motyw": "obrzęd i tradycja ludowa",
+      "przyklad": "Nocne dziady w kaplicy: zaklęcia Guślarza, jedzenie i picie dla duchów, wspólnota żywych i umarłych.",
+      "wWypracowaniu": "Do tezy 'tradycja łączy pokolenia' lub 'pamięć o zmarłych jest obowiązkiem żywych'."
+    },
+    {
+      "motyw": "sprawiedliwość pozaziemska",
+      "przyklad": "Każdy duch otrzymuje po śmierci dokładnie to, na co zasłużył życiem — od lekkiej pokuty dzieci po mękę złego pana.",
+      "wWypracowaniu": "Do tezy 'sprawiedliwość zawsze zwycięża' — zaznacz, że w świecie ludowym wyrównanie krzywd następuje po śmierci."
+    },
+    {
+      "motyw": "cierpienie jako warunek pełni człowieczeństwa",
+      "przyklad": "Dzieci nie mogą wejść do nieba, bo nie zaznały goryczy; Zosia — bo nie zaznała ziemskiej miłości.",
+      "wWypracowaniu": "Do tezy 'cierpienie i trudne doświadczenia kształtują człowieka' — pełne życie wymaga i radości, i bólu, i miłości."
+    },
+    {
+      "motyw": "tajemnica i niewytłumaczalność świata",
+      "przyklad": "Milczące Widmo z raną w sercu nie podlega zaklęciom; motto z 'Hamleta' o dziwach, o których 'ani śniło się filozofom'.",
+      "wWypracowaniu": "Do tezy 'nie wszystko można wyjaśnić rozumem' — romantyczne przekonanie o istnieniu świata duchowego."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "dz2-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kiedy i gdzie rozgrywa się akcja Dziadów cz. II?",
+      "opcje": [
+        "W noc świętojańską, na leśnej polanie",
+        "W Wigilię, w wiejskiej chacie",
+        "W noc Zaduszek, w kaplicy cmentarnej",
+        "W noc listopadową, w dworze dziedzica"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Obrzęd dziadów odprawia się w noc Zaduszek (święto zmarłych) w zamkniętej kaplicy cmentarnej. Czas i miejsce mają znaczenie symboliczne: to granica między światem żywych i umarłych.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kto prowadzi obrzęd dziadów i wywołuje duchy?",
+      "opcje": ["Guślarz", "Starzec", "Ksiądz", "Dziedzic wsi"],
+      "poprawna": 0,
+      "wyjasnienie": "Obrzędem kieruje Guślarz — ludowy mistrz ceremonii, który zaklęciami przywołuje i odprawia duchy. Uwaga na pułapkę: ksiądz pojawia się w Dziadach cz. IV, nie w cz. II.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Duchy dzieci proszą o dwa ziarnka gorczycy.",
+        "Widmo złego pana otrzymuje od wieśniaków jedzenie i wodę.",
+        "Zosia musi czekać jeszcze dwa lata, zanim wejdzie do nieba."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Dzieci proszą o symboliczne ziarnka gorczycy (odrobinę goryczy). Złemu panu NIE można pomóc — ptactwo wydziera mu każdy kęs, bo za życia sam odmawiał pomocy. Zosia usłyszała, że do nieba wejdzie dopiero za dwa lata.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wskaż poprawną kolejność pojawiania się duchów podczas obrzędu.",
+      "opcje": [
+        "Zosia → dzieci → zły pan → Widmo milczące",
+        "Józio i Rózia → zły pan → Zosia → Widmo milczące",
+        "Zły pan → Zosia → dzieci → Widmo milczące",
+        "Widmo milczące → dzieci → zły pan → Zosia"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Guślarz wywołuje duchy według 'ciężaru' win: najpierw lekkie (dzieci), potem ciężkie (zły pan), na końcu pośrednie (Zosia). Milczące Widmo zjawia się samo, bez wezwania, na końcu obrzędu. Kolejność ma sens moralny — od win najmniejszych po tajemnicę.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Która przestroga jest związana z duchem Zosi?",
+      "opcje": [
+        "Kto nie doznał goryczy ni razu, ten nie dozna słodyczy w niebie.",
+        "Kto nie był ni razu człowiekiem, temu człowiek nic nie pomoże.",
+        "Kto nie dotknął ziemi ni razu, ten nigdy nie może być w niebie.",
+        "Kto za życia choć raz był w niebie, ten po śmierci nie trafi od razu."
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Zosia 'nie dotknęła ziemi' — żyła w oderwaniu od ludzi, drwiąc z miłości zalotników. Pierwsza przestroga należy do dzieci, druga do złego pana. Mylenie przestróg to klasyczny błąd na egzaminie — ucz się ich parami: duch + nauka.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Które cechy dramatu romantycznego występują w Dziadach cz. II? Wskaż wszystkie poprawne.",
+      "opcje": [
+        "Współistnienie świata realnego i fantastycznego",
+        "Ścisłe przestrzeganie zasady trzech jedności i pełna regularność kompozycji",
+        "Ludowość — obrzęd i moralność ludu jako źródło prawdy",
+        "Obecność chóru komentującego wydarzenia"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Dramat romantyczny łamie klasyczne reguły — kompozycja jest luźna i otwarta (zagadka Widma), więc odpowiedź o 'pełnej regularności' jest fałszywa. Pozostałe cechy widać wprost: duchy wśród żywych, obrzęd ludowy, chór wieśniaków.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Kim są kruk i sowa dręczące widmo złego pana?",
+      "opcje": [
+        "Diabłami wysłanymi z piekła, by pilnować grzesznika",
+        "Duchami skrzywdzonych: chłopa skatowanego za jabłka i wdowy wygnanej w mróz",
+        "Zaklętymi sługami, którzy zdradzili swojego pana",
+        "Zwykłym nocnym ptactwem, które symbolizuje głód"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Kruk i sowa to duchy ofiar dziedzica: chłopak został śmiertelnie ukarany za zerwanie jabłek z pańskiego sadu, a wdowę z dzieckiem pan odprawił sprzed drzwi w mroźny wieczór. Kara jest lustrem winy — ofiary odmawiają panu tego, czego on odmówił im.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Jaką funkcję pełni chór wieśniaków, powtarzający po każdym duchu jego przestrogę?",
+      "opcje": [
+        "Ośmiesza duchy i podważa ich słowa",
+        "Wprowadza wątek komiczny dla rozluźnienia nastroju",
+        "Relacjonuje wydarzenia osobom stojącym poza kaplicą",
+        "Utrwala naukę moralną i nadaje jej rangę prawdy całej wspólnoty"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Chór zamienia jednostkową historię ducha w uniwersalną naukę — skoro powtarza ją cała wspólnota, staje się ona zbiorową mądrością ludu. Pytanie o FUNKCJĘ (po co to jest w tekście?) to typowe zadanie egzaminacyjne — nie wystarczy wiedzieć, że chór istnieje.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Co — w świetle całej lektury — oznacza pełnia człowieczeństwa?",
+      "opcje": [
+        "Doświadczenie wszystkiego: i cierpienia, i radości, i miłości, i bliskości z ludźmi",
+        "Życie bez grzechu i unikanie wszelkiego zła",
+        "Beztroskie, radosne dzieciństwo trwające całe życie",
+        "Wierność obrzędom i tradycji przodków"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Trzy przestrogi czytane razem tworzą jedną naukę: do pełni człowieczeństwa potrzeba goryczy (dzieci), miłosierdzia wobec innych (zły pan) i ziemskiej miłości (Zosia). Samo unikanie zła nie wystarczy — dzieci i Zosia nie zgrzeszyły ciężko, a i tak nie mogą wejść do nieba.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Dlaczego pojawienie się milczącego Widma jest tak ważne dla wymowy dramatu?",
+      "opcje": [
+        "Potwierdza, że obrzęd dziadów zawsze działa na każdego ducha",
+        "Pokazuje, że Guślarz jest oszustem, a duchy nie istnieją",
+        "Wymyka się regułom obrzędu — pokazuje, że istnieją cierpienia, których lud nie umie wyjaśnić",
+        "Kończy dramat wesołym akcentem pojednania żywych i umarłych"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Widmo nie odpowiada na zaklęcia i nie prosi o nic — moralny porządek obrzędu wobec niego zawodzi. To romantyczna tajemnica (por. motto z 'Hamleta') i pomost do Dziadów cz. IV, gdzie historia nieszczęśliwego kochanka zostaje rozwinięta.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Które wydarzenie NIE pochodzi z Dziadów cz. II?",
+      "opcje": [
+        "Duchy dzieci siadają na głowie swojej matki",
+        "Nocne ptactwo wydziera złemu panu jedzenie",
+        "Zosia unosi się nad ziemią, kołysana wiatrem",
+        "Pustelnik rozmawia z Księdzem o swojej nieszczęśliwej miłości"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Rozmowa Pustelnika (Gustawa) z Księdzem to Dziady cz. IV. Przypisanie bohaterowi lub lekturze cudzych wydarzeń w wypracowaniu to błąd rzeczowy — a jeśli dotyczy lektury obowiązkowej, może zostać uznany za błąd kardynalny, który przekreśla punkty.",
+      "punkty": 1
+    },
+    {
+      "id": "dz2-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Do których tez rozprawki Dziady cz. II pasują jako trafny argument? Wskaż wszystkie poprawne.",
+      "opcje": [
+        "Trudne doświadczenia są potrzebne, by stać się pełnym człowiekiem",
+        "Obojętność na krzywdę innych zasługuje na potępienie",
+        "Pieniądze i władza zapewniają szczęście po śmierci",
+        "Pamięć o zmarłych i tradycja łączą wspólnotę"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Lektura wprost zaprzecza tezie o pieniądzach i władzy — bogaty pan cierpi najciężej ze wszystkich duchów. Pozostałe tezy mają w tekście konkretne sceny-dowody: przestroga dzieci, kara złego pana, obrzęd łączący żywych i umarłych.",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    { "id": "dz2-f-01", "przod": "Kto prowadzi obrzęd dziadów i jakimi słowami odprawia duchy?", "tyl": "Guślarz — mistrz ceremonii; duchy odprawia formułą 'A kysz, a kysz!'.", "kategoria": "bohater" },
+    { "id": "dz2-f-02", "przod": "Józio i Rózia — o co proszą i czego ich historia uczy?", "tyl": "Proszą o dwa ziarnka gorczycy. Nauka: życie bez odrobiny goryczy jest niepełne — sama beztroska nie wystarczy do zbawienia.", "kategoria": "bohater" },
+    { "id": "dz2-f-03", "przod": "Widmo złego pana — jaka wina i jaka kara?", "tyl": "Wina: okrucieństwo i brak miłosierdzia dla poddanych. Kara: wieczny głód i pragnienie; nocne ptactwo wydziera mu każdy kęs.", "kategoria": "bohater" },
+    { "id": "dz2-f-04", "przod": "Kim są kruk i sowa w historii złego pana?", "tyl": "Duchy jego ofiar: kruk — chłopak śmiertelnie ukarany za zerwanie jabłek; sowa — wdowa z dzieckiem wygnana sprzed drzwi w mróz.", "kategoria": "bohater" },
+    { "id": "dz2-f-05", "przod": "Zosia — jaka wina i jaka kara?", "tyl": "Wina: obojętność na miłość, drwiła z zalotników, 'nie dotknęła ziemi'. Kara: zawieszona między niebem a ziemią, musi czekać jeszcze dwa lata.", "kategoria": "bohater" },
+    { "id": "dz2-f-06", "przod": "Widmo milczące — czym różni się od pozostałych duchów?", "tyl": "Zjawia się bez wezwania, milczy, ma ranę w sercu, nie słucha zaklęć Guślarza; podąża za Pasterką w żałobie. Zapowiedź Dziadów cz. IV.", "kategoria": "bohater" },
+    { "id": "dz2-f-07", "przod": "Dokończ przestrogę duchów dzieci: 'Kto nie doznał goryczy ni razu...'", "tyl": "'...Ten nie dozna słodyczy w niebie.'", "kategoria": "cytat" },
+    { "id": "dz2-f-08", "przod": "Dokończ przestrogę złego pana: 'Kto nie był ni razu człowiekiem...'", "tyl": "'...Temu człowiek nic nie pomoże.'", "kategoria": "cytat" },
+    { "id": "dz2-f-09", "przod": "Dokończ przestrogę Zosi: 'Kto nie dotknął ziemi ni razu...'", "tyl": "'...Ten nigdy nie może być w niebie.'", "kategoria": "cytat" },
+    { "id": "dz2-f-10", "przod": "Skąd pochodzi motto Dziadów cz. II i o czym mówi?", "tyl": "Z 'Hamleta' Szekspira: 'Są dziwy w niebie i na ziemi, o których ani śniło się waszym filozofom' — świat duchowy istnieje, choć rozum go nie ogarnia.", "kategoria": "cytat" },
+    { "id": "dz2-f-11", "przod": "Czym jest obrzęd dziadów?", "tyl": "Ludowy (przedchrześcijański) obrzęd ku czci zmarłych: przywoływanie dusz czyśćcowych, ofiarowanie im jadła i modlitwy, by ulżyć ich cierpieniu.", "kategoria": "pojecie" },
+    { "id": "dz2-f-12", "przod": "Wymień 3 cechy dramatu romantycznego widoczne w Dziadach cz. II.", "tyl": "Świat realny obok fantastycznego; ludowość (obrzęd, moralność ludu); luźna, otwarta kompozycja z tajemnicą (+ chór, nastrój grozy).", "kategoria": "pojecie" },
+    { "id": "dz2-f-13", "przod": "Co to jest ludowość w literaturze romantycznej?", "tyl": "Czerpanie z kultury ludu: obrzędów, wierzeń, języka i moralności — lud jest nosicielem prawdy o świecie i sprawiedliwości.", "kategoria": "pojecie" },
+    { "id": "dz2-f-14", "przod": "Na czym polega moralność ludowa w Dziadach cz. II?", "tyl": "Nie ma winy bez kary, kara odpowiada winie, a sprawiedliwość dosięga każdego — jeśli nie za życia, to po śmierci.", "kategoria": "pojecie" },
+    { "id": "dz2-f-15", "przod": "Jaki refren buduje nastrój grozy w dramacie?", "tyl": "'Ciemno wszędzie, głucho wszędzie, / Co to będzie, co to będzie?' — powtarzany przez chór wieśniaków.", "kategoria": "cytat" },
+    { "id": "dz2-f-16", "przod": "Czego o pełni człowieczeństwa uczą razem trzy przestrogi?", "tyl": "Pełny człowiek doświadcza wszystkiego: goryczy i radości, jest miłosierny dla innych i przeżywa ziemską miłość — braku żadnego z tych doświadczeń nie da się niczym zastąpić.", "kategoria": "wartosc" },
+    { "id": "dz2-f-17", "przod": "Dlaczego zły pan cierpi najciężej ze wszystkich duchów?", "tyl": "Bo jego wina jest największa: świadome okrucieństwo wobec słabszych. Miłosierdzie to wartość nadrzędna — kto go odmawiał, sam nie otrzyma pomocy.", "kategoria": "wartosc" },
+    { "id": "dz2-f-18", "przod": "Jak bezpiecznie użyć Dziadów cz. II w rozprawce?", "tyl": "Podaj autora i tytuł, wybierz KONKRETNĄ scenę-dowód (np. kara złego pana) i połącz ją z tezą. Nie mieszaj wydarzeń z cz. IV — to grozi błędem kardynalnym.", "kategoria": "wartosc" }
+  ]
+}

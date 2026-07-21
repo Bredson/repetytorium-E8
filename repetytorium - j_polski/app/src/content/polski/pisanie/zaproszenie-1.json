@@ -1,0 +1,31 @@
+{
+  "id": "zaproszenie-1",
+  "modul": "F",
+  "forma": "zaproszenie",
+  "tytul": "Zaproszenie — krótka forma użytkowa",
+  "pigulka": "Zaproszenie musi odpowiadać na 5 pytań: KTO zaprasza, KOGO, NA CO, KIEDY i GDZIE. Na egzaminie brak choćby jednej z tych informacji to utrata punktu za treść. Dodaj element zachęty (np. bezpośredni zwrot do adresata, wykrzyknienie) i pamiętaj o poprawnej ortografii — błędy obniżają punktację nawet przy dobrej treści.",
+  "planFormy": [
+    "Nagłówek: ZAPROSZENIE",
+    "KTO zaprasza (np. uczniowie klasy 8a, samorząd szkolny)",
+    "KOGO zaprasza (adresat — konkretna osoba lub grupa)",
+    "NA CO (nazwa wydarzenia)",
+    "KIEDY (data i godzina) i GDZIE (miejsce)",
+    "Zachęta do przybycia (zwrot do adresata, wykrzyknienie)"
+  ],
+  "zadanie": {
+    "id": "f1-open-01",
+    "modul": "F",
+    "typ": "open-short",
+    "tresc": "Twoja klasa przygotowała przedstawienie na podstawie „Dziadów cz. II\" Adama Mickiewicza. Napisz ZAPROSZENIE dla rodziców na szkolną premierę spektaklu. Podaj wszystkie niezbędne informacje (kto zaprasza, kogo, na co, kiedy, gdzie) i zachęć do przybycia. Wystarczą 3-4 zdania.",
+    "wzorzec": "ZAPROSZENIE\n\nUczniowie klasy 8a serdecznie zapraszają Rodziców na premierę przedstawienia „Dziady cz. II\" według dramatu Adama Mickiewicza. Spektakl odbędzie się 14 listopada o godzinie 17.00 w auli naszej szkoły. Przygotowaliśmy dla Państwa wieczór pełen tajemnic i emocji — nie może Państwa zabraknąć!\n\nUczniowie klasy 8a z wychowawczynią",
+    "kryteriaSamooceny": [
+      "Czy moje zaproszenie ma nagłówek ZAPROSZENIE (lub równie jasne oznaczenie formy)?",
+      "Czy napisałem/napisałam, KTO zaprasza i KOGO (adresat)?",
+      "Czy podałem/podałam, NA CO zapraszam (nazwa wydarzenia)?",
+      "Czy podałem/podałam, KIEDY (data, godzina) i GDZIE odbywa się wydarzenie?",
+      "Czy jest zdanie zachęcające do przybycia (zwrot do adresata, wykrzyknienie)?",
+      "Czy tekst jest zwięzły (3-4 zdania) i bez błędów ortograficznych oraz interpunkcyjnych?"
+    ],
+    "punkty": 3
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "id": "literackie-1",
+  "modul": "D",
+  "tytul": "Środki stylistyczne i ich funkcje + rodzaje literackie",
+  "teoria": [
+    {
+      "id": "rodzaje-literackie",
+      "tytul": "Trzy rodzaje literackie",
+      "tresc": "Cała literatura dzieli się na trzy rodzaje. EPIKA — jest narrator, który opowiada fabułę (wydarzenia w czasie); gatunki: powieść, opowiadanie, nowela, ballada (mieszana), epopeja, przypowieść, bajka. LIRYKA — mówi podmiot liryczny, wyraża uczucia i przeżycia, zwykle wiersz; gatunki: pieśń, tren, fraszka, sonet. DRAMAT — brak narratora, tekst składa się z dialogów i didaskaliów (wskazówek scenicznych), przeznaczony na scenę; gatunki: komedia, tragedia, dramat romantyczny. Szybki test: kto „mówi\"? Narrator → epika, podmiot liryczny → liryka, tylko postacie → dramat.",
+      "punkty": [
+        "Epika: narrator + fabuła — powieść, nowela, opowiadanie, epopeja",
+        "Liryka: podmiot liryczny + uczucia — pieśń, tren, fraszka",
+        "Dramat: dialogi + didaskalia, brak narratora — komedia, tragedia",
+        "Test: kto mówi? narrator/podmiot liryczny/tylko postacie",
+        "Ballada łączy cechy epiki, liryki i dramatu (np. u Mickiewicza)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "narrator-autor",
+      "tytul": "Autor ≠ narrator ≠ podmiot liryczny (klasyczna pułapka)",
+      "tresc": "Autor to REALNA osoba, która napisała utwór (Adam Mickiewicz). Narrator to GŁOS opowiadający w epice — postać stworzona przez autora. Podmiot liryczny to „ja\" mówiące w wierszu. Nawet gdy poeta pisze o swoich przeżyciach (jak Kochanowski w trenach po śmierci Urszulki), na egzaminie mówimy o podmiocie lirycznym, nie o autorze! Narrator pierwszoosobowy (pamiętnikarski) opowiada jako uczestnik wydarzeń („poszedłem\"), trzecioosobowy — z zewnątrz („poszedł\"). Narrator wszechwiedzący zna myśli wszystkich bohaterów.",
+      "punkty": [
+        "Autor = realny człowiek; narrator/podmiot liryczny = głos w tekście",
+        "W wierszu mówi podmiot liryczny — NIGDY nie pisz „autor czuje\"",
+        "Narrator 1-osobowy: uczestnik („zobaczyłem\"); 3-osobowy: obserwator",
+        "Narrator wszechwiedzący zna myśli i uczucia wszystkich postaci",
+        "Tren: podmiot liryczny może przypominać autora, ale to wciąż kreacja"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "srodki-obrazowe",
+      "tytul": "Środki obrazujące: epitet, porównanie, metafora...",
+      "tresc": "EPITET — określenie rzeczownika, zwykle przymiotnik (złote serce, ciemny las); funkcja: uplastycznia obraz, nadaje cechę. PORÓWNANIE — zestawienie z „jak\", „niby\", „jakby\" (silny jak dąb); funkcja: przybliża coś nieznanego przez znane. METAFORA (przenośnia) — nowe, nieoczywiste znaczenie połączonych wyrazów BEZ „jak\" (morze gwiazd, rzeka ludzi); funkcja: zaskakuje, zmusza do interpretacji. UOSOBIENIE (personifikacja) — rzecz/zwierzę/pojęcie zachowuje się jak CZŁOWIEK (wiatr śpiewa, drzewa szepczą). OŻYWIENIE (animizacja) — rzecz martwa dostaje cechy istoty ŻYWEJ, ale niekoniecznie ludzkiej (cień pełznie, mróz szczypie). Uosobienie to szczególny, „ludzki\" przypadek ożywienia.",
+      "punkty": [
+        "Epitet: określenie rzeczownika — „ciemny las\" (uplastycznia obraz)",
+        "Porównanie: zawsze z „jak/niby/jakby\" — „silny jak dąb\"",
+        "Metafora: nowe znaczenie bez „jak\" — „morze gwiazd\"",
+        "Uosobienie: cechy LUDZKIE — „wiatr śpiewa\"; ożywienie: cechy istoty żywej — „cień pełznie\"",
+        "Na egzaminie pytają o FUNKCJĘ: co ten środek daje tekstowi?"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "srodki-retoryczne",
+      "tytul": "Środki retoryczne: apostrofa, hiperbola, ironia...",
+      "tresc": "APOSTROFA — bezpośredni, uroczysty zwrot do osoby, bóstwa lub pojęcia („Litwo! Ojczyzno moja!\"); funkcja: podniosłość, nawiązanie kontaktu. PYTANIE RETORYCZNE — pytanie bez oczekiwania odpowiedzi („Któż z nas nie marzył?\"); funkcja: pobudza do refleksji, angażuje odbiorcę. ANAFORA — powtórzenie wyrazu na początku kolejnych wersów/zdań; funkcja: rytm, podkreślenie treści. HIPERBOLA — celowa przesada („umieram z głodu\"); funkcja: wzmacnia emocje. IRONIA — słowa znaczą co innego, niż mówią wprost („pięknie się spisałeś\" po porażce); funkcja: kpina, dystans. ONOMATOPEJA — wyraz naśladujący dźwięk (szum, trzask, bęc); funkcja: efekt dźwiękowy, obrazowość.",
+      "punkty": [
+        "Apostrofa: uroczysty zwrot — „Litwo! Ojczyzno moja!\" (podniosłość)",
+        "Pytanie retoryczne: bez odpowiedzi — angażuje i skłania do refleksji",
+        "Anafora: to samo słowo na początku wersów — rytm i nacisk",
+        "Hiperbola: przesada („czekam wieki\"); ironia: sens odwrotny do słów",
+        "Onomatopeja: naśladuje dźwięki — szum, trzask, skrzypieć"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "budowa-wiersza",
+      "tytul": "Budowa wiersza: wers, strofa, rymy",
+      "tresc": "WERS to jedna linijka wiersza. STROFA (zwrotka) to grupa wersów oddzielona światłem (odstępem). RYM to podobne brzmienie zakończeń wersów. Układy rymów: PARZYSTE (sąsiadujące) aabb, KRZYŻOWE (przeplatane) abab, OKALAJĄCE abba. Wiersz bez rymów to wiersz BIAŁY. RYTM powstaje z powtarzalności (np. równa liczba sylab w wersach — wiersz sylabiczny, jak u Kochanowskiego). REFREN — powtarzający się fragment. Na egzaminie policz: liczbę strof, wersów w strofie, sylab w wersie — i nazwij układ rymów, zaznaczając literami końcówki (las-a, czas-a, drzew-b, śpiew-b → aabb).",
+      "punkty": [
+        "Wers = linijka; strofa = zwrotka (grupa wersów)",
+        "Rymy parzyste aabb, krzyżowe abab, okalające abba",
+        "Wiersz biały = bez rymów; refren = powtarzany fragment",
+        "Rytm: równa liczba sylab w wersach (wiersz sylabiczny)",
+        "Metoda: oznacz końcówki wersów literami i odczytaj układ"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "funkcja-srodka",
+      "tytul": "Jak odpowiadać na pytanie o FUNKCJĘ środka",
+      "tresc": "Najniżej punktowane odpowiedzi na egzaminie to te, które tylko NAZYWAJĄ środek. Schemat pełnej odpowiedzi: 1) nazwij środek, 2) zacytuj go, 3) powiedz, CO DAJE w tym konkretnym tekście (jaki obraz tworzy, jakie emocje budzi, co podkreśla). Przykład: „Poeta użył uosobienia »wiatr śpiewa«, dzięki czemu przyroda wydaje się żywa i przyjazna, a nastrój wiersza staje się pogodny\". Uniwersalne funkcje-wytrychy (dopasuj do tekstu, nie wklejaj w ciemno): uplastycznia obraz, buduje nastrój, podkreśla emocje podmiotu, przybliża odbiorcy abstrakcję, nadaje rytm, zwraca uwagę na kluczowe słowo.",
+      "punkty": [
+        "Schemat: nazwij → zacytuj → powiedz, co daje TEMU tekstowi",
+        "Samo nazwanie środka = mało punktów; funkcja = pełne punkty",
+        "Funkcje-wytrychy: uplastycznia, buduje nastrój, podkreśla emocje",
+        "Zawsze łącz funkcję z konkretem z tekstu, nie pisz ogólników",
+        "Ćwicz formułę: „dzięki temu...\", „co sprawia, że...\""
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "d1-q-01",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "„Silny jak dąb\" to przykład:",
+      "opcje": ["porównania", "metafory", "epitetu", "uosobienia"],
+      "poprawna": 0,
+      "wyjasnienie": "Jest łącznik „jak\" — to porównanie. Gdyby napisano „ten chłopak to dąb\", byłaby to metafora (nowe znaczenie bez „jak\").",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-02",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Który rodzaj literacki charakteryzuje się obecnością narratora i fabuły?",
+      "opcje": ["liryka", "dramat", "epika", "publicystyka"],
+      "poprawna": 2,
+      "wyjasnienie": "Epika = narrator opowiadający fabułę (powieść, nowela, opowiadanie). W liryce mówi podmiot liryczny, w dramacie są tylko dialogi postaci i didaskalia. Publicystyka nie jest rodzajem literackim.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-03",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "W wierszu uczucia wyraża podmiot liryczny, a nie autor.",
+        "Didaskalia to wskazówki sceniczne w dramacie.",
+        "Wiersz biały to wiersz o smutnej tematyce."
+      ],
+      "poprawnaMaska": [true, true, false],
+      "wyjasnienie": "Podmiot liryczny to kreacja — nawet gdy przypomina autora. Didaskalia mówią aktorom, jak grać. Wiersz biały to wiersz BEZ RYMÓW — nazwa nie ma nic wspólnego z nastrojem.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-04",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "„Litwo! Ojczyzno moja! ty jesteś jak zdrowie\" — jaki środek stylistyczny otwiera inwokację „Pana Tadeusza\"?",
+      "opcje": ["anafora", "apostrofa", "hiperbola", "onomatopeja"],
+      "poprawna": 1,
+      "wyjasnienie": "Bezpośredni, uroczysty zwrot do ojczyzny to apostrofa — nadaje wypowiedzi podniosły ton. W dalszej części wersu jest też porównanie („jak zdrowie\").",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-05",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Czym różni się uosobienie od ożywienia?",
+      "opcje": [
+        "Niczym — to dwie nazwy tego samego środka",
+        "Uosobienie dotyczy tylko zwierząt, ożywienie tylko przedmiotów",
+        "Ożywienie występuje tylko w epice, uosobienie tylko w liryce",
+        "Uosobienie nadaje cechy ludzkie, ożywienie — cechy istoty żywej"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "„Wiatr śpiewa\" — śpiewanie to czynność ludzka (uosobienie). „Cień pełznie\" — pełzanie to cecha istoty żywej, ale nie człowieka (ożywienie). Każde uosobienie jest ożywieniem, ale nie odwrotnie.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-06",
+      "modul": "D",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz wszystkie gatunki należące do liryki.",
+      "opcje": ["tren", "nowela", "fraszka", "komedia", "pieśń"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "Tren (utwór żałobny), fraszka (krótki, żartobliwy) i pieśń to gatunki liryczne. Nowela należy do epiki, komedia do dramatu.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-07",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Rymy w układzie abab nazywamy:",
+      "opcje": ["parzystymi", "okalającymi", "krzyżowymi", "białymi"],
+      "poprawna": 2,
+      "wyjasnienie": "abab = rymy krzyżowe (przeplatane): rymują się wersy 1-3 i 2-4. Parzyste to aabb, okalające abba. „Białych rymów\" nie ma — biały jest wiersz bez rymów.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-08",
+      "modul": "D",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe.",
+      "opcje": [
+        "„Umieram z nudów\" to hiperbola.",
+        "Narrator wszechwiedzący opowiada wyłącznie o tym, co sam przeżył.",
+        "„Bęc\", „szum\" i „trzask\" to onomatopeje."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "„Umieram z nudów\" to celowa przesada — hiperbola. Narrator wszechwiedzący zna myśli WSZYSTKICH bohaterów i opowiada w 3. osobie; o własnych przeżyciach mówi narrator pierwszoosobowy. Wyrazy naśladujące dźwięki to onomatopeje.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-09",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Kolega po przegranym 0:5 meczu słyszy: „No, pięknie się spisaliście\". Jaki środek zastosowano i jaka jest jego funkcja?",
+      "opcje": [
+        "epitet — uplastycznia obraz meczu",
+        "hiperbola — wyolbrzymia sukces drużyny",
+        "apostrofa — uroczyście chwali zawodników",
+        "ironia — słowa pochwały wyrażają kpinę z porażki"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Sens wypowiedzi jest odwrotny do dosłownych słów: „pochwała\" po klęsce 0:5 to kpina — ironia. Funkcja: wyśmianie, zdystansowanie się. Zauważ schemat odpowiedzi: nazwa + funkcja w KONKRETNEJ sytuacji.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-10",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W wierszu każda z trzech kolejnych strof zaczyna się od słów „Jest taki dzień...\". Jaki to środek i jaka jest jego funkcja?",
+      "opcje": [
+        "anafora — powtórzenie nadaje rytm i podkreśla wyjątkowość tego dnia",
+        "refren — fragment powtarzany na końcu każdej strofy",
+        "metafora — „dzień\" zyskuje nowe, przenośne znaczenie",
+        "pytanie retoryczne — skłania odbiorcę do refleksji"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Powtórzenie tych samych słów NA POCZĄTKU kolejnych strof to anafora. Refren też się powtarza, ale jako osobny, pełny fragment (zwykle po strofie), nie jako początek wersu.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-11",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jan Kochanowski w „Trenie VIII\" pisze o pustce po śmierci córki. Kto — zgodnie z językiem analizy literackiej — wyraża żal w tym utworze?",
+      "opcje": [
+        "narrator trzecioosobowy",
+        "podmiot liryczny",
+        "sam Jan Kochanowski",
+        "Urszulka jako bohaterka liryczna"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Tren to liryka — mówi w nim podmiot liryczny, nawet jeśli jego przeżycia pokrywają się z biografią Kochanowskiego. Pisanie „autor czuje\" to klasyczny błąd obniżający punktację.",
+      "punkty": 1
+    },
+    {
+      "id": "d1-q-12",
+      "modul": "D",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Które uzasadnienie funkcji epitetów w opisie „ciemny, głuchy, nieprzebyty las\" jest najlepsze egzaminacyjnie?",
+      "opcje": [
+        "Nagromadzenie epitetów buduje groźny, tajemniczy nastrój i zapowiada niebezpieczeństwo",
+        "Epitety są ozdobą tekstu i świadczą o talencie autora",
+        "Epitety wydłużają zdanie, dzięki czemu opis jest dokładniejszy",
+        "Epitety rymują się ze sobą i nadają prozie rytm"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Dobra odpowiedź łączy środek z KONKRETNYM efektem w tekście: trzy epitety razem budują nastrój grozy i tajemnicy. „Ozdoba tekstu\" czy „dłuższe zdanie\" to ogólniki, za które egzaminator nie da punktów.",
+      "punkty": 1
+    }
+  ]
+}

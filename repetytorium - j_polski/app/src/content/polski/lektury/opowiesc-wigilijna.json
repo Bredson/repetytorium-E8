@@ -1,0 +1,498 @@
+{
+  "id": "opowiesc-wigilijna",
+  "tytul": "Opowieść wigilijna",
+  "autor": "Charles Dickens",
+  "gatunek": {
+    "nazwa": "opowieść wigilijna (opowiadanie z elementami fantastyki)",
+    "cechy": [
+      "Akcja osadzona w czasie świąt Bożego Narodzenia — święta są tłem i tematem utworu.",
+      "Współistnienie świata realnego (XIX-wieczny Londyn) i fantastycznego (duchy).",
+      "Wyraźny cel moralizatorski — historia ma uczyć dobroci, hojności i miłosierdzia.",
+      "Motyw przemiany wewnętrznej bohatera jako oś fabuły.",
+      "Szczęśliwe, budujące zakończenie — dobro zwycięża.",
+      "Elementy baśniowe połączone z realistycznym obrazem biedy w wiktoriańskim Londynie."
+    ]
+  },
+  "sekcje": [
+    {
+      "id": "fabula",
+      "tytul": "Mapa fabuły — jedna noc, która zmieniła życie",
+      "tresc": "Utwór dzieli się na pięć części (strof): Wigilia i duch Marleya, potem trzy Duchy, na końcu przemiana. Zapamiętaj, KTÓRY duch pokazuje KTÓRĄ scenę — mylenie wizji duchów to najczęstszy błąd na sprawdzianach.",
+      "punkty": [
+        "Wigilia w Londynie: skąpiec Ebenezer Scrooge pracuje w swoim kantorze — odmawia datku na biednych, zbywa siostrzeńca Freda zapraszającego go na obiad i niechętnie daje wolne kanceliście Bobowi Cratchitowi.",
+        "W nocy zjawia się duch Jacoba Marleya — zmarłego wspólnika — skuty łańcuchem z kas, kluczy i sakiewek; ostrzega Scrooge'a i zapowiada odwiedziny trzech Duchów.",
+        "Duch Minionych Wigilii pokazuje przeszłość: samotne dzieciństwo w szkole, ukochaną siostrę Fan, radosną praktykę u wesołego Fezziwiga i zerwane zaręczyny z Belle — która odeszła, bo Scrooge pokochał pieniądze bardziej niż ją.",
+        "Duch Tegorocznej Wigilii pokazuje teraźniejszość: skromną, ale pełną miłości wigilię u Cratchitów (z chorym Malutkim Timem), wesołe święta u Freda oraz dwoje wychudzonych dzieci — Ignorancję i Nędzę.",
+        "Duch Przyszłych Wigilii (milczący, w czarnym całunie) pokazuje przyszłość: śmierć bogacza, którego nikt nie żałuje, a służba rozkrada jego rzeczy; śmierć Malutkiego Tima; wreszcie zaniedbany grób z nazwiskiem… Ebenezer Scrooge.",
+        "Scrooge błaga o szansę i przysięga zmienić życie — budzi się we własnym łóżku w poranek Bożego Narodzenia.",
+        "Przemiana w czyny: anonimowo wysyła Cratchitom wielkiego indyka, przekazuje hojny datek na biednych, idzie na obiad do Freda.",
+        "Nazajutrz podnosi Bobowi pensję i obiecuje pomoc rodzinie; z czasem staje się dla Malutkiego Tima jak drugi ojciec — Tim NIE umiera.",
+        "Finał: Scrooge staje się człowiekiem słynącym z dobroci, a narrator kończy słowami Tima: „Niech nas Bóg błogosławi wszystkich!\"."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "swiat",
+      "tytul": "Świat przedstawiony — wiktoriański Londyn i plan fantastyczny",
+      "tresc": "Dickens łączy dwa plany: realistyczny obraz XIX-wiecznego Londynu z biedą i bogactwem oraz plan fantastyczny — duchy, które służą przemianie bohatera.",
+      "punkty": [
+        "Czas: Wigilia i noc przed Bożym Narodzeniem, XIX wiek; wizje duchów rozciągają czas na przeszłość, teraźniejszość i przyszłość.",
+        "Miejsce: Londyn — kantor Scrooge'a, jego zimny dom, dom Cratchitów, dom Freda, ulice miasta, cmentarz.",
+        "Plan realistyczny: kontrast bogactwa i nędzy w wiktoriańskim Londynie — Dickens znał biedę z dzieciństwa (pracował w fabryce jako dziecko).",
+        "Plan fantastyczny: duch Marleya i trzy Duchy Wigilii — nie straszą dla samego strachu, lecz służą moralnej przemianie bohatera.",
+        "Narracja trzecioosobowa z ciepłym, gawędziarskim narratorem, który komentuje wydarzenia i zwraca się do czytelnika.",
+        "Symbolika zimna i ciepła: mróz i samotność otaczają skąpca, ciepło i światło — domy ludzi kochających (Cratchitowie, Fred)."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "problematyka",
+      "tytul": "Problematyka — czy człowiek może się zmienić?",
+      "tresc": "Odpowiedź Dickensa brzmi: TAK — ale potrzebny jest rachunek sumienia obejmujący całe życie. To wzorcowa lektura do tematów o przemianie, dobroci i odpowiedzialności za innych.",
+      "punkty": [
+        "Przemiana wewnętrzna: Scrooge przechodzi drogę od skąpca i samotnika do człowieka hojnego i otwartego — przemiana jest wiarygodna, bo poprzedza ją wstrząs i rachunek sumienia.",
+        "Chciwość niszczy człowieka: pieniądze kosztowały Scrooge'a miłość (Belle), rodzinę (Fred) i przyjaźń — zostawiły mu tylko zimny dom i samotność.",
+        "Ostrzeżenie Marleya: los wspólnika pokazuje, że za obojętność na ludzi płaci się po śmierci — „interesy\" człowieka to ludzkość, nie kantor.",
+        "Bieda i odpowiedzialność społeczna: rodzina Cratchitów ledwo wiąże koniec z końcem, a od decyzji bogacza zależy życie dziecka — Dickens oskarża obojętność bogatych.",
+        "Ignorancja i Nędza — alegoryczne dzieci pod płaszczem Ducha: ostrzeżenie, że ignorowanie biedy i braku edukacji zagraża całemu społeczeństwu.",
+        "Święta jako próba człowieczeństwa: Boże Narodzenie obnaża, kim naprawdę jesteśmy — Scrooge zaczyna jako ten, który świętami gardzi, a kończy jako ten, kto „umie święcić Wigilię\".",
+        "Czas i pamięć: przeszłość tłumaczy, teraźniejszość sprawdza, przyszłość ostrzega — dopiero spojrzenie na całe życie umożliwia zmianę."
+      ],
+      "czasMin": 5
+    },
+    {
+      "id": "gatunek-sekcja",
+      "tytul": "Opowieść wigilijna jako gatunek — po co Dickensowi duchy?",
+      "tresc": "Na egzaminie pyta się o FUNKCJĘ elementów fantastycznych, nie tylko o ich wyliczenie. Każdy duch ma swoje zadanie w kompozycji — ucz się ich razem z funkcją.",
+      "punkty": [
+        "Duchy jako narzędzie przemiany → nie są ozdobą: bez ich wizji Scrooge nigdy nie zobaczyłby prawdy o sobie; fantastyka służy celowi moralnemu.",
+        "Duch Minionych Wigilii → pokazuje PRZYCZYNY: skąd wzięło się skąpstwo (samotne dzieciństwo, wybór pieniędzy zamiast miłości).",
+        "Duch Tegorocznej Wigilii → pokazuje SKUTKI dla innych: bieda Cratchitów, choroba Tima, puste krzesło przy stole Freda.",
+        "Duch Przyszłych Wigilii → pokazuje KONSEKWENCJE: samotna śmierć, której nikt nie żałuje; milczenie ducha potęguje grozę.",
+        "Kompozycja klamrowa: utwór zaczyna się i kończy w te same święta — ale bohater na końcu jest kimś innym; kontrast „przed\" i „po\" mierzy głębokość przemiany.",
+        "Cechy gatunku (opowieść/powiastka wigilijna — gatunek spopularyzowany przez Dickensa): czas świąt, fantastyka, morał, wzruszenie i szczęśliwe zakończenie."
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "wypracowanie",
+      "tytul": "Opowieść wigilijna w wypracowaniu",
+      "tresc": "To lektura-pewniak do tematów o przemianie — była w arkuszu próbnym 2026. Miej gotowe pary teza → scena-dowód. Zawsze podawaj tytuł, autora, bohatera i konkretną scenę.",
+      "punkty": [
+        "Teza „człowiek może się zmienić\" → argument: Scrooge po nocy z duchami z „zatwardziałego skąpca\" staje się hojnym opiekunem Cratchitów — indyk, podwyżka, troska o Tima.",
+        "Teza „pieniądze nie dają szczęścia\" → argument: bogaty Scrooge jest samotny i zgorzkniały, a przy pieniądzach stracił narzeczoną Belle; ubodzy Cratchitowie mają miłość, której jemu brak.",
+        "Teza „warto pomagać innym / dobro wraca\" → argument: dzięki pomocy Scrooge'a Malutki Tim żyje — w wizji przyszłości bez tej pomocy umierał.",
+        "Teza „przeszłość kształtuje człowieka, ale go nie usprawiedliwia\" → argument: samotne dzieciństwo tłumaczy zgorzknienie Scrooge'a, lecz to jego wybory (zerwanie z Belle) zrobiły z niego skąpca.",
+        "Teza „rodzina i wspólnota są ważniejsze niż majątek\" → argument: skromna wigilia Cratchitów pełna ciepła kontra zimny, pusty dom bogacza.",
+        "Do opowiadania: wyraźna rama czasowa (jedna noc, trzy wizje) ułatwia plan; pilnuj realiów (błąd kardynalny: np. „Malutki Tim umarł\" — w finale Tim ŻYJE dzięki przemianie Scrooge'a!).",
+        "Świetny duet argumentacyjny: Scrooge + Cześnik i Rejent z „Zemsty\" — dowody, że człowiek (i wieloletni spór) może się odmienić na dobre."
+      ],
+      "czasMin": 5
+    }
+  ],
+  "bohaterowie": [
+    {
+      "imie": "Ebenezer Scrooge",
+      "kim": "Stary, bogaty właściciel kantoru w Londynie — na początku skąpiec i samotnik, po nocy z duchami człowiek hojny i dobry.",
+      "cechy": ["na początku: skąpy, zimny, obojętny na ludzi", "samotny z własnego wyboru", "po przemianie: hojny, serdeczny, opiekuńczy"],
+      "scenyDowody": [
+        "W Wigilię odmawia datku na biednych i burczy „Brednie!\" na życzenia świąteczne; żałuje Bobowi węgla do pieca.",
+        "W wizji przeszłości ogląda zerwanie zaręczyn: Belle odchodzi, bo jej miejsce zajęła „złota bogini\" — pieniądze.",
+        "Widząc własny zaniedbany grób, błaga Ducha o szansę i przysięga: będzie czcił święta w sercu przez cały rok.",
+        "Po przemianie: anonimowy indyk dla Cratchitów, obiad u Freda, podwyżka dla Boba i troska o Tima — czyny, nie deklaracje."
+      ],
+      "przestroga": "Chciwość i obojętność prowadzą do samotności — ale nigdy nie jest za późno na zmianę, jeśli pójdą za nią czyny."
+    },
+    {
+      "imie": "Duch Jacoba Marleya",
+      "kim": "Zmarły przed siedmiu laty wspólnik Scrooge'a — zjawia się skuty łańcuchem, by ostrzec dawnego kompana.",
+      "cechy": ["potępiony za obojętność wobec ludzi", "dźwiga symboliczny łańcuch win", "mimo kary — życzliwy: ostrzega przyjaciela"],
+      "scenyDowody": [
+        "Zjawia się w noc wigilijną z łańcuchem ukutym z kas, kluczy, kłódek i sakiewek — z tego, czym żył.",
+        "Wyznaje, że jego „interesem\" powinna była być ludzkość, a nie kantor — teraz błąka się bez spoczynku.",
+        "Zapowiada wizyty trzech Duchów — jedyną szansę ratunku dla Scrooge'a."
+      ],
+      "przestroga": "Łańcuch kujemy sobie za życia, ogniwo po ogniwie — każdy akt obojętności to nowe ogniwo."
+    },
+    {
+      "imie": "Bob Cratchit",
+      "kim": "Kancelista (urzędnik) w kantorze Scrooge'a — ubogi ojciec licznej rodziny, w tym chorego Malutkiego Tima.",
+      "cechy": ["cierpliwy i łagodny", "kochający ojciec", "wdzięczny i pozbawiony zawiści"],
+      "scenyDowody": [
+        "Pracuje w zimnie, bo Scrooge skąpi węgla — a mimo to nie skarży się i składa pryncypałowi życzenia.",
+        "W wigilijnej wizji wznosi toast za zdrowie Scrooge'a — „twórcy uczty\" — choć rodzina się krzywi.",
+        "Nosi Malutkiego Tima na ramieniu; w wizji przyszłości załamany opłakuje zmarłego synka.",
+        "Po przemianie Scrooge'a dostaje podwyżkę i pomoc dla rodziny."
+      ],
+      "przestroga": "Godność i dobroć nie zależą od majątku — najuboższy dom może być najcieplejszy."
+    },
+    {
+      "imie": "Malutki Tim (Tim Cratchit)",
+      "kim": "Najmłodszy, ciężko chory synek Boba — porusza się o kuli; symbol niewinnego dziecka, którego los zależy od dorosłych.",
+      "cechy": ["pogodny mimo choroby", "dobry i pobożny", "kochany przez całą rodzinę"],
+      "scenyDowody": [
+        "W kościele cieszy się, że ludzie na niego patrzą — niech pamiętają, kto uzdrawiał chromych; to on mówi: „Niech nas Bóg błogosławi wszystkich!\".",
+        "W wizji przyszłości umiera — puste miejsce przy kominku i kula bez właściciela łamią serce Boba.",
+        "Dzięki przemianie i pomocy Scrooge'a żyje, a Scrooge staje się dla niego jak drugi ojciec."
+      ],
+      "przestroga": "Los najsłabszych zależy od decyzji silnych — obojętność bogacza może kosztować życie dziecka."
+    },
+    {
+      "imie": "Fred",
+      "kim": "Siostrzeniec Scrooge'a, syn zmarłej Fan — pogodny, serdeczny, co roku zaprasza wuja na świąteczny obiad.",
+      "cechy": ["pogodny i wytrwały w życzliwości", "wierny rodzinie", "wielkoduszny — nie obraża się na wuja"],
+      "scenyDowody": [
+        "W Wigilię mimo opryskliwości wuja składa mu życzenia i ponawia zaproszenie na obiad.",
+        "W wizji teraźniejszości broni Scrooge'a przed towarzystwem: żal mu wuja, bo ten sam siebie krzywdzi swoim bogactwem.",
+        "Z radością wita Scrooge'a, gdy ten po przemianie wreszcie przychodzi na świąteczny obiad."
+      ],
+      "przestroga": "Życzliwość okazywana wytrwale — nawet odrzucana — zostawia drzwi otwarte na czyjś powrót."
+    },
+    {
+      "imie": "Trzy Duchy Wigilii",
+      "kim": "Duch Minionych Wigilii (światło z gasidłem), Duch Tegorocznej Wigilii (olbrzym z pochodnią) i Duch Przyszłych Wigilii (milcząca postać w czarnym całunie).",
+      "cechy": ["przewodnicy po czasie: przeszłość, teraźniejszość, przyszłość", "każdy uczy czego innego: przyczyn, skutków, konsekwencji", "narzędzia przemiany, nie kary"],
+      "scenyDowody": [
+        "Duch Minionych Wigilii pokazuje samotne dzieciństwo, praktykę u Fezziwiga i odejście Belle — źródła zgorzknienia.",
+        "Duch Tegorocznej Wigilii pokazuje dom Cratchitów i Freda oraz ukryte pod płaszczem dzieci: Ignorancję i Nędzę.",
+        "Duch Przyszłych Wigilii w milczeniu wskazuje śmierć bogacza, którego nikt nie żałuje, i grób z nazwiskiem Scrooge'a."
+      ],
+      "przestroga": "Pełny rachunek sumienia wymaga spojrzenia na całe życie: skąd przychodzę, co czynię teraz, dokąd zmierzam."
+    }
+  ],
+  "motywy": [
+    {
+      "motyw": "Przemiana wewnętrzna",
+      "przyklad": "Scrooge w jedną noc przechodzi od „Brednie!\" do hojności: indyk dla Cratchitów, obiad u Freda, podwyżka dla Boba.",
+      "wWypracowaniu": "Do tez „człowiek może się zmienić\": przemiana jest wiarygodna, bo poprzedza ją wstrząs (wizje) i potwierdzają ją czyny."
+    },
+    {
+      "motyw": "Chciwość i skąpstwo",
+      "przyklad": "Scrooge żałuje węgla kanceliście, odmawia datku na biednych, a w młodości wybrał pieniądze zamiast miłości Belle.",
+      "wWypracowaniu": "Do tez „pieniądze nie dają szczęścia\": majątek Scrooge'a kupił mu tylko zimny dom i samotność."
+    },
+    {
+      "motyw": "Miłosierdzie i pomoc słabszym",
+      "przyklad": "Od decyzji Scrooge'a zależy życie Malutkiego Tima — po przemianie bogacz staje się dla chłopca jak drugi ojciec.",
+      "wWypracowaniu": "Do tez „warto pomagać\": pomoc konkretna (podwyżka, opieka) zmienia los rodziny — dobro wraca też do darczyńcy."
+    },
+    {
+      "motyw": "Rodzina i wspólnota",
+      "przyklad": "Skromna, ale pełna miłości wigilia Cratchitów; Fred rok w rok zaprasza samotnego wuja na święta.",
+      "wWypracowaniu": "Do tez o wartości rodziny: ciepło domu Cratchitów kontra pusty dom bogacza — bogactwo nie zastąpi bliskości."
+    },
+    {
+      "motyw": "Czas (przeszłość — teraźniejszość — przyszłość)",
+      "przyklad": "Trzy Duchy prowadzą Scrooge'a przez trzy wymiary czasu — od przyczyn, przez skutki, po konsekwencje.",
+      "wWypracowaniu": "Do tez o pamięci i odpowiedzialności: przyszłość nie jest przesądzona — można ją zmienić, zmieniając siebie dziś."
+    },
+    {
+      "motyw": "Bieda i niesprawiedliwość społeczna",
+      "przyklad": "Rodzina Cratchitów ledwo wiąże koniec z końcem; alegoryczne dzieci Ignorancja i Nędza ostrzegają społeczeństwo.",
+      "wWypracowaniu": "Do tez o wrażliwości na krzywdę: Dickens oskarża obojętność bogatych — los biednych to odpowiedzialność wszystkich."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "ow-q-01",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kim jest Ebenezer Scrooge na początku utworu?",
+      "opcje": [
+        "Ubogim kancelistą pracującym w zimnym kantorze",
+        "Wesołym kupcem słynącym z hojności",
+        "Bogatym, skąpym właścicielem kantoru, gardzącym świętami",
+        "Lekarzem opiekującym się chorym Timem"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Scrooge to bogaty skąpiec i samotnik — na życzenia świąteczne odpowiada „Brednie!\". Ubogi kancelista w jego kantorze to Bob Cratchit — nie myl ról tych postaci.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-02",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Kto odwiedza Scrooge'a jako pierwszy — jeszcze przed trzema Duchami Wigilii?",
+      "opcje": [
+        "Duch Jacoba Marleya, zmarłego wspólnika, skuty łańcuchem",
+        "Duch jego zmarłej siostry Fan",
+        "Duch dawnego pracodawcy Fezziwiga",
+        "Duch Przyszłych Wigilii w czarnym całunie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Pierwszy zjawia się duch Marleya — wspólnika zmarłego przed siedmiu laty. Ostrzega Scrooge'a przed podobnym losem i zapowiada wizyty trzech Duchów Wigilii.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-03",
+      "modul": "A",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy poniższe zdania są prawdziwe (P), czy fałszywe (F).",
+      "opcje": [
+        "Akcja utworu rozpoczyna się w Wigilię Bożego Narodzenia.",
+        "Scrooge od razu z radością przyjął zaproszenie Freda na świąteczny obiad.",
+        "Bob Cratchit jest kancelistą zatrudnionym w kantorze Scrooge'a."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "Akcja zaczyna się w Wigilię w kantorze. Zaproszenie Freda Scrooge opryskliwie ODRZUCIŁ — na obiad poszedł dopiero po przemianie. Bob to kancelista (urzędnik) Scrooge'a, ojciec Malutkiego Tima.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-04",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Którą scenę pokazuje Scrooge'owi Duch Minionych Wigilii?",
+      "opcje": [
+        "Wigilię w domu Cratchitów z chorym Timem",
+        "Zerwanie zaręczyn — Belle odchodzi, bo Scrooge pokochał pieniądze",
+        "Śmierć bogacza, którego rzeczy rozkrada służba",
+        "Świąteczną zabawę w domu Freda"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Duch Minionych Wigilii pokazuje przeszłość: dzieciństwo, praktykę u Fezziwiga i odejście Belle. Wigilia Cratchitów i dom Freda to wizje Ducha Tegorocznej Wigilii, a śmierć bogacza — Ducha Przyszłych Wigilii.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-05",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Co symbolizuje łańcuch, którym skuty jest duch Marleya?",
+      "opcje": [
+        "Karę za popełnione za życia przestępstwa finansowe",
+        "Więzienie, w którym Marley zmarł",
+        "Wierność, która łączyła wspólników kantoru",
+        "Winy „ukute\" za życia — ogniwa z kas, kluczy i sakiewek, czyli z tego, czym żył"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Łańcuch Marley „ukuł sobie sam, ogniwo po ogniwie\" — składa się z kas, kluczy, kłódek i sakiewek, symboli życia poświęconego pieniądzom zamiast ludziom. Marley ostrzega, że łańcuch Scrooge'a jest już dłuższy.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-06",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Co Scrooge ogląda podczas wędrówki z Duchem Tegorocznej Wigilii? Wskaż wszystkie poprawne odpowiedzi.",
+      "opcje": [
+        "Skromną wigilię w domu Cratchitów",
+        "Własny zaniedbany grób na cmentarzu",
+        "Świąteczne przyjęcie w domu Freda",
+        "Dwoje wychudzonych dzieci — Ignorancję i Nędzę"
+      ],
+      "poprawne": [0, 2, 3],
+      "wyjasnienie": "Duch Tegorocznej Wigilii pokazuje TERAŹNIEJSZOŚĆ: dom Cratchitów, dom Freda i alegoryczne dzieci pod swoim płaszczem. Własny grób Scrooge ogląda dopiero z Duchem PRZYSZŁYCH Wigilii — mylenie wizji duchów to częsty błąd.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-07",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Dlaczego Duch Przyszłych Wigilii budzi w Scrooge'u największy lęk?",
+      "opcje": [
+        "Bo krzyczy i grozi Scrooge'owi karą",
+        "Bo jest olbrzymem z płonącą pochodnią",
+        "Bo milczy — w czarnym całunie tylko wskazuje sceny śmierci i grób bohatera",
+        "Bo przypomina zmarłego Marleya"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Duch Przyszłych Wigilii nie mówi ani słowa — spowity w czerń jedynie wskazuje ręką. Milczenie i nieuchronność jego wizji (śmierć, grób) przerażają bardziej niż słowa. Olbrzym z pochodnią to Duch Tegorocznej Wigilii.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-08",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Kim jest Malutki Tim?",
+      "opcje": [
+        "Synem Freda, siostrzeńca Scrooge'a",
+        "Ciężko chorym, poruszającym się o kuli synkiem Boba Cratchita",
+        "Chłopcem, którego Scrooge wysłał po indyka",
+        "Młodszym bratem Scrooge'a z wizji przeszłości"
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Malutki Tim to najmłodszy, chory synek Boba Cratchita — to on mówi „Niech nas Bóg błogosławi wszystkich!\". W wizji przyszłości umiera; dzięki przemianie i pomocy Scrooge'a — żyje.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-09",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaką funkcję pełni kolejność wizyt trzech Duchów (przeszłość → teraźniejszość → przyszłość)?",
+      "opcje": [
+        "Buduje wyłącznie napięcie — od najmniej do najbardziej strasznego ducha",
+        "Pokazuje historię Anglii na przestrzeni wieków",
+        "Odmierza upływ jednej nocy — każdy duch to inna godzina",
+        "Prowadzi bohatera przez pełny rachunek sumienia: przyczyny skąpstwa, jego skutki dla innych i przyszłe konsekwencje"
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Kompozycja trzech wizyt to logika rachunku sumienia: przeszłość TŁUMACZY (skąd zło się wzięło), teraźniejszość POKAZUJE SKUTKI (Cratchitowie, Tim), przyszłość OSTRZEGA (samotna śmierć). Dopiero całość umożliwia przemianę.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-10",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Co najlepiej dowodzi, że przemiana Scrooge'a jest trwała, a nie chwilowa?",
+      "opcje": [
+        "Codzienne czyny po świętach: podwyżka dla Boba, stała pomoc rodzinie i wieloletnia opieka nad Timem",
+        "Jednorazowy zakup indyka w świąteczny poranek",
+        "Obietnica złożona Duchowi Przyszłych Wigilii",
+        "Radość, z jaką obudził się w Boże Narodzenie"
+      ],
+      "poprawna": 0,
+      "wyjasnienie": "Indyk, radość i obietnice to początek — o TRWAŁOŚCI przemiany świadczą czyny rozciągnięte w czasie: podwyżka, systematyczna pomoc i to, że Scrooge stał się dla Tima jak drugi ojciec, a dobroć — jego codziennością.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-11",
+      "modul": "A",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Jaka jest funkcja elementów fantastycznych (duchów) w utworze?",
+      "opcje": [
+        "Mają wyłącznie straszyć czytelnika jak w powieści grozy",
+        "Przenoszą akcję do świata baśni, odrywając ją od realnych problemów",
+        "Są narzędziem moralnej przemiany — pokazują bohaterowi prawdę o nim samym, której sam nie chciał widzieć",
+        "Ośmieszają wiarę w duchy i zabobony"
+      ],
+      "poprawna": 2,
+      "wyjasnienie": "Fantastyka u Dickensa służy celowi moralnemu: duchy zmuszają Scrooge'a do zobaczenia własnego życia z zewnątrz. Groza jest środkiem, nie celem — a tło społeczne (bieda Londynu) pozostaje w pełni realistyczne.",
+      "punkty": 1
+    },
+    {
+      "id": "ow-q-12",
+      "modul": "A",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Piszesz wypracowanie z tezą „człowiek może się zmienić na lepsze\". Które sceny nadają się na argumenty potwierdzające PRZEMIANĘ Scrooge'a? Wskaż wszystkie poprawne odpowiedzi.",
+      "opcje": [
+        "Scrooge anonimowo wysyła Cratchitom wielkiego indyka",
+        "Scrooge przychodzi na świąteczny obiad do Freda",
+        "Młody Scrooge zrywa zaręczyny z Belle, wybierając pieniądze",
+        "Scrooge podnosi Bobowi pensję i otacza opieką Malutkiego Tima"
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Dowodami przemiany są czyny PO nocy z duchami: indyk, obiad u Freda, podwyżka i opieka nad Timem. Zerwanie z Belle pokazuje odwrotność — jak Scrooge STAWAŁ SIĘ skąpcem; może służyć najwyżej jako kontrast „przed\".",
+      "punkty": 1
+    }
+  ],
+  "fiszki": [
+    {
+      "id": "ow-f-01",
+      "przod": "Kim jest Ebenezer Scrooge przed przemianą i po niej?",
+      "tyl": "Przed: bogaty skąpiec i samotnik, gardzi świętami („Brednie!\"). Po: hojny, serdeczny opiekun Cratchitów, „umie święcić Wigilię\" jak nikt.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-02",
+      "przod": "Kim jest Jacob Marley i z czym się zjawia?",
+      "tyl": "Zmarły przed 7 laty wspólnik Scrooge'a. Zjawia się jako duch skuty łańcuchem z kas, kluczy i sakiewek — ostrzega i zapowiada trzy Duchy.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-03",
+      "przod": "Kim jest Bob Cratchit?",
+      "tyl": "Kancelista (urzędnik) w kantorze Scrooge'a — ubogi, cierpliwy, kochający ojciec licznej rodziny, w tym chorego Malutkiego Tima.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-04",
+      "przod": "Kim jest Malutki Tim i jakie są jego losy w dwóch wersjach przyszłości?",
+      "tyl": "Chory synek Boba, chodzi o kuli. W wizji przyszłości umiera; dzięki przemianie i pomocy Scrooge'a — żyje (błąd kardynalny: „Tim umarł\"!).",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-05",
+      "przod": "Kim jest Fred i jak traktuje wuja?",
+      "tyl": "Siostrzeniec Scrooge'a, syn zmarłej Fan. Pogodny i wytrwale życzliwy — co roku zaprasza wuja na obiad, broni go przed krytyką gości.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-06",
+      "przod": "Jak wygląda Duch Minionych Wigilii i co pokazuje?",
+      "tyl": "Świetlista postać z gasidłem. Pokazuje PRZYCZYNY skąpstwa: samotne dzieciństwo, siostrę Fan, praktykę u Fezziwiga, odejście Belle.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-07",
+      "przod": "Jak wygląda Duch Tegorocznej Wigilii i co pokazuje?",
+      "tyl": "Wesoły olbrzym z pochodnią. Pokazuje SKUTKI: wigilię Cratchitów, święta u Freda oraz dzieci pod płaszczem — Ignorancję i Nędzę.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-08",
+      "przod": "Jak wygląda Duch Przyszłych Wigilii i co pokazuje?",
+      "tyl": "Milcząca postać w czarnym całunie — tylko wskazuje ręką. Pokazuje KONSEKWENCJE: śmierć bogacza, którego nikt nie żałuje, śmierć Tima i grób Scrooge'a.",
+      "kategoria": "bohater"
+    },
+    {
+      "id": "ow-f-09",
+      "przod": "Scena: Wigilia u Cratchitów — co jest w niej najważniejsze?",
+      "tyl": "Skromna gęś i pudding, ale dom pełen miłości; Bob wznosi toast za Scrooge'a. Kontrast: ubóstwo materialne — bogactwo uczuć.",
+      "kategoria": "scena"
+    },
+    {
+      "id": "ow-f-10",
+      "przod": "Scena: wizja własnego grobu — co zmienia w Scrooge'u?",
+      "tyl": "Na zaniedbanym nagrobku Scrooge czyta własne nazwisko; nikt nie żałuje zmarłego. Wstrząśnięty błaga o szansę i przysięga zmianę — punkt zwrotny utworu.",
+      "kategoria": "scena"
+    },
+    {
+      "id": "ow-f-11",
+      "przod": "Scena: poranek Bożego Narodzenia — jakie czyny potwierdzają przemianę?",
+      "tyl": "Anonimowy indyk dla Cratchitów, hojny datek na biednych, obiad u Freda, nazajutrz podwyżka dla Boba i opieka nad Timem — przemiana w CZYNACH.",
+      "kategoria": "scena"
+    },
+    {
+      "id": "ow-f-12",
+      "przod": "Kto i kiedy mówi: „Niech nas Bóg błogosławi wszystkich!\"?",
+      "tyl": "Malutki Tim podczas rodzinnej wigilii; tym cytatem narrator kończy też cały utwór. Symbol dziecięcej dobroci obejmującej każdego — nawet skąpca.",
+      "kategoria": "cytat"
+    },
+    {
+      "id": "ow-f-13",
+      "przod": "Co Scrooge odpowiada na życzenia świąteczne na początku utworu i co to o nim mówi?",
+      "tyl": "„Brednie!\" (ang. „Humbug!\") — gardzi świętami i radością innych. Cytat-wizytówka „starego\" Scrooge'a; miarą przemiany jest odległość od tych słów.",
+      "kategoria": "cytat"
+    },
+    {
+      "id": "ow-f-14",
+      "przod": "Jakie cechy ma gatunek „opowieść wigilijna\"?",
+      "tyl": "Czas świąt Bożego Narodzenia, elementy fantastyczne (duchy), cel moralizatorski, motyw przemiany, wzruszenie i szczęśliwe zakończenie. Gatunek spopularyzował Dickens.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "ow-f-15",
+      "przod": "Co symbolizuje łańcuch ducha Marleya?",
+      "tyl": "Winy „ukute\" za życia, ogniwo po ogniwie — z kas, kluczy, kłódek i sakiewek. Symbol życia oddanego pieniądzom zamiast ludziom.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "ow-f-16",
+      "przod": "Kim są Ignorancja i Nędza?",
+      "tyl": "Alegoryczne, wychudzone dzieci ukryte pod płaszczem Ducha Tegorocznej Wigilii. Ostrzeżenie: ignorowanie biedy i braku edukacji zagraża całemu społeczeństwu.",
+      "kategoria": "pojecie"
+    },
+    {
+      "id": "ow-f-17",
+      "przod": "Jaką wartość utwór stawia ponad majątkiem?",
+      "tyl": "Rodzinę i wspólnotę: ciepła wigilia ubogich Cratchitów kontra zimny, pusty dom bogacza. Bliskość i miłość — tego pieniądze nie kupią.",
+      "kategoria": "wartosc"
+    },
+    {
+      "id": "ow-f-18",
+      "przod": "Czego o pomaganiu uczy historia Malutkiego Tima?",
+      "tyl": "Konkretna pomoc (podwyżka, opieka, leczenie) ratuje życie — w wizji bez pomocy Tim umierał. Miłosierdzie to czyny, nie współczucie na odległość.",
+      "kategoria": "wartosc"
+    }
+  ]
+}
