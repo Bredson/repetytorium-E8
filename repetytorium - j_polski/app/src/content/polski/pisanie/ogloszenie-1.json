@@ -1,0 +1,31 @@
+{
+  "id": "ogloszenie-1",
+  "modul": "F",
+  "forma": "ogłoszenie",
+  "tytul": "Ogłoszenie — krótka forma użytkowa",
+  "pigulka": "OGŁOSZENIE to krótki tekst informacyjny skierowany do OGÓŁU odbiorców (nie do jednej konkretnej osoby — tym różni się od zaproszenia!). Jego zadanie: przekazać ważną informację tak, żeby każdy wiedział, CO się dzieje, KIEDY, GDZIE i CO ma zrobić, jeśli jest zainteresowany. Na egzaminie ogłoszenie jest zwykle warte 3 punkty — egzaminator sprawdza, czy są WSZYSTKIE niezbędne informacje, czy tekst jest zwięzły i poprawny językowo. Najczęstszy błąd: brak jednej informacji (np. kontaktu albo terminu). Dlatego przed oddaniem zawsze sprawdź ogłoszenie punkt po punkcie z planu formy. Pamiętaj też o nagłówku OGŁOSZENIE — pokazuje egzaminatorowi, że znasz formę.",
+  "planFormy": [
+    "Nagłówek: OGŁOSZENIE",
+    "KTO ogłasza (np. samorząd uczniowski, biblioteka szkolna)",
+    "CO ogłasza (czego dotyczy ogłoszenie — wydarzenie, zbiórka, poszukiwanie)",
+    "KIEDY i GDZIE (data, godzina lub termin, miejsce)",
+    "KONTAKT lub sposób zgłoszenia (do kogo się zgłosić, gdzie przynieść)",
+    "Zwięzłość i konkret: 3-4 zdania, bez zbędnych ozdobników"
+  ],
+  "zadanie": {
+    "id": "f4-open-01",
+    "modul": "F",
+    "typ": "open-short",
+    "tresc": "Samorząd uczniowski Twojej szkoły organizuje przedświąteczną zbiórkę darów dla domu dziecka. Napisz OGŁOSZENIE o zbiórce. Podaj wszystkie niezbędne informacje (kto ogłasza, co, kiedy, gdzie, co można przynosić i do kogo się zgłosić). Wystarczą 3-4 zdania.",
+    "wzorzec": "OGŁOSZENIE\n\nSamorząd uczniowski organizuje przedświąteczną zbiórkę darów dla podopiecznych domu dziecka w naszym mieście. Do 19 grudnia można przynosić nowe zabawki, książki i artykuły szkolne do sali nr 15. Szczegółowych informacji udziela opiekunka samorządu, pani Anna Kowalska. Podziel się tym, co masz — jak bohaterowie „Opowieści wigilijnej” przekonajmy się, że pomaganie naprawdę zmienia świat!",
+    "kryteriaSamooceny": [
+      "Czy moje ogłoszenie ma nagłówek OGŁOSZENIE?",
+      "Czy napisałem/napisałam, KTO ogłasza (nadawca ogłoszenia)?",
+      "Czy jasno podałem/podałam, CZEGO dotyczy ogłoszenie (zbiórka darów dla domu dziecka)?",
+      "Czy podałem/podałam, DO KIEDY trwa zbiórka i GDZIE można przynosić dary?",
+      "Czy jest informacja, CO można przynosić oraz KONTAKT (do kogo się zgłosić)?",
+      "Czy tekst jest zwięzły (3-4 zdania) i bez błędów ortograficznych oraz interpunkcyjnych?"
+    ],
+    "punkty": 3
+  }
+}

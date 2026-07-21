@@ -1,0 +1,239 @@
+{
+  "id": "ortografia-3",
+  "modul": "C",
+  "tytul": "Pułapki pisowni: „by”, -ii/-ji, skróty i spółka",
+  "teoria": [
+    {
+      "id": "czastka-by",
+      "tytul": "Cząstka „by” — łącznie czy rozdzielnie?",
+      "tresc": "Cząstka „by” (i jej formy: bym, byś, byśmy, byście) to jedna z ulubionych pułapek egzaminacyjnych. Zasada jest prosta, jeśli patrzysz na to, PO CZYM stoi „by”. ŁĄCZNIE piszemy ją z osobowymi formami czasownika (zrobiłbym, poszlibyśmy, chciałabyś) oraz ze spójnikami (żeby, aby, gdyby, jakby). ROZDZIELNIE — po bezokoliczniku (zrobić by tego nie umiał) i po wyrazach nieosobowych typu: można, warto, trzeba, wolno (można by, warto by, trzeba by).",
+      "punkty": [
+        "ŁĄCZNIE z osobową formą czasownika: zrobiłbym, poszłabyś, czytalibyśmy",
+        "ŁĄCZNIE ze spójnikami: żeby, aby, gdyby, jakby, choćby",
+        "ROZDZIELNIE po bezokoliczniku: „Zrobić by tego nie potrafił”",
+        "ROZDZIELNIE po wyrazach typu można, warto, trzeba: „można by”, „warto by”",
+        "Test: jeśli przed „by” stoi czasownik z końcówką osoby (-łem, -ła, -li...) → łącznie"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "a-e-nosowe",
+      "tytul": "Ą i Ę bez wpadki: wziąć, wziąłem, wzięła",
+      "tresc": "Samogłoski nosowe ą i ę pojawiają się w rodzimych polskich wyrazach: wziąć, imię, zdjęcie, pięć, mądry. Najsłynniejszy błąd Polaków to „wziąść” — TAKIE SŁOWO NIE ISTNIEJE, poprawnie jest tylko WZIĄĆ. W czasie przeszłym: on WZIĄŁ, ja WZIĄŁEM (rodzaj męski), ale ona WZIĘŁA, ja WZIĘŁAM (rodzaj żeński). Pamiętaj też o -ą w 3. osobie liczby mnogiej: oni idą, piszą, czytają (nigdy „idom”, „piszom”). W wyrazach zapożyczonych zamiast nosówek piszemy om/on/em/en: komputer, konto, tempo, benzyna.",
+      "punkty": [
+        "„Wziąść” NIE ISTNIEJE — jedyna poprawna forma to WZIĄĆ",
+        "Rodzaj męski: wziąłem, wziął; rodzaj żeński: wzięłam, wzięła",
+        "3. osoba liczby mnogiej zawsze z -ą: idą, piszą, robią",
+        "Wyrazy rodzime: ą/ę (mądry, pięć); zapożyczone: om/on/em/en (konto, tempo)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "ii-ji-i",
+      "tytul": "Lekcji, Marii, ziemi — końcówki -ji, -ii, -i",
+      "tresc": "Kiedy odmieniasz rzeczowniki zakończone na -ja lub -ia, końcówka dopełniacza (a także celownika i miejscownika) zależy od tego, co stoi PRZED końcówką. Po spółgłoskach c, s, z piszemy -JI: lekcja → lekcji, poezja → poezji, misja → misji. W wyrazach obcych zakończonych na -ia piszemy -II: Maria → Marii, chemia → chemii, historia → historii, armia → armii. W wyrazach rodzimych (swojsko brzmiących) piszemy samo -I: ziemia → ziemi, babcia → babci, ciocia → cioci.",
+      "punkty": [
+        "Po c, s, z → -ji: lekcji, poezji, misji, okazji",
+        "Wyrazy obce na -ia → -ii: Marii, chemii, historii, biologii",
+        "Wyrazy rodzime na -ia → -i: ziemi, babci, cioci, Kasi",
+        "Test „obcości”: jeśli wyraz brzmi uczenie/obco (chemia, armia) → -ii"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "znaki-inne",
+      "tytul": "Dwukropek, myślnik, cudzysłów, wielokropek",
+      "tresc": "Przecinek znasz już z ortografii-1 i 2 — czas na pozostałe znaki. DWUKROPEK (:) wprowadza wyliczenie po zapowiedzi („Zabierz wszystko, co trzeba: mapę, latarkę i telefon”) oraz cytat lub czyjąś wypowiedź. MYŚLNIK (—) wydziela wtrącenia, sygnalizuje zaskoczenie lub rozpoczyna wypowiedź w dialogu. CUDZYSŁÓW („ ”) obejmuje cytaty i tytuły (w piśmie odręcznym) oraz wyrazy użyte ironicznie. WIELOKROPEK (...) oznacza niedopowiedzenie lub przerwaną wypowiedź. Uwaga na błąd: dwukropka NIE stawiamy, gdy wyliczenie następuje bezpośrednio po czasowniku bez zapowiedzi („Kupiłem jabłka, gruszki i śliwki” — bez dwukropka).",
+      "punkty": [
+        "Dwukropek: przed wyliczeniem PO ZAPOWIEDZI i przed cytatem",
+        "Myślnik: wtrącenia, zaskoczenie, dialogi",
+        "Cudzysłów: cytaty, tytuły, ironia („bohater” = tak naprawdę tchórz)",
+        "Wielokropek: niedopowiedzenie, przerwana wypowiedź",
+        "Bez zapowiedzi nie ma dwukropka: „Kupiłem jabłka, gruszki i śliwki”"
+      ],
+      "czasMin": 4
+    },
+    {
+      "id": "skroty-skrotowce",
+      "tytul": "Skróty (np., dr, prof.) i skrótowce (PKP, NBP)",
+      "tresc": "SKRÓT to ucięty pojedynczy wyraz lub wyrażenie. Z KROPKĄ piszemy skróty, które są ucięte w środku wyrazu: prof. (profesor), ul. (ulica), np. (na przykład), itd., itp., m.in. BEZ KROPKI piszemy skróty, które kończą się OSTATNIĄ literą skracanego wyrazu: dr (doktoR), mgr (magisteR), nr (numeR). Uwaga: gdy taki skrót jest odmieniony i nie kończy się ostatnią literą wyrazu, kropka wraca — „u dr. Nowaka” (= doktora). SKRÓTOWCE to nazwy utworzone z pierwszych liter, pisane WIELKIMI literami bez kropek: PKP, NBP, ONZ, PCK.",
+      "punkty": [
+        "Ucięty w środku wyrazu → z kropką: prof., ul., np., itd.",
+        "Kończy się ostatnią literą wyrazu → bez kropki: dr, mgr, nr",
+        "Odmieniony „dr” dostaje kropkę: „u dr. Nowaka” (bo = doktora)",
+        "Skrótowce od pierwszych liter: wielkie litery, bez kropek (PKP, ONZ)"
+      ],
+      "czasMin": 3
+    },
+    {
+      "id": "wyrazenia",
+      "tytul": "Na pewno, naprawdę, w ogóle — lista pewniaków",
+      "tresc": "Kilka wyrażeń Polacy zapisują błędnie tak często, że egzaminatorzy wręcz na nie polują. ROZDZIELNIE piszemy: NA PEWNO, NA RAZIE, W OGÓLE, PO PROSTU, Z POWROTEM, CO DZIEŃ. ŁĄCZNIE piszemy: NAPRAWDĘ, CODZIENNIE, SPRZED, ZNAD, SPOD. Nie ma tu jednej reguły — te formy trzeba po prostu zapamiętać jak numer telefonu. Zrób sobie z nich osobistą listę pewniaków i sprawdzaj każde wypracowanie właśnie pod ich kątem: jeden błąd typu „napewno” potrafi kosztować punkt za ortografię w całej pracy.",
+      "punkty": [
+        "ROZDZIELNIE: na pewno, na razie, w ogóle, po prostu, z powrotem",
+        "ŁĄCZNIE: naprawdę, codziennie, sprzed, znad, spod",
+        "Para-pułapka: codziennie (łącznie), ale co dzień (rozdzielnie)",
+        "Po napisaniu wypracowania skanuj tekst pod kątem tej listy"
+      ],
+      "czasMin": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "c3-q-01",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "Która forma czasownika jest poprawna?",
+      "opcje": ["wziąść", "wzięść", "wziąć", "wzięć"],
+      "poprawna": 2,
+      "wyjasnienie": "Jedyna poprawna forma to WZIĄĆ. „Wziąść” to jeden z najczęstszych błędów w polszczyźnie — takie słowo nie istnieje.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-02",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 1,
+      "tresc": "„Zrobił___ to chętnie.” Cząstkę „bym” z osobową formą czasownika piszemy:",
+      "opcje": ["łącznie: zrobiłbym", "rozdzielnie: zrobił bym", "z łącznikiem: zrobił-bym", "dowolnie — obie formy są poprawne"],
+      "poprawna": 0,
+      "wyjasnienie": "Z osobowymi formami czasownika (zrobił, poszła, czytali) cząstkę „by” i jej formy piszemy ŁĄCZNIE: zrobiłbym, poszłabyś, czytaliby.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-03",
+      "modul": "C",
+      "typ": "truefalse",
+      "poziom": 1,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Skrót „np.” zapisujemy z kropką.",
+        "Wyrażenie „na pewno” piszemy łącznie: „napewno”.",
+        "Dwukropek może wprowadzać wyliczenie lub cytat."
+      ],
+      "poprawnaMaska": [true, false, true],
+      "wyjasnienie": "„Np.” jest ucięte w środku wyrażenia, więc ma kropkę. „Na pewno” piszemy ZAWSZE rozdzielnie. Dwukropek wprowadza wyliczenie po zapowiedzi oraz cytaty.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-04",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wybierz poprawny zapis dopełniacza: „Nie było dziś ___ (lekcja) polskiego.”",
+      "opcje": ["lekcii", "lekcji", "lekci", "lekcjii"],
+      "poprawna": 1,
+      "wyjasnienie": "Po spółgłoskach c, s, z piszemy -JI: lekcja → lekcji, poezja → poezji, misja → misji.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-05",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Wybierz poprawny zapis: „Ala dostała piątkę z ___ (chemia).”",
+      "opcje": ["chemi", "chemji", "chemij", "chemii"],
+      "poprawna": 3,
+      "wyjasnienie": "Wyrazy obce zakończone na -ia dostają końcówkę -II: chemia → chemii, historia → historii, Maria → Marii.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-06",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 2,
+      "tresc": "Zaznacz WSZYSTKIE poprawne zapisy:",
+      "opcje": ["można by", "napewno", "naprawdę", "z tąd", "w ogóle"],
+      "poprawne": [0, 2, 4],
+      "wyjasnienie": "„Można by” — rozdzielnie (po wyrazie nieosobowym). „Naprawdę” — łącznie. „W ogóle” — rozdzielnie. Błędne: „napewno” (poprawnie: na pewno) i „z tąd” (poprawnie: stąd).",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-07",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 2,
+      "tresc": "Który skrót zapisano POPRAWNIE?",
+      "opcje": ["prof. (w zdaniu: prof. Kowalska)", "dr. (w zdaniu: dr. Nowak przyszedł)", "np (bez kropki)", "itd (bez kropki)"],
+      "poprawna": 0,
+      "wyjasnienie": "„Prof.” jest ucięty w środku wyrazu — kropka jest konieczna. „Dr” w mianowniku (dr Nowak) piszemy bez kropki, bo kończy się ostatnią literą wyrazu „doktoR”. „Np.” i „itd.” zawsze z kropką.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-08",
+      "modul": "C",
+      "typ": "truefalse",
+      "poziom": 2,
+      "tresc": "Oceń, czy zdania są prawdziwe (P), czy fałszywe (F):",
+      "opcje": [
+        "Skrótowiec „PKP” zapisujemy małymi literami: „pkp”.",
+        "Cudzysłów służy m.in. do zapisywania cytatów i tytułów.",
+        "„Gdyby” piszemy łącznie, bo cząstka „by” łączy się ze spójnikiem."
+      ],
+      "poprawnaMaska": [false, true, true],
+      "wyjasnienie": "Skrótowce od pierwszych liter piszemy WIELKIMI literami bez kropek: PKP, ONZ. Cudzysłów obejmuje cytaty, tytuły i ironię. „By” ze spójnikami (gdy, aby, żeby) piszemy łącznie.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-09",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "W którym zdaniu cząstkę „by” zapisano POPRAWNIE?",
+      "opcje": [
+        "Możnaby zacząć powtórki od jutra.",
+        "Wartoby przeczytać tę lekturę raz jeszcze.",
+        "Zrobiłby ś to szybciej ode mnie.",
+        "Warto by przeczytać tę lekturę raz jeszcze."
+      ],
+      "poprawna": 3,
+      "wyjasnienie": "Po wyrazach nieosobowych typu „można”, „warto”, „trzeba” cząstkę „by” piszemy ROZDZIELNIE: można by, warto by. „Zrobiłbyś” musi być w całości łącznie.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-10",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "Wskaż zdanie z POPRAWNĄ interpunkcją:",
+      "opcje": [
+        "Zabierz ze sobą; mapę, telefon i latarkę.",
+        "Zabierz ze sobą wszystko, co trzeba: mapę, telefon i latarkę.",
+        "Zabierz ze sobą: mapę telefon i latarkę.",
+        "Kupiłem: jabłka, gruszki i śliwki."
+      ],
+      "poprawna": 1,
+      "wyjasnienie": "Dwukropek stawiamy przed wyliczeniem, gdy wcześniej pada zapowiedź („wszystko, co trzeba”). W zdaniu „Kupiłem jabłka...” nie ma zapowiedzi, więc dwukropek jest błędny; średnik przed wyliczeniem też jest błędem.",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-11",
+      "modul": "C",
+      "typ": "single",
+      "poziom": 3,
+      "tresc": "„Byłem wczoraj na lekcj_ historii i długo myślałem o Mar_.” Wybierz poprawne uzupełnienie:",
+      "opcje": ["na lekcji, o Mari", "na lekcii, o Marii", "na lekcji, o Marii", "na lekci, o Marji"],
+      "poprawna": 2,
+      "wyjasnienie": "„Lekcja” → po spółgłosce c piszemy -ji (lekcji). „Maria” to imię obcego pochodzenia zakończone na -ia → piszemy -ii (Marii).",
+      "punkty": 1
+    },
+    {
+      "id": "c3-q-12",
+      "modul": "C",
+      "typ": "multi",
+      "poziom": 3,
+      "tresc": "Zaznacz WSZYSTKIE zdania zapisane poprawnie:",
+      "opcje": [
+        "Wziąłem parasol, bo na pewno będzie padać.",
+        "Chciałabym, żebyś w ogóle o tym nie mówił.",
+        "Wzięłem książkę z powrotem do biblioteki.",
+        "Prof. Kowalska wróci m.in. po świętach.",
+        "Poprostu zapomniałem o spotkaniu."
+      ],
+      "poprawne": [0, 1, 3],
+      "wyjasnienie": "Poprawne: „wziąłem” + „na pewno” (rozdzielnie); „chciałabym” i „żebyś” łącznie, „w ogóle” rozdzielnie; „prof.” i „m.in.” z kropkami. Błędne: „wzięłem” (rodzaj męski to wziąłem) i „poprostu” (poprawnie: po prostu).",
+      "punkty": 1
+    }
+  ]
+}

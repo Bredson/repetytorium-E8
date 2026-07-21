@@ -258,3 +258,31 @@ Format wpisu:
   Do QA dwóch modułów naraz wystarczy jedna podmiana `plan.tygodnie[0].tematy[0..1]`
   na B i E + oznaczenie wcześniejszych ćwiczeń modułu jako przerobione.
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-21 (Faza 1 / iteracja 9: ogloszenie-1 + ortografia-3)
+- Obserwacja: wzorzec "sam JSON, zero zmian w kodzie" potwierdzony szósty raz —
+  ogloszenie-1 (F, krótka forma) i ortografia-3 (C) weszły przez 2 pliki JSON
+  + 4 linie w `rejestr.js`. Build 58 modułów. Moduł C ma teraz 3 ćwiczenia,
+  F ma 4 formy (2 krótkie + rozprawka + opowiadanie).
+- Obserwacja (kontrakt): krótka forma pisemna (zaproszenie/ogłoszenie) ma INNY kontrakt
+  niż długa — brak `czasMin` na poziomie głównym (DOSTEPNE daje domyślnie 10 min),
+  zadanie `typ: "open-short"`, `punkty: 3`, 6 kryteriów samooceny (długa: open-long,
+  20 pkt, 8 kryteriów). Numeracja id zadań pisania jest globalna: f1..f4-open-01.
+- Obserwacja (metodyka): ortografia-3 domyka moduł C bez dublowania ort-1/2 —
+  cząstka "by", ą/ę (wziąć!), -ji/-ii/-i, znaki poza przecinkiem (dwukropek po
+  zapowiedzi!), skróty vs skrótowce, lista pewniaków (na pewno / naprawdę / w ogóle).
+  Ogłoszenie-1 kontrastuje formę z zaproszeniem (ogół vs konkretny adresat) i wiąże
+  temat zbiórki z Opowieścią wigilijną (duet argumentacyjny przy okazji utrwalony).
+- Obserwacja (PUŁAPKA narzędziowa): przy generowaniu JSON-ów z polskimi cudzysłowami
+  narzędzie write potrafi zapisać zamykający cudzysłów jako ASCII `"` zamiast `”`,
+  co rozbija JSON (68 wystąpień w jednym pliku!). Naprawa regexem
+  `„([^"„”]*)"` → `„\1”` + `json.loads` jako asercja. Po każdym write JSON-a
+  z cudzysłowami NAJPIERW parsować, potem walidować merytorycznie.
+- Obserwacja (UI): pole `forma` w pisaniu jest wyświetlane dosłownie
+  ("Z czego składa się {forma}:") — musi mieć polskie znaki ("ogłoszenie",
+  nie "ogloszenie"); to czysta etykieta, nie identyfikator (klucz = `id`).
+- Obserwacja (QA): quiz ortografia-3 12/12 → 🎉 jednym skryptem; pisanie 6/6 kryteriów
+  → 🏆 (3/3 pkt); sloty C i F znikają z "Na dziś" po ukończeniu, zostaje lektura A.
+  Mobile 390x844: teoria i pisanie scrollW = innerW = 390. Stan Zosi przywrócony
+  z backupu (fetch przez public/backup-tmp.json, plik usunięty).
+- Zmiana w skilu: nie (wnioski zapisane tutaj).
