@@ -1,7 +1,8 @@
 # Stan projektu — Repetytorium ósmoklasisty (język polski)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-22, po iteracji 16** (commity `ecad594`..`HEAD`).
+> Ostatnia aktualizacja: **2026-07-22, po iteracji 16 domkniętej w całości** (ostatni commit `44c08a1`).
+> **Aplikacja jest OPUBLIKOWANA i przekazana testerom**: https://repetytorium-e8.vercel.app (deploy „Ready" potwierdzony w dashboardzie przez użytkownika).
 
 ---
 
@@ -23,8 +24,10 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - Warstwy: `content/` (JSON) → `core/` (czysta logika, **zero DOM, zero importów treści** — dostaje mapy jako argumenty) → `storage/` → `ui/`
 - UI i App importują treść **wyłącznie** z `rejestr.js`
 - Lokalizacja appki: `app/` w tym katalogu; git root: `/Users/pibe/dev/Repetytorium-doc`
+- **GitHub (publiczne):** https://github.com/Bredson/repetytorium-E8 (remote `origin`; użytkownik świadomie zaakceptował publiczność repo z danymi Zosi w dokumentach — decyzja z 2026-07-22)
 - Dev server: `npm run dev` w `app/` → localhost:5173
-- **Produkcja:** https://repetytorium-e8.vercel.app (Vercel, auto-deploy z `main`, Root Directory `repetytorium - j_polski/app`)
+- **Produkcja:** https://repetytorium-e8.vercel.app (Vercel, auto-deploy z `main`, Root Directory `repetytorium - j_polski/app`; konto Vercel: login GitHub `Bredson`)
+- **Testerzy:** instrukcja startowa w `TESTERZY.md` (jak zacząć, eksport/import postępów, zgłaszanie uwag przez GitHub issues)
 
 ## 3. Co zostało zrobione (iteracje + commity)
 
@@ -41,7 +44,7 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 | 13 | `2cc1675` | Poezja (D komplet) + streszczenie z lukami (E komplet) |
 | 14 | `4da0261` | Egzamin próbny — pełna symulacja arkusza |
 | 15 | `ecad594`..`98c6381` | Statystyki postępu — wykres, moduły, regularność, pokrycie + QA (8/8, domknięte) |
-| **16** | **`6bf7ddd`..`HEAD`** | **Publikacja Vercel: vercel.json, auto-deploy z main, TESTERZY.md** |
+| **16** | **`6bf7ddd`..`44c08a1`** | **Publikacja Vercel: vercel.json, auto-deploy z main, TESTERZY.md (+ fix etykiet po final review)** |
 
 ### Stan treści (komplet wg planu merytorycznego, chyba że zaznaczono)
 
@@ -95,10 +98,25 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - **Definition of done iteracji**: build ✓ → QA desktop ✓ → QA mobile ✓ → przywrócenie stanu Zosi → wpis w LESSONS.md → commit
 - **Deploy**: deploy = push na main; podgląd deployów: dashboard Vercel
 
-## 7. Jak zacząć nową sesję
+## 7. Proces pracy (ustalony z użytkownikiem, it. 15-16)
+
+Każda iteracja przechodzi pełny cykl superpowers:
+1. **Brainstorming** → decyzje z użytkownikiem (AskUserQuestion) → **spec** `app/docs/SPEC-FAZA-1-ITx.md` (commit)
+2. **Plan** `app/docs/PLAN-FAZA-1-ITx.md` + **karty Trello** `app/docs/TRELLO-FAZA-1-ITx.md` (użytkownik monitoruje przepływ na tablicy Trello — zawsze przygotuj przed startem wykonania)
+3. **Wykonanie: ZAWSZE subagent-driven** (świeży implementer per task + reviewer per task + final whole-branch review na najmocniejszym modelu; ledger w `.superpowers/sdd/progress.md` — git-ignored scratch)
+4. Znaleziska final review naprawia jeden fix-subagent; potem push
+
+## 8. Jak zacząć nową sesję
 
 1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md`
 2. Załaduj skill `repetytorium-polski`
 3. Uruchom dev server: `cd app && npm run dev` (jeśli nie działa)
 4. Ustal z użytkownikiem, który punkt backlogu (sekcja 5) realizujemy
-5. Po skończeniu iteracji: przejdź procedurę "definition of done" (sekcja 6) i **zaktualizuj ten plik**
+5. Realizuj wg procesu z sekcji 7; po skończeniu iteracji: definition of done (sekcja 6) i **zaktualizuj ten plik**
+
+## 9. Stan na koniec sesji 2026-07-22
+
+- It. 15 (statystyki) + it. 16 (publikacja Vercel) — obie domknięte, wypchnięte, deploy „Ready"
+- **Aplikacja u testerów** — następna naturalna czynność: zbieranie uwag (backlog p. 6); sprawdzać GitHub issues
+- Zaległości kosmetyczne z final review it. 15 (odłożone świadomie): test pustych map w `pokrycie`, per-słupek `<title>` w wykresie regularności
+- Katalogi-siostry (matematyka, angielski, workspace evali) i zrzuty QA — nietrackowane, decyzją użytkownika na razie poza repo
