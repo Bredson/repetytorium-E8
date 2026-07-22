@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { seriaWynikow, postepPerModul, aktywnosc } from "../src/core/statystyki.js";
+import { seriaWynikow, postepPerModul, aktywnosc, pokrycie } from "../src/core/statystyki.js";
 
 const sesje = [
   { typ: "quiz-lektury", ref: "balladyna", data: "2026-07-20", wynikPkt: 9, maksPkt: 12 },
@@ -83,4 +83,17 @@ test("aktywnosc: 8 tygodni od poniedziałku, zliczanie per tydzień", () => {
   assert.equal(a.tygodnie[6].od, "2026-07-13");
   assert.equal(a.tygodnie[6].liczba, 1);
   assert.equal(a.tygodnie[0].liczba, 0); // 2026-05-01 poza oknem 8 tygodni
+});
+
+test("pokrycie: zrobione = quiz/praca zapisana, X z Y", () => {
+  const postepy = {
+    lektury: { "dziady-2": { quiz: { wynikPkt: 10, maksPkt: 12 } }, balladyna: { sekcjePrzeczytane: ["a"] } },
+    cwiczenia: { "ortografia-1": { quiz: { wynikPkt: 9, maksPkt: 12 } } },
+    pisanie: { "zaproszenie-1": { pkt: 3, maks: 3 } },
+  };
+  assert.deepEqual(pokrycie(postepy, { lektury: 6, cwiczenia: 16, pisanie: 6 }), [
+    { nazwa: "Lektury", zrobione: 1, wszystkie: 6 },
+    { nazwa: "Ćwiczenia", zrobione: 1, wszystkie: 16 },
+    { nazwa: "Pisanie", zrobione: 1, wszystkie: 6 },
+  ]);
 });

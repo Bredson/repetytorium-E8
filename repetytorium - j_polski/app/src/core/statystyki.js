@@ -92,3 +92,13 @@ export function aktywnosc(postepy, dzis = new Date()) {
   }
   return { tygodnie, seriaDni };
 }
+
+/** Pokrycie materiału: przerobione X z Y per typ (liczebności z rejestru podaje UI). */
+export function pokrycie(postepy, liczebnosci) {
+  const zQuizem = (mapa) => Object.values(mapa ?? {}).filter((s) => s.quiz).length;
+  return [
+    { nazwa: "Lektury", zrobione: zQuizem(postepy.lektury), wszystkie: liczebnosci.lektury },
+    { nazwa: "Ćwiczenia", zrobione: zQuizem(postepy.cwiczenia), wszystkie: liczebnosci.cwiczenia },
+    { nazwa: "Pisanie", zrobione: Object.keys(postepy.pisanie ?? {}).length, wszystkie: liczebnosci.pisanie },
+  ];
+}
