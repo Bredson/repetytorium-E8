@@ -31,7 +31,7 @@ export default function WykresLiniowy({ punkty, liniaOdniesienia = 80 }) {
         stroke="var(--kolor-sukces)" strokeWidth="1.5" strokeDasharray="6 4" opacity="0.7"
       />
       <text x={W - M.r} y={y(liniaOdniesienia) - 5} textAnchor="end" fontSize="11" fill="var(--kolor-sukces)">
-        {liniaOdniesienia}% — próg „umiem"
+        {liniaOdniesienia}% — próg „umiem”
       </text>
       {wsp.length > 1 && (
         <polyline points={sciezka} fill="none" stroke="var(--kolor-akcent)" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" />

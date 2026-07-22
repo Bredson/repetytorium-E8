@@ -56,7 +56,7 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - `app/src/core/` — `profil.js` (schemat postępów **v4** + migracje), `plan.js`, `quiz.js`, `powtorki.js`, `egzamin.js`, `statystyki.js` (agregacja: seriaWynikow, postepPerModul, aktywnosc, pokrycie)
 - `app/src/ui/pages/` — ekrany (Start, TestWstepny, Lektura, Cwiczenie, Pisanie, Powtorka, EgzaminProbny, Statystyki...)
 - `app/src/ui/components/WykresLiniowy.jsx` — wykres SVG wyników w czasie (bez biblioteki), reużyty w ekranie Statystyki
-- `app/tests/statystyki.test.mjs` — testy node dla `core/statystyki.js` (5 testów)
+- `app/tests/statystyki.test.mjs` — testy node dla `core/statystyki.js` (7 testów)
 - `LESSONS.md` — dziennik lekcji per iteracja (obowiązkowy wpis po każdej sesji!)
 - `wklad-merytoryczny-plan-repetytorium.md` — plan merytoryczny treści
 - `.opencode/skills/repetytorium-polski/SKILL.md` — rola metodyka, proces pracy

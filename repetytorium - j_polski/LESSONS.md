@@ -426,7 +426,7 @@ Format wpisu:
   się bazą do wykresu i delt bez żadnej migracji schematu (dalej v4).
   `postepPerModul` liczy "teraz" jako średnią ważoną punktami (quizy +
   ostatni egzamin + pisanie), z fallbackiem na diagnozę przy braku nowych
-  danych — testy node'em pokryły deltę dodatnią, ujemną i "=" (5 testów,
+  danych — testy node'em pokryły deltę dodatnią, ujemną i "=" (7 testów,
   `tests/statystyki.test.mjs`).
 - Obserwacja (architektura): `WykresLiniowy.jsx` (SVG ręczny, bez biblioteki
   wykresów) + `Statystyki.jsx` (4 sekcje: Twoja droga / Moduły / Regularność
