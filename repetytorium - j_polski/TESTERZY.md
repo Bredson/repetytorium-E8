@@ -6,7 +6,9 @@ Cześć! Testujesz aplikację do nauki języka polskiego przed egzaminem
 ## Jak zacząć
 
 1. Wejdź na: **https://repetytorium-e8.vercel.app**
-2. Kliknij „Nowy profil" — podaj imię i 4-cyfrowy PIN (zapamiętaj go!)
+2. Przy pierwszej wizycie od razu zobaczysz formularz „Załóżmy Twój profil" —
+   podaj imię i ustaw 4-cyfrowy PIN (wpisujesz go dwa razy — pole „Powtórz
+   PIN"; zapamiętaj go!), potem kliknij „Utwórz profil"
 3. Zrób test wstępny (~20-25 min) — to diagnoza, nie sprawdzian; na jej
    podstawie aplikacja ułoży Twój plan nauki
 4. Wracaj codziennie — sekcja „Na dziś" podpowiada, co robić
@@ -18,7 +20,7 @@ Cześć! Testujesz aplikację do nauki języka polskiego przed egzaminem
 - **Nie czyść danych przeglądarki** dla tej strony — stracisz postępy.
 - Raz na jakiś czas kliknij „Zapisz postępy do pliku" (na dole ekranu
   głównego) — to kopia zapasowa. Plik można wgrać z powrotem na ekranie
-  wyboru profilu („Wczytaj z pliku").
+  wyboru profilu („Przywróć profil z pliku (import)").
 
 ## Co testować
 
