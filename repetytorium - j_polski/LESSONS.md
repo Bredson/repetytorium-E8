@@ -418,3 +418,44 @@ Format wpisu:
 - Kandydat techniczny: chunk 658 kB (>500 kB warning) — code-splitting
   do rozważenia w jednej z kolejnych iteracji.
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-22 (Faza 1 / iteracja 15: statystyki postępu)
+- Obserwacja: `core/statystyki.js` (czysta agregacja, 4 funkcje: seriaWynikow,
+  postepPerModul, aktywnosc, pokrycie) domyka backlog otwarty od egzaminu
+  próbnego (it. 14) — dane z `sesje[]`/`egzaminy[]` zapisane wcześniej stały
+  się bazą do wykresu i delt bez żadnej migracji schematu (dalej v4).
+  `postepPerModul` liczy "teraz" jako średnią ważoną punktami (quizy +
+  ostatni egzamin + pisanie), z fallbackiem na diagnozę przy braku nowych
+  danych — testy node'em pokryły deltę dodatnią, ujemną i "=" (5 testów,
+  `tests/statystyki.test.mjs`).
+- Obserwacja (architektura): `WykresLiniowy.jsx` (SVG ręczny, bez biblioteki
+  wykresów) + `Statystyki.jsx` (4 sekcje: Twoja droga / Moduły / Regularność
+  / Pokrycie) trzymają się wzorca App-buduje-mapy-z-rejestru-i-podaje-jako-
+  propsy — `core/` zostaje zero-zależny od `content/`, zgodnie z warstwową
+  architekturą. `MODULY_KOLEJNOSC` eksportowane z core i reużyte w UI do
+  kolejności A-F.
+- Obserwacja (QA — WAŻNE dla przyszłych iteracji): Playwright MCP startuje
+  z całkowicie czystym, izolowanym kontekstem przeglądarki — brak
+  jakiegokolwiek dotychczasowego stanu Zosi w localStorage (w przeciwieństwie
+  do wcześniejszych iteracji z Chrome DevTools MCP, gdzie profil trwał
+  między sesjami). Backup "sprzed QA" okazał się pusty. Rozwiązanie: stan
+  bazowy Zosi odtworzono przez dynamiczny `import()` prawdziwych modułów
+  `core/` w `browser_evaluate` (serwowanych live przez Vite) — `nowyProfil`,
+  `storage.saveProfile/savePostepy` — zamiast ręcznie pisanego JSON-a, co
+  gwarantuje zgodność ze schematem v4. Dane dopasowano do specu iteracji
+  (diagnoza 24%, quiz Dziadów 83%, quiz ortografii 75%, 3 powtórki w
+  kolejce/2 na dziś, seria 3 dni). Ten skonstruowany stan STAŁ SIĘ backupem
+  do przywrócenia po QA (zamiast pliku `public/backup-tmp.json` + fetch) —
+  restore wykonano przez bezpośredni `localStorage.setItem` z pełną,
+  niepociętą treścią (pierwsza próba przypadkiem obcięła `plan.tygodnie`
+  z 41 do 1 tygodnia — złapane i naprawione przed weryfikacją).
+- Obserwacja (QA): wszystkie 4 sekcje zgodne z oczekiwaniami co do liczby:
+  wykres 3 punkty (24%→83%→75%) z linią progu 80%, moduły A ▲+83pp / B = /
+  C ▲+75pp / D,E,F =, Regularność 🔥 3 dni z rzędu + 2 słupki w oknie 8
+  tygodni, Pokrycie 1/6 · 1/16 · 0/6. Ciemny motyw: wykres i słupki czytelne
+  (kolory ze zmiennych CSS). Mobile 390x844: scrollWidth = innerWidth = 390,
+  brak przewijania poziomego, karty i SVG mieszczą się w pełni; drugi resize
+  z rzędu (mobile→desktop) TYM RAZEM wylogował (niespójne z pierwszym
+  resize, który nie wylogował) — nawigacja/reload jest jedynym pewnym
+  wyzwalaczem wylogowania, nie sam resize.
+- Zmiana w skilu: nie (wnioski zapisane tutaj).

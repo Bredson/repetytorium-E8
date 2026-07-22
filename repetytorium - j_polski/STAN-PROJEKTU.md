@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (język polski)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-21, po iteracji 14** (commit `4da0261`).
+> Ostatnia aktualizacja: **2026-07-22, po iteracji 15 (8/8, domknięta)** (commity `ecad594`..`HEAD`).
 
 ---
 
@@ -38,7 +38,8 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 | 11 | `13808f0` | Treść |
 | 12 | `e482599` | Fonetyka (B komplet) + przemówienie (druga długa forma) |
 | 13 | `2cc1675` | Poezja (D komplet) + streszczenie z lukami (E komplet) |
-| **14** | **`4da0261`** | **Egzamin próbny — pełna symulacja arkusza** |
+| 14 | `4da0261` | Egzamin próbny — pełna symulacja arkusza |
+| **15** | **`ecad594`..`HEAD`** | **Statystyki postępu — wykres, moduły, regularność, pokrycie + QA (8/8, domknięte)** |
 
 ### Stan treści (komplet wg planu merytorycznego, chyba że zaznaczono)
 
@@ -46,13 +47,16 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - **Ćwiczenia:** B gramatyka ×5 ✓, C ortografia ×3 ✓, D literackie ×4 ✓, E czytanie ×4 ✓
 - **Pisanie (moduł F):** zaproszenie, ogloszenie, notatka (krótkie) + rozprawka, opowiadanie, przemowienie (długie, open-long: 200 słów, 20 pkt, 8 kryteriów samooceny)
 - **Egzamin próbny (it. 14):** arkusz 25 pytań losowany z puli 264 (rozkład A:6 B:5 C:4 D:5 E:5) + wypracowanie (wybór z 3 form), 45 pkt, zegar 150 min, reguła CKE <180 słów → cap 7/20 pkt, wynik z deltami per moduł vs diagnoza
+- **Statystyki postępu (it. 15):** ekran „📊 Twoje statystyki" (4 sekcje) — Twoja droga (wykres SVG wyników w czasie + linia progu 80%), Moduły: diagnoza→dziś (delty ▲/▽/= per A-F), Regularność (seria dni + 8 tygodni sesji), Pokrycie materiału (X z Y per lektury/ćwiczenia/pisanie); wejście z karty „Twoja diagnoza" na dashboardzie
 
 ### Kluczowe pliki
 
 - `app/src/App.jsx` — router ekranów, zapis sesji/postępów
 - `app/src/content/polski/rejestr.js` — jedyne źródło treści dla UI (`PULA_EGZAMINU`, `FORMY_EGZAMINU`, quizy, lektury...)
-- `app/src/core/` — `profil.js` (schemat postępów **v4** + migracje), `plan.js`, `quiz.js`, `powtorki.js`, `egzamin.js`
-- `app/src/ui/pages/` — ekrany (Start, TestWstepny, Lektura, Cwiczenie, Pisanie, Powtorka, EgzaminProbny...)
+- `app/src/core/` — `profil.js` (schemat postępów **v4** + migracje), `plan.js`, `quiz.js`, `powtorki.js`, `egzamin.js`, `statystyki.js` (agregacja: seriaWynikow, postepPerModul, aktywnosc, pokrycie)
+- `app/src/ui/pages/` — ekrany (Start, TestWstepny, Lektura, Cwiczenie, Pisanie, Powtorka, EgzaminProbny, Statystyki...)
+- `app/src/ui/components/WykresLiniowy.jsx` — wykres SVG wyników w czasie (bez biblioteki), reużyty w ekranie Statystyki
+- `app/tests/statystyki.test.mjs` — testy node dla `core/statystyki.js` (5 testów)
 - `LESSONS.md` — dziennik lekcji per iteracja (obowiązkowy wpis po każdej sesji!)
 - `wklad-merytoryczny-plan-repetytorium.md` — plan merytoryczny treści
 - `.opencode/skills/repetytorium-polski/SKILL.md` — rola metodyka, proces pracy
@@ -66,24 +70,24 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 
 ## 5. Kolejne kroki (backlog, kolejność do ustalenia z użytkownikiem)
 
-1. **Statystyki postępu** — dane już są (pełna historia sesji + egzaminy z 25 odpowiedziami i szczegółami wypracowania); ekran z wykresem wyników w czasie, per moduł
-2. **Dedykacja/podziękowanie** — personalny akcent w aplikacji
-3. **Code-splitting** — chunk 658 kB (warning Vite >500 kB); `React.lazy` per ekran
-4. **Fiszki dla ćwiczeń** — tryb szybkiej powtórki teorii
-5. **Migracja do Supabase** — podmiana adaptera storage (architektura gotowa)
-6. **Matematyka / angielski** — nowe przedmioty (katalogi-siostry już istnieją)
+1. **Dedykacja/podziękowanie** — personalny akcent w aplikacji
+2. **Code-splitting** — chunk 658 kB (warning Vite >500 kB); `React.lazy` per ekran
+3. **Fiszki dla ćwiczeń** — tryb szybkiej powtórki teorii
+4. **Migracja do Supabase** — podmiana adaptera storage (architektura gotowa)
+5. **Matematyka / angielski** — nowe przedmioty (katalogi-siostry już istnieją)
 
 ## 6. Procedury i pułapki (skrót — pełne wpisy w LESSONS.md)
 
 - **Nowa treść = "sam JSON"**: plik JSON + wpis w `rejestr.js` (wzorzec potwierdzony 10×)
 - **Polskie cudzysłowy w JSON**: po zapisie pliku zawsze `python3 -c "json.loads(...)"`; naprawa regexem `„([^"„”]*)"` → `„\1”`
-- **QA w przeglądarce (Chrome DevTools MCP)**:
+- **QA w przeglądarce (Chrome DevTools MCP lub Playwright MCP)**:
   - login jednym skryptem: Zosia → PIN 1234 → Wejdź; input przez natywny setter `HTMLInputElement.prototype.value` + `dispatchEvent(input, bubbles)`
-  - `emulate`/`reload` wylogowują → re-login w skrypcie
+  - `emulate`/`reload`/navigate wylogowują (niespójnie — czasem sam resize viewportu też) → re-login w skrypcie po każdej takiej operacji, na wszelki wypadek
   - klik PF/multi: **re-query przycisków przed KAŻDYM klikiem** + sleep ~250 ms (React re-render unieważnia referencje)
   - pułapka CSS `capitalize`: textContent ma małą literę mimo wielkiej na ekranie
-  - mobile: viewport `390x844x2,mobile,touch`, sprawdzać `scrollWidth === innerWidth`
-- **Backup/restore stanu Zosi**: backup przez `evaluate_script` z `filePath` + weryfikacja pythonem; restore przez tymczasowy `app/public/backup-tmp.json` + `fetch` (odpakowanie `while typeof v === "string"`), plik **usunąć** po
+  - mobile: viewport 390×844, sprawdzać `scrollWidth === innerWidth` przez `browser_evaluate`
+  - **Playwright MCP startuje z pustym, izolowanym kontekstem przeglądarki** — brak stanu Zosi z poprzednich sesji w localStorage (inaczej niż Chrome DevTools MCP z trwałym profilem). Jeśli backup "sprzed QA" wychodzi pusty, odtwórz stan bazowy przez dynamiczny `import()` prawdziwych modułów `core/` w `browser_evaluate` (Vite serwuje ES moduły live) — gwarantuje zgodność ze schematem
+- **Backup/restore stanu Zosi**: backup przez `evaluate_script` z `filePath` + weryfikacja pythonem; restore przez tymczasowy `app/public/backup-tmp.json` + `fetch` (odpakowanie `while typeof v === "string"`), plik **usunąć** po. Alternatywnie (Playwright, bez dostępu do `evaluate_script`/`filePath`): `localStorage.setItem` bezpośrednio z pełną treścią backupu w `browser_evaluate` — **uważać na ręczne przepisywanie dużych struktur** (np. `plan.tygodnie` z 41 pozycjami) — łatwo przypadkiem obciąć; zawsze zweryfikować długość/treść po zapisie (`JSON.parse(...).plan.tygodnie.length === 41` itp.)
 - **Git**: w repo są nietrackowane katalogi-siostry → `git add` zawsze jawnymi ścieżkami plików
 - **Definition of done iteracji**: build ✓ → QA desktop ✓ → QA mobile ✓ → przywrócenie stanu Zosi → wpis w LESSONS.md → commit
 
