@@ -60,3 +60,35 @@ export function postepPerModul(postepy, mapaModulow = {}) {
     })
   );
 }
+
+const dzienISO = (d) => d.toISOString().slice(0, 10);
+
+/** Regularność: sesje per tydzień (8 ostatnich, pn-nd) + seria dni z rzędu. */
+export function aktywnosc(postepy, dzis = new Date()) {
+  const sesje = postepy.sesje ?? [];
+  const dniZSesja = new Set(sesje.map((x) => x.data.slice(0, 10)));
+
+  const kursor = new Date(dzis);
+  if (!dniZSesja.has(dzienISO(kursor))) kursor.setUTCDate(kursor.getUTCDate() - 1);
+  let seriaDni = 0;
+  while (dniZSesja.has(dzienISO(kursor))) {
+    seriaDni++;
+    kursor.setUTCDate(kursor.getUTCDate() - 1);
+  }
+
+  const poniedzialek = new Date(dzis);
+  poniedzialek.setUTCDate(poniedzialek.getUTCDate() - ((poniedzialek.getUTCDay() + 6) % 7));
+  const tygodnie = [];
+  for (let i = 7; i >= 0; i--) {
+    const od = new Date(poniedzialek);
+    od.setUTCDate(od.getUTCDate() - 7 * i);
+    const koniec = new Date(od);
+    koniec.setUTCDate(koniec.getUTCDate() + 6);
+    const [odISO, koniecISO] = [dzienISO(od), dzienISO(koniec)];
+    tygodnie.push({
+      od: odISO,
+      liczba: sesje.filter((x) => { const d = x.data.slice(0, 10); return d >= odISO && d <= koniecISO; }).length,
+    });
+  }
+  return { tygodnie, seriaDni };
+}

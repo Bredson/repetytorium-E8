@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { seriaWynikow, postepPerModul } from "../src/core/statystyki.js";
+import { seriaWynikow, postepPerModul, aktywnosc } from "../src/core/statystyki.js";
 
 const sesje = [
   { typ: "quiz-lektury", ref: "balladyna", data: "2026-07-20", wynikPkt: 9, maksPkt: 12 },
@@ -59,4 +59,28 @@ test("postepPerModul: delta ujemna i brak diagnozy w module", () => {
   const p = postepPerModul(postepy, { "gramatyka-1": "B" });
   assert.deepEqual(p.B, { diagnoza: 100, teraz: 10, delta: -90 });
   assert.deepEqual(p.A, { diagnoza: 0, teraz: 0, delta: 0 });
+});
+
+const s = (data) => ({ typ: "powtorka", data });
+
+test("aktywnosc: seria liczona wstecz, dziś bez sesji nie zeruje wczorajszej", () => {
+  const dzis = new Date("2026-07-21T14:00:00Z"); // wtorek
+  // sesje: 18, 19, 20 (pn) — dziś (21) brak → seria 3
+  const a = aktywnosc({ sesje: [s("2026-07-18"), s("2026-07-19T08:00:00Z"), s("2026-07-20")] }, dzis);
+  assert.equal(a.seriaDni, 3);
+  // z sesją dziś → 4
+  assert.equal(aktywnosc({ sesje: [s("2026-07-18"), s("2026-07-19"), s("2026-07-20"), s("2026-07-21")] }, dzis).seriaDni, 4);
+  // przerwa (brak 20) → seria 0 (dziś też brak)
+  assert.equal(aktywnosc({ sesje: [s("2026-07-18"), s("2026-07-19")] }, dzis).seriaDni, 0);
+});
+
+test("aktywnosc: 8 tygodni od poniedziałku, zliczanie per tydzień", () => {
+  const dzis = new Date("2026-07-21T14:00:00Z"); // wtorek, tydzień od pn 2026-07-20
+  const a = aktywnosc({ sesje: [s("2026-07-20"), s("2026-07-21"), s("2026-07-15"), s("2026-05-01")] }, dzis);
+  assert.equal(a.tygodnie.length, 8);
+  assert.equal(a.tygodnie[7].od, "2026-07-20"); // bieżący tydzień ostatni
+  assert.equal(a.tygodnie[7].liczba, 2);
+  assert.equal(a.tygodnie[6].od, "2026-07-13");
+  assert.equal(a.tygodnie[6].liczba, 1);
+  assert.equal(a.tygodnie[0].liczba, 0); // 2026-05-01 poza oknem 8 tygodni
 });
