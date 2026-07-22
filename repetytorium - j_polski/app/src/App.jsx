@@ -15,6 +15,18 @@ import Powtorka from "./ui/pages/Powtorka.jsx";
 import Cwiczenie from "./ui/pages/Cwiczenie.jsx";
 import Pisanie from "./ui/pages/Pisanie.jsx";
 import EgzaminProbny from "./ui/pages/EgzaminProbny.jsx";
+import Statystyki from "./ui/pages/Statystyki.jsx";
+
+/** Mapy dla ekranu statystyk — budowane raz z rejestru (core nie importuje treści). */
+const MAPA_ETYKIET = Object.fromEntries(
+  [...Object.values(LEKTURY), ...Object.values(CWICZENIA), ...Object.values(PISANIE)].map((m) => [m.id, m.tytul])
+);
+const MAPA_MODULOW = Object.fromEntries(Object.values(CWICZENIA).map((c) => [c.id, c.modul]));
+const LICZEBNOSCI = {
+  lektury: Object.keys(LEKTURY).length,
+  cwiczenia: Object.keys(CWICZENIA).length,
+  pisanie: Object.keys(PISANIE).length,
+};
 
 /** Ustawia atrybuty motywu na <html> zgodnie z preferencjami profilu. */
 function zastosujPreferencje(profil) {
@@ -221,6 +233,7 @@ export default function App() {
         onOtworzCwiczenie={(ref) => { setAktywneCwiczenie(ref); setEkran("cwiczenie"); }}
         onOtworzPisanie={(ref) => { setAktywnePisanie(ref); setEkran("pisanie"); }}
         onOtworzEgzamin={() => setEkran("egzamin")}
+        onOtworzStatystyki={() => setEkran("statystyki")}
         onWyloguj={wyloguj}
         onZmienMotyw={zmienMotyw}
       />
@@ -273,6 +286,17 @@ export default function App() {
         formy={FORMY_EGZAMINU}
         diagnoza={postepy.diagnoza}
         onGotowe={zapiszEgzamin}
+        onWroc={() => setEkran("start")}
+      />
+    );
+
+  if (ekran === "statystyki")
+    return (
+      <Statystyki
+        postepy={postepy}
+        mapaEtykiet={MAPA_ETYKIET}
+        mapaModulow={MAPA_MODULOW}
+        liczebnosci={LICZEBNOSCI}
         onWroc={() => setEkran("start")}
       />
     );

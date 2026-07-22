@@ -9,7 +9,7 @@ import PasekPostepu from "../components/PasekPostepu.jsx";
 
 const IKONY_ZADAN = { powtorka: "🔁", lektura: "📖", cwiczenia: "✏️", pisanie: "📝" };
 
-export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOtworzLekture, onOtworzPowtorke, onOtworzCwiczenie, onOtworzPisanie, onOtworzEgzamin, onWyloguj, onZmienMotyw }) {
+export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOtworzLekture, onOtworzPowtorke, onOtworzCwiczenie, onOtworzPisanie, onOtworzEgzamin, onOtworzStatystyki, onWyloguj, onZmienMotyw }) {
   const dni = dniDoEgzaminu(profil);
   const diagnoza = postepy?.diagnoza;
   const [pokazPlan, setPokazPlan] = useState(false);
@@ -99,6 +99,9 @@ export default function Start({ profil, postepy, onStartTest, onPokazWynik, onOt
             </div>
             <button className="btn btn--pelny" onClick={onPokazWynik}>
               Zobacz szczegóły i omówienie odpowiedzi
+            </button>
+            <button className="btn btn--pelny" onClick={onOtworzStatystyki}>
+              📊 Zobacz statystyki postępu
             </button>
           </section>
 
