@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (język polski)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-22, po iteracji 15 (8/8, domknięta)** (commity `ecad594`..`HEAD`).
+> Ostatnia aktualizacja: **2026-07-22, po iteracji 16** (commity `ecad594`..`HEAD`).
 
 ---
 
@@ -24,6 +24,7 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - UI i App importują treść **wyłącznie** z `rejestr.js`
 - Lokalizacja appki: `app/` w tym katalogu; git root: `/Users/pibe/dev/Repetytorium-doc`
 - Dev server: `npm run dev` w `app/` → localhost:5173
+- **Produkcja:** https://repetytorium-e8.vercel.app (Vercel, auto-deploy z `main`, Root Directory `repetytorium - j_polski/app`)
 
 ## 3. Co zostało zrobione (iteracje + commity)
 
@@ -39,7 +40,8 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 | 12 | `e482599` | Fonetyka (B komplet) + przemówienie (druga długa forma) |
 | 13 | `2cc1675` | Poezja (D komplet) + streszczenie z lukami (E komplet) |
 | 14 | `4da0261` | Egzamin próbny — pełna symulacja arkusza |
-| **15** | **`ecad594`..`HEAD`** | **Statystyki postępu — wykres, moduły, regularność, pokrycie + QA (8/8, domknięte)** |
+| 15 | `ecad594`..`98c6381` | Statystyki postępu — wykres, moduły, regularność, pokrycie + QA (8/8, domknięte) |
+| **16** | **`6bf7ddd`..`HEAD`** | **Publikacja Vercel: vercel.json, auto-deploy z main, TESTERZY.md** |
 
 ### Stan treści (komplet wg planu merytorycznego, chyba że zaznaczono)
 
@@ -75,6 +77,7 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 3. **Fiszki dla ćwiczeń** — tryb szybkiej powtórki teorii
 4. **Migracja do Supabase** — podmiana adaptera storage (architektura gotowa)
 5. **Matematyka / angielski** — nowe przedmioty (katalogi-siostry już istnieją)
+6. **Monitoring uwag testerów** — zbieranie i priorytetyzacja zgłoszeń po publikacji (Vercel, it. 16)
 
 ## 6. Procedury i pułapki (skrót — pełne wpisy w LESSONS.md)
 
@@ -90,6 +93,7 @@ Kluczowe zasady metodyczne (pełen opis: skill `repetytorium-polski` w `.opencod
 - **Backup/restore stanu Zosi**: backup przez `evaluate_script` z `filePath` + weryfikacja pythonem; restore przez tymczasowy `app/public/backup-tmp.json` + `fetch` (odpakowanie `while typeof v === "string"`), plik **usunąć** po. Alternatywnie (Playwright, bez dostępu do `evaluate_script`/`filePath`): `localStorage.setItem` bezpośrednio z pełną treścią backupu w `browser_evaluate` — **uważać na ręczne przepisywanie dużych struktur** (np. `plan.tygodnie` z 41 pozycjami) — łatwo przypadkiem obciąć; zawsze zweryfikować długość/treść po zapisie (`JSON.parse(...).plan.tygodnie.length === 41` itp.)
 - **Git**: w repo są nietrackowane katalogi-siostry → `git add` zawsze jawnymi ścieżkami plików
 - **Definition of done iteracji**: build ✓ → QA desktop ✓ → QA mobile ✓ → przywrócenie stanu Zosi → wpis w LESSONS.md → commit
+- **Deploy**: deploy = push na main; podgląd deployów: dashboard Vercel
 
 ## 7. Jak zacząć nową sesję
 

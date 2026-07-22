@@ -459,3 +459,26 @@ Format wpisu:
   resize, który nie wylogował) — nawigacja/reload jest jedynym pewnym
   wyzwalaczem wylogowania, nie sam resize.
 - Zmiana w skilu: nie (wnioski zapisane tutaj).
+
+## 2026-07-22 (Faza 1 / iteracja 16: publikacja Vercel)
+- Obserwacja (konfiguracja/deploy): publikacja wymagała jednego pliku,
+  `app/vercel.json` — `rewrites` (`/(.*)` → `/index.html`) dla SPA bez
+  routera (nawigacja przez `useState`, nie History API, ale bezpośrednie
+  wejście na dowolną ścieżkę i tak musi trafić w `index.html`) oraz
+  `github.silent: true` żeby nie zaśmiecać PR-ów statusami. Root Directory
+  w konfiguracji projektu Vercel: `repetytorium - j_polski/app` (repo
+  zawiera kilka katalogów-przedmiotów obok siebie) — ustawione ręcznie
+  przez użytkownika przy imporcie (checkpoint, nie automat). Auto-deploy
+  z `main` zadziałał od razu przy pierwszym pushu po imporcie.
+- Obserwacja (QA na produkcji): pełna weryfikacja na
+  `https://repetytorium-e8.vercel.app` Playwright MCP — ekran startowy
+  renderuje się po HTTPS bez błędów konsoli; wejście bezpośrednie na
+  `/statystyki` zwróciło appkę (index.html), nie 404 Vercela — rewrite SPA
+  potwierdzony; utworzenie profilu `Tester`/PIN `9999` zalogowało od razu
+  i pokazało kartę „Krok 1: test wstępny” — localStorage działa poprawnie
+  na domenie `vercel.app` (klucze `rep:profil:...` i `rep:postepy:...`
+  potwierdzone przez `browser_evaluate`, potem usunięte po QA). Mobile
+  390×844: `scrollWidth === innerWidth === 390`, appka pozostała zalogowana
+  po samym resize (bez nawigacji/reloadu) — zgodnie z obserwacją z it. 15.
+  Zero blokerów — nic w kodzie appki nie wymagało zmian.
+- Zmiana w skilu: nie (wnioski zapisane tutaj).
