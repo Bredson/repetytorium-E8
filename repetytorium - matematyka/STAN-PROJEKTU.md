@@ -1,0 +1,91 @@
+# Stan projektu — Repetytorium ósmoklasisty (matematyka)
+
+> Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
+> Ostatnia aktualizacja: **2026-07-23, po sesji planowania it.1** (brak commitów kodu — dopiero plan).
+
+---
+
+## 1. Cel projektu
+
+Webowa aplikacja-repetytorium dla ósmoklasistki (Zosia, egzamin **maj 2027**, cel 95–100%) — matematyka.
+Osobna aplikacja obok `repetytorium - j_polski/` (ta jest u testerów od it.16).
+Docelowo połączone przez Hub (statyczna strona nawigacyjna) — po ukończeniu angielskiego.
+
+## 2. Stack i architektura
+
+- **React 19 SPA** (Vite), bez TypeScript, bez routera (ekrany przez `useState` w `App.jsx`)
+- **KaTeX przez npm** — render wyrażeń `$...$` i `$$...$$` po stronie klienta, zero CDN
+- **localStorage** przez adapter w `src/storage/` — migracja do Supabase = podmiana adaptera
+- Treść w **JSON** w `src/content/matematyka/`, spinana przez `rejestr.js`
+- Warstwy: `content/` (JSON) → `core/` (czysta logika, **zero DOM**) → `storage/` → `ui/`
+- Klucz postępów: `rep:postepy:{uuid}:matematyka` (odizolowane od polskiego)
+- Lokalizacja appki: `repetytorium - matematyka/app/` w katalogu `Repetytorium-doc`
+- Git root: `/Users/pibe/dev/Repetytorium-doc` — jawne ścieżki przy `git add`
+- Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+- **Produkcja:** jeszcze nie — deploy Vercel zaplanowany po ukończeniu it.1 (lub osobno)
+
+## 3. Co zostało zrobione
+
+| Etap | Status | Opis |
+|------|--------|------|
+| Skill `repetytorium-matematyka` | ✅ | `.opencode/skills/` (wzorowany na polskim) |
+| `LESSONS.md` | ✅ | Wpisy z 2026-07-20 — weryfikacja egzamin.md CKE, format 30 pkt / 125 min |
+| `zrodla/` | ✅ | Raport metodyczny (.docx + .txt) + `zrodla-url.md` (6 URL-i) |
+| Design spec it.1 | ✅ | `app/docs/superpowers/specs/2026-07-23-matematyka-design.md` — zatwierdzony |
+| Plan it.1 | ✅ | `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md` — gotowy |
+| Karty Trello it.1 | ✅ | `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md` — gotowe |
+| **Kod aplikacji** | ❌ | **Jeszcze nie zaczęty — it.1 do wykonania** |
+
+### Kluczowe decyzje projektowe (z design spec)
+
+| Temat | Decyzja |
+|-------|---------|
+| Relacja do polskiego | Osobna aplikacja — zero ryzyka regresji |
+| Wzory matematyczne | KaTeX przez npm |
+| Zadania otwarte | Prowadzony tok rozumowania (kroki z walidacją numeryczną) |
+| Teoria | Inline `przypomnij` przy zadaniu |
+| Zakres it.1 | 9 działów priorytetowych (liczby, ułamki, potęgi, procenty, algebra, równania, geometria płaska, Pitagoras, geometria przestrzenna) |
+
+## 4. Iteracja 1 — plan i stan
+
+**Status: PLAN GOTOWY — czeka na wykonanie**
+
+Plan: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md`
+Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
+
+### 8 tasków it.1:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | Scaffold: Vite + React + KaTeX, `npm run dev` | ⬜ |
+| T2 | `storage/adapter.js` + `core/profil.js` (struktura `dzialy`) | ⬜ |
+| T3 | `core/quiz.js` (TDD), `core/plan.js`, `core/powtorki.js` | ⬜ |
+| T4 | `dzialy/liczby.json` (wzorzec JSON) + `rejestr.js` | ⬜ |
+| T5 | Komponenty skopiowane z polskiego + `KaTeXRenderer` + `KrokZadania` | ⬜ |
+| T6 | Ekran `TestWstepny` (diagnoza per dział) | ⬜ |
+| T7 | `Start.jsx` (dashboard) + `App.jsx` router | ⬜ |
+| T8 | `LESSONS.md` + Definition of Done | ⬜ |
+
+**Definition of done it.1:** build ✓ → QA desktop ✓ → QA mobile (390×844) ✓ → wpis LESSONS.md → commit
+
+## 5. Kolejne kroki (po it.1)
+
+- **It.2:** Pozostałe 8 działów JSON (ułamki, potęgi, procenty, algebra, równania, geometria płaska, Pitagoras, geometria przestrzenna) + ekrany `Dzial.jsx`, `ZadanieOtwarte.jsx`, `Powtorka.jsx`
+- **It.3:** `EgzaminProbny.jsx` (21 zadań, 125 min), `Statystyki.jsx`
+- **Deploy Vercel** — analogicznie jak w polskim (`vercel.json` + auto-deploy z `main`)
+- **Hub** — statyczny po ukończeniu angielskiego
+
+## 6. Procedury i pułapki (z LESSONS.md)
+
+- **Polskie cudzysłowy w JSON**: po zapisie zawsze weryfikuj `python3 -c "import json,sys; json.load(open(sys.argv[1]))" plik.json`
+- **KaTeX render**: `katex.renderToString(wzor, { throwOnError: false })` — `throwOnError: false` żeby błędy LaTeX nie crashowały UI
+- **Git**: jawne ścieżki przy `git add` (w repo są inne nietrackowane katalogi-siostry)
+- **Dev port**: 5173 może być zajęty przez polskiego — matematyka startuje na 5174
+- **localStorage izolacja**: klucz `matematyka` odizolowany od `polski` — nie kolidują na tym samym urządzeniu
+
+## 7. Jak zacząć nową sesję
+
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md`
+2. Przeczytaj plan it.1: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md`
+3. Uruchom skill `superpowers:subagent-driven-development` i wykonaj plan task po tasku
+4. Po ukończeniu it.1: zaktualizuj tabelę tasków powyżej i dodaj wiersz do sekcji 3
