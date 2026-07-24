@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-23, po sesji planowania it.1** (brak commitów kodu — dopiero plan).
+> Ostatnia aktualizacja: **2026-07-24, po sesji it.1** (9 commitów: scaffold → storage → core → content → UI → TestWstepny → Start+App → LESSONS → fix).
 
 ---
 
@@ -34,7 +34,7 @@ Docelowo połączone przez Hub (statyczna strona nawigacyjna) — po ukończeniu
 | Design spec it.1 | ✅ | `app/docs/superpowers/specs/2026-07-23-matematyka-design.md` — zatwierdzony |
 | Plan it.1 | ✅ | `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md` — gotowy |
 | Karty Trello it.1 | ✅ | `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md` — gotowe |
-| **Kod aplikacji** | ❌ | **Jeszcze nie zaczęty — it.1 do wykonania** |
+| **It.1 — scaffold + diagnoza + dashboard** | ✅ | 9 commitów (2ac959d..d2b515e); build ✓; QA desktop+mobile ✓ |
 
 ### Kluczowe decyzje projektowe (z design spec)
 
@@ -48,7 +48,7 @@ Docelowo połączone przez Hub (statyczna strona nawigacyjna) — po ukończeniu
 
 ## 4. Iteracja 1 — plan i stan
 
-**Status: PLAN GOTOWY — czeka na wykonanie**
+**Status: UKOŃCZONA ✅**
 
 Plan: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md`
 Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
@@ -57,16 +57,28 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
 
 | Task | Co robi | Status |
 |------|---------|--------|
-| T1 | Scaffold: Vite + React + KaTeX, `npm run dev` | ⬜ |
-| T2 | `storage/adapter.js` + `core/profil.js` (struktura `dzialy`) | ⬜ |
-| T3 | `core/quiz.js` (TDD), `core/plan.js`, `core/powtorki.js` | ⬜ |
-| T4 | `dzialy/liczby.json` (wzorzec JSON) + `rejestr.js` | ⬜ |
-| T5 | Komponenty skopiowane z polskiego + `KaTeXRenderer` + `KrokZadania` | ⬜ |
-| T6 | Ekran `TestWstepny` (diagnoza per dział) | ⬜ |
-| T7 | `Start.jsx` (dashboard) + `App.jsx` router | ⬜ |
-| T8 | `LESSONS.md` + Definition of Done | ⬜ |
+| T1 | Scaffold: Vite + React + KaTeX, `npm run dev` | ✅ |
+| T2 | `storage/adapter.js` + `core/profil.js` (struktura `dzialy`) | ✅ |
+| T3 | `core/quiz.js` (TDD), `core/plan.js`, `core/powtorki.js` | ✅ |
+| T4 | `dzialy/liczby.json` (wzorzec JSON) + `rejestr.js` | ✅ |
+| T5 | Komponenty skopiowane z polskiego + `KaTeXRenderer` + `KrokZadania` | ✅ |
+| T6 | Ekran `TestWstepny` (diagnoza per dział) | ✅ |
+| T7 | `Start.jsx` (dashboard) + `App.jsx` router | ✅ |
+| T8 | `LESSONS.md` + Definition of Done | ✅ |
 
-**Definition of done it.1:** build ✓ → QA desktop ✓ → QA mobile (390×844) ✓ → wpis LESSONS.md → commit
+**Definition of done it.1:** build ✓ → QA desktop ✓ → QA mobile (390×844) ✓ → wpis LESSONS.md → commit ✓
+
+### Zrealizowane (9 commitów: 2ac959d..d2b515e)
+- Vite+React+KaTeX scaffold działający na localhost:5174
+- `storage/adapter.js` (localStorage, parametryczny przedmiot)
+- `core/profil.js` — profil, PIN, `pustePostepy()` ze strukturą `dzialy:{}`
+- `core/quiz.js` (TDD, 9 asercji), `core/plan.js`, `core/powtorki.js`
+- `content/matematyka/dzialy/liczby.json` (wzorzec: 2 tw + 3 ćw + 1 otwarte) + `rejestr.js`
+- `KaTeXRenderer.jsx` (parser `$...$` i `$$...$$`), `KrokZadania.jsx`
+- Ekrany profilu skopiowane z polskiego: `WyborProfilu`, `EkranPin`, `NowyProfil`
+- `TestWstepny.jsx` — diagnoza per dział, wynik jako ratio 0–1
+- `Start.jsx` dashboard (9 kart działów, banner diagnozy, „Na dziś" powtórki)
+- `App.jsx` — router stanowy wszystkich ekranów
 
 ## 5. Kolejne kroki (po it.1)
 
@@ -83,9 +95,10 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
 - **Dev port**: 5173 może być zajęty przez polskiego — matematyka startuje na 5174
 - **localStorage izolacja**: klucz `matematyka` odizolowany od `polski` — nie kolidują na tym samym urządzeniu
 
-## 7. Jak zacząć nową sesję
+## 7. Jak zacząć nową sesję (it.2+)
 
 1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md`
-2. Przeczytaj plan it.1: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-scaffold.md`
-3. Uruchom skill `superpowers:subagent-driven-development` i wykonaj plan task po tasku
-4. Po ukończeniu it.1: zaktualizuj tabelę tasków powyżej i dodaj wiersz do sekcji 3
+2. Przeczytaj design spec: `app/docs/superpowers/specs/2026-07-23-matematyka-design.md`
+3. Napisz plan it.2 (skill `superpowers:writing-plans`)
+4. Uruchom skill `superpowers:subagent-driven-development`
+5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
