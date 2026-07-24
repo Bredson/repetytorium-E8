@@ -46,3 +46,15 @@ Format wpisu:
 - Zmiana w skilu: tak — `reference/egzamin.md` zaktualizowany (struktura arkusza 30 pkt,
   sekcje "Czego NIE ma na egzaminie" i "Ograniczenia zakresu", koło/okrąg jako nowość
   2025, statystyka bez prawdopodobieństwa, dane 2026: średnia 55%, >90% pkt = 13,6%).
+
+## 2026-07-24 (it.1 — scaffold + diagnoza + dashboard)
+- Obserwacja: scaffold Vite+React+KaTeX zbudowany od zera na wzorcu polskiego projektu.
+  `storage/adapter.js` i `core/powtorki.js` skopiowane 1:1 (logika bez zmian).
+  `core/profil.js` zaadaptowany: `pustePostepy()` zwraca strukturę `dzialy:{}` zamiast `lektury/cwiczenia/pisanie`.
+- Obserwacja: KaTeXRenderer — parser `$...$` i `$$...$$` zbudowany ręcznie (bez biblioteki parsującej),
+  renderuje przez `katex.renderToString` i wstrzykuje HTML przez `dangerouslySetInnerHTML`.
+- Wniosek: `przedmioty: ["matematyka"]` w `nowyProfil()` — profil NIE dziedziczy automatycznie
+  z polskiego; jeśli w przyszłości będzie Hub ze wspólnym profilem, trzeba osobno zmergować listy.
+- Wniosek: klucze localStorage są odizolowane (`rep:postepy:{uuid}:matematyka`),
+  więc aplikacja matematyki nie koliduje z polskim na tym samym urządzeniu.
+- Zmiana w skilu: nie (nowe lekcje dotyczą scaffoldu; SKILL.md matematyki nie wymaga aktualizacji).
