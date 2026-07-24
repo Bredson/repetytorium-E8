@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { material } from "../../content/matematyka/rejestr.js";
 import { sprawdzOdpowiedz, obliczWynikDzialu } from "../../core/quiz.js";
 import KaTeXRenderer from "../components/KaTeXRenderer.jsx";
@@ -15,6 +15,34 @@ export default function Dzial({ dzialId, postepy, onZakoncz, onZadanieOtwarte, o
 
   const pytanie = pytania[aktualny];
 
+  const timerRef = useRef(null);
+  const efektZakonczeniaWykonanyRef = useRef(false);
+
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, []);
+
+  const wynik = useMemo(
+    () => (zakonczone ? obliczWynikDzialu(pytania, odpowiedzi) : null),
+    [zakonczone, pytania, odpowiedzi]
+  );
+  const zdany = wynik ? wynik.procent >= 80 : false;
+
+  useEffect(() => {
+    if (zakonczone && zdany && !efektZakonczeniaWykonanyRef.current) {
+      efektZakonczeniaWykonanyRef.current = true;
+      // Jeśli są zadania otwarte — idź do ZadanieOtwarte
+      if (dzial.zadania_otwarte?.length > 0) {
+        onZadanieOtwarte({ zadanie: dzial.zadania_otwarte[0], wynikZamknietych: wynik });
+      } else {
+        // Brak zadań otwartych — zakończ dział
+        onZakoncz({ dzialId, ...wynik });
+      }
+    }
+  }, [zakonczone, zdany, wynik, dzial, dzialId, onZadanieOtwarte, onZakoncz]);
+
   function wybierz(opcja) {
     if (wybrana !== null) return; // blokada podwójnego kliknięcia
     const nowe = { ...odpowiedzi, [pytanie.id]: opcja };
@@ -22,7 +50,7 @@ export default function Dzial({ dzialId, postepy, onZakoncz, onZadanieOtwarte, o
     setPokazFeedback(true);
     setOdpowiedzi(nowe);
 
-    setTimeout(() => {
+    timerRef.current = setTimeout(() => {
       if (aktualny < pytania.length - 1) {
         setAktualny(aktualny + 1);
         setWybrana(null);
@@ -39,23 +67,15 @@ export default function Dzial({ dzialId, postepy, onZakoncz, onZadanieOtwarte, o
     setWybrana(null);
     setPokazFeedback(false);
     setZakonczone(false);
+    efektZakonczeniaWykonanyRef.current = false;
   }
 
   if (zakonczone) {
-    const wynik = obliczWynikDzialu(pytania, odpowiedzi);
-    const procent = wynik.procent;
-    const zdany = procent >= 80;
-
     if (zdany) {
-      // Jeśli są zadania otwarte — idź do ZadanieOtwarte
-      if (dzial.zadania_otwarte?.length > 0) {
-        onZadanieOtwarte({ zadanie: dzial.zadania_otwarte[0], wynikZamknietych: wynik });
-        return null;
-      }
-      // Brak zadań otwartych — zakończ dział
-      onZakoncz({ dzialId, ...wynik });
       return null;
     }
+
+    const procent = wynik.procent;
 
     return (
       <div className="tresc ekran-wjazd">
