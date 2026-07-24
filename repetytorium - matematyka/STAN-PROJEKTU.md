@@ -80,14 +80,38 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
 - `Start.jsx` dashboard (9 kart działów, banner diagnozy, „Na dziś" powtórki)
 - `App.jsx` — router stanowy wszystkich ekranów
 
-## 5. Kolejne kroki (po it.1)
+## 5. Iteracja 2 — plan i stan
 
-- **It.2:** Pozostałe 8 działów JSON (ułamki, potęgi, procenty, algebra, równania, geometria płaska, Pitagoras, geometria przestrzenna) + ekrany `Dzial.jsx`, `ZadanieOtwarte.jsx`, `Powtorka.jsx`
+**Status: GOTOWY DO WYKONANIA**
+
+Plan: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
+Karty Trello: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-trello.md`
+
+### 5 tasków it.2:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | 8 działów JSON (ułamki…geometria-przestrzenna) + rejestr.js | ⏳ |
+| T2 | `Dzial.jsx` (quiz zamknięty, próg 80%, przejście do ZadanieOtwarte) | ⏳ |
+| T3 | `ZadanieOtwarte.jsx` (kroki sekwencyjne przez KrokZadania) | ⏳ |
+| T4 | `Powtorka.jsx` (sesja spaced-repetition, ocena umiem/jeszcze-nie) | ⏳ |
+| T5 | `App.jsx` router (stany dzial/zadanie-otwarte/powtorka) + Start.jsx + LESSONS + STAN | ⏳ |
+
+### Jak zacząć it.2:
+
+1. Przeczytaj ten plik
+2. Uruchom: `superpowers:subagent-driven-development`
+3. Plan: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
+4. Ledger: `.superpowers/sdd/progress.md` (sprawdź — może być częściowo wykonany)
+5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+
+## 6. Kolejne kroki (po it.2)
+
 - **It.3:** `EgzaminProbny.jsx` (21 zadań, 125 min), `Statystyki.jsx`
 - **Deploy Vercel** — analogicznie jak w polskim (`vercel.json` + auto-deploy z `main`)
 - **Hub** — statyczny po ukończeniu angielskiego
 
-## 6. Procedury i pułapki (z LESSONS.md)
+## 7. Procedury i pułapki (z LESSONS.md)
 
 - **Polskie cudzysłowy w JSON**: po zapisie zawsze weryfikuj `python3 -c "import json,sys; json.load(open(sys.argv[1]))" plik.json`
 - **KaTeX render**: `katex.renderToString(wzor, { throwOnError: false })` — `throwOnError: false` żeby błędy LaTeX nie crashowały UI
@@ -95,10 +119,15 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
 - **Dev port**: 5173 może być zajęty przez polskiego — matematyka startuje na 5174
 - **localStorage izolacja**: klucz `matematyka` odizolowany od `polski` — nie kolidują na tym samym urządzeniu
 
-## 7. Jak zacząć nową sesję (it.2+)
+## 8. Jak zacząć nową sesję
 
+### Jeśli it.2 NIE jest ukończona (aktualny stan):
+1. Przeczytaj ten plik
+2. Sprawdź ledger: `cat ".superpowers/sdd/progress.md"` — które taski są już zrobione
+3. Uruchom `superpowers:subagent-driven-development` z planem `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
+4. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+
+### Jeśli it.2 jest ukończona:
 1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md`
-2. Przeczytaj design spec: `app/docs/superpowers/specs/2026-07-23-matematyka-design.md`
-3. Napisz plan it.2 (skill `superpowers:writing-plans`)
-4. Uruchom skill `superpowers:subagent-driven-development`
-5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+2. Napisz plan it.3 (skill `superpowers:writing-plans`) — EgzaminProbny + Statystyki
+3. Uruchom skill `superpowers:subagent-driven-development`
