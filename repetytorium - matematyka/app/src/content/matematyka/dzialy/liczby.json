@@ -1,0 +1,68 @@
+{
+  "id": "liczby",
+  "tytul": "Liczby i działania",
+  "modul": "A",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-l1",
+      "tresc": "Oblicz: $(-3)^2 + \\sqrt{16}$",
+      "typ": "zamkniete",
+      "opcje": ["5", "13", "1", "-5"],
+      "poprawna": "13"
+    },
+    {
+      "id": "tw-l2",
+      "tresc": "Która liczba jest pierwsza?",
+      "typ": "zamkniete",
+      "opcje": ["9", "15", "17", "21"],
+      "poprawna": "17"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "l1",
+      "tresc": "Oblicz: $2^3 \\cdot 2^{-1}$",
+      "typ": "zamkniete",
+      "opcje": ["2", "4", "8", "16"],
+      "poprawna": "4",
+      "wskazowka": "Przy mnożeniu potęg o tej samej podstawie dodajesz wykładniki.",
+      "przypomnij": "Własność potęg: $a^m \\cdot a^n = a^{m+n}$"
+    },
+    {
+      "id": "l2",
+      "tresc": "Wynik działania $|{-7}| + |3|$ to:",
+      "typ": "zamkniete",
+      "opcje": ["4", "-4", "10", "-10"],
+      "poprawna": "10",
+      "wskazowka": "Wartość bezwzględna to odległość od zera — zawsze nieujemna.",
+      "przypomnij": "$|a|$ = a gdy $a \\geq 0$; $|a|$ = $-a$ gdy $a < 0$"
+    },
+    {
+      "id": "l3",
+      "tresc": "Ile wynosi $\\text{NWD}(12, 18)$?",
+      "typ": "zamkniete",
+      "opcje": ["2", "3", "6", "36"],
+      "poprawna": "6",
+      "wskazowka": "NWD — największy wspólny dzielnik. Rozłóż obie liczby na czynniki pierwsze.",
+      "przypomnij": "$12 = 2^2 \\cdot 3$; $18 = 2 \\cdot 3^2$; NWD = $2 \\cdot 3 = 6$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "lo1",
+      "tresc": "Basen ma wymiary 12 m × 8 m × 2 m. Oblicz jego objętość.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zapisz obliczenie: długość × szerokość × głębokość",
+          "oczekiwana": "192",
+          "jednostka": "m³",
+          "podpowiedz": "Objętość prostopadłościanu = długość × szerokość × wysokość"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$V = 12 \\cdot 8 \\cdot 2 = 192 \\text{ m}^3$"
+    }
+  ]
+}
