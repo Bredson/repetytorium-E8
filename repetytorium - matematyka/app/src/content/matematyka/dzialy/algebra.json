@@ -1,0 +1,68 @@
+{
+  "id": "algebra",
+  "tytul": "Wyrażenia algebraiczne",
+  "modul": "E",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-a1",
+      "tresc": "Wartość wyrażenia $3x - 2$ dla $x = 4$ wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["10", "14", "6", "12"],
+      "poprawna": "10"
+    },
+    {
+      "id": "tw-a2",
+      "tresc": "Uproszczona postać $2a + 3b - a + b$ to:",
+      "typ": "zamkniete",
+      "opcje": ["$a + 4b$", "$3a + 4b$", "$a + 2b$", "$3a + 2b$"],
+      "poprawna": "$a + 4b$"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "a1",
+      "tresc": "Rozwiń: $3(x + 2)$",
+      "typ": "zamkniete",
+      "opcje": ["$3x + 2$", "$3x + 6$", "$3x + 5$", "$x + 6$"],
+      "poprawna": "$3x + 6$",
+      "wskazowka": "Rozdzielność mnożenia względem dodawania.",
+      "przypomnij": "$a(b+c) = ab + ac$"
+    },
+    {
+      "id": "a2",
+      "tresc": "Uprość: $4x^2 - x^2 + 2x$",
+      "typ": "zamkniete",
+      "opcje": ["$3x^2 + 2x$", "$5x^2 + 2x$", "$3x^2$", "$4x^2 + 2x$"],
+      "poprawna": "$3x^2 + 2x$",
+      "wskazowka": "Dodaj/odejmij wyrazy podobne osobno.",
+      "przypomnij": "Wyrazy podobne mają tę samą część literową."
+    },
+    {
+      "id": "a3",
+      "tresc": "Oblicz wartość $x^2 - 2x$ dla $x = -3$",
+      "typ": "zamkniete",
+      "opcje": ["15", "3", "21", "-3"],
+      "poprawna": "15",
+      "wskazowka": "Podstaw wartość x do wyrażenia, pamiętając o znaku.",
+      "przypomnij": "$(-3)^2 = 9$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "ao1",
+      "tresc": "Oblicz wartość wyrażenia $2a^2 + 3b$ dla $a = 2$ i $b = 1$.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Podstaw wartości i oblicz wynik wyrażenia",
+          "oczekiwana": "11",
+          "jednostka": null,
+          "podpowiedz": "Podstaw najpierw $a=2$: $2 \\cdot 2^2 = 8$; potem dodaj $3 \\cdot 1$."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$2 \\cdot 4 + 3 \\cdot 1 = 8 + 3 = 11$"
+    }
+  ]
+}

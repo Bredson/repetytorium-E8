@@ -1,0 +1,68 @@
+{
+  "id": "potegi",
+  "tytul": "Potęgi i pierwiastki",
+  "modul": "C",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-p1",
+      "tresc": "Ile wynosi $2^5$?",
+      "typ": "zamkniete",
+      "opcje": ["10", "25", "32", "16"],
+      "poprawna": "32"
+    },
+    {
+      "id": "tw-p2",
+      "tresc": "Co to jest $\\sqrt{49}$?",
+      "typ": "zamkniete",
+      "opcje": ["6", "7", "8", "9"],
+      "poprawna": "7"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "p1",
+      "tresc": "Uprość: $a^3 \\cdot a^4$",
+      "typ": "zamkniete",
+      "opcje": ["$a^7$", "$a^{12}$", "$a^1$", "$2a^7$"],
+      "poprawna": "$a^7$",
+      "wskazowka": "Przy mnożeniu potęg o tej samej podstawie dodajesz wykładniki.",
+      "przypomnij": "$a^m \\cdot a^n = a^{m+n}$"
+    },
+    {
+      "id": "p2",
+      "tresc": "Ile wynosi $3^{-2}$?",
+      "typ": "zamkniete",
+      "opcje": ["$-9$", "$-6$", "$\\frac{1}{9}$", "$9$"],
+      "poprawna": "$\\frac{1}{9}$",
+      "wskazowka": "Potęga o wykładniku ujemnym to odwrotność potęgi.",
+      "przypomnij": "$a^{-n} = \\frac{1}{a^n}$"
+    },
+    {
+      "id": "p3",
+      "tresc": "Oblicz: $\\sqrt{4 \\cdot 25}$",
+      "typ": "zamkniete",
+      "opcje": ["10", "20", "15", "5"],
+      "poprawna": "10",
+      "wskazowka": "Pierwiastek z iloczynu to iloczyn pierwiastków.",
+      "przypomnij": "$\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "po1",
+      "tresc": "Oblicz: $(2^3)^2$",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zastosuj wzór na potęgę potęgi i oblicz wynik",
+          "oczekiwana": "64",
+          "jednostka": null,
+          "podpowiedz": "Potęga potęgi: mnożysz wykładniki."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$(2^3)^2 = 2^{3 \\cdot 2} = 2^6 = 64$"
+    }
+  ]
+}

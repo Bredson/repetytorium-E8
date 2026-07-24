@@ -1,0 +1,68 @@
+{
+  "id": "procenty",
+  "tytul": "Procenty",
+  "modul": "D",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-pr1",
+      "tresc": "25% z 80 to:",
+      "typ": "zamkniete",
+      "opcje": ["20", "25", "15", "30"],
+      "poprawna": "20"
+    },
+    {
+      "id": "tw-pr2",
+      "tresc": "Cena 200 zł wzrosła o 10%. Nowa cena to:",
+      "typ": "zamkniete",
+      "opcje": ["210 zł", "220 zł", "180 zł", "190 zł"],
+      "poprawna": "220 zł"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "pr1",
+      "tresc": "Ile to 15% z 60?",
+      "typ": "zamkniete",
+      "opcje": ["9", "12", "15", "6"],
+      "poprawna": "9",
+      "wskazowka": "Obliczasz procent z liczby: mnożysz przez ułamek dziesiętny.",
+      "przypomnij": "$p\\% \\cdot W = \\frac{p}{100} \\cdot W$"
+    },
+    {
+      "id": "pr2",
+      "tresc": "Wyrażona procentowo wartość $\\frac{3}{5}$ to:",
+      "typ": "zamkniete",
+      "opcje": ["35%", "53%", "60%", "55%"],
+      "poprawna": "60%",
+      "wskazowka": "Zamień ułamek na procent, mnożąc przez 100%.",
+      "przypomnij": "$\\frac{a}{b} = \\frac{a}{b} \\cdot 100\\%$"
+    },
+    {
+      "id": "pr3",
+      "tresc": "Po zniżce 20% cena wynosi 160 zł. Cena przed zniżką to:",
+      "typ": "zamkniete",
+      "opcje": ["128 zł", "192 zł", "180 zł", "200 zł"],
+      "poprawna": "200 zł",
+      "wskazowka": "160 zł to 80% ceny pierwotnej — oblicz 100%.",
+      "przypomnij": "Jeśli $80\\% \\cdot W = 160$, to $W = 160 : 0{,}8$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "pro1",
+      "tresc": "Sklep obniżył cenę butów o 30%. Buty kosztowały 250 zł. Ile kosztują teraz?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz nową cenę po obniżce",
+          "oczekiwana": "175",
+          "jednostka": "zł",
+          "podpowiedz": "Oblicz 30% z 250, potem odejmij od ceny pierwotnej."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$30\\% \\cdot 250 = 75$ zł; $250 - 75 = 175$ zł"
+    }
+  ]
+}

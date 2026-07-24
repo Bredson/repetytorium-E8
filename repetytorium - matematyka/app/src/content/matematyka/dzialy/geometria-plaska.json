@@ -1,0 +1,68 @@
+{
+  "id": "geometria-plaska",
+  "tytul": "Geometria płaska",
+  "modul": "G",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-gp1",
+      "tresc": "Pole prostokąta o bokach 6 cm i 4 cm wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["10 cm²", "24 cm²", "20 cm²", "48 cm²"],
+      "poprawna": "24 cm²"
+    },
+    {
+      "id": "tw-gp2",
+      "tresc": "Obwód kwadratu o boku 5 cm wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["10 cm", "20 cm", "25 cm", "15 cm"],
+      "poprawna": "20 cm"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "gp1",
+      "tresc": "Oblicz obwód trójkąta o bokach 3 cm, 4 cm, 5 cm.",
+      "typ": "zamkniete",
+      "opcje": ["10 cm", "12 cm", "15 cm", "60 cm"],
+      "poprawna": "12 cm",
+      "wskazowka": "Dodaj długości wszystkich boków trójkąta.",
+      "przypomnij": "Obwód = suma wszystkich boków."
+    },
+    {
+      "id": "gp2",
+      "tresc": "Pole trójkąta o podstawie 10 cm i wysokości 6 cm:",
+      "typ": "zamkniete",
+      "opcje": ["30 cm²", "60 cm²", "16 cm²", "15 cm²"],
+      "poprawna": "30 cm²",
+      "wskazowka": "Pole trójkąta liczysz z podstawy i wysokości.",
+      "przypomnij": "$P = \\frac{a \\cdot h}{2}$"
+    },
+    {
+      "id": "gp3",
+      "tresc": "Pole koła o promieniu 5 cm (użyj $\\pi \\approx 3{,}14$):",
+      "typ": "zamkniete",
+      "opcje": ["15,7 cm²", "31,4 cm²", "78,5 cm²", "157 cm²"],
+      "poprawna": "78,5 cm²",
+      "wskazowka": "Pole koła liczysz ze wzoru z promieniem.",
+      "przypomnij": "$P = \\pi r^2$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "gpo1",
+      "tresc": "Ogród w kształcie prostokąta ma wymiary 12 m × 8 m. Oblicz jego obwód.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz obwód prostokąta",
+          "oczekiwana": "40",
+          "jednostka": "m",
+          "podpowiedz": "Obwód prostokąta = 2 × (długość + szerokość)."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$O = 2 \\cdot (12 + 8) = 2 \\cdot 20 = 40$ m"
+    }
+  ]
+}

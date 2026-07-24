@@ -1,0 +1,68 @@
+{
+  "id": "ulamki",
+  "tytul": "Ułamki zwykłe i dziesiętne",
+  "modul": "B",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-u1",
+      "tresc": "Oblicz: $\\frac{3}{4} + \\frac{1}{6}$",
+      "typ": "zamkniete",
+      "opcje": ["\\frac{5}{12}", "\\frac{11}{12}", "\\frac{2}{3}", "\\frac{4}{10}"],
+      "poprawna": "\\frac{11}{12}"
+    },
+    {
+      "id": "tw-u2",
+      "tresc": "Ile wynosi $2{,}5 \\cdot 0{,}4$?",
+      "typ": "zamkniete",
+      "opcje": ["0,1", "1,0", "10", "0,01"],
+      "poprawna": "1,0"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "u1",
+      "tresc": "Oblicz: $\\frac{2}{3} \\cdot \\frac{9}{4}$",
+      "typ": "zamkniete",
+      "opcje": ["\\frac{3}{2}", "\\frac{6}{7}", "\\frac{11}{12}", "\\frac{18}{12}"],
+      "poprawna": "\\frac{3}{2}",
+      "wskazowka": "Mnożymy liczniki i mianowniki, potem skracamy.",
+      "przypomnij": "$\\frac{a}{b} \\cdot \\frac{c}{d} = \\frac{a \\cdot c}{b \\cdot d}$"
+    },
+    {
+      "id": "u2",
+      "tresc": "Ile wynosi $1\\frac{1}{2} - \\frac{3}{4}$?",
+      "typ": "zamkniete",
+      "opcje": ["\\frac{1}{4}", "\\frac{3}{4}", "1", "\\frac{5}{4}"],
+      "poprawna": "\\frac{3}{4}",
+      "wskazowka": "Zamień liczbę mieszaną na ułamek niewłaściwy, potem odejmij.",
+      "przypomnij": "$1\\frac{1}{2} = \\frac{3}{2}$"
+    },
+    {
+      "id": "u3",
+      "tresc": "Które ułamki są równoważne? $\\frac{2}{3}$ i:",
+      "typ": "zamkniete",
+      "opcje": ["\\frac{4}{6}", "\\frac{3}{4}", "\\frac{6}{8}", "\\frac{2}{4}"],
+      "poprawna": "\\frac{4}{6}",
+      "wskazowka": "Rozszerz lub skróć ułamek, aby sprawdzić równoważność.",
+      "przypomnij": "$\\frac{a}{b} = \\frac{a \\cdot k}{b \\cdot k}$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "uo1",
+      "tresc": "Oblicz: $\\frac{5}{8} \\div \\frac{1}{4}$",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zamień dzielenie na mnożenie przez odwrotność i oblicz wynik",
+          "oczekiwana": "2.5",
+          "jednostka": null,
+          "podpowiedz": "Dzielenie ułamków: odwróć dzielnik i pomnóż."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$\\frac{5}{8} \\div \\frac{1}{4} = \\frac{5}{8} \\cdot \\frac{4}{1} = \\frac{20}{8} = 2{,}5$"
+    }
+  ]
+}

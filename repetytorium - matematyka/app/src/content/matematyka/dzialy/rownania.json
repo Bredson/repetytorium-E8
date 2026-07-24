@@ -1,0 +1,68 @@
+{
+  "id": "rownania",
+  "tytul": "Równania",
+  "modul": "F",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-r1",
+      "tresc": "Rozwiąż: $2x + 3 = 11$",
+      "typ": "zamkniete",
+      "opcje": ["$x = 4$", "$x = 7$", "$x = 3$", "$x = 5$"],
+      "poprawna": "$x = 4$"
+    },
+    {
+      "id": "tw-r2",
+      "tresc": "Dla jakiego $x$: $3x - 6 = 0$?",
+      "typ": "zamkniete",
+      "opcje": ["$x = 2$", "$x = -2$", "$x = 3$", "$x = -3$"],
+      "poprawna": "$x = 2$"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "r1",
+      "tresc": "Rozwiąż: $5x = 35$",
+      "typ": "zamkniete",
+      "opcje": ["$x = 5$", "$x = 7$", "$x = 30$", "$x = 40$"],
+      "poprawna": "$x = 7$",
+      "wskazowka": "Aby wyznaczyć x, dziel obie strony przez ten sam czynnik.",
+      "przypomnij": "Dzielimy obie strony przez współczynnik przy $x$."
+    },
+    {
+      "id": "r2",
+      "tresc": "Rozwiąż: $x + 12 = 5$",
+      "typ": "zamkniete",
+      "opcje": ["$x = 7$", "$x = -7$", "$x = 17$", "$x = -17$"],
+      "poprawna": "$x = -7$",
+      "wskazowka": "Przenieś liczbę na drugą stronę równania, zmieniając znak.",
+      "przypomnij": "$x + a = b \\Rightarrow x = b - a$"
+    },
+    {
+      "id": "r3",
+      "tresc": "Rozwiąż: $\\frac{x}{4} = 3$",
+      "typ": "zamkniete",
+      "opcje": ["$x = \\frac{3}{4}$", "$x = 7$", "$x = 12$", "$x = \\frac{4}{3}$"],
+      "poprawna": "$x = 12$",
+      "wskazowka": "Aby pozbyć się mianownika, pomnóż obie strony przez niego.",
+      "przypomnij": "$\\frac{x}{a} = b \\Rightarrow x = a \\cdot b$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "ro1",
+      "tresc": "Janek ma o 8 zł więcej niż Zosia. Razem mają 50 zł. Ile ma Zosia?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Ułóż i rozwiąż równanie, wyznacz kwotę Zosi",
+          "oczekiwana": "21",
+          "jednostka": "zł",
+          "podpowiedz": "Niech $z$ = Zosia. Janek = $z + 8$. Równanie: $z + (z+8) = 50$."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$2z + 8 = 50 \\Rightarrow z = 21$ zł"
+    }
+  ]
+}

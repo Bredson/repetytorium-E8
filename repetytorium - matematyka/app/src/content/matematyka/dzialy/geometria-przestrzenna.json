@@ -1,0 +1,68 @@
+{
+  "id": "geometria-przestrzenna",
+  "tytul": "Geometria przestrzenna",
+  "modul": "I",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-gpr1",
+      "tresc": "Objętość sześcianu o boku 3 cm wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["9 cm³", "27 cm³", "18 cm³", "36 cm³"],
+      "poprawna": "27 cm³"
+    },
+    {
+      "id": "tw-gpr2",
+      "tresc": "Ile wierzchołków ma graniastosłup trójkątny?",
+      "typ": "zamkniete",
+      "opcje": ["3", "4", "6", "9"],
+      "poprawna": "6"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "gpr1",
+      "tresc": "Pole powierzchni sześcianu o boku 4 cm:",
+      "typ": "zamkniete",
+      "opcje": ["24 cm²", "64 cm²", "48 cm²", "96 cm²"],
+      "poprawna": "96 cm²",
+      "wskazowka": "Pole powierzchni sześcianu to suma pól 6 ścian (kwadratów).",
+      "przypomnij": "$P_c = 6 \\cdot a^2$"
+    },
+    {
+      "id": "gpr2",
+      "tresc": "Objętość prostopadłościanu o wymiarach 3×4×5 cm:",
+      "typ": "zamkniete",
+      "opcje": ["12 cm³", "60 cm³", "47 cm³", "120 cm³"],
+      "poprawna": "60 cm³",
+      "wskazowka": "Objętość prostopadłościanu to iloczyn trzech wymiarów.",
+      "przypomnij": "$V = a \\cdot b \\cdot c$"
+    },
+    {
+      "id": "gpr3",
+      "tresc": "Pole podstawy walca o promieniu 3 cm (użyj $\\pi \\approx 3{,}14$):",
+      "typ": "zamkniete",
+      "opcje": ["9,42 cm²", "18,84 cm²", "28,26 cm²", "56,52 cm²"],
+      "poprawna": "28,26 cm²",
+      "wskazowka": "Pole podstawy walca (koła) liczysz ze wzoru na pole koła.",
+      "przypomnij": "$P = \\pi r^2$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "gpro1",
+      "tresc": "Akwarium ma wymiary 50 cm × 30 cm × 40 cm. Ile litrów wody mieści? (1 l = 1 dm³)",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz objętość akwarium i zamień na litry",
+          "oczekiwana": "60",
+          "jednostka": "l",
+          "podpowiedz": "Objętość = 50×30×40 = 60 000 cm³ = 60 dm³ = 60 l."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$V = 50 \\cdot 30 \\cdot 40 = 60000 \\text{ cm}^3 = 60 \\text{ l}$"
+    }
+  ]
+}

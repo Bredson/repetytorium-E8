@@ -1,0 +1,68 @@
+{
+  "id": "pitagoras",
+  "tytul": "Twierdzenie Pitagorasa",
+  "modul": "H",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-pi1",
+      "tresc": "W trójkącie prostokątnym o przyprostokątnych 3 i 4 cm, przeciwprostokątna wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["5 cm", "7 cm", "6 cm", "25 cm"],
+      "poprawna": "5 cm"
+    },
+    {
+      "id": "tw-pi2",
+      "tresc": "Twierdzenie Pitagorasa: $a^2 + b^2 = ?$",
+      "typ": "zamkniete",
+      "opcje": ["$c^2$", "$c$", "$ab$", "$a+b$"],
+      "poprawna": "$c^2$"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "pi1",
+      "tresc": "Oblicz brakującą przyprostokątną: $a = 5$, $c = 13$",
+      "typ": "zamkniete",
+      "opcje": ["$b = 12$", "$b = 8$", "$b = 18$", "$b = 10$"],
+      "poprawna": "$b = 12$",
+      "wskazowka": "Wyznacz przyprostokątną, przekształcając wzór Pitagorasa.",
+      "przypomnij": "$b^2 = c^2 - a^2$"
+    },
+    {
+      "id": "pi2",
+      "tresc": "Czy trójkąt o bokach 5, 12, 13 jest prostokątny?",
+      "typ": "zamkniete",
+      "opcje": ["Tak", "Nie", "Tylko jeśli kąt jest 90°", "Nie da się stwierdzić"],
+      "poprawna": "Tak",
+      "wskazowka": "Sprawdź, czy suma kwadratów krótszych boków równa się kwadratowi najdłuższego.",
+      "przypomnij": "$a^2 + b^2 = c^2$"
+    },
+    {
+      "id": "pi3",
+      "tresc": "Przekątna kwadratu o boku 1 wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\sqrt{2}$", "$2$", "$\\frac{1}{\\sqrt{2}}$", "$\\sqrt{3}$"],
+      "poprawna": "$\\sqrt{2}$",
+      "wskazowka": "Przekątna kwadratu to przeciwprostokątna trójkąta prostokątnego o przyprostokątnych równych bokowi.",
+      "przypomnij": "$d = a\\sqrt{2}$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "pio1",
+      "tresc": "Drabina długości 5 m opiera się o ścianę. Jej stopa jest 3 m od ściany. Na jakiej wysokości dotyka ściany?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zastosuj twierdzenie Pitagorasa i oblicz wysokość",
+          "oczekiwana": "4",
+          "jednostka": "m",
+          "podpowiedz": "Zastosuj twierdzenie Pitagorasa: $h^2 + 3^2 = 5^2$."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$h^2 = 25 - 9 = 16 \\Rightarrow h = 4$ m"
+    }
+  ]
+}
