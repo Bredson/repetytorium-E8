@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { storage } from "./storage/adapter.js";
 import { pustePostepy, migrujPostepy } from "./core/profil.js";
 import { generujPlan } from "./core/plan.js";
-import { DZIALY } from "./content/matematyka/rejestr.js";
 import WyborProfilu from "./ui/pages/WyborProfilu.jsx";
 import NowyProfil from "./ui/pages/NowyProfil.jsx";
 import EkranPin from "./ui/pages/EkranPin.jsx";

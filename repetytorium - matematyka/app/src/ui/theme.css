@@ -578,3 +578,12 @@ img, svg {
     scroll-behavior: auto !important;
   }
 }
+
+/* --------------------------------------------------------------------------
+   14. MODYFIKATORY PRZYCISKÓW I BADGE — feedback quizu i dashboard
+   -------------------------------------------------------------------------- */
+.btn--sukces  { background: var(--kolor-sukces-tlo); border-color: var(--kolor-sukces); color: var(--kolor-sukces); }
+.btn--blad    { background: var(--kolor-uwaga-tlo);  border-color: var(--kolor-uwaga);  color: var(--kolor-uwaga); }
+.btn--aktywny { background: var(--kolor-akcent-tlo); border-color: var(--kolor-akcent); color: var(--kolor-akcent); }
+.badge--sukces { color: var(--kolor-sukces); background: var(--kolor-sukces-tlo); border-radius: var(--radius-s); padding: var(--sp-1) var(--sp-2); display: inline-block; }
+.badge--akcent { color: var(--kolor-akcent); background: var(--kolor-akcent-tlo); border-radius: var(--radius-s); padding: var(--sp-1) var(--sp-2); display: inline-block; }

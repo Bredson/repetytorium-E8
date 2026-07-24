@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node tests/quiz.test.mjs"
   },
   "dependencies": {
     "katex": "^0.16.21",
