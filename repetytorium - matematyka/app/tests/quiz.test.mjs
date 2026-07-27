@@ -1,3 +1,4 @@
+import assert from "node:assert/strict";
 import { sprawdzOdpowiedz, sprawdzKrok, obliczWynikDzialu } from "../src/core/quiz.js";
 
 const pytanieZamkniete = {
@@ -14,21 +15,29 @@ const krok = {
 };
 
 // sprawdzOdpowiedz
-console.assert(sprawdzOdpowiedz(pytanieZamkniete, "13") === true, "FAIL: poprawna odpowiedź");
-console.assert(sprawdzOdpowiedz(pytanieZamkniete, "5") === false, "FAIL: błędna odpowiedź");
+assert.equal(sprawdzOdpowiedz(pytanieZamkniete, "13"), true, "poprawna odpowiedź");
+assert.equal(sprawdzOdpowiedz(pytanieZamkniete, "5"), false, "błędna odpowiedź");
 
 // sprawdzKrok — tolerancja whitespace i jednostki
-console.assert(sprawdzKrok(krok, "192") === true, "FAIL: krok poprawny");
-console.assert(sprawdzKrok(krok, " 192 ") === true, "FAIL: krok z whitespace");
-console.assert(sprawdzKrok(krok, "192 m³") === true, "FAIL: krok z jednostką");
-console.assert(sprawdzKrok(krok, "193") === false, "FAIL: krok błędny");
+assert.equal(sprawdzKrok(krok, "192"), true, "krok poprawny");
+assert.equal(sprawdzKrok(krok, " 192 "), true, "krok z whitespace");
+assert.equal(sprawdzKrok(krok, "192 m³"), true, "krok z jednostką");
+assert.equal(sprawdzKrok(krok, "193"), false, "krok błędny");
+
+// sprawdzKrok — notacja dziesiętna: przecinek i kropka równoważne (it.3 T1)
+const krokDziesietny = { id: "k2", oczekiwana: "2.5" };
+assert.equal(sprawdzKrok(krokDziesietny, "2,5"), true, "przecinek ucznia vs kropka oczekiwana");
+assert.equal(sprawdzKrok(krokDziesietny, "2.5"), true, "kropka ucznia vs kropka oczekiwana");
+assert.equal(sprawdzKrok({ id: "k3", oczekiwana: "2,5" }, "2.5"), true, "kropka ucznia vs przecinek oczekiwany");
+assert.equal(sprawdzKrok(krokDziesietny, "2,6"), false, "błędna wartość z przecinkiem");
+assert.equal(sprawdzKrok({ id: "k4", oczekiwana: "0.75", jednostka: "kg" }, "0,75 kg"), true, "przecinek + jednostka");
 
 // obliczWynikDzialu
 const pytania = [pytanieZamkniete, { ...pytanieZamkniete, id: "tw-l2", poprawna: "5" }];
 const odpowiedzi = { "tw-l1": "13", "tw-l2": "1" };
 const wynik = obliczWynikDzialu(pytania, odpowiedzi);
-console.assert(wynik.poprawne === 1, `FAIL: poprawne=${wynik.poprawne}`);
-console.assert(wynik.wszystkich === 2, `FAIL: wszystkich=${wynik.wszystkich}`);
-console.assert(wynik.procent === 50, `FAIL: procent=${wynik.procent}`);
+assert.equal(wynik.poprawne, 1);
+assert.equal(wynik.wszystkich, 2);
+assert.equal(wynik.procent, 50);
 
 console.log("quiz.test.mjs — OK");
