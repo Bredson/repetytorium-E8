@@ -187,7 +187,7 @@ export default function App() {
       wynikZamknietych={wynikZamknietych}
       dzialId={aktywnyDzial}
       onZakoncz={zakonczonoDzial}
-      onWroc={() => setEkran("dzial")}
+      onWroc={() => setEkran("start")}
     />
   );
 
