@@ -99,3 +99,34 @@ Format wpisu:
   brak przelewania się opcji odpowiedzi, KaTeX renderuje się poprawnie po naprawie
   ulamki.json ✓.
 - Zmiana w skilu: nie (lekcja dot. konkretnego pliku treści, nie metodyki skila).
+
+## 2026-07-27 (it.3 — egzamin próbny + statystyki)
+- Obserwacja: notacja przecinkowa (T1) działa poprawnie w realnym UI — wpisanie „2,5" gdy
+  oczekiwana „2.5" w zadaniu otwartym (Ułamki) zalicza krok. Weryfikacja przez Playwright
+  na localhost:5173 po zalogowaniu. Brak regresji w istniejących działach.
+- Obserwacja: `zbudujArkusz` losuje arkusz przy każdym montowaniu EgzaminProbny — przy 27
+  zamkniętych i 9 otwartych w puli (15 z 27, 6 z 9) wariantywność jest niska; kolejne
+  egzaminy będą podobne. Nie jest to bug (wystarczy na present), ale warto odnotować jako
+  punkt do rozbudowy puli treści.
+- Obserwacja: `maksPkt` egzaminu liczy się dynamicznie z arkusza (15 + suma `punkty`
+  zadań otwartych = 27 przy obecnej treści) — UI wyświetla „8/27 pkt" a nie hardcodowane
+  „30 pkt". Decyzja z planu potwierdzona jako słuszna: gdy pula treści wzrośnie, wynik
+  będzie się automatycznie skalował.
+- Obserwacja: Statystyki w sekcji „Działy: diagnoza → dziś" pokazują wynik per dział
+  z egzaminu (gdy brak ukończonego działu) — logika `postepPerDzial` (priorytet: quiz
+  działu > ostatni egzamin > diagnoza) działa poprawnie bez diagnozy wstępnej.
+- Wniosek: `onZakoncz` w EgzaminProbny wywołuje `zakonczonoEgzamin` asynchronicznie, ale
+  komponent sam przechodzi w etap "wynik" synchronicznie przez `setEtap("wynik")` —
+  race condition niemożliwy, bo zapis do localStorage nie blokuje renderowania wyniku.
+  Wzorzec `onZakoncz` + własny stan wyniku w komponencie (zamiast czekania na callback)
+  to słuszna architektura dla długich ekranów z własnym wynikiem.
+- QA desktop (1280×900): golden path egzaminu (intro → 15 zamkniętych z Wstecz/pamięć
+  zaznaczenia → 6 otwartych → ekran wyniku pkt/% + per dział) ✓; brak feedbacku
+  zielony/czerwony w części zamkniętej ✓; localStorage `egzaminy[0]` + sesja
+  `{typ:"egzamin"}` ✓; Statystyki (wykres z punktem egzaminu, działy z deltami,
+  regularność słupki, pokrycie) ✓; konsola czysta ✓.
+- QA mobile (390×844): intro OK, egzamin zamknięty (opcje czytelne, KaTeX w skalowanych
+  opcjach), Wstecz pamięta zaznaczenie, statystyki (wykres SVG i słupki skalują się przez
+  viewBox) ✓; konsola czysta ✓.
+- Zmiana w skilu: nie (lekcja architektoniczna — wzorzec komponentu z własnym stanem
+  wyniku zamiast zależności od callbacku zapisu).

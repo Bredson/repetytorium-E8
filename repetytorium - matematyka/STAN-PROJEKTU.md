@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-27, po sesji it.2** (5 tasków T1-T5: działy JSON → Dzial.jsx → ZadanieOtwarte.jsx → Powtorka.jsx → router App.jsx+Start.jsx+LESSONS; build ✓; QA desktop+mobile ✓; naprawiono bug renderowania KaTeX w ulamki.json).
+> Ostatnia aktualizacja: **2026-07-27, po sesji it.3** (6 tasków T1-T6: notacja dziesiętna + TDD egzamin.js + TDD statystyki.js + EgzaminProbny.jsx + Statystyki.jsx + router; build ✓; QA desktop+mobile ✓).
 
 ---
 
@@ -117,13 +117,45 @@ wpis LESSONS.md ✓ → commit ✓
   w danych (4 miejsca), bez zmian w komponentach — patrz LESSONS.md 2026-07-27
 
 
-## 6. Kolejne kroki (po it.2)
+## 6. Iteracja 3 — plan i stan
 
-- **It.3 — pierwszy task:** normalizacja przecinka/kropki dziesiętnej w sprawdzKrok
-  (core/quiz.js) + test obu notacji — uczeń wpisze „2,5", a oczekiwana to „2.5"
-  (finding z final review it.2)
-- **It.3:** `EgzaminProbny.jsx` (21 zadań, 125 min), `Statystyki.jsx`
+**Status: UKOŃCZONA ✅**
+
+Plan: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-egzamin-statystyki.md`
+Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
+
+### 6 tasków it.3:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | `sprawdzKrok` — przecinek dziesiętny ≡ kropka + testy `node:assert/strict` | ✅ |
+| T2 | `core/egzamin.js` — budowa arkusza 15+6 i liczenie wyniku, TDD | ✅ |
+| T3 | `core/statystyki.js` — agregacje (seria wyników, postęp per dział, aktywność, pokrycie), TDD | ✅ |
+| T4 | `EgzaminProbny.jsx` — symulacja arkusza, zegar 125 min, etapy zamknięte/otwarte/wynik | ✅ |
+| T5 | `Statystyki.jsx` — wykres, działy z deltami, regularność, pokrycie | ✅ |
+| T6 | Router App.jsx + Start.jsx (przycisk egzaminu) + QA desktop+mobile + docs | ✅ |
+
+**Definition of done it.3:** `npm test` ✓ → `npm run build` ✓ → QA desktop ✓ → QA mobile (390×844) ✓ → rekord egzaminu w localStorage ✓ → konsola czysta ✓ → wpis LESSONS.md ✓ → commit ✓
+
+### Zrealizowane w it.3
+- `sprawdzKrok` normalizuje przecinek/kropkę dziesiętną po obu stronach porównania
+- `core/egzamin.js` — `zbudujArkusz` (Fisher-Yates, gwarantowana reprezentacja wszystkich
+  działów w zamkniętych), `policzWynikEgzaminu` z `perDzial`, `maksPkt` dynamiczny
+- `core/statystyki.js` — `seriaWynikow`, `postepPerDzial` (priorytet: quiz > egzamin > diagnoza),
+  `aktywnosc` (8 tygodni + seria dni), `pokrycie`
+- `EgzaminProbny.jsx` — intro → 15 zamkniętych (Wstecz/pamięć, brak feedbacku) → 6 otwartych
+  (KrokZadania) → ekran wyniku; zegar informacyjny z ostrzeżeniem <15 min
+- `Statystyki.jsx` — WykresLiniowy, paski per dział z deltami (▲/▽ pp), słupki tygodni SVG,
+  pokrycie działów + liczba egzaminów próbnych
+- Router: stany `egzamin`/`statystyki`, `zakonczonoEgzamin` zapisuje do `postepy.egzaminy[]`
+  i `postepy.sesje`; Start.jsx ma przycisk „🎓 Egzamin próbny"
+
+## 7. Kolejne kroki
+
 - **Deploy Vercel** — analogicznie jak w polskim (`vercel.json` + auto-deploy z `main`)
+  — pierwszy priorytet it.4
+- **Rozbudowa puli zadań** — przy obecnej treści (27 zamkniętych, 9 otwartych) arkusz
+  losuje 15 z 27 zamkniętych i 6 z 9 otwartych; wariantywność między egzaminami jest niska
 - **Hub** — statyczny po ukończeniu angielskiego
 
 ## 7. Procedury i pułapki (z LESSONS.md)
@@ -135,13 +167,13 @@ wpis LESSONS.md ✓ → commit ✓
 - **localStorage izolacja**: klucz `matematyka` odizolowany od `polski` — nie kolidują na tym samym urządzeniu
 - **LaTeX w JSON**: każdy wzór w `opcje`/`poprawna`/`tresc` musi być opakowany w `$...$` — bez delimiterów KaTeXRenderer pokazuje surowy tekst (bug ulamki.json z it.2)
 
-## 8. Jak zacząć nową sesję
+## 9. Jak zacząć nową sesję
 
-### It.2 jest ukończona (aktualny stan) — zacznij it.3:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — bug ulamki.json, QA it.2)
-2. Napisz plan it.3 (skill `superpowers:writing-plans`) — zakres: (a) normalizacja
-   przecinka/kropki dziesiętnej w `sprawdzKrok` (core/quiz.js) + test obu notacji
-   (pierwszy task — finding z final review it.2), (b) `EgzaminProbny.jsx` (21 zadań,
-   125 min), (c) `Statystyki.jsx`
-3. Uruchom skill `superpowers:subagent-driven-development`
-4. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+### It.3 jest ukończona (aktualny stan) — zacznij it.4:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — it.3 egzamin+statystyki)
+2. Priorytet it.4: **Deploy Vercel** (`vercel.json` + auto-deploy z `main`) — wzorzec z
+   polskiego projektu; następnie rozbudowa puli zadań (więcej wariantów w działach JSON)
+3. Napisz plan it.4 (skill `superpowers:writing-plans`)
+4. Uruchom skill `superpowers:subagent-driven-development`
+5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5173
+   (lub 5174 jeśli 5173 zajęty przez polskiego)
