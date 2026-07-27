@@ -11,6 +11,8 @@ import TestWstepny from "./ui/pages/TestWstepny.jsx";
 import Dzial from "./ui/pages/Dzial.jsx";
 import ZadanieOtwarte from "./ui/pages/ZadanieOtwarte.jsx";
 import Powtorka from "./ui/pages/Powtorka.jsx";
+import EgzaminProbny from "./ui/pages/EgzaminProbny.jsx";
+import Statystyki from "./ui/pages/Statystyki.jsx";
 
 function zastosujPreferencje(profil) {
   const el = document.documentElement;
@@ -140,6 +142,20 @@ export default function App() {
     setEkran("start");
   }
 
+  async function zakonczonoEgzamin(wynik) {
+    const teraz = new Date().toISOString();
+    const nowe = {
+      ...postepy,
+      egzaminy: [
+        ...(postepy.egzaminy ?? []),
+        { data: teraz, wynikPkt: wynik.wynikPkt, maksPkt: wynik.maksPkt, procent: wynik.procent, perDzial: wynik.perDzial },
+      ],
+      sesje: [...postepy.sesje, { typ: "egzamin", data: teraz, wynikPkt: wynik.wynikPkt, maksPkt: wynik.maksPkt }],
+    };
+    await zapiszPostepy(nowe);
+    // bez setEkran — EgzaminProbny sam pokazuje ekran wyniku; powrót przez onWroc
+  }
+
   if (ekran === "ladowanie") return null;
 
   if (ekran === "wybor") return (
@@ -199,6 +215,20 @@ export default function App() {
     />
   );
 
+  if (ekran === "egzamin") return (
+    <EgzaminProbny
+      onZakoncz={zakonczonoEgzamin}
+      onWroc={() => setEkran("start")}
+    />
+  );
+
+  if (ekran === "statystyki") return (
+    <Statystyki
+      postepy={postepy}
+      onWroc={() => setEkran("start")}
+    />
+  );
+
   if (ekran === "start") return (
     <Start
       profil={profil}
@@ -206,7 +236,8 @@ export default function App() {
       onTestWstepny={() => setEkran("test-wstepny")}
       onDzial={otworzDzial}
       onPowtorka={otworzPowtorke}
-      onStatystyki={() => { /* it.3 */ }}
+      onEgzamin={() => setEkran("egzamin")}
+      onStatystyki={() => setEkran("statystyki")}
       onWyloguj={wyloguj}
     />
   );
