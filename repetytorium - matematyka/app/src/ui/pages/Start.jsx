@@ -7,7 +7,7 @@ const KOLORY_MODULOW = {
   E: "#3a9e6e", F: "#5a6ee0", G: "#e05a5a", H: "#e09d5a", I: "#5ae0c1",
 };
 
-export default function Start({ profil, postepy, onTestWstepny, onDzial, onStatystyki, onWyloguj }) {
+export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowtorka, onStatystyki, onWyloguj }) {
   const dzialy = Object.values(DZIALY);
   const powtorkiDzis = coNaDzis(postepy.powtorki ?? [], dataDnia());
 
@@ -32,7 +32,10 @@ export default function Start({ profil, postepy, onTestWstepny, onDzial, onStaty
       {powtorkiDzis.length > 0 && (
         <div className="karta" style={{ marginBottom: "var(--sp-4)", borderLeft: "4px solid var(--kolor-uwaga)" }}>
           <strong>Na dziś: {powtorkiDzis.length} powtórki</strong>
-          <p className="tekst-2">Masz zaplanowane powtórki — wróć do działu, żeby je zrobić.</p>
+          <p className="tekst-2">Masz zaplanowane powtórki.</p>
+          <button className="btn btn-primary" style={{ marginTop: "var(--sp-3)" }} onClick={onPowtorka}>
+            Rozpocznij powtórki
+          </button>
         </div>
       )}
 

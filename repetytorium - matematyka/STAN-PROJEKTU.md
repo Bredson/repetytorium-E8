@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-24, po sesji it.1** (9 commitów: scaffold → storage → core → content → UI → TestWstepny → Start+App → LESSONS → fix).
+> Ostatnia aktualizacja: **2026-07-27, po sesji it.2** (5 tasków T1-T5: działy JSON → Dzial.jsx → ZadanieOtwarte.jsx → Powtorka.jsx → router App.jsx+Start.jsx+LESSONS; build ✓; QA desktop+mobile ✓; naprawiono bug renderowania KaTeX w ulamki.json).
 
 ---
 
@@ -82,7 +82,7 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-23-matematyka-it1-trello.md`
 
 ## 5. Iteracja 2 — plan i stan
 
-**Status: GOTOWY DO WYKONANIA**
+**Status: UKOŃCZONA ✅**
 
 Plan: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
 Karty Trello: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-trello.md`
@@ -91,13 +91,32 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-trello.md`
 
 | Task | Co robi | Status |
 |------|---------|--------|
-| T1 | 8 działów JSON (ułamki…geometria-przestrzenna) + rejestr.js | ⏳ |
-| T2 | `Dzial.jsx` (quiz zamknięty, próg 80%, przejście do ZadanieOtwarte) | ⏳ |
-| T3 | `ZadanieOtwarte.jsx` (kroki sekwencyjne przez KrokZadania) | ⏳ |
-| T4 | `Powtorka.jsx` (sesja spaced-repetition, ocena umiem/jeszcze-nie) | ⏳ |
-| T5 | `App.jsx` router (stany dzial/zadanie-otwarte/powtorka) + Start.jsx + LESSONS + STAN | ⏳ |
+| T1 | 8 działów JSON (ułamki…geometria-przestrzenna) + rejestr.js | ✅ |
+| T2 | `Dzial.jsx` (quiz zamknięty, próg 80%, przejście do ZadanieOtwarte) | ✅ |
+| T3 | `ZadanieOtwarte.jsx` (kroki sekwencyjne przez KrokZadania) | ✅ |
+| T4 | `Powtorka.jsx` (sesja spaced-repetition, ocena umiem/jeszcze-nie) | ✅ |
+| T5 | `App.jsx` router (stany dzial/zadanie-otwarte/powtorka) + Start.jsx + LESSONS + STAN | ✅ |
 
-### Jak zacząć it.2:
+**Definition of done it.2:** build ✓ → QA desktop ✓ (golden path + fail path + retry) →
+QA mobile 390×844 ✓ → rekord powtórki zweryfikowany w localStorage ✓ → konsola czysta ✓ →
+wpis LESSONS.md ✓ → commit ✓
+
+### Zrealizowane w it.2
+- 8 działów JSON (ułamki, potęgi, procenty, algebra, równania, geometria płaska,
+  Pitagoras, geometria przestrzenna) wg wzorca `liczby.json`
+- `Dzial.jsx` — quiz zamknięty z feedbackiem, próg zaliczenia 80%, przejście do
+  ZadanieOtwarte lub bezpośrednie zakończenie działu
+- `ZadanieOtwarte.jsx` — kroki sekwencyjne (KrokZadania), podsumowanie, rozwiązanie wzorcowe
+- `Powtorka.jsx` — sesja spaced-repetition (coNaDzis/oznaczPowtorke), ocena umiem/jeszcze-nie,
+  memoizacja `pytaniaPerPowtorka` żeby nie przelosowywać pytań w trakcie sesji
+- `App.jsx` — router rozszerzony o stany `dzial`/`zadanie-otwarte`/`powtorka`, zapis
+  `postepy.dzialy`, tworzenie rekordu powtórki po ukończeniu działu (`nowaPowtorka`)
+- `Start.jsx` — prop `onPowtorka` + przycisk „Rozpocznij powtórki” w bannerze „Na dziś”
+- **Bug fix (znaleziony w QA T5):** `ulamki.json` — opcje/poprawna z LaTeX nie były
+  opakowane w `$...$`, więc KaTeXRenderer pokazywał surowy tekst zamiast wzoru; naprawiono
+  w danych (4 miejsca), bez zmian w komponentach — patrz LESSONS.md 2026-07-27
+
+### Jak zacząć it.2 (jeśli wracasz do niedokończonej pracy):
 
 1. Przeczytaj ten plik
 2. Uruchom: `superpowers:subagent-driven-development`
@@ -121,13 +140,9 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-trello.md`
 
 ## 8. Jak zacząć nową sesję
 
-### Jeśli it.2 NIE jest ukończona (aktualny stan):
-1. Przeczytaj ten plik
-2. Sprawdź ledger: `cat ".superpowers/sdd/progress.md"` — które taski są już zrobione
-3. Uruchom `superpowers:subagent-driven-development` z planem `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
-4. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
-
-### Jeśli it.2 jest ukończona:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md`
-2. Napisz plan it.3 (skill `superpowers:writing-plans`) — EgzaminProbny + Statystyki
+### It.2 jest ukończona (aktualny stan) — zacznij it.3:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — bug ulamki.json, QA it.2)
+2. Napisz plan it.3 (skill `superpowers:writing-plans`) — `EgzaminProbny.jsx` (21 zadań,
+   125 min) + `Statystyki.jsx`
 3. Uruchom skill `superpowers:subagent-driven-development`
+4. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174

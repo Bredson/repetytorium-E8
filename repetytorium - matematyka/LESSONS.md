@@ -58,3 +58,44 @@ Format wpisu:
 - Wniosek: klucze localStorage są odizolowane (`rep:postepy:{uuid}:matematyka`),
   więc aplikacja matematyki nie koliduje z polskim na tym samym urządzeniu.
 - Zmiana w skilu: nie (nowe lekcje dotyczą scaffoldu; SKILL.md matematyki nie wymaga aktualizacji).
+
+## 2026-07-27 (it.2 T5 — router App.jsx + Start.jsx + QA końcowe)
+- Obserwacja: App.jsx i Start.jsx z brief'a T5 były już zgodne co do treści z uprzednio
+  wykonaną pracą (routing dzial/zadanie-otwarte/powtorka, `onPowtorka` w Start.jsx) —
+  weryfikacja przez pełne porównanie z docelowym kodem z brief'u potwierdziła zgodność
+  1:1, bez potrzeby zmian.
+- Obserwacja: `powtorkiDzis` w App.jsx jest memoizowane (`useMemo` kluczowany
+  `postepy?.powtorki`) — kluczowe, bo Powtorka.jsx trzyma własny `useMemo` na
+  `pytaniaPerPowtorka` kluczowany referencją `powtorkiDzis`; bez memoizacji w App.jsx
+  każdy render App przelosowywałby pytania w trakcie sesji powtórkowej. Zweryfikowano
+  obecność i poprawność tego zabezpieczenia — bez dodatkowych zmian.
+- **Bug znaleziony w QA**: `content/matematyka/dzialy/ulamki.json` — jako jedyny z 8 plików
+  działów NIE opakowywał ułamków LaTeX w `$...$` (opcje/poprawna w test_wstepny i
+  cwiczenia). Efekt: KaTeXRenderer (który wykrywa matematykę wyłącznie po znaczniku `$`)
+  renderował surowy tekst `\frac{a}{b}` zamiast wzoru — widoczne i na desktopie, i na
+  mobile (nie jest to bug CSS/responsywności). Zweryfikowano krzyżowo pozostałych 7 plików
+  (algebra, geometria-plaska, geometria-przestrzenna, liczby, pitagoras, potegi, procenty,
+  rownania) — wszystkie poprawnie opakowują LaTeX i zostawiają czysty tekst bez `$`.
+  Naprawiono najmniejszą możliwą zmianą: dodano `$...$` wokół 4 grup opcji/poprawna w
+  ulamki.json (tw-u1, u1, u2, u3), bez dotykania żadnego komponentu React (Dzial.jsx,
+  TestWstepny.jsx, Powtorka.jsx — wszystkie trzy konsumują tę samą treść i zostały
+  naprawione "za darmo" przez poprawkę danych). Zweryfikowano `python3 json.load`
+  po edycji + rebuild + ponowne QA (desktop i mobile 390×844).
+- Wniosek: przy tworzeniu/edycji plików JSON z treścią LaTeX zawsze porównywać z
+  istniejącym wzorcem (np. liczby.json) — brak automatycznej walidacji "czy opcje z
+  `\frac` mają `$` dookoła" pozwolił temu bugowi przejść przez T1 niezauważony aż do
+  ręcznego QA w T5. Rozważyć w przyszłości prosty skrypt lint sprawdzający, czy `opcje`/
+  `poprawna` zawierające `\\` (backslash LaTeX) są opakowane w `$`.
+- Wniosek: manualne QA w przeglądarce (Playwright) na realnych danych, a nie tylko na
+  jednym dziale, wyłapuje regresje treści, których build/testy jednostkowe nie widzą —
+  potwierdza obserwację z 2026-07-20 o repetytorium-polski.
+- QA końcowe (desktop 1280×900 + mobile 390×844): golden path (nowy profil → dashboard →
+  Ułamki 3/3 poprawnie → ZadanieOtwarte "2.5" → powrót na dashboard z ukończonym działem)
+  ✓; fail path (Liczby, 0/3 celowo błędnie → ekran "Spróbuj jeszcze raz"/"Wróć do menu")
+  ✓; retry resetuje stan quizu do pytania 1/3 ✓; rekord powtórki tworzy się po ukończeniu
+  działu i aktualizuje po sesji powtórkowej (`historia` z ocenami "umiem", `nastepna`
+  przesunięta o interwał) — zweryfikowano bezpośrednio w localStorage ✓; konsola
+  przeglądarki czysta (0 errors, 0 warnings) przez całą sesję QA ✓; mobile 390×844 —
+  brak przelewania się opcji odpowiedzi, KaTeX renderuje się poprawnie po naprawie
+  ulamki.json ✓.
+- Zmiana w skilu: nie (lekcja dot. konkretnego pliku treści, nie metodyki skila).
