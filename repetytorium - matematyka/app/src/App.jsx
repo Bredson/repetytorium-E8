@@ -174,7 +174,6 @@ export default function App() {
   if (ekran === "dzial") return (
     <Dzial
       dzialId={aktywnyDzial}
-      postepy={postepy}
       onZakoncz={zakonczonoDzial}
       onZadanieOtwarte={przejdzDoZadaniaOtwartego}
       onWroc={() => setEkran("start")}

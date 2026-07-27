@@ -126,6 +126,9 @@ wpis LESSONS.md ✓ → commit ✓
 
 ## 6. Kolejne kroki (po it.2)
 
+- **It.3 — pierwszy task:** normalizacja przecinka/kropki dziesiętnej w sprawdzKrok
+  (core/quiz.js) + test obu notacji — uczeń wpisze „2,5", a oczekiwana to „2.5"
+  (finding z final review it.2)
 - **It.3:** `EgzaminProbny.jsx` (21 zadań, 125 min), `Statystyki.jsx`
 - **Deploy Vercel** — analogicznie jak w polskim (`vercel.json` + auto-deploy z `main`)
 - **Hub** — statyczny po ukończeniu angielskiego

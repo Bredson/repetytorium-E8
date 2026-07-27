@@ -73,7 +73,7 @@ Format wpisu:
   działów NIE opakowywał ułamków LaTeX w `$...$` (opcje/poprawna w test_wstepny i
   cwiczenia). Efekt: KaTeXRenderer (który wykrywa matematykę wyłącznie po znaczniku `$`)
   renderował surowy tekst `\frac{a}{b}` zamiast wzoru — widoczne i na desktopie, i na
-  mobile (nie jest to bug CSS/responsywności). Zweryfikowano krzyżowo pozostałych 7 plików
+  mobile (nie jest to bug CSS/responsywności). Zweryfikowano krzyżowo pozostałych 8 plików
   (algebra, geometria-plaska, geometria-przestrzenna, liczby, pitagoras, potegi, procenty,
   rownania) — wszystkie poprawnie opakowują LaTeX i zostawiają czysty tekst bez `$`.
   Naprawiono najmniejszą możliwą zmianą: dodano `$...$` wokół 4 grup opcji/poprawna w

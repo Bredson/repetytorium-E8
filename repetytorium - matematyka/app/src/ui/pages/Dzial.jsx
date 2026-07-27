@@ -1,9 +1,9 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import { material } from "../../content/matematyka/rejestr.js";
-import { sprawdzOdpowiedz, obliczWynikDzialu } from "../../core/quiz.js";
+import { obliczWynikDzialu } from "../../core/quiz.js";
 import KaTeXRenderer from "../components/KaTeXRenderer.jsx";
 
-export default function Dzial({ dzialId, postepy, onZakoncz, onZadanieOtwarte, onWroc }) {
+export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) {
   const dzial = useMemo(() => material(dzialId), [dzialId]);
   const pytania = dzial.cwiczenia;
 
