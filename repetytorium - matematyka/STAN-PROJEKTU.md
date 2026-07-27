@@ -116,13 +116,6 @@ wpis LESSONS.md ✓ → commit ✓
   opakowane w `$...$`, więc KaTeXRenderer pokazywał surowy tekst zamiast wzoru; naprawiono
   w danych (4 miejsca), bez zmian w komponentach — patrz LESSONS.md 2026-07-27
 
-### Jak zacząć it.2 (jeśli wracasz do niedokończonej pracy):
-
-1. Przeczytaj ten plik
-2. Uruchom: `superpowers:subagent-driven-development`
-3. Plan: `app/docs/superpowers/plans/2026-07-24-matematyka-it2-dzialy-i-ekrany.md`
-4. Ledger: `.superpowers/sdd/progress.md` (sprawdź — może być częściowo wykonany)
-5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
 
 ## 6. Kolejne kroki (po it.2)
 
@@ -140,12 +133,15 @@ wpis LESSONS.md ✓ → commit ✓
 - **Git**: jawne ścieżki przy `git add` (w repo są inne nietrackowane katalogi-siostry)
 - **Dev port**: 5173 może być zajęty przez polskiego — matematyka startuje na 5174
 - **localStorage izolacja**: klucz `matematyka` odizolowany od `polski` — nie kolidują na tym samym urządzeniu
+- **LaTeX w JSON**: każdy wzór w `opcje`/`poprawna`/`tresc` musi być opakowany w `$...$` — bez delimiterów KaTeXRenderer pokazuje surowy tekst (bug ulamki.json z it.2)
 
 ## 8. Jak zacząć nową sesję
 
 ### It.2 jest ukończona (aktualny stan) — zacznij it.3:
 1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — bug ulamki.json, QA it.2)
-2. Napisz plan it.3 (skill `superpowers:writing-plans`) — `EgzaminProbny.jsx` (21 zadań,
-   125 min) + `Statystyki.jsx`
+2. Napisz plan it.3 (skill `superpowers:writing-plans`) — zakres: (a) normalizacja
+   przecinka/kropki dziesiętnej w `sprawdzKrok` (core/quiz.js) + test obu notacji
+   (pierwszy task — finding z final review it.2), (b) `EgzaminProbny.jsx` (21 zadań,
+   125 min), (c) `Statystyki.jsx`
 3. Uruchom skill `superpowers:subagent-driven-development`
 4. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
