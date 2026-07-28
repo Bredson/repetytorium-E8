@@ -46,6 +46,24 @@
       "poprawna": "15",
       "wskazowka": "Podstaw wartość x do wyrażenia, pamiętając o znaku.",
       "przypomnij": "$(-3)^2 = 9$"
+    },
+    {
+      "id": "a4",
+      "tresc": "Wynik mnożenia $(x+2)(x-2)$ to:",
+      "typ": "zamkniete",
+      "opcje": ["$x^2 - 4$", "$x^2 + 4$", "$x^2 - 4x$", "$x^2 + 4x$"],
+      "poprawna": "$x^2 - 4$",
+      "wskazowka": "Wzór skróconego mnożenia: suma razy różnica.",
+      "przypomnij": "$(a+b)(a-b) = a^2 - b^2$"
+    },
+    {
+      "id": "a5",
+      "tresc": "Ile wynosi $5a - 3b$ dla $a = 2$, $b = -1$?",
+      "typ": "zamkniete",
+      "opcje": ["7", "13", "3", "17"],
+      "poprawna": "13",
+      "wskazowka": "Podstaw wartości: $5 \\cdot 2 - 3 \\cdot (-1)$.",
+      "przypomnij": "$-3 \\cdot (-1) = +3$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$2 \\cdot 4 + 3 \\cdot 1 = 8 + 3 = 11$"
+    },
+    {
+      "id": "ao2",
+      "tresc": "Wyłącz wspólny czynnik z $6x^2 + 9x$, a następnie oblicz wartość wyniku dla $x = 1$.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Wyłącz wspólny czynnik $3x$. Ile wynosi wyrażenie w nawiasie dla $x = 1$?",
+          "oczekiwana": "5",
+          "jednostka": null,
+          "podpowiedz": "$6x^2 + 9x = 3x(2x + 3)$; dla $x=1$: nawiasie $2(1)+3 = 5$."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Oblicz wartość całego wyrażenia $3x(2x+3)$ dla $x = 1$",
+          "oczekiwana": "15",
+          "jednostka": null,
+          "podpowiedz": "$3 \\cdot 1 \\cdot 5 = 15$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$6x^2 + 9x = 3x(2x + 3)$; dla $x=1$: $3 \\cdot 1 \\cdot 5 = 15$"
     }
   ]
 }
