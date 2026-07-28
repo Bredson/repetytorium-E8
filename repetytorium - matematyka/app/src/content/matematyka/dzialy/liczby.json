@@ -46,6 +46,24 @@
       "poprawna": "6",
       "wskazowka": "NWD — największy wspólny dzielnik. Rozłóż obie liczby na czynniki pierwsze.",
       "przypomnij": "$12 = 2^2 \\cdot 3$; $18 = 2 \\cdot 3^2$; NWD = $2 \\cdot 3 = 6$"
+    },
+    {
+      "id": "l4",
+      "tresc": "Ile wynosi $\\text{NWW}(4, 6)$?",
+      "typ": "zamkniete",
+      "opcje": ["6", "12", "24", "2"],
+      "poprawna": "12",
+      "wskazowka": "NWW — najmniejsza wspólna wielokrotność. Szukaj najmniejszej liczby podzielnej przez obie.",
+      "przypomnij": "$4 = 2^2$; $6 = 2 \\cdot 3$; NWW = $2^2 \\cdot 3 = 12$"
+    },
+    {
+      "id": "l5",
+      "tresc": "Wynik działania $(-2)^3$ to:",
+      "typ": "zamkniete",
+      "opcje": ["-8", "8", "-6", "6"],
+      "poprawna": "-8",
+      "wskazowka": "Potęga ujemnej liczby: dla wykładnika nieparzystego wynik jest ujemny.",
+      "przypomnij": "$(-2)^3 = (-2) \\cdot (-2) \\cdot (-2) = -8$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$V = 12 \\cdot 8 \\cdot 2 = 192 \\text{ m}^3$"
+    },
+    {
+      "id": "lo2",
+      "tresc": "Zapisz wszystkie liczby pierwsze między 10 a 30. Ile ich jest?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Wypisz kolejno kandydatów: 11, 12, 13, … Które z nich nie mają dzielników innych niż 1 i same siebie?",
+          "oczekiwana": "11, 13, 17, 19, 23, 29",
+          "jednostka": null,
+          "podpowiedz": "Liczba pierwsza jest podzielna tylko przez 1 i przez siebie. Sprawdź każdą liczbę od 11 do 29."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Ile takich liczb znalazłeś?",
+          "oczekiwana": "6",
+          "jednostka": null,
+          "podpowiedz": "Policz: 11, 13, 17, 19, 23, 29 — to razem 6 liczb."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Liczby pierwsze między 10 a 30: $11, 13, 17, 19, 23, 29$ — jest ich $6$."
     }
   ]
 }
