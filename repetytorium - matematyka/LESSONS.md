@@ -130,3 +130,13 @@ Format wpisu:
   viewBox) ✓; konsola czysta ✓.
 - Zmiana w skilu: nie (lekcja architektoniczna — wzorzec komponentu z własnym stanem
   wyniku zamiast zależności od callbacku zapisu).
+
+## 2026-07-28 (it.4 T1-T3 — deploy Vercel)
+- Obserwacja: `vercel.json` z dwoma regułami (`rewrites` SPA + `github.silent`) wystarczy do
+  pełnego deployu — żadnych zmian w vite.config.js ani package.json.
+- Obserwacja: kluczowe pole w Vercel dashboard to **Root Directory** =
+  `repetytorium - matematyka/app` — bez niego Vercel szuka package.json w korzeniu repo
+  i build się nie powiedzie (repo jest monorepo z kilkoma aplikacjami).
+- Wniosek: wzorzec identyczny z `repetytorium - j_polski` (it.16) — można go stosować
+  wprost dla kolejnych aplikacji w tym repo (Hub itp.).
+- Zmiana w skilu: nie.

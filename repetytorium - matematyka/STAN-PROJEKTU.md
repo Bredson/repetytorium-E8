@@ -22,7 +22,7 @@ Docelowo połączone przez Hub (statyczna strona nawigacyjna) — po ukończeniu
 - Lokalizacja appki: `repetytorium - matematyka/app/` w katalogu `Repetytorium-doc`
 - Git root: `/Users/pibe/dev/Repetytorium-doc` — jawne ścieżki przy `git add`
 - Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
-- **Produkcja:** jeszcze nie — deploy Vercel zaplanowany po ukończeniu it.1 (lub osobno)
+- **Produkcja:** Vercel — `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main` (od it.4)
 
 ## 3. Co zostało zrobione
 
@@ -152,8 +152,7 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 
 ## 7. Kolejne kroki
 
-- **Deploy Vercel** — analogicznie jak w polskim (`vercel.json` + auto-deploy z `main`)
-  — pierwszy priorytet it.4
+- **Deploy Vercel** ✅ — `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main` (it.4 T1-T3)
 - **Rozbudowa puli zadań** — przy obecnej treści (27 zamkniętych, 9 otwartych) arkusz
   losuje 15 z 27 zamkniętych i 6 z 9 otwartych; wariantywność między egzaminami jest niska
 - **Hub** — statyczny po ukończeniu angielskiego
@@ -171,8 +170,7 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 
 ### It.3 jest ukończona (aktualny stan) — zacznij it.4:
 1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — it.3 egzamin+statystyki)
-2. Priorytet it.4: **Deploy Vercel** (`vercel.json` + auto-deploy z `main`) — wzorzec z
-   polskiego projektu; następnie rozbudowa puli zadań (więcej wariantów w działach JSON)
+2. Priorytet it.4: **rozbudowa puli zadań** (więcej wariantów w działach JSON, min. 5 zamkniętych + 2 otwarte per dział)
 3. Napisz plan it.4 (skill `superpowers:writing-plans`)
 4. Uruchom skill `superpowers:subagent-driven-development`
 5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5173
