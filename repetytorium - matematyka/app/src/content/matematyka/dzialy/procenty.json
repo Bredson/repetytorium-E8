@@ -46,6 +46,24 @@
       "poprawna": "200 zł",
       "wskazowka": "160 zł to 80% ceny pierwotnej — oblicz 100%.",
       "przypomnij": "Jeśli $80\\% \\cdot W = 160$, to $W = 160 : 0{,}8$"
+    },
+    {
+      "id": "pr4",
+      "tresc": "Cena towaru wzrosła o 20%, a potem spadła o 20%. Jaki jest wynik względem ceny pierwotnej?",
+      "typ": "zamkniete",
+      "opcje": ["bez zmian", "wzrósł o 4%", "zmalał o 4%", "zmalał o 20%"],
+      "poprawna": "zmalał o 4%",
+      "wskazowka": "Oblicz na przykładzie: cena = 100 → 120 → 96.",
+      "przypomnij": "$100 \\cdot 1{,}2 \\cdot 0{,}8 = 96$, czyli o 4% mniej niż pierwotna"
+    },
+    {
+      "id": "pr5",
+      "tresc": "Ile wynosi 15% z 80?",
+      "typ": "zamkniete",
+      "opcje": ["8", "12", "15", "20"],
+      "poprawna": "12",
+      "wskazowka": "15% z 80 = $\\frac{15}{100} \\cdot 80$.",
+      "przypomnij": "$p\\% \\cdot W = \\frac{p}{100} \\cdot W$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,21 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$30\\% \\cdot 250 = 75$ zł; $250 - 75 = 175$ zł"
+    },
+    {
+      "id": "pro2",
+      "tresc": "W klasie jest 25 uczniów. Na wycieczkę pojechało 80% klasy. Ilu uczniów pojechało?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz 80% z 25",
+          "oczekiwana": "20",
+          "jednostka": "uczniów",
+          "podpowiedz": "$80\\% \\cdot 25 = 0{,}8 \\cdot 25 = 20$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$80\\% \\cdot 25 = \\frac{80}{100} \\cdot 25 = 20$ uczniów"
     }
   ]
 }
