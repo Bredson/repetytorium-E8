@@ -46,6 +46,24 @@
       "poprawna": "78,5 cm²",
       "wskazowka": "Pole koła liczysz ze wzoru z promieniem.",
       "przypomnij": "$P = \\pi r^2$"
+    },
+    {
+      "id": "gp4",
+      "tresc": "Obwód kwadratu o boku 7 cm to:",
+      "typ": "zamkniete",
+      "opcje": ["14 cm", "21 cm", "28 cm", "49 cm"],
+      "poprawna": "28 cm",
+      "wskazowka": "Kwadrat ma 4 równe boki.",
+      "przypomnij": "$O_{kwadratu} = 4a$"
+    },
+    {
+      "id": "gp5",
+      "tresc": "Pole trójkąta o podstawie 10 cm i wysokości 6 cm wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["30 cm²", "60 cm²", "16 cm²", "24 cm²"],
+      "poprawna": "30 cm²",
+      "wskazowka": "Pole trójkąta = połowa iloczynu podstawy i wysokości.",
+      "przypomnij": "$P = \\frac{a \\cdot h}{2}$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$O = 2 \\cdot (12 + 8) = 2 \\cdot 20 = 40$ m"
+    },
+    {
+      "id": "gpo2",
+      "tresc": "Prostokąt ma obwód 36 cm, a jego jeden bok mierzy 10 cm. Oblicz pole prostokąta.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz drugi bok prostokąta (obwód = 2·(a+b))",
+          "oczekiwana": "8",
+          "jednostka": "cm",
+          "podpowiedz": "$36 = 2(10 + b)$; $b = 18 - 10 = 8$ cm."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Oblicz pole prostokąta",
+          "oczekiwana": "80",
+          "jednostka": "cm²",
+          "podpowiedz": "$P = 10 \\cdot 8 = 80$ cm²"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$b = 18 - 10 = 8$ cm; $P = 10 \\cdot 8 = 80$ cm²"
     }
   ]
 }
