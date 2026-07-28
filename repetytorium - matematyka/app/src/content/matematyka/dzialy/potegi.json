@@ -46,6 +46,24 @@
       "poprawna": "10",
       "wskazowka": "Pierwiastek z iloczynu to iloczyn pierwiastków.",
       "przypomnij": "$\\sqrt{a \\cdot b} = \\sqrt{a} \\cdot \\sqrt{b}$"
+    },
+    {
+      "id": "p4",
+      "tresc": "Uproszczona postać $\\frac{3^6}{3^2}$ to:",
+      "typ": "zamkniete",
+      "opcje": ["$3^3$", "$3^4$", "$3^8$", "$3^2$"],
+      "poprawna": "$3^4$",
+      "wskazowka": "Przy dzieleniu potęg o tej samej podstawie odejmujesz wykładniki.",
+      "przypomnij": "$\\frac{a^m}{a^n} = a^{m-n}$"
+    },
+    {
+      "id": "p5",
+      "tresc": "Ile wynosi $4^0 + 2^{-1}$?",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{3}{2}$", "$1$", "$\\frac{1}{2}$", "$2$"],
+      "poprawna": "$\\frac{3}{2}$",
+      "wskazowka": "$a^0 = 1$ dla $a \\neq 0$; $2^{-1} = \\frac{1}{2}$.",
+      "przypomnij": "$a^0 = 1$; $a^{-n} = \\frac{1}{a^n}$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$(2^3)^2 = 2^{3 \\cdot 2} = 2^6 = 64$"
+    },
+    {
+      "id": "po2",
+      "tresc": "Oblicz: $(2^3)^2 \\cdot 2^{-4}$",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zastosuj wzór na potęgę potęgi: $(2^3)^2 = ?$",
+          "oczekiwana": "64",
+          "jednostka": null,
+          "podpowiedz": "$(a^m)^n = a^{m \\cdot n}$; $(2^3)^2 = 2^6 = 64$"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Teraz pomnóż przez $2^{-4}$ i podaj wynik",
+          "oczekiwana": "4",
+          "jednostka": null,
+          "podpowiedz": "$2^6 \\cdot 2^{-4} = 2^{6-4} = 2^2 = 4$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$(2^3)^2 \\cdot 2^{-4} = 2^6 \\cdot 2^{-4} = 2^2 = 4$"
     }
   ]
 }
