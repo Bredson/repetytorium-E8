@@ -46,6 +46,24 @@
       "poprawna": "28,26 cm²",
       "wskazowka": "Pole podstawy walca (koła) liczysz ze wzoru na pole koła.",
       "przypomnij": "$P = \\pi r^2$"
+    },
+    {
+      "id": "gpr4",
+      "tresc": "Objętość sześcianu o krawędzi 3 cm to:",
+      "typ": "zamkniete",
+      "opcje": ["9 cm³", "18 cm³", "27 cm³", "54 cm³"],
+      "poprawna": "27 cm³",
+      "wskazowka": "Sześcian: $V = a^3$.",
+      "przypomnij": "$V_{szescianu} = a^3 = 3^3 = 27$ cm³"
+    },
+    {
+      "id": "gpr5",
+      "tresc": "Pole powierzchni całkowitej prostopadłościanu 2×3×4 cm to:",
+      "typ": "zamkniete",
+      "opcje": ["24 cm²", "52 cm²", "26 cm²", "48 cm²"],
+      "poprawna": "52 cm²",
+      "wskazowka": "Prostopadłościan ma 3 pary ścian: $2(ab + bc + ca)$.",
+      "przypomnij": "$P_{pp} = 2(2 \\cdot 3 + 3 \\cdot 4 + 4 \\cdot 2) = 2(6+12+8) = 52$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$V = 50 \\cdot 30 \\cdot 40 = 60000 \\text{ cm}^3 = 60 \\text{ l}$"
+    },
+    {
+      "id": "gpro2",
+      "tresc": "Walec ma promień podstawy 3 cm i wysokość 5 cm. Oblicz jego objętość (podaj wynik zaokrąglony do 1 miejsca po przecinku, $\\pi \\approx 3{,}14$).",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz pole podstawy walca: $\\pi r^2$",
+          "oczekiwana": "28.26",
+          "jednostka": "cm²",
+          "podpowiedz": "$\\pi \\cdot 3^2 = 3{,}14 \\cdot 9 = 28{,}26$ cm²"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Pomnóż pole podstawy przez wysokość",
+          "oczekiwana": "141.3",
+          "jednostka": "cm³",
+          "podpowiedz": "$28{,}26 \\cdot 5 = 141{,}3$ cm³"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$V = \\pi r^2 h = 3{,}14 \\cdot 9 \\cdot 5 = 141{,}3$ cm³"
     }
   ]
 }
