@@ -168,10 +168,12 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 
 ## 9. Jak zacząć nową sesję
 
-### It.3 jest ukończona (aktualny stan) — zacznij it.4:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-27 — it.3 egzamin+statystyki)
-2. Priorytet it.4: **rozbudowa puli zadań** (więcej wariantów w działach JSON, min. 5 zamkniętych + 2 otwarte per dział)
-3. Napisz plan it.4 (skill `superpowers:writing-plans`)
-4. Uruchom skill `superpowers:subagent-driven-development`
-5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5173
+### It.4 jest ukończona (aktualny stan) — zacznij it.5:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-28 — it.4 deploy Vercel)
+2. Priorytet it.5: **rozbudowa puli zadań** — min. 5 zamkniętych + 2 otwarte per dział
+   (obecny stan: 27 zamkniętych, 9 otwartych — arkusz losuje 15 z 27 i 6 z 9, wariantywność niska)
+3. Produkcja działa: `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main`
+4. Napisz plan it.5 (skill `superpowers:writing-plans`)
+5. Uruchom skill `superpowers:subagent-driven-development`
+6. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5173
    (lub 5174 jeśli 5173 zajęty przez polskiego)
