@@ -131,6 +131,32 @@ Format wpisu:
 - Zmiana w skilu: nie (lekcja architektoniczna — wzorzec komponentu z własnym stanem
   wyniku zamiast zależności od callbacku zapisu).
 
+## 2026-07-28 (it.5 — rozbudowa puli zadań)
+- Obserwacja: pula rozbudowana z 27 zamkniętych + 9 otwartych do 45 zamkniętych + 18 otwartych
+  (+2 zamknięte +1 otwarte per dział, we wszystkich 9 działach). Każdy dział ma teraz ≥5
+  zamkniętych i 2 otwarte — cel planu osiągnięty.
+- Obserwacja: `sprawdzKrok` akceptuje string listowy (`"11, 13, 17, 19, 23, 29"`) jako `oczekiwana`
+  — porównanie jest case-insensitive string equals, więc lista liczb z przecinkami działa
+  o ile format odpowiedzi ucznia jest identyczny. Weryfikacja przez QA: odpowiedź "11, 13, 17,
+  19, 23, 29" zaliczona poprawnie.
+- Obserwacja: zadania otwarte z odpowiedziami numerycznymi (potęgi, geometria przestrzenna —
+  walec z π≈3.14) wymagają precyzji `oczekiwana` jako stringa z konkretną wartością;
+  `sprawdzKrok` normalizuje przecinek/kropkę, więc "28.26" i "28,26" są równoważne.
+- Obserwacja: wariantywność egzaminów po rozbudowie puli wyraźnie wzrosła — dwa kolejne
+  egzaminy próbne miały inne zestawy działów i zadań w części zamkniętej (sprawdzone przez
+  QA Playwright). Przy 45 zamkniętych los 15 daje znacznie więcej kombinacji niż przy 27.
+- Obserwacja: QA Playwright przez `browser_run_code_unsafe` (JS eval) pozwala szybko
+  przejść przez 15 pytań zamkniętych klikając zawsze opcję A — przydatne do weryfikacji
+  przepływu egzaminu bez ręcznego klikania. Ref-based API (browser_click z konkretnym ref)
+  jest konieczne dla pytań otwartych, gdzie trzeba wpisać konkretną odpowiedź.
+- Wniosek: prefiks ID w JSON musi pasować do istniejącego wzorca w pliku (np. `gpr`/`gpro`
+  dla geometria-przestrzenna, nie `gs`/`gso` jak sugerował plan) — implementer powinien
+  sprawdzić istniejące ID przed dodaniem nowych, by zachować spójność.
+- Wniosek: `zadania_otwarte` w JSON to osobna tablica top-level, nie podzbiór `cwiczenia`
+  — walidacja liczby zadań skryptem Python musi czytać osobno `len(d['cwiczenia'])` i
+  `len(d.get('zadania_otwarte', []))`.
+- Zmiana w skilu: nie (lekcje dot. zawartości treści i QA procesu; metodyka skila bez zmian).
+
 ## 2026-07-28 (it.4 T1-T3 — deploy Vercel)
 - Obserwacja: `vercel.json` z dwoma regułami (`rewrites` SPA + `github.silent`) wystarczy do
   pełnego deployu — żadnych zmian w vite.config.js ani package.json.

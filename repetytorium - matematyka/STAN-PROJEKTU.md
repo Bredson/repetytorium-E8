@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-27, po sesji it.3** (6 tasków T1-T6: notacja dziesiętna + TDD egzamin.js + TDD statystyki.js + EgzaminProbny.jsx + Statystyki.jsx + router; build ✓; QA desktop+mobile ✓).
+> Ostatnia aktualizacja: **2026-07-28, po sesji it.5** (9 tasków T1-T9: rozbudowa puli — +2 zamknięte +1 otwarte per dział, łącznie 45 zamkniętych + 18 otwartych; build ✓; QA 2× Egzamin Próbny ✓).
 
 ---
 
@@ -153,9 +153,34 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 ## 7. Kolejne kroki
 
 - **Deploy Vercel** ✅ — `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main` (it.4 T1-T3)
-- **Rozbudowa puli zadań** — przy obecnej treści (27 zamkniętych, 9 otwartych) arkusz
-  losuje 15 z 27 zamkniętych i 6 z 9 otwartych; wariantywność między egzaminami jest niska
+- **Rozbudowa puli zadań** ✅ — 45 zamkniętych + 18 otwartych (it.5); arkusz losuje 15 z 45 i 6 z 18
 - **Hub** — statyczny po ukończeniu angielskiego
+- **it.6 — kolejna rozbudowa treści** lub nowe działy (statystyka, prawdopodobieństwo) wg potrzeb
+
+## 8. Iteracja 5 — plan i stan
+
+**Status: UKOŃCZONA ✅**
+
+Plan: `app/docs/superpowers/plans/2026-07-28-matematyka-it5-rozbudowa-puli.md`
+Karty Trello: `app/docs/superpowers/plans/2026-07-28-matematyka-it5-trello.md`
+
+### 9 tasków it.5 + T10 weryfikacja:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | liczby.json: +l4 (NWW), +l5 ((-2)³), +lo2 (liczby pierwsze) | ✅ |
+| T2 | ulamki.json: +u4 (dzielenie), +u5 (zamiana na dziesiętny), +uo2 (suma mieszanych) | ✅ |
+| T3 | potegi.json: +p4 (dzielenie potęg), +p5 (4⁰+2⁻¹), +po2 ((2³)²) | ✅ |
+| T4 | procenty.json: +pr4 (wzrost+spadek), +pr5 (15% z 80), +pro2 (80% z 25) | ✅ |
+| T5 | algebra.json: +a4 ((x+2)(x-2)), +a5 (wartość wyraż.), +ao2 (wyłącz+oblicz) | ✅ |
+| T6 | rownania.json: +r4 (2x+5=13), +r5 (x/3-1=4), +ro2 (układ x+y=7, x-y=1) | ✅ |
+| T7 | geometria-plaska.json: +gp4 (obwód kwadratu), +gp5 (pole trójkąta), +gpo2 (prostokąt) | ✅ |
+| T8 | pitagoras.json: +pi4 (5-12-13), +pi5 (przekątna), +pio2 (drabina 5m) | ✅ |
+| T9 | geometria-przestrzenna.json: +gpr4 (sześcian), +gpr5 (pp prostopadłościanu), +gpro2 (walec) | ✅ |
+| T10 | Weryfikacja: 45 zamknięte + 18 otwarte ✓; QA Równania + Potęgi ✓; 2× Egzamin ✓; build ✓ | ✅ |
+
+**Definition of done it.5:** skrypt puli ✓ → QA nowych zadań w przeglądarce (0 errors) ✓ →
+2× Egzamin Próbny (wariantywność ✓, 12/12 otwarte ✓) → `npm run build` ✓ → docs → commit ✓
 
 ## 7. Procedury i pułapki (z LESSONS.md)
 
@@ -168,12 +193,11 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 
 ## 9. Jak zacząć nową sesję
 
-### It.4 jest ukończona (aktualny stan) — zacznij it.5:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-28 — it.4 deploy Vercel)
-2. Priorytet it.5: **rozbudowa puli zadań** — min. 5 zamkniętych + 2 otwarte per dział
-   (obecny stan: 27 zamkniętych, 9 otwartych — arkusz losuje 15 z 27 i 6 z 9, wariantywność niska)
+### It.5 jest ukończona (aktualny stan) — zacznij it.6:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-28 — it.5 rozbudowa puli)
+2. Pula zadań: **45 zamkniętych + 18 otwartych** (5+ zamkniętych i 2 otwarte per dział ✓)
 3. Produkcja działa: `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main`
-4. Napisz plan it.5 (skill `superpowers:writing-plans`)
-5. Uruchom skill `superpowers:subagent-driven-development`
-6. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5173
-   (lub 5174 jeśli 5173 zajęty przez polskiego)
+4. Możliwe kierunki it.6: dalsza rozbudowa puli, lepsza UX (podpowiedzi, wyjaśnienia),
+   nowe działy (statystyka), powtórki z kart (flashcards)
+5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
+   (lub 5173 jeśli 5174 zajęty)
