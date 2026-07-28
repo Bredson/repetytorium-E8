@@ -46,6 +46,24 @@
       "poprawna": "$\\sqrt{2}$",
       "wskazowka": "Przekątna kwadratu to przeciwprostokątna trójkąta prostokątnego o przyprostokątnych równych bokowi.",
       "przypomnij": "$d = a\\sqrt{2}$"
+    },
+    {
+      "id": "pi4",
+      "tresc": "Trójkąt ma boki 5 cm, 12 cm i 13 cm. Czy jest prostokątny?",
+      "typ": "zamkniete",
+      "opcje": ["Tak, bo $5^2 + 12^2 = 13^2$", "Nie, bo sumy boków nie są równe", "Tak, bo 5+12=17>13", "Nie, bo musi mieć kąt 90°"],
+      "poprawna": "Tak, bo $5^2 + 12^2 = 13^2$",
+      "wskazowka": "Sprawdź: $25 + 144 = 169 = 13^2$.",
+      "przypomnij": "Odwrotność twierdzenia Pitagorasa: jeśli $a^2+b^2=c^2$, to trójkąt jest prostokątny."
+    },
+    {
+      "id": "pi5",
+      "tresc": "Przekątna kwadratu o boku $a$ wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$a\\sqrt{2}$", "$2a$", "$a^2$", "$a\\sqrt{3}$"],
+      "poprawna": "$a\\sqrt{2}$",
+      "wskazowka": "Przekątna kwadratu to przeciwprostokątna trójkąta prostokątnego o ramionach $a, a$.",
+      "przypomnij": "$d^2 = a^2 + a^2 = 2a^2$; $d = a\\sqrt{2}$"
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$h^2 = 25 - 9 = 16 \\Rightarrow h = 4$ m"
+    },
+    {
+      "id": "pio2",
+      "tresc": "Drabina o długości 5 m opiera się o ścianę. Jej podstawa jest 3 m od ściany. Na jakiej wysokości dotyka ściany?",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Zapisz równanie Pitagorasa i oblicz kwadrat szukanej wysokości",
+          "oczekiwana": "16",
+          "jednostka": null,
+          "podpowiedz": "$h^2 + 3^2 = 5^2$; $h^2 = 25 - 9 = 16$"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Oblicz wysokość $h$",
+          "oczekiwana": "4",
+          "jednostka": "m",
+          "podpowiedz": "$h = \\sqrt{16} = 4$ m"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$h^2 = 5^2 - 3^2 = 25 - 9 = 16$; $h = 4$ m"
     }
   ]
 }
