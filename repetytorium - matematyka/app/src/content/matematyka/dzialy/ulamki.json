@@ -89,14 +89,14 @@
       "kroki": [
         {
           "id": "k1",
-          "instrukcja": "Zamień liczby mieszane na ułamki niewłaściwe",
+          "instrukcja": "Zamień obie liczby mieszane na ułamki dziesiętne i oblicz ich sumę",
           "oczekiwana": "4.25",
           "jednostka": null,
-          "podpowiedz": "$1\\frac{3}{4} = \\frac{7}{4} = 1{,}75$; $2\\frac{1}{2} = \\frac{5}{2} = 2{,}5$"
+          "podpowiedz": "$1\\frac{3}{4} = 1{,}75$; $2\\frac{1}{2} = 2{,}5$; suma = $1{,}75 + 2{,}5$"
         },
         {
           "id": "k2",
-          "instrukcja": "Dodaj wyniki i podaj sumę",
+          "instrukcja": "Podaj wynik jako ułamek dziesiętny",
           "oczekiwana": "4.25",
           "jednostka": null,
           "podpowiedz": "$1{,}75 + 2{,}5 = 4{,}25$"
