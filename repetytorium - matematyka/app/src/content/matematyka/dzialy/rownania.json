@@ -46,6 +46,24 @@
       "poprawna": "$x = 12$",
       "wskazowka": "Aby pozbyć się mianownika, pomnóż obie strony przez niego.",
       "przypomnij": "$\\frac{x}{a} = b \\Rightarrow x = a \\cdot b$"
+    },
+    {
+      "id": "r4",
+      "tresc": "Rozwiąż: $2x + 5 = 13$",
+      "typ": "zamkniete",
+      "opcje": ["3", "4", "9", "6"],
+      "poprawna": "4",
+      "wskazowka": "Przenieś 5 na prawą stronę: $2x = 13 - 5 = 8$.",
+      "przypomnij": "Wykonuj te same operacje po obu stronach równania."
+    },
+    {
+      "id": "r5",
+      "tresc": "Ile wynosi $x$ w równaniu $\\frac{x}{3} - 1 = 4$?",
+      "typ": "zamkniete",
+      "opcje": ["9", "12", "15", "3"],
+      "poprawna": "15",
+      "wskazowka": "$\\frac{x}{3} = 5$, więc $x = 15$.",
+      "przypomnij": "Pomnóż obie strony przez 3, aby pozbyć się mianownika."
     }
   ],
   "zadania_otwarte": [
@@ -63,6 +81,28 @@
         }
       ],
       "rozwiazanie_wzorcowe": "$2z + 8 = 50 \\Rightarrow z = 21$ zł"
+    },
+    {
+      "id": "ro2",
+      "tresc": "Rozwiąż układ równań: $x + y = 7$ oraz $x - y = 1$.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Dodaj oba równania stronami: co wychodzi po lewej i po prawej stronie? Ile wynosi $x$?",
+          "oczekiwana": "4",
+          "jednostka": null,
+          "podpowiedz": "$(x+y) + (x-y) = 7+1$; $2x = 8$; $x = 4$."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Podstaw $x = 4$ do pierwszego równania i oblicz $y$",
+          "oczekiwana": "3",
+          "jednostka": null,
+          "podpowiedz": "$4 + y = 7$; $y = 3$."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Dodajemy równania: $2x = 8$, $x = 4$; podstawiamy: $y = 7 - 4 = 3$."
     }
   ]
 }
