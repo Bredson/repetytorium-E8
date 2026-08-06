@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import { storage } from "./storage/adapter.js";
 import { pustePostepy, migrujPostepy } from "./core/profil.js";
-import { generujPlan } from "./core/plan.js";
+import { generujPlan, migrujPlan } from "./core/plan.js";
 import { nowaPowtorka, maPowtorke, zaktualizujPowtorki, coNaDzis, dataDnia } from "./core/powtorki.js";
+import { DZIALY } from "./content/matematyka/rejestr.js";
 import WyborProfilu from "./ui/pages/WyborProfilu.jsx";
 import NowyProfil from "./ui/pages/NowyProfil.jsx";
 import EkranPin from "./ui/pages/EkranPin.jsx";
@@ -13,6 +14,11 @@ import ZadanieOtwarte from "./ui/pages/ZadanieOtwarte.jsx";
 import Powtorka from "./ui/pages/Powtorka.jsx";
 import EgzaminProbny from "./ui/pages/EgzaminProbny.jsx";
 import Statystyki from "./ui/pages/Statystyki.jsx";
+
+// Kolejność działów w planie nauki — pochodzi z rejestru (Object.keys zachowuje kolejność
+// wstawiania), nie z osobnej hardkodowanej listy. Nowe działy dodane w rejestrze wchodzą
+// do planu automatycznie.
+const KOLEJNOSC_DZIALOW = Object.keys(DZIALY);
 
 function zastosujPreferencje(profil) {
   const el = document.documentElement;
@@ -51,7 +57,11 @@ export default function App() {
     zastosujPreferencje(p);
     let dane = migrujPostepy((await storage.getPostepy(p.id, "matematyka")) ?? pustePostepy());
     if (dane.diagnoza && !dane.plan) {
-      dane = { ...dane, plan: generujPlan(dane.diagnoza) };
+      dane = { ...dane, plan: generujPlan(dane.diagnoza, KOLEJNOSC_DZIALOW) };
+    } else if (dane.plan) {
+      // Migracja istniejącego profilu: dopisz działy dodane w rejestrze po wygenerowaniu
+      // tego planu (np. nowe działy z it.6), bez ruszania dotychczasowych wpisów/statusów.
+      dane = { ...dane, plan: migrujPlan(dane.plan, KOLEJNOSC_DZIALOW, dane.diagnoza) };
     }
     await storage.savePostepy(p.id, "matematyka", dane);
     setProfil(p);
@@ -78,7 +88,7 @@ export default function App() {
   }
 
   async function zakonczonoDiagnoze(wynikPerDzial) {
-    const plan = generujPlan(wynikPerDzial);
+    const plan = generujPlan(wynikPerDzial, KOLEJNOSC_DZIALOW);
     const nowe = {
       ...postepy,
       diagnoza: wynikPerDzial,

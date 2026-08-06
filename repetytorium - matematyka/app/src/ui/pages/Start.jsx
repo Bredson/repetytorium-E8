@@ -5,6 +5,7 @@ import { coNaDzis, dataDnia } from "../../core/powtorki.js";
 const KOLORY_MODULOW = {
   A: "#7c5cd6", B: "#2b8fb8", C: "#c9701b", D: "#c14b7e",
   E: "#3a9e6e", F: "#5a6ee0", G: "#e05a5a", H: "#e09d5a", I: "#5ae0c1",
+  J: "#a0729e", K: "#7ea62b",
 };
 
 export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowtorka, onEgzamin, onStatystyki, onWyloguj }) {

@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "test": "node tests/quiz.test.mjs && node tests/egzamin.test.mjs && node tests/statystyki.test.mjs"
+    "test": "node tests/quiz.test.mjs && node tests/egzamin.test.mjs && node tests/statystyki.test.mjs && node tests/plan.test.mjs"
   },
   "dependencies": {
     "katex": "^0.16.21",
