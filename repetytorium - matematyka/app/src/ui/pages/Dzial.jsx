@@ -35,7 +35,9 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
       efektZakonczeniaWykonanyRef.current = true;
       // Jeśli są zadania otwarte — idź do ZadanieOtwarte
       if (dzial.zadania_otwarte?.length > 0) {
-        onZadanieOtwarte({ zadanie: dzial.zadania_otwarte[0], wynikZamknietych: wynik });
+        const zadanie =
+          dzial.zadania_otwarte[Math.floor(Math.random() * dzial.zadania_otwarte.length)];
+        onZadanieOtwarte({ zadanie, wynikZamknietych: wynik });
       } else {
         // Brak zadań otwartych — zakończ dział
         onZakoncz({ dzialId, ...wynik });
@@ -45,7 +47,7 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
 
   function dalej() {
     if (aktualny < pytania.length - 1) {
-      setAktualny(aktualny + 1);
+      setAktualny((a) => a + 1);
       setWybrana(null);
       setPokazFeedback(false);
     } else {
@@ -66,6 +68,7 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
   }
 
   function reset() {
+    if (timerRef.current) clearTimeout(timerRef.current);
     setAktualny(0);
     setOdpowiedzi({});
     setWybrana(null);
@@ -118,6 +121,7 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
 
         {pytanie.przypomnij && (
           <details
+            key={pytanie.id}
             open={(pokazFeedback && !czyWybranaPop) || undefined}
             style={{ marginBottom: "var(--sp-3)" }}
           >
