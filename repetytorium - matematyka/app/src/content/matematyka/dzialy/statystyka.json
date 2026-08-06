@@ -1,0 +1,122 @@
+{
+  "id": "statystyka",
+  "tytul": "Statystyka",
+  "modul": "J",
+  "waga": "srednia",
+  "test_wstepny": [
+    {
+      "id": "tw-st1",
+      "tresc": "Oceny Ani z matematyki to: 4, 5, 3, 4, 4. Średnia arytmetyczna tych ocen wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["4", "4,2", "3,8", "5"],
+      "poprawna": "4"
+    },
+    {
+      "id": "tw-st2",
+      "tresc": "Mediana zestawu liczb 2, 7, 3, 5, 9 wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["3", "5", "7", "9"],
+      "poprawna": "5"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "st1",
+      "tresc": "Średnia arytmetyczna liczb 6, 8, 10, 16 wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["9", "10", "11", "12"],
+      "poprawna": "10",
+      "wskazowka": "Dodaj wszystkie liczby i podziel przez ich liczbę.",
+      "przypomnij": "$\\text{średnia} = \\frac{6+8+10+16}{4} = \\frac{40}{4} = 10$"
+    },
+    {
+      "id": "st2",
+      "tresc": "Mediana zestawu liczb 3, 5, 7, 9 wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["5", "6", "7", "8"],
+      "poprawna": "6",
+      "wskazowka": "Przy parzystej liczbie danych mediana to średnia dwóch środkowych wartości.",
+      "przypomnij": "Dane uporządkowane: 3, 5, 7, 9 — środkowe to 5 i 7; $\\frac{5+7}{2} = 6$"
+    },
+    {
+      "id": "st3",
+      "tresc": "Dominanta (moda) zestawu 2, 3, 3, 5, 3, 7, 5 to:",
+      "typ": "zamkniete",
+      "opcje": ["2", "3", "5", "7"],
+      "poprawna": "3",
+      "wskazowka": "Dominanta to wartość, która występuje najczęściej.",
+      "przypomnij": "3 występuje trzy razy, 5 dwa razy, pozostałe po jednym — dominanta to 3."
+    },
+    {
+      "id": "st4",
+      "tresc": "W tabeli przedstawiono wyniki sprawdzianu: ocena 3 — 5 uczniów, ocena 4 — 8 uczniów, ocena 5 — 4 uczniów, ocena 6 — 3 uczniów. Ilu uczniów łącznie pisało sprawdzian?",
+      "typ": "zamkniete",
+      "opcje": ["18", "19", "20", "21"],
+      "poprawna": "20",
+      "wskazowka": "Dodaj liczby uczniów dla wszystkich ocen.",
+      "przypomnij": "$5 + 8 + 4 + 3 = 20$"
+    },
+    {
+      "id": "st5",
+      "tresc": "Średnia arytmetyczna pięciu liczb wynosi 8. Suma tych liczb to:",
+      "typ": "zamkniete",
+      "opcje": ["13", "40", "45", "8"],
+      "poprawna": "40",
+      "wskazowka": "Średnia = suma / liczba danych, więc suma = średnia · liczba danych.",
+      "przypomnij": "$\\text{suma} = 8 \\cdot 5 = 40$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "sto1",
+      "tresc": "Oceny Zosi ze sprawdzianów to: 3, 4, 4, 5, 6. Oblicz średnią arytmetyczną i medianę tych ocen.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Oblicz sumę wszystkich ocen",
+          "oczekiwana": "22",
+          "jednostka": null,
+          "podpowiedz": "$3 + 4 + 4 + 5 + 6 = 22$"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Podziel sumę przez liczbę ocen i podaj średnią",
+          "oczekiwana": "4.4",
+          "jednostka": null,
+          "podpowiedz": "$\\frac{22}{5} = 4{,}4$"
+        },
+        {
+          "id": "k3",
+          "instrukcja": "Uporządkuj oceny rosnąco i podaj medianę (wartość środkową)",
+          "oczekiwana": "4",
+          "jednostka": null,
+          "podpowiedz": "Uporządkowane: 3, 4, 4, 5, 6 — środkowa (trzecia) wartość to 4."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Średnia: $\\frac{3+4+4+5+6}{5} = \\frac{22}{5} = 4{,}4$. Mediana: dane uporządkowane 3, 4, 4, 5, 6 — środkowa wartość to $4$."
+    },
+    {
+      "id": "sto2",
+      "tresc": "Średnia arytmetyczna czterech liczb: 5, 8, 9 oraz $x$ wynosi 8. Znajdź $x$.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Ile musi wynosić suma wszystkich czterech liczb, skoro średnia to 8?",
+          "oczekiwana": "32",
+          "jednostka": null,
+          "podpowiedz": "$\\text{suma} = 8 \\cdot 4 = 32$"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Odejmij od tej sumy znane liczby i podaj $x$",
+          "oczekiwana": "10",
+          "jednostka": null,
+          "podpowiedz": "$x = 32 - (5 + 8 + 9) = 32 - 22 = 10$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Suma czterech liczb: $8 \\cdot 4 = 32$. Zatem $x = 32 - (5+8+9) = 32 - 22 = 10$."
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import rownania from "./dzialy/rownania.json";
 import geometriaPlaska from "./dzialy/geometria-plaska.json";
 import pitagoras from "./dzialy/pitagoras.json";
 import geometriaPrzestrzenna from "./dzialy/geometria-przestrzenna.json";
+import statystyka from "./dzialy/statystyka.json";
 
 export const DZIALY = {
   liczby,
@@ -18,6 +19,7 @@ export const DZIALY = {
   "geometria-plaska": geometriaPlaska,
   pitagoras,
   "geometria-przestrzenna": geometriaPrzestrzenna,
+  statystyka,
 };
 
 export function material(id) {
