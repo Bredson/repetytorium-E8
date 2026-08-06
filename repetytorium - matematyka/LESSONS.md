@@ -288,3 +288,41 @@ Format wpisu:
 - Zmiana w skilu: nie (lekcje dot. konkretnego kodu komponentów i procesu QA, nie metodyki
   tutoringu w `SKILL.md`; obserwacja o `zadania_otwarte[0]`/rotacji `*o2` przeniesiona do
   STAN-PROJEKTU.md sekcja 9 jako kierunek it.8).
+
+## 2026-08-06 (it.8 — rotacja zadań otwartych + hardeningi)
+- Obserwacja: rotacja `zadania_otwarte[Math.floor(Math.random() * dzial.zadania_otwarte.length)]`
+  w `Dzial.jsx` (T1) odblokowała `*o2` w normalnym przepływie ucznia, dokładnie jak
+  przewidziano w LESSONS.md it.7. Weryfikacja w przeglądarce: 6 kolejnych ukończeń quizu
+  Geometria płaska dało sekwencję gpo2/gpo1/gpo2/gpo1/gpo2/gpo1 — oba zadania otwarte
+  zaobserwowane już w pierwszych 2 próbach (nie potrzeba było wszystkich 6 na wyczerpanie
+  budżetu z brief'u). Losowanie działa symetrycznie, bez widocznego skrzywienia w tej próbce.
+- Obserwacja: fix T2 (jednostka poza `$...$` w feedbacku „Dobrze!" — `` `$${wartosc}$
+  ${jednostka}` `` zamiast `` `$${wartosc} \text{ ${jednostka}}$` ``) potwierdzony
+  bezpośrednio w przeglądarce na gpo2 k1 (krok nie-ostatni, więc obserwowalny — w
+  przeciwieństwie do k2/ostatniego kroku, który nadal unmountuje się synchronicznie zanim
+  badge zdąży się wyrenderować, zgodnie z ograniczeniem architektonicznym udokumentowanym w
+  it.7): „Dobrze! 8" wyrenderowane jako prawdziwy węzeł KaTeX `math`, jednostka „cm" obok jako
+  czysty tekst poza trybem math. Konsola przeglądarki: **0 ostrzeżeń "Unrecognized Unicode
+  character"** przez całą sesję QA (obie ścieżki gpo2 — k1 „cm", k2 „cm²" — przetestowane
+  wielokrotnie w 6 przejściach quizu).
+- Obserwacja: hardening `key={pytanie.id}` na `<details>` (`Dzial.jsx`) zweryfikowany wprost —
+  ręcznie rozwinięte „Przypomnij" na pytaniu 1/5 poprawnie zwinięte (bez atrybutu `open`, bez
+  widocznego tekstu wskazówki) na pytaniu 2/5 po auto-przejściu; przed fixem stan natywnego
+  `<details>` mógłby przeciekać między pytaniami, bo React nie remountuje elementu bez zmiany
+  `key`.
+- Obserwacja: regresja it.7 (błędna odpowiedź → pauza bez auto-przejścia, wskazówka +
+  „Przypomnij" wymuszone otwarte, przycisk „Dalej") potwierdzona bez zmian zarówno na
+  desktopie, jak i na mobile 390×844 — hardeningi `setAktualny(a => a + 1)` i `clearTimeout`
+  w `reset()` nie są bezpośrednio obserwowalne w UI (to zabezpieczenia przed race condition/
+  wyciekiem timera), ale nie wprowadziły żadnej regresji w zachowaniu widocznym dla ucznia.
+- Obserwacja: konsola przeglądarki (poziomy warning i error) czysta przez całą sesję QA —
+  6 ukończeń quizu na desktopie (rotacja gpo1/gpo2) + 1 pełny przepływ na mobile 390×844
+  (błędna odpowiedź → Dalej → dokończenie quizu) — 0 errors, 0 warnings w każdym punkcie
+  kontrolnym.
+- Wniosek: przy zadaniach z wieloma krokami warto pamiętać, że tylko kroki NIE-ostatnie
+  pozwalają bezpośrednio zobaczyć badge „Dobrze!" w przeglądarce (ostatni krok unmountuje
+  komponent synchronicznie z ustawieniem statusu) — to samo ograniczenie z it.7 nadal
+  obowiązuje i nie jest czymś do naprawienia, tylko właściwością architektury
+  ZadanieOtwarte/KrokZadania.
+- Zmiana w skilu: nie (lekcje dot. konkretnego kodu i procesu QA, nie metodyki tutoringu
+  w `SKILL.md`).

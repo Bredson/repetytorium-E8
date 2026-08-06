@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-08-06, po sesji it.7** (UX quizu: pauza po błędzie + przycisk Dalej; fixy KaTeX wskazówki i feedbacku kroku; build ✓; QA ✓).
+> Ostatnia aktualizacja: **2026-08-06, po sesji it.8** (rotacja zadań otwartych + hardeningi z review it.7; build ✓; QA ✓).
 
 ---
 
@@ -158,6 +158,8 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
   arkusz losuje 15 z 55 i 6 z 22
 - **UX quizu (it.7)** ✅ — pauza po błędnej odpowiedzi + wskazówka/Przypomnij + Dalej; fix renderu
   wskazówki i kroku z jednostką (gpo2)
+- **Rotacja + hardeningi (it.8)** ✅ — losowe zadanie otwarte po quizie (odblokowane *o2), functional
+  updater/clearTimeout/key, jednostka poza $...$
 - **Hub** — statyczny po ukończeniu angielskiego
 
 ## 8. Iteracja 5 — plan i stan
@@ -240,6 +242,49 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
   Tasku 2** — „Dobrze! 8 cm" jako KaTeX na gpo2 k1, przez tymczasowe (zrewertowane przed
   commitem) przełożenie kolejności `zadania_otwarte`
 
+## 8d. Iteracja 8 — plan i stan
+
+**Status: UKOŃCZONA ✅**
+
+Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it8-rotacja-hardeningi/task-{1,2,3}-brief.md`
+
+### 3 taski it.8:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | `Dzial.jsx` — losowe zadanie otwarte z `zadania_otwarte` po ukończeniu części zamkniętej (zamiast zawsze `[0]`), odblokowuje `*o2` w normalnym przepływie; hardeningi z review it.7: functional updater `setAktualny(a => a + 1)`, `clearTimeout` w `reset()`, `key={pytanie.id}` na `<details>` | ✅ |
+| T2 | `KrokZadania.jsx` — jednostka wyjęta poza `$...$` w feedbacku „Dobrze!" (`` $${wartosc}$ ${jednostka}` `` zamiast `\text{...}` w trybie math) — usuwa ostrzeżenia konsoli KaTeX „Unrecognized Unicode character" dla `cm²`/`m³` | ✅ |
+| T3 | QA końcowe (desktop + mobile 390×844) + docs (STAN-PROJEKTU.md, LESSONS.md) + commit | ✅ |
+
+**Definition of done it.8:** `npm test` + `npm run build` ✓ → QA desktop (rotacja gpo1/gpo2 w ≤6
+próbach, feedback „Dobrze! 8 cm" krok nie-ostatni bez ostrzeżeń KaTeX, „Przypomnij" rozwinięte
+ręcznie na pytaniu N zwija się na N+1, regresja it.7 — błędna odpowiedź → pauza + wskazówka +
+Dalej, 0 console errors) ✓ → QA mobile 390×844 (wskazówka + Dalej czytelne, brak poziomego
+scrolla) ✓ → docs ✓ → commit ✓
+
+### Zrealizowane w it.8
+- `Dzial.jsx` — `dzial.zadania_otwarte[Math.floor(Math.random() * dzial.zadania_otwarte.length)]`
+  zamiast zawsze `zadania_otwarte[0]`; drugie zadanie otwarte per dział (`*o2`, np. gpo2, gpro2)
+  jest teraz osiągalne w normalnym przepływie ucznia, nie tylko przez losowanie w Egzaminie
+  Próbnym (ograniczenie odnotowane w LESSONS.md it.7)
+- Hardeningi z finalnego review it.7 wdrożone: `setAktualny(a => a + 1)` (functional updater,
+  bez zależności od stale closure), `clearTimeout(timerRef.current)` w `reset()` (zapobiega
+  odpalonemu timerowi auto-przejścia po resecie quizu), `key={pytanie.id}` na `<details>`
+  (stan `open` natywnego elementu nie przecieka między pytaniami — ręcznie rozwinięte
+  „Przypomnij" na pytaniu N zwija się poprawnie na N+1)
+- `KrokZadania.jsx` — jednostka w feedbacku „Dobrze!" przeniesiona poza tryb math KaTeX
+  (`` `$${wartosc}$ ${jednostka}` `` zamiast `` `$${wartosc} \text{ ${jednostka}}$` ``) — usuwa
+  ostrzeżenia konsoli „Unrecognized Unicode character" dla znaków `²`/`³` w jednostkach typu
+  `cm²`, `m³`, które KaTeX w trybie math nie renderował poprawnie
+- QA w przeglądarce (Playwright): rotacja potwierdzona bezpośrednio — 6 kolejnych ukończeń
+  quizu Geometria płaska dało naprzemiennie gpo2/gpo1/gpo2/gpo1/gpo2/gpo1 (oba zadania
+  zaobserwowane już w pierwszych 2 próbach); feedback „Dobrze! 8 cm" (gpo2 k1, krok
+  nie-ostatni) zaobserwowany bezpośrednio jako poprawny render KaTeX z jednostką jako czysty
+  tekst obok, 0 ostrzeżeń konsoli w całej sesji; „Przypomnij" rozwinięte ręcznie na pytaniu 1
+  poprawnie zwinięte na pytaniu 2 (weryfikacja `key`); regresja it.7 (błędna odpowiedź → pauza
+  + wskazówka + Dalej) potwierdzona bez zmian; konsola 0 errors / 0 warnings przez całą sesję
+  QA (desktop + mobile 390×844)
+
 ## 7. Procedury i pułapki (z LESSONS.md)
 
 - **Polskie cudzysłowy w JSON**: po zapisie zawsze weryfikuj `python3 -c "import json,sys; json.load(open(sys.argv[1]))" plik.json`
@@ -251,22 +296,18 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
 
 ## 9. Jak zacząć nową sesję
 
-### It.7 jest ukończona (aktualny stan) — zacznij it.8:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-08-06 — it.7 UX quizu)
-2. Pula zadań: **55 zamkniętych + 22 otwarte** w **11 działach** (bez zmian treściowych w it.7 —
-   iteracja czysto UX/komponentowa)
+### It.8 jest ukończona (aktualny stan) — zacznij it.9:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-08-06 — it.8 rotacja + hardeningi)
+2. Pula zadań: **55 zamkniętych + 22 otwarte** w **11 działach** (bez zmian treściowych w it.8 —
+   iteracja czysto komponentowa: rotacja zadania otwartego + hardeningi z review it.7)
 3. Produkcja działa: `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main`
-4. Możliwe kierunki it.8:
+4. Możliwe kierunki it.9:
+   - **Angielski + Hub** (rekomendowany następny duży kierunek) — nowa aplikacja
+     `repetytorium - j_angielski/` obok matematyki i polskiego, docelowo spięta z nimi przez
+     statyczny Hub nawigacyjny; największy nieotwarty obszar zakresu repetytorium
    - Pole `wyjasnienie` per zadanie (osobne od `podpowiedz`/`przypomnij`) — pełne wyjaśnienie
      błędnej odpowiedzi, nie tylko wskazówka przed próbą
    - Tryb nauki (bez presji wyniku — nieograniczone próby, bez wpływu na postęp/próg 80%)
-   - Dalsza rozbudowa puli (więcej zadań per dział; rozważyć rotację `zadania_otwarte[0]/[1]`
-     w Dzial.jsx zamiast zawsze pierwszego — patrz LESSONS.md)
-   - Hub statyczny po ukończeniu angielskiego
-   - Hardeningi odłożone z finalnego review it.7:
-     - `Dzial.jsx`: functional updater w `dalej()` (`setAktualny(a => a + 1)`), `clearTimeout`
-       w `reset()`, `key={pytanie.id}` na `<details>` (stan open nie przecieka między pytaniami)
-     - `KrokZadania.jsx:34`: jednostka poza `$...$` (jak w linii 62) — usuwa ostrzeżenia
-       konsoli KaTeX dla `cm²`/`m³` i edge case surowego inputu ucznia w trybie math
+   - Dalsza rozbudowa puli (więcej zadań per dział)
 5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
    (lub 5173 jeśli 5174 zajęty)
