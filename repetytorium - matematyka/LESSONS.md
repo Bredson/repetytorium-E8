@@ -249,9 +249,13 @@ Format wpisu:
   Egzamin Próbny). Dwie pełne próby Egzaminu Próbnego (losowanie 6 z ~22 otwartych, szansa na
   pominięcie obu ok. 52% per próba wg C(20,6)/C(22,6)) nie wylosowały żadnego z nich — fix
   zweryfikowano więc przez przegląd kodu źródłowego `KrokZadania.jsx` (delimitery `$...$`
-  faktycznie obecne) zamiast bezpośredniej obserwacji w przeglądarce. Nie jest to defekt —
-  jest to ograniczenie procesu QA przy losowej selekcji treści; udokumentowane tutaj zamiast
-  dalszego, kosztownego czasowo próbowania.
+  faktycznie obecne) zamiast bezpośredniej obserwacji w przeglądarce w Tasku 3. Nie jest to
+  defekt — jest to ograniczenie procesu QA przy losowej selekcji treści; udokumentowane tutaj
+  zamiast dalszego, kosztownego czasowo próbowania. **Uzupełnienie:** ten krok BYŁ już
+  bezpośrednio zaobserwowany wcześniej, w Tasku 2 — „Dobrze! 8 cm" wyrenderowane jako prawdziwy
+  KaTeX na gpo2 k1, przez tymczasowe (zrewertowane przed commitem) przełożenie kolejności
+  `zadania_otwarte`, żeby dział otworzył gpo2 zamiast gpo1; Task 3 nie miał dostępu do tej
+  informacji z bieżącego DoD i powtórzył próbę „na czysto" bez takiej ingerencji w dane.
 - Obserwacja: transient bug automatyzacji Playwright (nie aplikacji) — kliknięcie w przycisk
   odpowiedzi z ułamkiem czasem timeoutuje z „element intercepts pointer events", bo wewnętrzny
   `<span>` renderu KaTeX przechwytuje wskaźnik. Obejście: `element.click()` bezpośrednio przez

@@ -234,8 +234,10 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
   gpo2 potwierdzony w kodzie źródłowym (patrz LESSONS.md 2026-08-06) — bezpośrednia obserwacja
   „Dobrze! + jednostka" na kroku nie-ostatnim nie była osiągalna przez zwykły przepływ Dzial.jsx
   (zawsze otwiera `zadania_otwarte[0]`), a dwie próby Egzaminu Próbnego (losowanie 6 z ~22
-  otwartych) nie wylosowały gpo2/gpro2 — udokumentowane jako ograniczenie procesu QA, nie jako
-  defekt (patrz LESSONS.md)
+  otwartych) nie wylosowały gpo2/gpro2 w Tasku 3 — udokumentowane jako ograniczenie procesu QA,
+  nie jako defekt (patrz LESSONS.md); **wizualnie ten krok był już potwierdzony wcześniej w
+  Tasku 2** — „Dobrze! 8 cm" jako KaTeX na gpo2 k1, przez tymczasowe (zrewertowane przed
+  commitem) przełożenie kolejności `zadania_otwarte`
 
 ## 7. Procedury i pułapki (z LESSONS.md)
 
