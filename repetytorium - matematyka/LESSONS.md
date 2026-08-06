@@ -214,3 +214,73 @@ Format wpisu:
 - Zmiana w skilu: nie (lekcje dot. architektury aplikacji i weryfikacji QA, nie metodyki
   tutoringu opisanej w `SKILL.md`; wzorzec „nowy dział = JSON + 2 linie rejestr.js" jest już
   udokumentowany tutaj i w STAN-PROJEKTU.md, sekcja 2 „Stack i architektura").
+
+## 2026-08-06 (it.7 — UX quizu: pauza po błędzie + fixy KaTeX)
+- Obserwacja: przyczyna buga gpo2 (zanotowanego jako kandydat w LESSONS.md it.6) leżała w
+  **templacie komponentu**, nie w treści JSON: `KrokZadania.jsx` budował feedback „Dobrze!"
+  jako zwykły string interpolowany bez delimiterów `$...$` (np. `` `${wartosc} \text{ ${jednostka}}` ``
+  wstawiany bezpośrednio jako tekst), więc `KaTeXRenderer` — który wykrywa matematykę
+  wyłącznie po znaczniku `$` — nie miał czego renderować i pokazywał surowy LaTeX. Inaczej niż
+  bug ulamki.json z it.2 (tam problem był w danych), tu poprawka poszła w komponencie: string
+  feedbacku owinięto w `$...$` i przekazano przez `<KaTeXRenderer tekst={...} />`. Ta sama
+  klasa bugu („zapomniane `$` wokół LaTeX-a"), ale dwa różne miejsca, w których może wystąpić
+  (dane vs. komponent) — lint sprawdzający wyłącznie pliki JSON (zaproponowany w it.2) nie
+  wyłapałby tego wariantu.
+- Obserwacja: wzorzec „`open={(warunek) || undefined}`" na `<details>` w `Dzial.jsx` — gdy
+  `warunek` jest `false`, atrybut `open` dostaje `undefined` zamiast `false`, więc React nie
+  kontroluje stanu natywnego elementu (użytkownik może ręcznie rozwinąć/zwinąć „Przypomnij"
+  przed pojawieniem się feedbacku bez walki z re-renderem, który wymuszałby `open={false}`).
+  Dopiero gdy `warunek` staje się `true` (błędna odpowiedź), React zaczyna wymuszać `open`.
+  Przydatny wzorzec dla każdego `<details>`/`<dialog>`, którego stan ma być „miękko"
+  sugerowany, a nie zawsze wymuszony.
+- Obserwacja (przeniesiona z Task 2/przeglądu it.7): `Dzial.jsx` zawsze otwiera
+  `zadania_otwarte[0]` po ukończeniu części zamkniętej działu — drugie zadanie otwarte per
+  dział (`*o2`, np. gpo2, gpro2, uo2...) jest osiągalne w normalnym przepływie użytkownika
+  wyłącznie przez losowanie w Egzaminie Próbnym (`zbudujArkusz` losuje z **pełnej** puli
+  otwartych, nie tylko `[0]` per dział). Kandydat do rotacji/losowania w przyszłej iteracji,
+  żeby `*o2` nie było contentem „martwym" poza egzaminem.
+- Obserwacja z własnego QA (Task 3): dokładnie ta ostatnia obserwacja utrudniła weryfikację
+  DoD „zadanie otwarte z krokiem z jednostką → feedback renderuje jednostkę" w przeglądarce —
+  jedyne zadanie otwarte osiągalne przez zwykły Dzial.jsx (gpo1, jednokrokowe) unmountuje się
+  w tym samym renderze, w którym ustawia status „ok" (bo ostatni/jedyny krok wywołuje
+  synchronicznie `setZakonczone(true)`), więc badge „Dobrze!" nigdy nie zdąży się wyrenderować
+  na ekranie — architektonicznie nieobserwowalne dla jedno- lub ostatnio-krokowych zadań.
+  Jedyne zadania z jednostką na kroku NIE-ostatnim to gpo2 i gpro2 (oba osiągalne tylko przez
+  Egzamin Próbny). Dwie pełne próby Egzaminu Próbnego (losowanie 6 z ~22 otwartych, szansa na
+  pominięcie obu ok. 52% per próba wg C(20,6)/C(22,6)) nie wylosowały żadnego z nich — fix
+  zweryfikowano więc przez przegląd kodu źródłowego `KrokZadania.jsx` (delimitery `$...$`
+  faktycznie obecne) zamiast bezpośredniej obserwacji w przeglądarce. Nie jest to defekt —
+  jest to ograniczenie procesu QA przy losowej selekcji treści; udokumentowane tutaj zamiast
+  dalszego, kosztownego czasowo próbowania.
+- Obserwacja: transient bug automatyzacji Playwright (nie aplikacji) — kliknięcie w przycisk
+  odpowiedzi z ułamkiem czasem timeoutuje z „element intercepts pointer events", bo wewnętrzny
+  `<span>` renderu KaTeX przechwytuje wskaźnik. Obejście: `element.click()` bezpośrednio przez
+  `browser_evaluate` zamiast `browser_click`. Powtarzało się identycznie na desktopie i mobile —
+  warto pamiętać przy przyszłym QA z opcjami-ułamkami.
+- Obserwacja: brief Task 3 zakładał, że część zamknięta Egzaminu Próbnego „auto-przechodzi (...)
+  bez przycisku Dalej" — w rzeczywistości `EgzaminProbny.jsx` ma manualny przycisk „Dalej"
+  (nieaktywny do wyboru odpowiedzi), bez auto-przejścia. To zachowanie jest identyczne przed i
+  po it.7 (komponent nie był dotykany) — nie jest to regresja, tylko nieścisłość opisu w
+  briefie; istotna część wymagania („brak feedbacku kolor zielony/czerwony") jest potwierdzona.
+- QA desktop (1280×900): błędna odpowiedź w środku quizu (Ułamki u1) → pauza + wskazówka jako
+  KaTeX + „Przypomnij" rozwinięte + „Dalej" ✓; wskazówka z `$\frac{7}{20}=\frac{35}{100}$`
+  (Ułamki u5, ostatnie pytanie) wyrenderowana poprawnie jako ułamek KaTeX, błędna odpowiedź na
+  ostatnim pytaniu → „Dalej" kończy quiz (ekran wyniku) ✓; poprawna odpowiedź (u2–u4) →
+  auto-przejście po ~1 s ✓; feedback kroku z jednostką zweryfikowany przez przegląd kodu (patrz
+  wyżej) zamiast bezpośredniej obserwacji ✓ (z zastrzeżeniem); konsola 0 errors przez całą
+  sesję ✓.
+- QA mobile (390×844): błędna odpowiedź (Ułamki u1) → wskazówka KaTeX + „Przypomnij" + „Dalej"
+  czytelne i klikalne (zrzut ekranu potwierdza), `scrollWidth === clientWidth` (390 = 390, brak
+  poziomego scrolla) ✓; „Dalej" poprawnie przechodzi do kolejnego pytania ✓; konsola 0 errors ✓.
+- Sanity Egzaminu Próbnego: wybór odpowiedzi (celowo błędnej) w części zamkniętej nie pokazuje
+  żadnego koloru poprawności (tylko neutralne podświetlenie „wybrane") — potwierdzony brak
+  regresji z Task 1/2 (komponent egzaminu jest osobny i nie był modyfikowany); przerwanie
+  egzaminu w połowie (reload strony) wraca czysto do ekranu wyboru profilu, bez błędów konsoli —
+  stan egzaminu jest w pamięci (nieprzetrwały reload), co jest oczekiwane i spójne z resztą
+  aplikacji (localStorage trzyma tylko ukończone sesje).
+- Wniosek: dwie różne warstwy mogą złamać ten sam kontrakt „LaTeX musi mieć `$...$`" — dane
+  (JSON) i szablony komponentów (stringi budowane w JSX). Przy przyszłych fixach/audytach
+  renderu KaTeX sprawdzać obie warstwy, nie zakładać, że winna jest zawsze treść.
+- Zmiana w skilu: nie (lekcje dot. konkretnego kodu komponentów i procesu QA, nie metodyki
+  tutoringu w `SKILL.md`; obserwacja o `zadania_otwarte[0]`/rotacji `*o2` przeniesiona do
+  STAN-PROJEKTU.md sekcja 9 jako kierunek it.8).

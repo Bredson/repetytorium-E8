@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-08-06, po sesji it.6** (2 nowe działy: statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte; 11 działów; build ✓; QA ✓).
+> Ostatnia aktualizacja: **2026-08-06, po sesji it.7** (UX quizu: pauza po błędzie + przycisk Dalej; fixy KaTeX wskazówki i feedbacku kroku; build ✓; QA ✓).
 
 ---
 
@@ -156,6 +156,8 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 - **Rozbudowa puli zadań** ✅ — 45 zamkniętych + 18 otwartych (it.5); arkusz losował 15 z 45 i 6 z 18
 - **Nowe działy (it.6)** ✅ — statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte;
   arkusz losuje 15 z 55 i 6 z 22
+- **UX quizu (it.7)** ✅ — pauza po błędnej odpowiedzi + wskazówka/Przypomnij + Dalej; fix renderu
+  wskazówki i kroku z jednostką (gpo2)
 - **Hub** — statyczny po ukończeniu angielskiego
 
 ## 8. Iteracja 5 — plan i stan
@@ -201,6 +203,40 @@ Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it6-nowe-dzialy/task-{1,2,3
 QA obu nowych działów w przeglądarce (0 errors) ✓ → Egzamin Próbny z reprezentacją nowych działów ✓ →
 diagnoza świeżego profilu = 22 pytania ✓ → docs → commit ✓
 
+## 8c. Iteracja 7 — plan i stan
+
+**Status: UKOŃCZONA ✅**
+
+Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it7-ux-quizu/task-{1,2,3}-brief.md`
+
+### 3 taski it.7:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | `Dzial.jsx` — pauza po błędnej odpowiedzi (bez auto-przejścia), wskazówka + „Przypomnij" rozwinięte, przycisk „Dalej" (błędna na ostatnim pytaniu kończy quiz); poprawna odpowiedź nadal auto-przechodzi po ~1 s | ✅ |
+| T2 | `KrokZadania.jsx` — fix renderu wskazówki (`$...$` przez KaTeXRenderer zamiast surowego tekstu) i feedbacku „Dobrze!" dla kroku z jednostką (`\text{...}`) | ✅ |
+| T3 | QA końcowe (desktop + mobile 390×844 + sanity egzaminu) + docs (STAN-PROJEKTU.md, LESSONS.md) + commit | ✅ |
+
+**Definition of done it.7:** `npm test` + `npm run build` ✓ → QA desktop (pauza+wskazówka KaTeX+Dalej,
+błędna na ostatnim pytaniu kończy quiz, poprawna auto-przechodzi, feedback kroku z jednostką, 0
+console errors) ✓ → QA mobile 390×844 (wskazówka + Dalej czytelne/klikalne, brak poziomego scrolla)
+✓ → sanity Egzaminu Próbnego (brak regresji — część zamknięta nadal bez feedbacku
+zielony/czerwony) ✓ → docs ✓ → commit ✓
+
+### Zrealizowane w it.7
+- `Dzial.jsx` — błędna odpowiedź zatrzymuje quiz (bez `setTimeout`), pokazuje wskazówkę
+  i rozwija „Przypomnij" (`<details open={(pokazFeedback && !czyWybranaPop) || undefined}>`),
+  przycisk „Dalej" przechodzi do kolejnego pytania albo (na ostatnim) kończy quiz; poprawna
+  odpowiedź zachowuje auto-przejście `setTimeout(dalej, 1000)`
+- `KrokZadania.jsx` — wskazówka i feedback „Dobrze!" renderowane przez `KaTeXRenderer` z
+  poprawnymi delimiterami `$...$`, w tym `\text{jednostka}` dla kroków z jednostką (np. gpo2 k1 „cm")
+- QA w przeglądarce (Playwright): potwierdzone wszystkie scenariusze z DoD; korzeń przyczyny
+  gpo2 potwierdzony w kodzie źródłowym (patrz LESSONS.md 2026-08-06) — bezpośrednia obserwacja
+  „Dobrze! + jednostka" na kroku nie-ostatnim nie była osiągalna przez zwykły przepływ Dzial.jsx
+  (zawsze otwiera `zadania_otwarte[0]`), a dwie próby Egzaminu Próbnego (losowanie 6 z ~22
+  otwartych) nie wylosowały gpo2/gpro2 — udokumentowane jako ograniczenie procesu QA, nie jako
+  defekt (patrz LESSONS.md)
+
 ## 7. Procedury i pułapki (z LESSONS.md)
 
 - **Polskie cudzysłowy w JSON**: po zapisie zawsze weryfikuj `python3 -c "import json,sys; json.load(open(sys.argv[1]))" plik.json`
@@ -212,12 +248,17 @@ diagnoza świeżego profilu = 22 pytania ✓ → docs → commit ✓
 
 ## 9. Jak zacząć nową sesję
 
-### It.6 jest ukończona (aktualny stan) — zacznij it.7:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-08-06 — it.6 nowe działy)
-2. Pula zadań: **55 zamkniętych + 22 otwarte** w **11 działach** (statystyka i prawdopodobieństwo
-   dołączyły do 9 działów z it.1-2; każdy ma ≥5 zamkniętych i 2 otwarte ✓)
+### It.7 jest ukończona (aktualny stan) — zacznij it.8:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-08-06 — it.7 UX quizu)
+2. Pula zadań: **55 zamkniętych + 22 otwarte** w **11 działach** (bez zmian treściowych w it.7 —
+   iteracja czysto UX/komponentowa)
 3. Produkcja działa: `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main`
-4. Możliwe kierunki it.7: UX (wyjaśnienia błędnych odpowiedzi, podpowiedzi przed próbą),
-   dalsza rozbudowa puli (więcej zadań per dział), Hub statyczny po ukończeniu angielskiego
+4. Możliwe kierunki it.8:
+   - Pole `wyjasnienie` per zadanie (osobne od `podpowiedz`/`przypomnij`) — pełne wyjaśnienie
+     błędnej odpowiedzi, nie tylko wskazówka przed próbą
+   - Tryb nauki (bez presji wyniku — nieograniczone próby, bez wpływu na postęp/próg 80%)
+   - Dalsza rozbudowa puli (więcej zadań per dział; rozważyć rotację `zadania_otwarte[0]/[1]`
+     w Dzial.jsx zamiast zawsze pierwszego — patrz LESSONS.md)
+   - Hub statyczny po ukończeniu angielskiego
 5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
    (lub 5173 jeśli 5174 zajęty)
