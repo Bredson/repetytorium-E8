@@ -27,9 +27,9 @@
   --kolor-fokus: #4f6df5;
 
   /* Kolory — akcenty modułów A-F (rozróżnialne, jedna saturacja) */
-  --modul-a: #7c5cd6;  /* A lektury — fiolet */
-  --modul-b: #2b8fb8;  /* B nauka o języku — morski */
-  --modul-c: #c9701b;  /* C ortografia/interpunkcja — pomarańcz */
+  --modul-a: #7c5cd6;  /* A funkcje językowe — fiolet */
+  --modul-b: #2b8fb8;  /* B czytanie — morski */
+  --modul-c: #c9701b;  /* C środki językowe — pomarańcz */
   --modul-d: #c14b7e;  /* D kształcenie literackie — malina */
   --modul-e: #3a9e6e;  /* E czytanie ze zrozumieniem — zieleń */
   --modul-f: #5a6ee0;  /* F tworzenie wypowiedzi — indygo */

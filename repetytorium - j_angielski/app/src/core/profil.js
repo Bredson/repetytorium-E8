@@ -30,7 +30,7 @@ export async function nowyProfil({ imie, pin, dataEgzaminu, dysleksja }) {
     pinHash: await hashPin(pin, salt),
     salt,
     przedmioty: ["angielski"],
-    dataEgzaminu: dataEgzaminu || "2027-05-15",
+    dataEgzaminu: dataEgzaminu || "2027-05-12", // placeholder — dokładny termin CKE nieznany do 20.08.2026
     utworzono: new Date().toISOString(),
     preferencje: { dysleksja: !!dysleksja, trybCiemny: false },
   };

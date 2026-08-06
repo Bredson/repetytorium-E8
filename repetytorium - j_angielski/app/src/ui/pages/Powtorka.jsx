@@ -92,7 +92,7 @@ export default function Powtorka({ powtorkiDzis, postepy, onZakoncz, onWroc }) {
         <span className="tekst-2 tekst-maly">{aktualny + 1}/{powtorkiDzis.length}</span>
       </div>
 
-      <h2 style={{ marginBottom: "var(--sp-2)" }}>Powtórka: {rekord.temat}</h2>
+      <h2 style={{ marginBottom: "var(--sp-2)" }}>Powtórka: {material(rekord.temat)?.tytul ?? rekord.temat}</h2>
 
       <div className="karta" style={{ marginBottom: "var(--sp-4)" }}>
         {pytanie.tekst && (

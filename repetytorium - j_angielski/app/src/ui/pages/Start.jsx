@@ -6,6 +6,14 @@ const KOLORY_MODULOW = {
   A: "#7c5cd6", B: "#2b8fb8", C: "#c9701b",
 };
 
+function odmienPowtorki(n) {
+  const ost = n % 10;
+  const ostDwie = n % 100;
+  if (n === 1) return "powtórka";
+  if (ost >= 2 && ost <= 4 && !(ostDwie >= 12 && ostDwie <= 14)) return "powtórki";
+  return "powtórek";
+}
+
 export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowtorka, onWyloguj }) {
   const dzialy = Object.values(DZIALY);
   const powtorkiDzis = coNaDzis(postepy.powtorki ?? [], dataDnia());
@@ -30,7 +38,7 @@ export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowto
 
       {powtorkiDzis.length > 0 && (
         <div className="karta" style={{ marginBottom: "var(--sp-4)", borderLeft: "4px solid var(--kolor-uwaga)" }}>
-          <strong>Na dziś: {powtorkiDzis.length} powtórki</strong>
+          <strong>Na dziś: {powtorkiDzis.length} {odmienPowtorki(powtorkiDzis.length)}</strong>
           <p className="tekst-2">Masz zaplanowane powtórki.</p>
           <button className="btn btn-primary" style={{ marginTop: "var(--sp-3)" }} onClick={onPowtorka}>
             Rozpocznij powtórki

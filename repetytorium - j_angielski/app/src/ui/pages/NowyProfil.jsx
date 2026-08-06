@@ -5,7 +5,7 @@ export default function NowyProfil({ onUtworzono, onAnuluj, saProfile }) {
   const [imie, setImie] = useState("");
   const [pin, setPin] = useState("");
   const [pin2, setPin2] = useState("");
-  const [dataEgzaminu, setDataEgzaminu] = useState("2027-05-11");
+  const [dataEgzaminu, setDataEgzaminu] = useState("2027-05-12"); // placeholder — dokładny termin CKE nieznany do 20.08.2026
   const [dysleksja, setDysleksja] = useState(false);
   const [blad, setBlad] = useState("");
 
@@ -58,7 +58,7 @@ export default function NowyProfil({ onUtworzono, onAnuluj, saProfile }) {
           <span>
             Mam dysleksję
             <span className="tekst-2 tekst-maly" style={{ display: "block" }}>
-              Włączymy czytelniejszy tekst i dopasujemy zasady oceniania ortografii.
+              Włączymy czytelniejszy tekst. Zaznacz, jeśli uczeń ma orzeczenie o dysleksji — wykorzystamy to w kolejnych wersjach przy ocenianiu ortografii.
             </span>
           </span>
         </label>
