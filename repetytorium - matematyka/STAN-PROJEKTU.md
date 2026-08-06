@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (matematyka)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-07-28, po sesji it.5** (9 tasków T1-T9: rozbudowa puli — +2 zamknięte +1 otwarte per dział, łącznie 45 zamkniętych + 18 otwartych; build ✓; QA 2× Egzamin Próbny ✓).
+> Ostatnia aktualizacja: **2026-08-06, po sesji it.6** (2 nowe działy: statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte; 11 działów; build ✓; QA ✓).
 
 ---
 
@@ -154,8 +154,8 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 
 - **Deploy Vercel** ✅ — `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main` (it.4 T1-T3)
 - **Rozbudowa puli zadań** ✅ — 45 zamkniętych + 18 otwartych (it.5); arkusz losuje 15 z 45 i 6 z 18
+- **Nowe działy (it.6)** ✅ — statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte
 - **Hub** — statyczny po ukończeniu angielskiego
-- **it.6 — kolejna rozbudowa treści** lub nowe działy (statystyka, prawdopodobieństwo) wg potrzeb
 
 ## 8. Iteracja 5 — plan i stan
 
@@ -182,6 +182,24 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-28-matematyka-it5-trello.md`
 **Definition of done it.5:** skrypt puli ✓ → QA nowych zadań w przeglądarce (0 errors) ✓ →
 2× Egzamin Próbny (wariantywność ✓, 12/12 otwarte ✓) → `npm run build` ✓ → docs → commit ✓
 
+## 8b. Iteracja 6 — plan i stan
+
+**Status: UKOŃCZONA ✅**
+
+Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it6-nowe-dzialy/task-{1,2,3}-brief.md`
+
+### 3 taski it.6:
+
+| Task | Co robi | Status |
+|------|---------|--------|
+| T1 | `statystyka.json` — 5 zamkniętych (st1–st5: średnia, mediana, dominanta, liczność, suma z średniej) + 2 otwarte (sto1, sto2) + wpis w `rejestr.js` | ✅ |
+| T2 | `prawdopodobienstwo.json` — 5 zamkniętych (pw1–pw5: klasyczna definicja, reguła mnożenia, warunkowe) + 2 otwarte (pwo1, pwo2) + wpis w `rejestr.js` | ✅ |
+| T3 | Weryfikacja końcowa: skrypt puli (55 zamkniętych + 22 otwarte, 11 działów) ✓; `npm test` + `npm run build` ✓; QA dashboard (11 kart) ✓; QA Statystyka (5/5 zamkniętych, sto1 3/3 kroki) ✓; QA Prawdopodobieństwo (5/5 zamkniętych, LaTeX $\frac{}{}$ render ✓, pwo1 3/3 kroki, przecinek „0,5" zaakceptowany) ✓; Egzamin Próbny (oba nowe działy reprezentowane w wyniku per dział) ✓; diagnoza na świeżym profilu = 22 pytania ✓; konsola 0 errors ✓; docs + commit | ✅ |
+
+**Definition of done it.6:** skrypt puli ✓ (55+22, 11/11 OK) → `npm test` + `npm run build` ✓ →
+QA obu nowych działów w przeglądarce (0 errors) ✓ → Egzamin Próbny z reprezentacją nowych działów ✓ →
+diagnoza świeżego profilu = 22 pytania ✓ → docs → commit ✓
+
 ## 7. Procedury i pułapki (z LESSONS.md)
 
 - **Polskie cudzysłowy w JSON**: po zapisie zawsze weryfikuj `python3 -c "import json,sys; json.load(open(sys.argv[1]))" plik.json`
@@ -193,11 +211,12 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-28-matematyka-it5-trello.md`
 
 ## 9. Jak zacząć nową sesję
 
-### It.5 jest ukończona (aktualny stan) — zacznij it.6:
-1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-07-28 — it.5 rozbudowa puli)
-2. Pula zadań: **45 zamkniętych + 18 otwartych** (5+ zamkniętych i 2 otwarte per dział ✓)
+### It.6 jest ukończona (aktualny stan) — zacznij it.7:
+1. Przeczytaj ten plik + ostatni wpis w `LESSONS.md` (2026-08-06 — it.6 nowe działy)
+2. Pula zadań: **55 zamkniętych + 22 otwarte** w **11 działach** (statystyka i prawdopodobieństwo
+   dołączyły do 9 działów z it.1-2; każdy ma ≥5 zamkniętych i 2 otwarte ✓)
 3. Produkcja działa: `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main`
-4. Możliwe kierunki it.6: dalsza rozbudowa puli, lepsza UX (podpowiedzi, wyjaśnienia),
-   nowe działy (statystyka), powtórki z kart (flashcards)
+4. Możliwe kierunki it.7: UX (wyjaśnienia błędnych odpowiedzi, podpowiedzi przed próbą),
+   dalsza rozbudowa puli (więcej zadań per dział), Hub statyczny po ukończeniu angielskiego
 5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
    (lub 5173 jeśli 5174 zajęty)

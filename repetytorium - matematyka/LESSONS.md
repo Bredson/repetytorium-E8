@@ -166,3 +166,40 @@ Format wpisu:
 - Wniosek: wzorzec identyczny z `repetytorium - j_polski` (it.16) — można go stosować
   wprost dla kolejnych aplikacji w tym repo (Hub itp.).
 - Zmiana w skilu: nie.
+
+## 2026-08-06 (it.6 — nowe działy: statystyka + prawdopodobieństwo)
+- Obserwacja: dodanie 2 zupełnie nowych działów wymagało wyłącznie zmian w treści —
+  `statystyka.json` + `prawdopodobienstwo.json` wg wzorca istniejących plików działów,
+  plus 2-liniowy wpis w `rejestr.js` (import + klucz w `DZIALY`) na dział. Zero zmian w
+  komponentach (`Dzial.jsx`, `ZadanieOtwarte.jsx`, `TestWstepny.jsx`, `Start.jsx`,
+  `EgzaminProbny.jsx`, `core/egzamin.js`, `core/statystyki.js`) — cała logika (dashboard,
+  quiz, diagnoza, egzamin, statystyki) jest w pełni parametryczna względem `DZIALY` i
+  odebrała nowe działy „za darmo". Potwierdza wniosek architektoniczny z it.1/it.2.
+- Obserwacja: diagnoza (`TestWstepny`) na świeżym profilu pokazała dokładnie **22 pytania**
+  (2 na każdy z 11 działów) — zweryfikowane bezpośrednio w przeglądarce (Playwright,
+  `document.body.innerText` → „Pytanie 1 z 22"). Licznik pytań skaluje się automatycznie
+  z liczby działów w `DZIALY`, bez hardkodowania.
+- Obserwacja: Egzamin Próbny (`zbudujArkusz`) zbudował arkusz 15 zamkniętych + 6 otwartych
+  z reprezentacją nowych działów — ekran wyniku pokazał rozbicie per dział z pozycjami
+  „Statystyka" (0/1 pkt) i „Prawdopodobieństwo" (1/3 pkt) obok pozostałych 9 działów,
+  czyli oba nowe działy trafiły do części zamkniętej (Prawdopodobieństwo aż 3 razy — zgodnie
+  z brakiem górnego limitu w `zbudujArkusz`, gwarantowane jest tylko ≥1 z każdego działu).
+  6 losowo dobranych zadań otwartych akurat nie trafiło na sto*/pwo* — to poprawne
+  zachowanie losowania przy puli 22 otwartych, nie błąd.
+- Obserwacja: wzory LaTeX w opcjach Prawdopodobieństwa ($\frac{1}{2}$ itd.) renderują się
+  poprawnie jako ułamki KaTeX (widoczne w drzewie dostępności jako węzły `math` z osobną
+  strukturą licznik/mianownik) — brak regresji buga z ulamki.json (it.2).
+- Obserwacja: `sprawdzKrok` poprawnie przyjął odpowiedź „0,5" (przecinek) dla kroku
+  oczekującego „0.5" w zadaniu otwartym pwo1 — zgodne z normalizacją z it.3.
+- Obserwacja drobna (nie z zakresu it.6): rozwiązanie wzorcowe gpo2 (geometria-plaska,
+  treść z it.5) pokazuje fragment feedbacku kroku jako surowy tekst `8 \text{ cm}` zamiast
+  renderu KaTeX — feedback kroku (`Dobrze!` + wartość) nie przechodzi przez KaTeXRenderer,
+  tylko przez `rozwiazanie_wzorcowe` inline. Nie blokuje it.6 (dotyczy istniejącej treści
+  sprzed tej iteracji), ale warto zanotować jako kandydat do przeglądu UX w it.7.
+- Wniosek: przy kolejnych nowych działach nie trzeba w ogóle dotykać kodu — wystarczy
+  plik JSON wg wzorca + 2-liniowy wpis w `rejestr.js`. To najtańsza możliwa rozbudowa
+  aplikacji i potwierdza słuszność architektury `content/` → `core/` → `storage/` → `ui/`
+  z zerową logiką specyficzną dla działu w warstwie UI.
+- Zmiana w skilu: nie (lekcje dot. architektury aplikacji i weryfikacji QA, nie metodyki
+  tutoringu opisanej w `SKILL.md`; wzorzec „nowy dział = JSON + 2 linie rejestr.js" jest już
+  udokumentowany tutaj i w STAN-PROJEKTU.md, sekcja 2 „Stack i architektura").
