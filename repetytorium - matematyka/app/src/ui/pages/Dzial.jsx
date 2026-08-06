@@ -43,22 +43,26 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
     }
   }, [zakonczone, zdany, wynik, dzial, dzialId, onZadanieOtwarte, onZakoncz]);
 
+  function dalej() {
+    if (aktualny < pytania.length - 1) {
+      setAktualny(aktualny + 1);
+      setWybrana(null);
+      setPokazFeedback(false);
+    } else {
+      setZakonczone(true);
+    }
+  }
+
   function wybierz(opcja) {
     if (wybrana !== null) return; // blokada podwójnego kliknięcia
-    const nowe = { ...odpowiedzi, [pytanie.id]: opcja };
     setWybrana(opcja);
     setPokazFeedback(true);
-    setOdpowiedzi(nowe);
+    setOdpowiedzi({ ...odpowiedzi, [pytanie.id]: opcja });
 
-    timerRef.current = setTimeout(() => {
-      if (aktualny < pytania.length - 1) {
-        setAktualny(aktualny + 1);
-        setWybrana(null);
-        setPokazFeedback(false);
-      } else {
-        setZakonczone(true);
-      }
-    }, 1000);
+    if (opcja === pytanie.poprawna) {
+      timerRef.current = setTimeout(dalej, 1000);
+    }
+    // błędna odpowiedź: bez timera — przejście przyciskiem „Dalej"
   }
 
   function reset() {
@@ -113,7 +117,10 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
         </p>
 
         {pytanie.przypomnij && (
-          <details style={{ marginBottom: "var(--sp-3)" }}>
+          <details
+            open={(pokazFeedback && !czyWybranaPop) || undefined}
+            style={{ marginBottom: "var(--sp-3)" }}
+          >
             <summary className="tekst-2 tekst-maly" style={{ cursor: "pointer" }}>Przypomnij</summary>
             <p style={{ marginTop: "var(--sp-2)" }}>
               <KaTeXRenderer tekst={pytanie.przypomnij} />
@@ -142,10 +149,21 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
           })}
         </div>
 
-        {pokazFeedback && !czyWybranaPop && pytanie.wskazowka && (
-          <p className="tekst-2" style={{ marginTop: "var(--sp-3)", color: "var(--kolor-uwaga)" }}>
-            {pytanie.wskazowka}
-          </p>
+        {pokazFeedback && !czyWybranaPop && (
+          <div style={{ marginTop: "var(--sp-3)" }}>
+            {pytanie.wskazowka && (
+              <p className="tekst-2" style={{ color: "var(--kolor-uwaga)" }}>
+                <KaTeXRenderer tekst={pytanie.wskazowka} />
+              </p>
+            )}
+            <button
+              className="btn btn-primary btn--pelny"
+              style={{ marginTop: "var(--sp-2)" }}
+              onClick={dalej}
+            >
+              Dalej
+            </button>
+          </div>
         )}
       </div>
     </div>
