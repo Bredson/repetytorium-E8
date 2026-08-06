@@ -31,7 +31,7 @@ export default function KrokZadania({ krok, numerKroku, onPoprawnie, onBlad }) {
       </p>
 
       {status === "ok" && (
-        <p className="badge badge--sukces">Dobrze! {krok.jednostka && <KaTeXRenderer tekst={`${wartosc} \\text{ ${krok.jednostka}}`} />}</p>
+        <p className="badge badge--sukces">Dobrze! {krok.jednostka && <KaTeXRenderer tekst={`$${wartosc} \\text{ ${krok.jednostka}}$`} />}</p>
       )}
 
       {status !== "ok" && (
