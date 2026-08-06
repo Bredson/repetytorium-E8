@@ -1,0 +1,122 @@
+{
+  "id": "prawdopodobienstwo",
+  "tytul": "Prawdopodobieństwo",
+  "modul": "K",
+  "waga": "srednia",
+  "test_wstepny": [
+    {
+      "id": "tw-pw1",
+      "tresc": "Rzucamy sześcienną kostką do gry. Prawdopodobieństwo wyrzucenia szóstki wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{1}{6}$", "$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{6}{6}$"],
+      "poprawna": "$\\frac{1}{6}$"
+    },
+    {
+      "id": "tw-pw2",
+      "tresc": "W pudełku są 3 kule białe i 2 czarne. Prawdopodobieństwo wylosowania kuli białej wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{3}{5}$", "$\\frac{2}{5}$", "$\\frac{3}{2}$", "$\\frac{1}{3}$"],
+      "poprawna": "$\\frac{3}{5}$"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "pw1",
+      "tresc": "Rzucamy sześcienną kostką. Prawdopodobieństwo wyrzucenia liczby parzystej wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{1}{6}$", "$\\frac{2}{3}$"],
+      "poprawna": "$\\frac{1}{2}$",
+      "wskazowka": "Liczby parzyste na kostce to 2, 4, 6 — trzy z sześciu możliwych wyników.",
+      "przypomnij": "$P = \\frac{\\text{sprzyjające}}{\\text{wszystkie}} = \\frac{3}{6} = \\frac{1}{2}$"
+    },
+    {
+      "id": "pw2",
+      "tresc": "Rzucamy monetą dwa razy. Prawdopodobieństwo wyrzucenia dwóch orłów wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{1}{3}$", "$\\frac{3}{4}$"],
+      "poprawna": "$\\frac{1}{4}$",
+      "wskazowka": "Wypisz wszystkie wyniki: OO, OR, RO, RR.",
+      "przypomnij": "Cztery równie prawdopodobne wyniki, jeden sprzyjający: $P = \\frac{1}{4}$"
+    },
+    {
+      "id": "pw3",
+      "tresc": "Rzucamy sześcienną kostką. Prawdopodobieństwo wyrzucenia liczby mniejszej niż 7 wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["0", "$\\frac{1}{6}$", "$\\frac{5}{6}$", "1"],
+      "poprawna": "1",
+      "wskazowka": "Każdy wynik rzutu kostką (1–6) jest mniejszy niż 7.",
+      "przypomnij": "Zdarzenie pewne ma prawdopodobieństwo $1$; zdarzenie niemożliwe — $0$."
+    },
+    {
+      "id": "pw4",
+      "tresc": "W sklepiku są 4 rodzaje kanapek i 3 rodzaje napojów. Ile różnych zestawów (kanapka + napój) można utworzyć?",
+      "typ": "zamkniete",
+      "opcje": ["7", "12", "4", "3"],
+      "poprawna": "12",
+      "wskazowka": "Do każdej z 4 kanapek możesz dobrać każdy z 3 napojów.",
+      "przypomnij": "Reguła mnożenia: $4 \\cdot 3 = 12$ zestawów"
+    },
+    {
+      "id": "pw5",
+      "tresc": "W pudełku jest 5 kul: 2 białe i 3 czarne. Wylosowano jedną kulę białą i odłożono ją na bok. Prawdopodobieństwo, że następna wylosowana kula będzie biała, wynosi:",
+      "typ": "zamkniete",
+      "opcje": ["$\\frac{1}{4}$", "$\\frac{2}{5}$", "$\\frac{1}{5}$", "$\\frac{1}{2}$"],
+      "poprawna": "$\\frac{1}{4}$",
+      "wskazowka": "Po odłożeniu jednej białej w pudełku zostały 4 kule, w tym 1 biała.",
+      "przypomnij": "Losowanie bez zwracania zmienia pulę: $P = \\frac{1}{4}$"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "pwo1",
+      "tresc": "W urnie jest 10 kul: 4 czerwone, 5 zielonych i 1 niebieska. Losujemy jedną kulę. Oblicz prawdopodobieństwo wylosowania kuli zielonej. Wynik podaj jako ułamek dziesiętny.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Ile jest wszystkich możliwych wyników losowania (wszystkich kul)?",
+          "oczekiwana": "10",
+          "jednostka": null,
+          "podpowiedz": "$4 + 5 + 1 = 10$ kul"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Ile jest wyników sprzyjających (kul zielonych)?",
+          "oczekiwana": "5",
+          "jednostka": null,
+          "podpowiedz": "W urnie jest 5 kul zielonych."
+        },
+        {
+          "id": "k3",
+          "instrukcja": "Podziel sprzyjające przez wszystkie i podaj wynik jako ułamek dziesiętny",
+          "oczekiwana": "0.5",
+          "jednostka": null,
+          "podpowiedz": "$P = \\frac{5}{10} = 0{,}5$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "$P = \\frac{\\text{sprzyjające}}{\\text{wszystkie}} = \\frac{5}{10} = \\frac{1}{2} = 0{,}5$"
+    },
+    {
+      "id": "pwo2",
+      "tresc": "Ala ma 2 bluzki i 5 spódnic. Ubiera się, losowo wybierając jedną bluzkę i jedną spódnicę. Oblicz, ile różnych zestawów może utworzyć, oraz prawdopodobieństwo, że założy swoją ulubioną bluzkę razem z ulubioną spódnicą. Wynik podaj jako ułamek dziesiętny.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Ile różnych zestawów (bluzka + spódnica) może utworzyć Ala? Zastosuj regułę mnożenia",
+          "oczekiwana": "10",
+          "jednostka": null,
+          "podpowiedz": "$2 \\cdot 5 = 10$ zestawów"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Tylko jeden zestaw jest ulubiony. Podaj prawdopodobieństwo jako ułamek dziesiętny",
+          "oczekiwana": "0.1",
+          "jednostka": null,
+          "podpowiedz": "$P = \\frac{1}{10} = 0{,}1$"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Liczba zestawów: $2 \\cdot 5 = 10$. Ulubiony zestaw jest jeden, więc $P = \\frac{1}{10} = 0{,}1$."
+    }
+  ]
+}

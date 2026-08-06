@@ -8,6 +8,7 @@ import geometriaPlaska from "./dzialy/geometria-plaska.json";
 import pitagoras from "./dzialy/pitagoras.json";
 import geometriaPrzestrzenna from "./dzialy/geometria-przestrzenna.json";
 import statystyka from "./dzialy/statystyka.json";
+import prawdopodobienstwo from "./dzialy/prawdopodobienstwo.json";
 
 export const DZIALY = {
   liczby,
@@ -20,6 +21,7 @@ export const DZIALY = {
   pitagoras,
   "geometria-przestrzenna": geometriaPrzestrzenna,
   statystyka,
+  prawdopodobienstwo,
 };
 
 export function material(id) {
