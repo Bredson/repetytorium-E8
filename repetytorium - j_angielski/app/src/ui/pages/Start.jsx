@@ -6,7 +6,7 @@ const KOLORY_MODULOW = {
   A: "#7c5cd6", B: "#2b8fb8", C: "#c9701b",
 };
 
-export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowtorka, onEgzamin, onStatystyki, onWyloguj }) {
+export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowtorka, onWyloguj }) {
   const dzialy = Object.values(DZIALY);
   const powtorkiDzis = coNaDzis(postepy.powtorki ?? [], dataDnia());
 
@@ -64,11 +64,6 @@ export default function Start({ profil, postepy, onTestWstepny, onDzial, onPowto
             </button>
           );
         })}
-      </div>
-
-      <div style={{ display: "grid", gap: "var(--sp-3)", marginTop: "var(--sp-5)" }}>
-        <button className="btn btn-primary btn--pelny" onClick={onEgzamin}>🎓 Egzamin próbny</button>
-        <button className="btn btn-ghost btn--pelny" onClick={onStatystyki}>Twoje statystyki</button>
       </div>
     </div>
   );

@@ -81,12 +81,10 @@ export default function App() {
     setEkran("start");
   }
 
-  // Działy/powtórki/egzamin/statystyki — ekrany dodamy w kolejnych iteracjach (T5+).
+  // Działy/powtórki — ekrany dodamy w kolejnych iteracjach (T5+).
   // Na razie karty w Start.jsx nie prowadzą jeszcze donikąd.
   function otworzDzial() {}
   function otworzPowtorke() {}
-  function otworzEgzamin() {}
-  function otworzStatystyki() {}
 
   if (ekran === "ladowanie") return null;
 
@@ -126,8 +124,6 @@ export default function App() {
       onTestWstepny={() => setEkran("test-wstepny")}
       onDzial={otworzDzial}
       onPowtorka={otworzPowtorke}
-      onEgzamin={otworzEgzamin}
-      onStatystyki={otworzStatystyki}
       onWyloguj={wyloguj}
     />
   );
