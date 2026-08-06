@@ -23,3 +23,32 @@ Wnioski z pracy nad skilem i sesji z uczniami. Każdy wpis: data, obserwacja, zm
    "pełny raport umieść w finalnej odpowiedzi".
 6. **Do zrobienia po 20.08.2026:** sprawdzić harmonogram CKE na 2027 i wpisać
    dokładną datę egzaminu do `reference/egzamin.md` i profili uczniów.
+
+## 2026-08-06 (it.1 — scaffold SPA + 3 działy tekstowe)
+
+1. **Wzorzec matematyki przeniósł się niemal 1:1.** Warstwy `content → core → storage → ui`,
+   adapter `localStorage`, wzorzec ekranów (profil → diagnoza → dashboard → dział → zadanie
+   otwarte → powtórki) oraz `core/powtorki.js` (interwały `[1,3,7,14]`) przeniesione bez zmian
+   koncepcyjnych — tylko klucz storage (`rep:postepy:{uuid}:angielski`) i port dev servera (5175)
+   są inne.
+2. **Sprawdzanie odpowiedzi wymagało nowego mechanizmu.** Matematyka porównuje wynik liczbowy;
+   angielski potrzebuje dopasowania tekstowego z wariantami pisowni/synonimów i bez wrażliwości
+   na wielkość liter (np. "DOES NOT" → `["doesn't", "does not"]`). Stąd `sprawdzKrok` z tablicą
+   `akceptowane` per krok zadania otwartego, zamiast pojedynczej odpowiedzi.
+3. **Pole `tekst` w pytaniu to nowość względem matematyki.** Dział „Czytanie" wymaga ramki
+   z tekstem źródłowym (ogłoszenie, wiadomość, dialog) wyświetlanej nad pytaniem — dodane jako
+   opcjonalne pole `tekst` w schemacie JSON pytania, renderowane jednym warunkowym blokiem
+   zarówno w widoku działu, jak i w widoku powtórek (ten sam styl: tło, padding, kursywa).
+4. **Brak KaTeX upraszcza UI** — angielski nie potrzebuje renderowania wzorów, więc cały ten
+   fragment stacku matematyki (biblioteka + komponenty renderujące LaTeX) został pominięty
+   od początku, bez próby integracji i późniejszego usuwania.
+5. **QA (desktop + mobile) nie wykryło żadnych błędów funkcjonalnych.** Pełna ścieżka: profil →
+   diagnoza (6 pytań, w tym z ramką `tekst`) → dashboard → dział „Czytanie" (zamknięte c1–c5,
+   w tym celowo błędna odpowiedź → pauza + podpowiedź + „Dalej", ramka `tekst` widoczna nad
+   każdym z c1–c5) → zadanie otwarte (dopasowanie wariantu i wielkości liter potwierdzone) →
+   powtórki z dashboardu (wymagało ręcznej edycji `nastepna` w localStorage, bo nowe powtórki
+   są planowane na jutro) → sesja powtórek działa poprawnie. Mobile 390×844: brak przewijania
+   poziomego, czytelność zachowana. Konsola: 0 błędów w obu przebiegach.
+
+Zmiana w skilu: żadna — skill i `reference/` pozostają źródłem treści/metodyki bez zmian;
+zmianę architektoniczną (SPA zamiast HTML-per-uczeń) odnotowano wyłącznie w STAN-PROJEKTU.md.
