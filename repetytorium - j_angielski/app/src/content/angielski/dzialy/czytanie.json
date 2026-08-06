@@ -1,0 +1,118 @@
+{
+  "id": "czytanie",
+  "tytul": "Czytanie",
+  "modul": "B",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-c1",
+      "tresc": "What time does the bus leave?",
+      "tekst": "Dear students, the school trip to the museum is on Friday. Remember to bring your lunch and wear comfortable shoes. The bus leaves at 8 a.m.",
+      "typ": "zamkniete",
+      "opcje": ["At 8 a.m.", "On Friday afternoon", "At the museum", "After lunch"],
+      "poprawna": "At 8 a.m."
+    },
+    {
+      "id": "tw-c2",
+      "tresc": "Where can you see this text?",
+      "tekst": "SALE! All winter jackets 50% off. Only this weekend!",
+      "typ": "zamkniete",
+      "opcje": ["In a clothes shop", "At a bus stop", "In a school canteen", "At a doctor's"],
+      "poprawna": "In a clothes shop"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "c1",
+      "tresc": "What does this sign mean?",
+      "tekst": "NO FOOD OR DRINKS IN THE LIBRARY",
+      "typ": "zamkniete",
+      "opcje": ["You can't eat or drink here.", "You can buy food here.", "The library is closed.", "Drinks are cheap here."],
+      "poprawna": "You can't eat or drink here.",
+      "wskazowka": "Znaki i tabliczki: NO + rzeczownik = zakaz.",
+      "przypomnij": "NO FOOD = zakaz jedzenia; szukaj, czego dotyczy zakaz, nie pojedynczych słów."
+    },
+    {
+      "id": "c2",
+      "tresc": "Why can't Alex play football today?",
+      "tekst": "Hi Tom! I can't play football today because I have to visit my grandma. Can we meet tomorrow after school? Alex",
+      "typ": "zamkniete",
+      "opcje": ["He is visiting his grandmother.", "He is ill.", "He has a lot of homework.", "He is meeting Tom."],
+      "poprawna": "He is visiting his grandmother.",
+      "wskazowka": "Szukaj w tekście powodu po słowie because.",
+      "przypomnij": "because = ponieważ — po nim zwykle stoi odpowiedź na pytanie Why...?"
+    },
+    {
+      "id": "c3",
+      "tresc": "What does Kate do on Saturdays?",
+      "tekst": "Kate loves animals. She has two cats and a dog. Every Saturday she helps at the animal shelter near her house.",
+      "typ": "zamkniete",
+      "opcje": ["She helps at an animal shelter.", "She buys new pets.", "She visits her friends.", "She walks in the park."],
+      "poprawna": "She helps at an animal shelter.",
+      "wskazowka": "Znajdź w tekście fragment o sobocie (Every Saturday...).",
+      "przypomnij": "Pytanie o szczegół — szukaj słowa-klucza z pytania (Saturdays) w tekście."
+    },
+    {
+      "id": "c4",
+      "tresc": "Why did Emma write this text?",
+      "tekst": "Come to my birthday party on Saturday at 5 p.m.! My address is 12 Green Street. Please let me know if you can come. Emma",
+      "typ": "zamkniete",
+      "opcje": ["To invite a friend to her party.", "To thank a friend for a present.", "To ask about homework.", "To say sorry for missing a party."],
+      "poprawna": "To invite a friend to her party.",
+      "wskazowka": "Pytanie o intencję autora: PO CO powstał tekst, nie o szczegóły.",
+      "przypomnij": "Intencje: to invite (zaprosić), to thank (podziękować), to apologise (przeprosić), to inform (poinformować)."
+    },
+    {
+      "id": "c5",
+      "tresc": "Which title is the best for this text?",
+      "tekst": "Mix flour, eggs and milk. Fry on both sides until golden. Serve with fruit or honey.",
+      "typ": "zamkniete",
+      "opcje": ["How to make pancakes", "My favourite restaurant", "Healthy fruit salad", "A shopping list"],
+      "poprawna": "How to make pancakes",
+      "wskazowka": "Dobieranie nagłówka: o czym jest CAŁY tekst, nie jedno zdanie.",
+      "przypomnij": "Czasowniki w trybie rozkazującym (Mix, Fry, Serve) = instrukcja/przepis."
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "co1",
+      "tresc": "Przeczytaj tekst i uzupełnij notatkę po angielsku.\n\nTekst: 'Hi Anna! The English club meets on Tuesdays in room 14. We watch films and play games. You can join us - it's free!'",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "The club meets on ___. (dzień tygodnia, po angielsku)",
+          "akceptowane": ["tuesdays", "tuesday"],
+          "podpowiedz": "Szukaj w tekście: meets on..."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "The meetings are in room ___. (numer)",
+          "akceptowane": ["14", "fourteen"],
+          "podpowiedz": "Szukaj w tekście: in room..."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "The club meets on Tuesdays in room 14."
+    },
+    {
+      "id": "co2",
+      "tresc": "Przeczytaj tekst i uzupełnij odpowiedzi jednym słowem po angielsku.\n\nTekst: 'Sam usually cycles to school, but when it rains, he takes the bus.'",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "How does Sam usually get to school? By ___.",
+          "akceptowane": ["bike", "bicycle"],
+          "podpowiedz": "cycles = jeździ rowerem; by bike = rowerem"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "What does he take when it rains? The ___.",
+          "akceptowane": ["bus"],
+          "podpowiedz": "Szukaj w tekście: when it rains, he takes..."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "By bike. / The bus."
+    }
+  ]
+}

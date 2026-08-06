@@ -1,0 +1,111 @@
+{
+  "id": "srodki",
+  "tytul": "Środki językowe",
+  "modul": "C",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-s1",
+      "tresc": "Yesterday I ___ to the cinema with my friends.",
+      "typ": "zamkniete",
+      "opcje": ["went", "go", "goes", "going"],
+      "poprawna": "went"
+    },
+    {
+      "id": "tw-s2",
+      "tresc": "There ___ a lot of people at the concert last night.",
+      "typ": "zamkniete",
+      "opcje": ["were", "was", "is", "are"],
+      "poprawna": "were"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "s1",
+      "tresc": "She ___ TV every evening.",
+      "typ": "zamkniete",
+      "opcje": ["watches", "watch", "watching", "watched"],
+      "poprawna": "watches",
+      "wskazowka": "every evening = czynność powtarzalna; ona = 3. osoba liczby pojedynczej.",
+      "przypomnij": "Present Simple, 3. os. l.poj.: czasownik + -s/-es (she watches, he goes)."
+    },
+    {
+      "id": "s2",
+      "tresc": "Last summer we ___ our grandparents in Krakow.",
+      "typ": "zamkniete",
+      "opcje": ["visited", "visit", "visits", "are visiting"],
+      "poprawna": "visited",
+      "wskazowka": "Last summer = przeszłość zakończona → Past Simple.",
+      "przypomnij": "Past Simple: czasownik + -ed (regularne) lub 2. forma (nieregularne). Past Simple to najsłabszy punkt uczniów wg CKE — ćwicz go!"
+    },
+    {
+      "id": "s3",
+      "tresc": "Tom is ___ than his brother.",
+      "typ": "zamkniete",
+      "opcje": ["taller", "tall", "the tallest", "more tall"],
+      "poprawna": "taller",
+      "wskazowka": "Porównanie dwóch osób + than → stopień wyższy.",
+      "przypomnij": "Krótkie przymiotniki: -er + than (taller than); najwyższy: the + -est (the tallest)."
+    },
+    {
+      "id": "s4",
+      "tresc": "I'm really interested ___ history.",
+      "typ": "zamkniete",
+      "opcje": ["in", "on", "at", "for"],
+      "poprawna": "in",
+      "wskazowka": "interested łączy się zawsze z jednym przyimkiem.",
+      "przypomnij": "Stałe połączenia: interested in, good at, afraid of, listen to."
+    },
+    {
+      "id": "s5",
+      "tresc": "___ you ever been to London?",
+      "typ": "zamkniete",
+      "opcje": ["Have", "Has", "Did", "Are"],
+      "poprawna": "Have",
+      "wskazowka": "ever + been = doświadczenie życiowe → Present Perfect.",
+      "przypomnij": "Present Perfect: have/has + 3. forma. Have you ever been to...? = Czy kiedykolwiek byłeś w...?"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "so1",
+      "tresc": "Przetłumacz fragmenty zdań na angielski (wpisz jedno słowo lub krótką formę).",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Wczoraj kupiłem nową książkę. → I ___ a new book yesterday. (czasownik)",
+          "akceptowane": ["bought"],
+          "podpowiedz": "buy → bought (2. forma, Past Simple)"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Ona nie lubi kawy. → She ___ like coffee. (forma przecząca)",
+          "akceptowane": ["doesn't", "does not"],
+          "podpowiedz": "Present Simple, 3. os.: doesn't + czasownik bez -s"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "I bought a new book yesterday. / She doesn't like coffee."
+    },
+    {
+      "id": "so2",
+      "tresc": "Parafraza: uzupełnij drugie zdanie tak, żeby znaczyło to samo co pierwsze.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Mike is younger than Tom. → Tom is ___ than Mike. (przymiotnik)",
+          "akceptowane": ["older"],
+          "podpowiedz": "młodszy ↔ starszy: young → old, stopień wyższy: older"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "The film was boring for me. → I was ___ with the film. (przymiotnik na -ed)",
+          "akceptowane": ["bored"],
+          "podpowiedz": "boring (nudny) → bored (znudzony): I was bored."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Tom is older than Mike. / I was bored with the film."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "funkcje",
+  "tytul": "Funkcje językowe",
+  "modul": "A",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-f1",
+      "tresc": "Kolega mówi: 'Thank you so much for your help!' Co odpowiesz?",
+      "typ": "zamkniete",
+      "opcje": ["You're welcome.", "Yes, please.", "Never mind.", "Here you are."],
+      "poprawna": "You're welcome."
+    },
+    {
+      "id": "tw-f2",
+      "tresc": "Chcesz zaproponować koledze wspólne wyjście do kina. Co powiesz?",
+      "typ": "zamkniete",
+      "opcje": ["How about going to the cinema?", "Do you like the cinema?", "I must go to the cinema.", "Where is the cinema?"],
+      "poprawna": "How about going to the cinema?"
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "f1",
+      "tresc": "Prosisz nauczyciela o powtórzenie pytania. Co powiesz?",
+      "typ": "zamkniete",
+      "opcje": ["Could you repeat the question, please?", "Repeat, now!", "What did you do?", "I don't know the question."],
+      "poprawna": "Could you repeat the question, please?",
+      "wskazowka": "Grzeczna prośba zaczyna się od Could you...? / Can you...? i kończy please.",
+      "przypomnij": "Prośby: Could you + czasownik...? (grzeczniejsze niż Can you...?). Zwroty grzecznościowe to priorytet CKE!"
+    },
+    {
+      "id": "f2",
+      "tresc": "Kolega pyta: 'Would you like some tea?' Jak grzecznie odmówisz?",
+      "typ": "zamkniete",
+      "opcje": ["No, thank you.", "No!", "I like tea.", "You're welcome."],
+      "poprawna": "No, thank you.",
+      "wskazowka": "Odmawiając propozycji, zawsze dodaj thank you.",
+      "przypomnij": "Przyjęcie: Yes, please. Odmowa: No, thank you (thanks)."
+    },
+    {
+      "id": "f3",
+      "tresc": "Przepraszasz za spóźnienie na lekcję. Co powiesz?",
+      "typ": "zamkniete",
+      "opcje": ["I'm sorry I'm late.", "I'm late, so what?", "Excuse me, where is the class?", "It's late now."],
+      "poprawna": "I'm sorry I'm late.",
+      "wskazowka": "Przepraszanie: I'm sorry (for)...",
+      "przypomnij": "I'm sorry = przepraszam (za coś); Excuse me = przepraszam (zaczepiając kogoś)."
+    },
+    {
+      "id": "f4",
+      "tresc": "Kolega właśnie zdał ważny egzamin. Co mu powiesz?",
+      "typ": "zamkniete",
+      "opcje": ["Congratulations!", "Good luck!", "Never mind!", "What a pity!"],
+      "poprawna": "Congratulations!",
+      "wskazowka": "Good luck mówimy PRZED próbą, Congratulations PO sukcesie.",
+      "przypomnij": "Gratulacje: Congratulations! Pocieszenie: Never mind. / What a pity."
+    },
+    {
+      "id": "f5",
+      "tresc": "Nie dosłyszałeś, co powiedział rozmówca. Jak zareagujesz?",
+      "typ": "zamkniete",
+      "opcje": ["Sorry, could you say that again?", "I understand everything.", "You are wrong.", "Speak, please!"],
+      "poprawna": "Sorry, could you say that again?",
+      "wskazowka": "Prośba o powtórzenie: Sorry? / Could you say that again? / Pardon?",
+      "przypomnij": "Gdy nie rozumiesz: Sorry, could you repeat that? / Could you speak more slowly, please?"
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "fo1",
+      "tresc": "Uzupełnij mini-dialogi jednym słowem po angielsku.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "– ___ you like a sandwich? – Yes, please. (wpisz brakujące słowo)",
+          "akceptowane": ["would"],
+          "podpowiedz": "Propozycja: Would you like...? = Czy chciałbyś...?"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "– Thank you for your help! – You're ___. (wpisz brakujące słowo)",
+          "akceptowane": ["welcome"],
+          "podpowiedz": "Odpowiedź na podziękowanie: You're welcome. = Nie ma za co."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "Would you like a sandwich? / You're welcome."
+    },
+    {
+      "id": "fo2",
+      "tresc": "Uzupełnij reakcje odpowiednim słowem po angielsku.",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "Kolega: 'I've got a new bike!' Ty: 'That's great ___!' (nowina, wiadomość)",
+          "akceptowane": ["news"],
+          "podpowiedz": "That's great news! = Świetna wiadomość!"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "Koleżanka: 'I failed my test.' Ty: 'What a ___!' (szkoda)",
+          "akceptowane": ["pity", "shame"],
+          "podpowiedz": "What a pity! / What a shame! = Jaka szkoda!"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "That's great news! / What a pity! (lub: What a shame!)"
+    }
+  ]
+}
