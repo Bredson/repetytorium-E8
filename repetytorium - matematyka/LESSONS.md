@@ -168,13 +168,24 @@ Format wpisu:
 - Zmiana w skilu: nie.
 
 ## 2026-08-06 (it.6 — nowe działy: statystyka + prawdopodobieństwo)
-- Obserwacja: dodanie 2 zupełnie nowych działów wymagało wyłącznie zmian w treści —
+- Obserwacja: dodanie 2 zupełnie nowych działów wymagało głównie zmian w treści —
   `statystyka.json` + `prawdopodobienstwo.json` wg wzorca istniejących plików działów,
   plus 2-liniowy wpis w `rejestr.js` (import + klucz w `DZIALY`) na dział. Zero zmian w
-  komponentach (`Dzial.jsx`, `ZadanieOtwarte.jsx`, `TestWstepny.jsx`, `Start.jsx`,
-  `EgzaminProbny.jsx`, `core/egzamin.js`, `core/statystyki.js`) — cała logika (dashboard,
-  quiz, diagnoza, egzamin, statystyki) jest w pełni parametryczna względem `DZIALY` i
-  odebrała nowe działy „za darmo". Potwierdza wniosek architektoniczny z it.1/it.2.
+  komponentach (`Dzial.jsx`, `ZadanieOtwarte.jsx`, `TestWstepny.jsx`, `Start.jsx` — poza
+  paletą kolorów modułów, patrz niżej —, `EgzaminProbny.jsx`, `core/egzamin.js`,
+  `core/statystyki.js`) — dashboard, quiz, diagnoza, egzamin i statystyki odebrały nowe
+  działy „za darmo". **Nieprawdziwe okazało się jednak twierdzenie, że cała logika jest
+  „w pełni parametryczna względem `DZIALY`"** — końcowy przegląd kodu (code review) na
+  koniec it.6 wykrył `core/plan.js` z osobną, hardkodowaną 9-elementową listą działów
+  (`KOLEJNOSC_DZIALOW`), niezależną od rejestru: plan nauki („Na dziś") dla nowych działów
+  nigdy by się nie wygenerował, a u istniejących profili plan pozostałby dziurawy na stałe
+  (brak automatycznej migracji). Naprawiono w ramach fix-wave po przeglądzie: `generujPlan`
+  przyjmuje teraz kolejność działów jako parametr (`Object.keys(DZIALY)` z warstwy App,
+  konwencja jak `zbudujArkusz`/`postepPerDzial`), dodano `migrujPlan` dopisujący brakujące
+  działy do planu istniejącego profilu bez ruszania dotychczasowych wpisów/statusów.
+  Wniosek: „parametryczność względem DZIALY" trzeba weryfikować per moduł, a nie zakładać
+  całościowo — hardkodowana lista działów może się ukryć poza główną ścieżką testowaną
+  ręcznie (plan nie był sprawdzany w tej sesji QA, bo wymaga wielodniowego use-case'u).
 - Obserwacja: diagnoza (`TestWstepny`) na świeżym profilu pokazała dokładnie **22 pytania**
   (2 na każdy z 11 działów) — zweryfikowane bezpośrednio w przeglądarce (Playwright,
   `document.body.innerText` → „Pytanie 1 z 22"). Licznik pytań skaluje się automatycznie

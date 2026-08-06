@@ -153,8 +153,9 @@ Karty Trello: `app/docs/superpowers/plans/2026-07-27-matematyka-it3-trello.md`
 ## 7. Kolejne kroki
 
 - **Deploy Vercel** ✅ — `https://repetytorium-matematyka.vercel.app` — auto-deploy z `main` (it.4 T1-T3)
-- **Rozbudowa puli zadań** ✅ — 45 zamkniętych + 18 otwartych (it.5); arkusz losuje 15 z 45 i 6 z 18
-- **Nowe działy (it.6)** ✅ — statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte
+- **Rozbudowa puli zadań** ✅ — 45 zamkniętych + 18 otwartych (it.5); arkusz losował 15 z 45 i 6 z 18
+- **Nowe działy (it.6)** ✅ — statystyka + prawdopodobieństwo; pula 55 zamkniętych + 22 otwarte;
+  arkusz losuje 15 z 55 i 6 z 22
 - **Hub** — statyczny po ukończeniu angielskiego
 
 ## 8. Iteracja 5 — plan i stan
