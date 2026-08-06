@@ -214,7 +214,7 @@ Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it7-ux-quizu/task-{1,2,3}-b
 | Task | Co robi | Status |
 |------|---------|--------|
 | T1 | `Dzial.jsx` — pauza po błędnej odpowiedzi (bez auto-przejścia), wskazówka + „Przypomnij" rozwinięte, przycisk „Dalej" (błędna na ostatnim pytaniu kończy quiz); poprawna odpowiedź nadal auto-przechodzi po ~1 s | ✅ |
-| T2 | `KrokZadania.jsx` — fix delimiterów `$...$` w feedbacku „Dobrze!" dla kroku z jednostką (`\text{...}`); wskazówka renderowana przez KaTeXRenderer już wcześniej | ✅ |
+| T2 | `KrokZadania.jsx` — fix delimiterów `$...$` w feedbacku „Dobrze!" dla kroku z jednostką (`\text{...}`); rendering wskazówki przez KaTeXRenderer wprowadzony w T1 | ✅ |
 | T3 | QA końcowe (desktop + mobile 390×844 + sanity egzaminu) + docs (STAN-PROJEKTU.md, LESSONS.md) + commit | ✅ |
 
 **Definition of done it.7:** `npm test` + `npm run build` ✓ → QA desktop (pauza+wskazówka KaTeX+Dalej,
@@ -225,7 +225,7 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
 
 ### Zrealizowane w it.7
 - `Dzial.jsx` — błędna odpowiedź zatrzymuje quiz (bez `setTimeout`), pokazuje wskazówkę
-  (renderowaną przez `KaTeXRenderer` już przed it.7) i rozwija „Przypomnij"
+  (renderowaną przez `KaTeXRenderer` — wprowadzone w tym tasku, T1) i rozwija „Przypomnij"
   (`<details open={(pokazFeedback && !czyWybranaPop) || undefined}>`),
   przycisk „Dalej" przechodzi do kolejnego pytania albo (na ostatnim) kończy quiz; poprawna
   odpowiedź zachowuje auto-przejście `setTimeout(dalej, 1000)`
