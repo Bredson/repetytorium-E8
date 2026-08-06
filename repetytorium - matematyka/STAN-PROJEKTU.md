@@ -214,7 +214,7 @@ Task briefy: `.superpowers/sdd/2026-08-06-matematyka-it7-ux-quizu/task-{1,2,3}-b
 | Task | Co robi | Status |
 |------|---------|--------|
 | T1 | `Dzial.jsx` — pauza po błędnej odpowiedzi (bez auto-przejścia), wskazówka + „Przypomnij" rozwinięte, przycisk „Dalej" (błędna na ostatnim pytaniu kończy quiz); poprawna odpowiedź nadal auto-przechodzi po ~1 s | ✅ |
-| T2 | `KrokZadania.jsx` — fix renderu wskazówki (`$...$` przez KaTeXRenderer zamiast surowego tekstu) i feedbacku „Dobrze!" dla kroku z jednostką (`\text{...}`) | ✅ |
+| T2 | `KrokZadania.jsx` — fix delimiterów `$...$` w feedbacku „Dobrze!" dla kroku z jednostką (`\text{...}`); wskazówka renderowana przez KaTeXRenderer już wcześniej | ✅ |
 | T3 | QA końcowe (desktop + mobile 390×844 + sanity egzaminu) + docs (STAN-PROJEKTU.md, LESSONS.md) + commit | ✅ |
 
 **Definition of done it.7:** `npm test` + `npm run build` ✓ → QA desktop (pauza+wskazówka KaTeX+Dalej,
@@ -225,11 +225,12 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
 
 ### Zrealizowane w it.7
 - `Dzial.jsx` — błędna odpowiedź zatrzymuje quiz (bez `setTimeout`), pokazuje wskazówkę
-  i rozwija „Przypomnij" (`<details open={(pokazFeedback && !czyWybranaPop) || undefined}>`),
+  (renderowaną przez `KaTeXRenderer` już przed it.7) i rozwija „Przypomnij"
+  (`<details open={(pokazFeedback && !czyWybranaPop) || undefined}>`),
   przycisk „Dalej" przechodzi do kolejnego pytania albo (na ostatnim) kończy quiz; poprawna
   odpowiedź zachowuje auto-przejście `setTimeout(dalej, 1000)`
-- `KrokZadania.jsx` — wskazówka i feedback „Dobrze!" renderowane przez `KaTeXRenderer` z
-  poprawnymi delimiterami `$...$`, w tym `\text{jednostka}` dla kroków z jednostką (np. gpo2 k1 „cm")
+- `KrokZadania.jsx` — feedback „Dobrze!" naprawiony delimiterami `$...$` przez `KaTeXRenderer`,
+  w tym `\text{jednostka}` dla kroków z jednostką (np. gpo2 k1 „cm")
 - QA w przeglądarce (Playwright): potwierdzone wszystkie scenariusze z DoD; korzeń przyczyny
   gpo2 potwierdzony w kodzie źródłowym (patrz LESSONS.md 2026-08-06) — bezpośrednia obserwacja
   „Dobrze! + jednostka" na kroku nie-ostatnim nie była osiągalna przez zwykły przepływ Dzial.jsx
@@ -262,5 +263,10 @@ zielony/czerwony) ✓ → docs ✓ → commit ✓
    - Dalsza rozbudowa puli (więcej zadań per dział; rozważyć rotację `zadania_otwarte[0]/[1]`
      w Dzial.jsx zamiast zawsze pierwszego — patrz LESSONS.md)
    - Hub statyczny po ukończeniu angielskiego
+   - Hardeningi odłożone z finalnego review it.7:
+     - `Dzial.jsx`: functional updater w `dalej()` (`setAktualny(a => a + 1)`), `clearTimeout`
+       w `reset()`, `key={pytanie.id}` na `<details>` (stan open nie przecieka między pytaniami)
+     - `KrokZadania.jsx:34`: jednostka poza `$...$` (jak w linii 62) — usuwa ostrzeżenia
+       konsoli KaTeX dla `cm²`/`m³` i edge case surowego inputu ucznia w trybie math
 5. Dev server: `cd "repetytorium - matematyka/app" && npm run dev` → localhost:5174
    (lub 5173 jeśli 5174 zajęty)
