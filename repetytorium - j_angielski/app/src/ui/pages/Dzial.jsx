@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import { material } from "../../content/angielski/rejestr.js";
 import { obliczWynikDzialu } from "../../core/quiz.js";
+import OdtwarzaczTTS from "../components/OdtwarzaczTTS.jsx";
 
 export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) {
   const dzial = useMemo(() => material(dzialId), [dzialId]);
@@ -114,6 +115,13 @@ export default function Dzial({ dzialId, onZakoncz, onZadanieOtwarte, onWroc }) 
       <h2 style={{ marginBottom: "var(--sp-2)" }}>{dzial.tytul}</h2>
 
       <div className="karta" style={{ marginBottom: "var(--sp-4)" }}>
+        {pytanie.nagranie && (
+          <OdtwarzaczTTS
+            key={`odtwarzacz-${pytanie.id}`}
+            nagranie={pytanie.nagranie}
+            pokazTranskrypcje={pokazFeedback}
+          />
+        )}
         {pytanie.tekst && (
           <p className="karta" style={{ background: "var(--kolor-tlo-2, #f5f5f5)", padding: "var(--sp-3)", marginBottom: "var(--sp-3)", whiteSpace: "pre-wrap", fontStyle: "italic" }}>
             {pytanie.tekst}

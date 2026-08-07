@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect, useRef } from "react";
 import { material } from "../../content/angielski/rejestr.js";
 import { oznaczPowtorke, zaktualizujPowtorki } from "../../core/powtorki.js";
+import OdtwarzaczTTS from "../components/OdtwarzaczTTS.jsx";
 
 export default function Powtorka({ powtorkiDzis, postepy, onZakoncz, onWroc }) {
   const [aktualny, setAktualny] = useState(0);
@@ -95,6 +96,13 @@ export default function Powtorka({ powtorkiDzis, postepy, onZakoncz, onWroc }) {
       <h2 style={{ marginBottom: "var(--sp-2)" }}>Powtórka: {material(rekord.temat)?.tytul ?? rekord.temat}</h2>
 
       <div className="karta" style={{ marginBottom: "var(--sp-4)" }}>
+        {pytanie.nagranie && (
+          <OdtwarzaczTTS
+            key={pytanie.id}
+            nagranie={pytanie.nagranie}
+            pokazTranskrypcje={pokazOcene}
+          />
+        )}
         {pytanie.tekst && (
           <p className="karta" style={{ background: "var(--kolor-tlo-2, #f5f5f5)", padding: "var(--sp-3)", marginBottom: "var(--sp-3)", whiteSpace: "pre-wrap", fontStyle: "italic" }}>
             {pytanie.tekst}

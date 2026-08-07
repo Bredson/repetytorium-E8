@@ -1,5 +1,6 @@
 import { useState } from "react";
 import KrokZadania from "../components/KrokZadania.jsx";
+import OdtwarzaczTTS from "../components/OdtwarzaczTTS.jsx";
 
 export default function ZadanieOtwarte({ zadanie, wynikZamknietych, dzialId, onZakoncz, onWroc }) {
   const [aktualnyKrok, setAktualnyKrok] = useState(0);
@@ -33,6 +34,10 @@ export default function ZadanieOtwarte({ zadanie, wynikZamknietych, dzialId, onZ
     return (
       <div className="tresc ekran-wjazd">
         <h2>Zadanie ukończone!</h2>
+
+        {zadanie.nagranie && (
+          <OdtwarzaczTTS nagranie={zadanie.nagranie} pokazTranskrypcje={zakonczone} />
+        )}
 
         <div className="karta" style={{ marginBottom: "var(--sp-4)", textAlign: "center" }}>
           <p style={{ fontSize: "1.5rem", fontWeight: "bold" }}>
@@ -69,6 +74,10 @@ export default function ZadanieOtwarte({ zadanie, wynikZamknietych, dzialId, onZ
         <button className="btn btn-ghost" onClick={onWroc}>← Wróć</button>
         <span className="tekst-2 tekst-maly">Zadanie otwarte</span>
       </div>
+
+      {zadanie.nagranie && (
+        <OdtwarzaczTTS nagranie={zadanie.nagranie} pokazTranskrypcje={zakonczone} />
+      )}
 
       <div className="karta" style={{ marginBottom: "var(--sp-4)" }}>
         <p style={{ fontWeight: 500 }}>

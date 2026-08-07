@@ -2,6 +2,7 @@ import { useState, useMemo } from "react";
 import { DZIALY } from "../../content/angielski/rejestr.js";
 import { sprawdzOdpowiedz } from "../../core/quiz.js";
 import PasekPostepu from "../components/PasekPostepu.jsx";
+import OdtwarzaczTTS from "../components/OdtwarzaczTTS.jsx";
 
 function zbierzPytania() {
   return Object.values(DZIALY).flatMap((d) => d.test_wstepny.map((p) => ({ ...p, dzialId: d.id })));
@@ -61,6 +62,13 @@ export default function TestWstepny({ onZakoncz }) {
       />
 
       <div className="karta" style={{ marginTop: "var(--sp-5)" }}>
+        {pytanie.nagranie && (
+          <OdtwarzaczTTS
+            key={pytanie.id}
+            nagranie={pytanie.nagranie}
+            pokazTranskrypcje={false}
+          />
+        )}
         {pytanie.tekst && (
           <p className="karta" style={{ background: "var(--kolor-tlo-2, #f5f5f5)", padding: "var(--sp-3)", marginBottom: "var(--sp-3)", whiteSpace: "pre-wrap", fontStyle: "italic" }}>
             {pytanie.tekst}
