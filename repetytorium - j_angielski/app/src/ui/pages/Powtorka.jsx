@@ -98,7 +98,7 @@ export default function Powtorka({ powtorkiDzis, postepy, onZakoncz, onWroc }) {
       <div className="karta" style={{ marginBottom: "var(--sp-4)" }}>
         {pytanie.nagranie && (
           <OdtwarzaczTTS
-            key={pytanie.id}
+            key={`odtwarzacz-${pytanie.id}`}
             nagranie={pytanie.nagranie}
             pokazTranskrypcje={pokazOcene}
           />

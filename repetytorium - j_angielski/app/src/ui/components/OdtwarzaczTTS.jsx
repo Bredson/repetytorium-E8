@@ -57,6 +57,14 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
       clearTimeout(watchdogRef.current);
       setOdtwarza(false);
     }
+    // watchdog: niektóre przeglądarki (np. Chromium przy throttlingu karty) potrafią
+    // wyciszyć zdarzenia onend/onerror dla ostatniej kwestii — bez tego "Odtwarzanie…"
+    // zostałoby zawieszone do końca zamontowania komponentu.
+    // Uzbrojony PRZED pętlą, żeby wyjątek w trakcie forEach nie zostawił
+    // odtwarza=true bez żadnego zabezpieczenia (zawieszony przycisk).
+    const dlugosc = kwestie.join(" ").length;
+    const limitMs = Math.max(8000, dlugosc * 150);
+    watchdogRef.current = setTimeout(zakoncz, limitMs);
     kwestie.forEach((tekst, i) => {
       const u = new SpeechSynthesisUtterance(tekst);
       // dialog: naprzemienne kwestie dwoma pierwszymi głosami EN (jeśli są)
@@ -70,12 +78,6 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
       }
       window.speechSynthesis.speak(u);
     });
-    // watchdog: niektóre przeglądarki (np. Chromium przy throttlingu karty) potrafią
-    // wyciszyć zdarzenia onend/onerror dla ostatniej kwestii — bez tego "Odtwarzanie…"
-    // zostałoby zawieszone do końca zamontowania komponentu
-    const dlugosc = kwestie.join(" ").length;
-    const limitMs = Math.max(8000, dlugosc * 150);
-    watchdogRef.current = setTimeout(zakoncz, limitMs);
   }
 
   const transkrypcja = (

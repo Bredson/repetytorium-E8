@@ -104,7 +104,7 @@
         {
           "id": "k1",
           "instrukcja": "The last entry to the museum is at ___. (godzina)",
-          "akceptowane": ["6", "six"],
+          "akceptowane": ["6", "six", "6 pm", "6 p.m.", "6pm", "six pm"],
           "podpowiedz": "Muzeum zamykają o 7, ale ostatnie wejście jest wcześniej — kiedy?"
         },
         {

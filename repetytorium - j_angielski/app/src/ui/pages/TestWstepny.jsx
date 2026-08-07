@@ -64,7 +64,7 @@ export default function TestWstepny({ onZakoncz }) {
       <div className="karta" style={{ marginTop: "var(--sp-5)" }}>
         {pytanie.nagranie && (
           <OdtwarzaczTTS
-            key={pytanie.id}
+            key={`odtwarzacz-${pytanie.id}`}
             nagranie={pytanie.nagranie}
             pokazTranskrypcje={false}
           />
