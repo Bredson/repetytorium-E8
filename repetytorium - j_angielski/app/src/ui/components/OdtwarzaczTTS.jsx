@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 // Preferencja głosów: en-GB → en-US → pozostałe en-*
 function uporzadkujGlosyEn(wszystkie) {
@@ -16,6 +16,7 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
   const [wolniej, setWolniej] = useState(false);
   const [odtwarza, setOdtwarza] = useState(false);
   const [transkrypcjaWidoczna, setTranskrypcjaWidoczna] = useState(false);
+  const watchdogRef = useRef(null);
 
   useEffect(() => {
     if (!("speechSynthesis" in window)) {
@@ -31,6 +32,7 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
     return () => {
       window.speechSynthesis.removeEventListener("voiceschanged", zaladuj);
       window.speechSynthesis.cancel();
+      clearTimeout(watchdogRef.current);
     };
   }, []);
 
@@ -50,6 +52,11 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
     setOdtworzenia((n) => n + 1);
     setOdtwarza(true);
     window.speechSynthesis.cancel();
+    clearTimeout(watchdogRef.current);
+    function zakoncz() {
+      clearTimeout(watchdogRef.current);
+      setOdtwarza(false);
+    }
     kwestie.forEach((tekst, i) => {
       const u = new SpeechSynthesisUtterance(tekst);
       // dialog: naprzemienne kwestie dwoma pierwszymi głosami EN (jeśli są)
@@ -58,11 +65,17 @@ export default function OdtwarzaczTTS({ nagranie, pokazTranskrypcje }) {
       u.lang = glos.lang;
       u.rate = wolniej ? 0.8 : 0.95;
       if (i === kwestie.length - 1) {
-        u.onend = () => setOdtwarza(false);
-        u.onerror = () => setOdtwarza(false);
+        u.onend = zakoncz;
+        u.onerror = zakoncz;
       }
       window.speechSynthesis.speak(u);
     });
+    // watchdog: niektóre przeglądarki (np. Chromium przy throttlingu karty) potrafią
+    // wyciszyć zdarzenia onend/onerror dla ostatniej kwestii — bez tego "Odtwarzanie…"
+    // zostałoby zawieszone do końca zamontowania komponentu
+    const dlugosc = kwestie.join(" ").length;
+    const limitMs = Math.max(8000, dlugosc * 150);
+    watchdogRef.current = setTimeout(zakoncz, limitMs);
   }
 
   const transkrypcja = (
