@@ -3,7 +3,7 @@ import PasekPostepu from "../components/PasekPostepu.jsx";
 import { coNaDzis, dataDnia } from "../../core/powtorki.js";
 
 const KOLORY_MODULOW = {
-  A: "#7c5cd6", B: "#2b8fb8", C: "#c9701b",
+  A: "#7c5cd6", B: "#2b8fb8", C: "#c9701b", D: "#0e9f8a",
 };
 
 function odmienPowtorki(n) {

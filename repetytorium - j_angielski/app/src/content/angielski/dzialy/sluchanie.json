@@ -1,0 +1,120 @@
+{
+  "id": "sluchanie",
+  "tytul": "Słuchanie",
+  "modul": "D",
+  "waga": "wysoka",
+  "test_wstepny": [
+    {
+      "id": "tw-sl1",
+      "tresc": "Which platform does the train to London leave from?",
+      "nagranie": "Attention, passengers. The train to London leaves from platform four at half past nine.",
+      "typ": "zamkniete",
+      "opcje": ["Platform 4", "Platform 9", "Platform 2", "Platform 5"],
+      "poprawna": "Platform 4"
+    },
+    {
+      "id": "tw-sl2",
+      "tresc": "What time must the girl be back home?",
+      "nagranie": ["Mum, can I go to the cinema with Kasia tonight?", "Yes, but come back home before nine, please."],
+      "typ": "zamkniete",
+      "opcje": ["Before 9 p.m.", "After 9 p.m.", "At 10 p.m.", "Before 8 p.m."],
+      "poprawna": "Before 9 p.m."
+    }
+  ],
+  "cwiczenia": [
+    {
+      "id": "sl1",
+      "tresc": "When will the students write the test?",
+      "nagranie": "Good morning, class. Tomorrow's test is cancelled because I will be at the doctor's. We will write it next Monday instead.",
+      "typ": "zamkniete",
+      "opcje": ["Next Monday", "Tomorrow", "On Friday", "Today"],
+      "poprawna": "Next Monday",
+      "wskazowka": "Uważaj na pułapkę: słowo 'tomorrow' pada w nagraniu, ale test jest odwołany. Słuchaj, co jest po 'instead'.",
+      "przypomnij": "Word spotting to pułapka egzaminacyjna: pojedyncze słowo z nagrania w opcji nie oznacza, że to poprawna odpowiedź. Słuchaj całego sensu."
+    },
+    {
+      "id": "sl2",
+      "tresc": "Why can't Tom go to football practice?",
+      "nagranie": ["Hi Tom! Are you coming to football practice today?", "I can't. I have a guitar lesson at five.", "OK, see you tomorrow then."],
+      "typ": "zamkniete",
+      "opcje": ["He has a music lesson.", "He is ill.", "He plays a match.", "He must do his homework."],
+      "poprawna": "He has a music lesson.",
+      "wskazowka": "W opcjach rzadko powtarza się dokładne słowo z nagrania — 'guitar lesson' to rodzaj 'music lesson'.",
+      "przypomnij": "Poprawna odpowiedź to często PARAFRAZA nagrania (guitar lesson → music lesson), nie dosłowny cytat."
+    },
+    {
+      "id": "sl3",
+      "tresc": "What can you buy cheaper today?",
+      "nagranie": "Welcome to Green Park Shopping Centre. Today all sports shoes are twenty percent cheaper. The offer ends at six p.m.",
+      "typ": "zamkniete",
+      "opcje": ["Sports shoes", "All clothes", "Sports bags", "Everything in the shop"],
+      "poprawna": "Sports shoes",
+      "wskazowka": "Promocja dotyczy jednej konkretnej rzeczy — której?",
+      "przypomnij": "Komunikaty w sklepie/na dworcu: słuchaj CO, GDZIE i KIEDY — to o nie zwykle pytają."
+    },
+    {
+      "id": "sl4",
+      "tresc": "What does the boy have to buy?",
+      "nagranie": ["What are we cooking for dinner, Dad?", "Spaghetti. Can you buy tomatoes and cheese on your way home?", "Sure, anything else?", "No, we have everything else."],
+      "typ": "zamkniete",
+      "opcje": ["Tomatoes and cheese", "Spaghetti and cheese", "Tomatoes and pasta", "Nothing"],
+      "poprawna": "Tomatoes and cheese",
+      "wskazowka": "Tata prosi o dwie rzeczy — które dokładnie?",
+      "przypomnij": "Przy listach (zakupy, plany) notuj w głowie KAŻDY element — dystraktory mieszają elementy z nagrania."
+    },
+    {
+      "id": "sl5",
+      "tresc": "Where does Kate want to meet?",
+      "nagranie": "Hi Emma, it's Kate. I'm calling about our history project. Can we meet at the library on Thursday at four? Call me back!",
+      "typ": "zamkniete",
+      "opcje": ["At the library", "At school", "At Kate's house", "At the museum"],
+      "poprawna": "At the library",
+      "wskazowka": "Wiadomość głosowa: gdzie proponuje spotkanie?",
+      "przypomnij": "W wiadomościach głosowych klucz to: kto dzwoni, po co, gdzie i kiedy proponuje spotkanie."
+    }
+  ],
+  "zadania_otwarte": [
+    {
+      "id": "slo1",
+      "tresc": "Posłuchaj ogłoszenia i uzupełnij notatkę po angielsku.",
+      "nagranie": "Hello everyone! The school picnic is on Saturday. We meet at the school gate at ten o'clock. Remember to bring sandwiches and water. See you there!",
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "The picnic is on ___. (dzień tygodnia)",
+          "akceptowane": ["saturday"],
+          "podpowiedz": "Posłuchaj początku: The school picnic is on..."
+        },
+        {
+          "id": "k2",
+          "instrukcja": "We meet at the school ___ at 10. (miejsce, jedno słowo)",
+          "akceptowane": ["gate"],
+          "podpowiedz": "gate = brama; spotkanie przy szkolnej bramie"
+        }
+      ],
+      "rozwiazanie_wzorcowe": "The picnic is on Saturday. We meet at the school gate at 10."
+    },
+    {
+      "id": "slo2",
+      "tresc": "Posłuchaj rozmowy w muzeum i uzupełnij informacje.",
+      "nagranie": ["Excuse me, what time does the museum close today?", "At seven in the evening, but the last entry is at six.", "Thank you! And how much is a student ticket?", "It's five pounds."],
+      "punkty": 2,
+      "kroki": [
+        {
+          "id": "k1",
+          "instrukcja": "The last entry to the museum is at ___. (godzina)",
+          "akceptowane": ["6", "six"],
+          "podpowiedz": "Muzeum zamykają o 7, ale ostatnie wejście jest wcześniej — kiedy?"
+        },
+        {
+          "id": "k2",
+          "instrukcja": "A student ticket costs ___ pounds. (liczba)",
+          "akceptowane": ["5", "five"],
+          "podpowiedz": "It's five pounds. = Kosztuje 5 funtów."
+        }
+      ],
+      "rozwiazanie_wzorcowe": "The last entry is at 6. A student ticket costs 5 pounds."
+    }
+  ]
+}
