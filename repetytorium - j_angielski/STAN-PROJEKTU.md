@@ -1,7 +1,7 @@
 # Stan projektu — Repetytorium ósmoklasisty (j. angielski)
 
 > Plik przekazania między sesjami. Aktualizuj po każdej iteracji.
-> Ostatnia aktualizacja: **2026-08-06, po sesji it.1 (SPA React — scaffold + 3 działy tekstowe; decyzja architektoniczna z §7.3 rozstrzygnięta)**.
+> Ostatnia aktualizacja: **2026-08-07, po sesji it.2 (dział Słuchanie z TTS — 4 działy; diagnoza 8 pytań)**.
 
 ---
 
@@ -55,6 +55,7 @@ analogicznie do matematyki i polskiego. Katalog `uczniowie/` z poprzedniej konce
 | `zrodla/zrodla-linki.md` | ✅ | 31 linków źródłowych posegregowanych A/B/C (CKE, angielski, ogólne E8) |
 | LESSONS.md | ✅ | Wpisy z 2026-07-20 (weryfikacja czasu egzaminu, zakres II.1, priorytety CKE) + it.1 (SPA scaffold) |
 | **It.1 — scaffold SPA + 3 działy tekstowe** | ✅ | Vite+React scaffold, `core/` (profil/quiz/plan/powtórki z `sprawdzKrok` i `akceptowane`), 3 działy JSON (funkcje/czytanie/środki, każdy: 2 diagnoza + 5 zamkniętych + 2 otwarte), diagnoza, dashboard, pełny cykl nauki (dział → zadanie otwarte → powtórka); build ✓, testy ✓, QA desktop+mobile ✓ |
+| **It.2 — dział Słuchanie z TTS** | ✅ | `OdtwarzaczTTS.jsx` (Web Speech API, tor player/fallback wg dostępności głosu EN, „wolniej" 0.8x, licznik odtworzeń, watchdog `max(8000, dlugosc*150)ms`), `sluchanie.json` (2 diagnoza + 5 zamkniętych + 2 otwarte), integracja w 4 ekranach (diagnoza, dział, powtórki, transkrypcja po odpowiedzi); build ✓, testy ✓, QA desktop (fallback + instrumentacja playera) + mobile ✓; ręczny odsłuch audio przez użytkownika — **zaplanowany, nieukończony** |
 | Uczniowie (katalog HTML) | — | Model zmieniony na profile w aplikacji (localStorage); katalog `uczniowie/` z poprzedniej koncepcji nieużywany |
 
 ## 5. Kluczowe fakty merytoryczne (z egzamin.md)
@@ -76,16 +77,17 @@ analogicznie do matematyki i polskiego. Katalog `uczniowie/` z poprzedniej konce
 
 ## 7. Kolejne kroki (priorytety)
 
-1. **It.2 — Słuchanie.** Dział „Słuchanie" z TTS Web Speech API (wbudowany w przeglądarkę, bez
-   dodatkowych zależności) — analogicznie do pozostałych działów (JSON + core + UI), z odtwarzaniem
-   tekstu na mowę i pytaniami zamkniętymi/otwartymi.
-2. **It.3 — Wypowiedź pisemna.** Tryb prowadzony (struktura wypowiedzi, podpowiedzi punktowe) +
+1. **It.3 — Wypowiedź pisemna (następne).** Tryb prowadzony (struktura wypowiedzi, podpowiedzi punktowe) +
    samoocena wg kryteriów oceniania CKE (treść, spójność i logika, zakres i poprawność językowa).
-3. **Kolejne iteracje:** egzamin próbny (symulacja pełnego arkusza + zegar), statystyki (postęp
+2. **Kolejne iteracje:** egzamin próbny (symulacja pełnego arkusza + zegar), statystyki (postęp
    per dział, aktywność, pokrycie — wzorem matematyki), deploy na Vercel, docelowo Hub łączący
    wszystkie przedmioty.
-4. **Sprawdzić harmonogram CKE 2027** — po 20.08.2026, wpisać dokładną datę egzaminu do
+3. **Sprawdzić harmonogram CKE 2027** — po 20.08.2026, wpisać dokładną datę egzaminu do
    `reference/egzamin.md` i do domyślnej daty egzaminu w profilu aplikacji.
+4. **Ręczny odsłuch TTS (it.2) — zaplanowany.** QA agentowe (Playwright) instrumentowało/mockowało
+   `speechSynthesis`, ale nie odsłuchało realnego audio z głosem systemowym. Użytkownik powinien
+   raz przejść dział „Słuchanie" z dźwiękiem włączonym (desktop + realny głos EN) i odnotować
+   wynik (jakość/tempo/zrozumiałość) w `LESSONS.md`.
 
 ## 8. Jak zacząć nową sesję
 
@@ -96,4 +98,5 @@ analogicznie do matematyki i polskiego. Katalog `uczniowie/` z poprzedniej konce
    się poprzednia iteracja
 5. Skill: `.opencode/skills/repetytorium-angielski/SKILL.md` + `reference/` — wczytaj jako
    źródło treści i metodyki przy tworzeniu nowego materiału (contentu JSON), nie jako generator plików HTML
-6. Kolejna iteracja: patrz sekcja 7 (priorytety) — domyślnie it.2 (Słuchanie), jeśli nie wskazano inaczej
+6. Kolejna iteracja: patrz sekcja 7 (priorytety) — domyślnie it.3 (Wypowiedź pisemna, 4. dział),
+   jeśli nie wskazano inaczej
