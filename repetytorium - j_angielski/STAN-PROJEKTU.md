@@ -55,7 +55,7 @@ analogicznie do matematyki i polskiego. Katalog `uczniowie/` z poprzedniej konce
 | `zrodla/zrodla-linki.md` | ✅ | 31 linków źródłowych posegregowanych A/B/C (CKE, angielski, ogólne E8) |
 | LESSONS.md | ✅ | Wpisy z 2026-07-20 (weryfikacja czasu egzaminu, zakres II.1, priorytety CKE) + it.1 (SPA scaffold) |
 | **It.1 — scaffold SPA + 3 działy tekstowe** | ✅ | Vite+React scaffold, `core/` (profil/quiz/plan/powtórki z `sprawdzKrok` i `akceptowane`), 3 działy JSON (funkcje/czytanie/środki, każdy: 2 diagnoza + 5 zamkniętych + 2 otwarte), diagnoza, dashboard, pełny cykl nauki (dział → zadanie otwarte → powtórka); build ✓, testy ✓, QA desktop+mobile ✓ |
-| **It.2 — dział Słuchanie z TTS** | ✅ | `OdtwarzaczTTS.jsx` (Web Speech API, tor player/fallback wg dostępności głosu EN, „wolniej" 0.8x, licznik odtworzeń, watchdog `max(8000, dlugosc*150)ms`), `sluchanie.json` (2 diagnoza + 5 zamkniętych + 2 otwarte), integracja w 4 ekranach (diagnoza, dział, powtórki, transkrypcja po odpowiedzi); build ✓, testy ✓, QA desktop (fallback + instrumentacja playera) + mobile ✓; ręczny odsłuch audio przez użytkownika — **zaplanowany, nieukończony** |
+| **It.2 — dział Słuchanie z TTS** | ✅ | `OdtwarzaczTTS.jsx` (Web Speech API, tor player/fallback wg dostępności głosu EN, „wolniej" 0.8x, licznik odtworzeń, watchdog `max(8000, dlugosc*150)ms`), `sluchanie.json` (2 diagnoza + 5 zamkniętych + 2 otwarte), integracja w 4 ekranach (diagnoza, dział, zadanie otwarte, powtórki — transkrypcja po odpowiedzi); build ✓, testy ✓, QA desktop (fallback + instrumentacja playera) + mobile ✓; ręczny odsłuch audio przez użytkownika — **zaplanowany, nieukończony** |
 | Uczniowie (katalog HTML) | — | Model zmieniony na profile w aplikacji (localStorage); katalog `uczniowie/` z poprzedniej koncepcji nieużywany |
 
 ## 5. Kluczowe fakty merytoryczne (z egzamin.md)
@@ -98,5 +98,5 @@ analogicznie do matematyki i polskiego. Katalog `uczniowie/` z poprzedniej konce
    się poprzednia iteracja
 5. Skill: `.opencode/skills/repetytorium-angielski/SKILL.md` + `reference/` — wczytaj jako
    źródło treści i metodyki przy tworzeniu nowego materiału (contentu JSON), nie jako generator plików HTML
-6. Kolejna iteracja: patrz sekcja 7 (priorytety) — domyślnie it.3 (Wypowiedź pisemna, 4. dział),
+6. Kolejna iteracja: patrz sekcja 7 (priorytety) — domyślnie it.3 (Wypowiedź pisemna, 5. dział),
    jeśli nie wskazano inaczej
